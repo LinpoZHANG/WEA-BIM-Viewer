@@ -1,0 +1,7399 @@
+{
+ "schemaVersion": 1,
+ "app": "WEA Lighting Design Studio",
+ "createdAt": "2026-10-31T01:14:00.344Z",
+ "updatedAt": "2026-11-01T03:23:28.873Z",
+ "sourceModel": {
+  "name": "HY01_8539_AC28",
+  "schema": "IFC4",
+  "projectGuid": "344O7vICcwH8qAEnwJDjSU",
+  "fingerprint": "fnv1a:e4677e57",
+  "origin": [
+   0,
+   0,
+   0
+  ],
+  "unit": "m"
+ },
+ "calculationSettings": {
+  "workplaneHeight": 0.8,
+  "gridSpacing": "auto",
+  "surface": "horizontal work plane, normal +Z",
+  "method": "direct point-by-point E = Σ I(θ)·cosα / r²; generic cos^m distribution",
+  "occlusion": false,
+  "interreflection": false,
+  "maintenanceFactor": 1,
+  "scope": "fixtures assigned to the room only"
+ },
+ "designerSettings": {
+  "exposure": 0.03,
+  "ambient": 4,
+  "shadows": true,
+  "beams": true,
+  "bodies": true,
+  "heatmap": false,
+  "sampleValues": false,
+  "snap": true,
+  "snapStep": 0.05,
+  "legendMax": "auto",
+  "isolateRoom": false,
+  "envelopeOnly": true,
+  "layerExclude": [
+   "3-A-GRID.建筑-轴线",
+   "A-FRAME-WALL.建筑-龙骨-墙",
+   "I-FRAME-WALL.室内-龙骨-墙",
+   "I-SPLIT-WALL.室内-分缝-墙",
+   "I-SUBSTRATE.室内-基层",
+   "IFC 洞口.IFC Model",
+   "IFC图层.IFC Model"
+  ],
+  "planOrigin": null,
+  "planStep": 0.05,
+  "planOrtho": false,
+  "planDimRef": "wall",
+  "planSnap": {
+   "end": true,
+   "mid": true,
+   "int": true,
+   "perp": true,
+   "near": true,
+   "fixture": true,
+   "track": true,
+   "grid": true,
+   "axis": true
+  },
+  "planLayers": {
+   "wall": true,
+   "other": true,
+   "ceiling": true,
+   "room": true,
+   "axis": true
+  }
+ },
+ "activeScheme": "D",
+ "schemes": {
+  "A": {
+   "name": "方案 A",
+   "fixtures": [
+    {
+     "fixtureId": "LF-MVVPK408-YG9FC80",
+     "name": "GEN-DL-01",
+     "fixtureType": "downlight",
+     "catalogCode": "GEN-DL",
+     "roomId": "37vCJKFnjC5BzAVbbtuqE_",
+     "roomExpressId": 41443,
+     "ifcProjectId": "344O7vICcwH8qAEnwJDjSU",
+     "position": {
+      "ifcWorld": [
+       1.6,
+       3.15,
+       2.495
+      ],
+      "roomLocal": [
+       1.45,
+       1.35,
+       2.495
+      ]
+     },
+     "mountHeight": 2.5,
+     "rotation": {
+      "aimTilt": 0,
+      "aimAzimuth": 0,
+      "bodyRotation": 0
+     },
+     "mountReference": {
+      "kind": "surface",
+      "surface": "ceiling",
+      "elementGuid": "00grNL_FL0TPzXdjoRBEoQ",
+      "elementId": 97345,
+      "elementName": "SLA - 014",
+      "normal": [
+       0,
+       0,
+       -1
+      ],
+      "status": "ok",
+      "message": "安装于 SLA - 014"
+     },
+     "photometricParameters": {
+      "flux": 600,
+      "power": 7,
+      "beamAngle": 24,
+      "cct": 3000,
+      "dimming": 100,
+      "on": true,
+      "length": null,
+      "distribution": "generic-cosine-power-v1",
+      "photometrySource": "generic",
+      "ies": null
+     },
+     "notes": "",
+     "designState": "draft"
+    },
+    {
+     "fixtureId": "LF-MVVPK4CB-A7S8YC1",
+     "name": "GEN-DL-02",
+     "fixtureType": "downlight",
+     "catalogCode": "GEN-DL",
+     "roomId": "37vCJKFnjC5BzAVbbtuqE_",
+     "roomExpressId": 41443,
+     "ifcProjectId": "344O7vICcwH8qAEnwJDjSU",
+     "position": {
+      "ifcWorld": [
+       4.55,
+       3.15,
+       2.495
+      ],
+      "roomLocal": [
+       4.4,
+       1.35,
+       2.495
+      ]
+     },
+     "mountHeight": 2.5,
+     "rotation": {
+      "aimTilt": 0,
+      "aimAzimuth": 0,
+      "bodyRotation": 0
+     },
+     "mountReference": {
+      "kind": "surface",
+      "surface": "ceiling",
+      "elementGuid": "00grNL_FL0TPzXdjoRBEoQ",
+      "elementId": 97345,
+      "elementName": "SLA - 014",
+      "normal": [
+       0,
+       0,
+       -1
+      ],
+      "status": "ok",
+      "message": "安装于 SLA - 014"
+     },
+     "photometricParameters": {
+      "flux": 600,
+      "power": 7,
+      "beamAngle": 60,
+      "cct": 3000,
+      "dimming": 100,
+      "on": true,
+      "length": null,
+      "distribution": "generic-cosine-power-v1",
+      "photometrySource": "generic",
+      "ies": null
+     },
+     "notes": "",
+     "designState": "draft"
+    },
+    {
+     "fixtureId": "LF-MVVPK4OD-70WHJ92",
+     "name": "GEN-DL-03",
+     "fixtureType": "downlight",
+     "catalogCode": "GEN-DL",
+     "roomId": "37vCJKFnjC5BzAVbbtuqE_",
+     "roomExpressId": 41443,
+     "ifcProjectId": "344O7vICcwH8qAEnwJDjSU",
+     "position": {
+      "ifcWorld": [
+       1.6,
+       5.8,
+       2.855
+      ],
+      "roomLocal": [
+       1.45,
+       4,
+       2.855
+      ]
+     },
+     "mountHeight": 2.85,
+     "rotation": {
+      "aimTilt": 0,
+      "aimAzimuth": 0,
+      "bodyRotation": 0
+     },
+     "mountReference": {
+      "kind": "surface",
+      "surface": "ceiling",
+      "elementGuid": "0y$_U9S8b7ZAkwNn2z3LxE",
+      "elementId": 97290,
+      "elementName": "SLA - 014",
+      "normal": [
+       0,
+       0,
+       -1
+      ],
+      "status": "ok",
+      "message": "安装于 SLA - 014"
+     },
+     "photometricParameters": {
+      "flux": 600,
+      "power": 7,
+      "beamAngle": 60,
+      "cct": 3000,
+      "dimming": 100,
+      "on": true,
+      "length": null,
+      "distribution": "generic-cosine-power-v1",
+      "photometrySource": "generic",
+      "ies": null
+     },
+     "notes": "",
+     "designState": "draft"
+    },
+    {
+     "fixtureId": "LF-MVVPK50M-M4ICZJ3",
+     "name": "GEN-DL-04",
+     "fixtureType": "downlight",
+     "catalogCode": "GEN-DL",
+     "roomId": "37vCJKFnjC5BzAVbbtuqE_",
+     "roomExpressId": 41443,
+     "ifcProjectId": "344O7vICcwH8qAEnwJDjSU",
+     "position": {
+      "ifcWorld": [
+       4.55,
+       5.8,
+       2.855
+      ],
+      "roomLocal": [
+       4.4,
+       4,
+       2.855
+      ]
+     },
+     "mountHeight": 2.85,
+     "rotation": {
+      "aimTilt": 0,
+      "aimAzimuth": 0,
+      "bodyRotation": 0
+     },
+     "mountReference": {
+      "kind": "surface",
+      "surface": "ceiling",
+      "elementGuid": "0y$_U9S8b7ZAkwNn2z3LxE",
+      "elementId": 97290,
+      "elementName": "SLA - 014",
+      "normal": [
+       0,
+       0,
+       -1
+      ],
+      "status": "ok",
+      "message": "安装于 SLA - 014"
+     },
+     "photometricParameters": {
+      "flux": 600,
+      "power": 7,
+      "beamAngle": 60,
+      "cct": 3000,
+      "dimming": 100,
+      "on": true,
+      "length": null,
+      "distribution": "generic-cosine-power-v1",
+      "photometrySource": "generic",
+      "ies": null
+     },
+     "notes": "",
+     "designState": "draft"
+    }
+   ]
+  },
+  "B": {
+   "name": "方案 B",
+   "fixtures": []
+  },
+  "C": {
+   "name": "AI · 各房间中心筒灯",
+   "fixtures": [
+    {
+     "fixtureId": "LF-MVX9IMUX-WVLL4O0",
+     "name": "GEN-DL-01",
+     "fixtureType": "downlight",
+     "catalogCode": "GEN-DL",
+     "roomId": "37vCJKFnjC5BzAVbbtuqE_",
+     "roomExpressId": 41443,
+     "ifcProjectId": "344O7vICcwH8qAEnwJDjSU",
+     "position": {
+      "ifcWorld": [
+       1.6,
+       3.15,
+       2.495
+      ],
+      "roomLocal": [
+       1.45,
+       1.35,
+       2.495
+      ]
+     },
+     "mountHeight": 2.5,
+     "rotation": {
+      "aimTilt": 0,
+      "aimAzimuth": 0,
+      "bodyRotation": 0
+     },
+     "mountReference": {
+      "kind": "surface",
+      "surface": "ceiling",
+      "elementGuid": "00grNL_FL0TPzXdjoRBEoQ",
+      "elementId": 97345,
+      "elementName": "SLA - 014",
+      "normal": [
+       0,
+       0,
+       -1
+      ],
+      "status": "ok",
+      "message": "安装于 SLA - 014"
+     },
+     "photometricParameters": {
+      "flux": 600,
+      "power": 7,
+      "beamAngle": 24,
+      "cct": 3000,
+      "dimming": 100,
+      "on": true,
+      "length": null,
+      "distribution": "generic-cosine-power-v1",
+      "photometrySource": "generic",
+      "ies": null
+     },
+     "notes": "",
+     "designState": "draft"
+    },
+    {
+     "fixtureId": "LF-MVX9IMUX-G6CHW71",
+     "name": "GEN-DL-02",
+     "fixtureType": "downlight",
+     "catalogCode": "GEN-DL",
+     "roomId": "37vCJKFnjC5BzAVbbtuqE_",
+     "roomExpressId": 41443,
+     "ifcProjectId": "344O7vICcwH8qAEnwJDjSU",
+     "position": {
+      "ifcWorld": [
+       4.55,
+       3.15,
+       2.495
+      ],
+      "roomLocal": [
+       4.4,
+       1.35,
+       2.495
+      ]
+     },
+     "mountHeight": 2.5,
+     "rotation": {
+      "aimTilt": 0,
+      "aimAzimuth": 0,
+      "bodyRotation": 0
+     },
+     "mountReference": {
+      "kind": "surface",
+      "surface": "ceiling",
+      "elementGuid": "00grNL_FL0TPzXdjoRBEoQ",
+      "elementId": 97345,
+      "elementName": "SLA - 014",
+      "normal": [
+       0,
+       0,
+       -1
+      ],
+      "status": "ok",
+      "message": "安装于 SLA - 014"
+     },
+     "photometricParameters": {
+      "flux": 600,
+      "power": 7,
+      "beamAngle": 60,
+      "cct": 3000,
+      "dimming": 100,
+      "on": true,
+      "length": null,
+      "distribution": "generic-cosine-power-v1",
+      "photometrySource": "generic",
+      "ies": null
+     },
+     "notes": "",
+     "designState": "draft"
+    },
+    {
+     "fixtureId": "LF-MVX9IMUX-YZK5A32",
+     "name": "GEN-DL-03",
+     "fixtureType": "downlight",
+     "catalogCode": "GEN-DL",
+     "roomId": "37vCJKFnjC5BzAVbbtuqE_",
+     "roomExpressId": 41443,
+     "ifcProjectId": "344O7vICcwH8qAEnwJDjSU",
+     "position": {
+      "ifcWorld": [
+       1.6,
+       5.8,
+       2.855
+      ],
+      "roomLocal": [
+       1.45,
+       4,
+       2.855
+      ]
+     },
+     "mountHeight": 2.85,
+     "rotation": {
+      "aimTilt": 0,
+      "aimAzimuth": 0,
+      "bodyRotation": 0
+     },
+     "mountReference": {
+      "kind": "surface",
+      "surface": "ceiling",
+      "elementGuid": "0y$_U9S8b7ZAkwNn2z3LxE",
+      "elementId": 97290,
+      "elementName": "SLA - 014",
+      "normal": [
+       0,
+       0,
+       -1
+      ],
+      "status": "ok",
+      "message": "安装于 SLA - 014"
+     },
+     "photometricParameters": {
+      "flux": 600,
+      "power": 7,
+      "beamAngle": 60,
+      "cct": 3000,
+      "dimming": 100,
+      "on": true,
+      "length": null,
+      "distribution": "generic-cosine-power-v1",
+      "photometrySource": "generic",
+      "ies": null
+     },
+     "notes": "",
+     "designState": "draft"
+    },
+    {
+     "fixtureId": "LF-MVX9IMUX-PEJ8S83",
+     "name": "GEN-DL-04",
+     "fixtureType": "downlight",
+     "catalogCode": "GEN-DL",
+     "roomId": "37vCJKFnjC5BzAVbbtuqE_",
+     "roomExpressId": 41443,
+     "ifcProjectId": "344O7vICcwH8qAEnwJDjSU",
+     "position": {
+      "ifcWorld": [
+       4.55,
+       5.8,
+       2.855
+      ],
+      "roomLocal": [
+       4.4,
+       4,
+       2.855
+      ]
+     },
+     "mountHeight": 2.85,
+     "rotation": {
+      "aimTilt": 0,
+      "aimAzimuth": 0,
+      "bodyRotation": 0
+     },
+     "mountReference": {
+      "kind": "surface",
+      "surface": "ceiling",
+      "elementGuid": "0y$_U9S8b7ZAkwNn2z3LxE",
+      "elementId": 97290,
+      "elementName": "SLA - 014",
+      "normal": [
+       0,
+       0,
+       -1
+      ],
+      "status": "ok",
+      "message": "安装于 SLA - 014"
+     },
+     "photometricParameters": {
+      "flux": 600,
+      "power": 7,
+      "beamAngle": 60,
+      "cct": 3000,
+      "dimming": 100,
+      "on": true,
+      "length": null,
+      "distribution": "generic-cosine-power-v1",
+      "photometrySource": "generic",
+      "ies": null
+     },
+     "notes": "",
+     "designState": "draft"
+    },
+    {
+     "fixtureId": "LF-MVX9IMVX-Q58M8B4",
+     "name": "GEN-DL-05",
+     "fixtureType": "downlight",
+     "catalogCode": "GEN-DL",
+     "roomId": "1N7d0h7N563wq2ALSFrl3U",
+     "roomExpressId": 5040,
+     "ifcProjectId": "344O7vICcwH8qAEnwJDjSU",
+     "position": {
+      "ifcWorld": [
+       8.7,
+       10.95,
+       2.495
+      ],
+      "roomLocal": [
+       0.95,
+       0.6,
+       2.495
+      ]
+     },
+     "mountHeight": 2.5,
+     "rotation": {
+      "aimTilt": 0,
+      "aimAzimuth": 0,
+      "bodyRotation": 0
+     },
+     "mountReference": {
+      "kind": "surface",
+      "surface": "ceiling",
+      "elementGuid": "32Wu79_0DFB9Q8rAFEUFns",
+      "elementId": 100035,
+      "elementName": "SLA - 014",
+      "normal": [
+       0,
+       0,
+       -1
+      ],
+      "status": "ok",
+      "message": "放置时拾取"
+     },
+     "photometricParameters": {
+      "flux": 600,
+      "power": 7,
+      "beamAngle": 60,
+      "cct": 3000,
+      "dimming": 100,
+      "on": true,
+      "length": null,
+      "distribution": "generic-cosine-power-v1",
+      "photometrySource": "generic",
+      "ies": null
+     },
+     "notes": "",
+     "designState": "ai-draft"
+    },
+    {
+     "fixtureId": "LF-MVX9IMVZ-9VJZVN5",
+     "name": "GEN-DL-06",
+     "fixtureType": "downlight",
+     "catalogCode": "GEN-DL",
+     "roomId": "3d$FSQHNDB2BN5PlCdeeCH",
+     "roomExpressId": 5005,
+     "ifcProjectId": "344O7vICcwH8qAEnwJDjSU",
+     "position": {
+      "ifcWorld": [
+       8.3,
+       9.35,
+       2.495
+      ],
+      "roomLocal": [
+       0.75,
+       0.9,
+       2.495
+      ]
+     },
+     "mountHeight": 2.5,
+     "rotation": {
+      "aimTilt": 0,
+      "aimAzimuth": 0,
+      "bodyRotation": 0
+     },
+     "mountReference": {
+      "kind": "surface",
+      "surface": "ceiling",
+      "elementGuid": "32Wu79_0DFB9Q8rAFEUFns",
+      "elementId": 100035,
+      "elementName": "SLA - 014",
+      "normal": [
+       0,
+       0,
+       -1
+      ],
+      "status": "ok",
+      "message": "放置时拾取"
+     },
+     "photometricParameters": {
+      "flux": 600,
+      "power": 7,
+      "beamAngle": 60,
+      "cct": 3000,
+      "dimming": 100,
+      "on": true,
+      "length": null,
+      "distribution": "generic-cosine-power-v1",
+      "photometrySource": "generic",
+      "ies": null
+     },
+     "notes": "",
+     "designState": "ai-draft"
+    },
+    {
+     "fixtureId": "LF-MVX9IMW1-JWNNM06",
+     "name": "GEN-DL-07",
+     "fixtureType": "downlight",
+     "catalogCode": "GEN-DL",
+     "roomId": "1J2ktRHhrC$h4C0wCytnYh",
+     "roomExpressId": 11707,
+     "ifcProjectId": "344O7vICcwH8qAEnwJDjSU",
+     "position": {
+      "ifcWorld": [
+       7.35,
+       16.65,
+       2.475
+      ],
+      "roomLocal": [
+       1.218,
+       0.683,
+       2.475
+      ]
+     },
+     "mountHeight": 2.48,
+     "rotation": {
+      "aimTilt": 0,
+      "aimAzimuth": 0,
+      "bodyRotation": 0
+     },
+     "mountReference": {
+      "kind": "surface",
+      "surface": "ceiling",
+      "elementGuid": "20r3rWh8jEswSujfr3NyaM",
+      "elementId": 99127,
+      "elementName": "SLA - 014",
+      "normal": [
+       0,
+       0,
+       -1
+      ],
+      "status": "ok",
+      "message": "放置时拾取"
+     },
+     "photometricParameters": {
+      "flux": 600,
+      "power": 7,
+      "beamAngle": 60,
+      "cct": 3000,
+      "dimming": 100,
+      "on": true,
+      "length": null,
+      "distribution": "generic-cosine-power-v1",
+      "photometrySource": "generic",
+      "ies": null
+     },
+     "notes": "",
+     "designState": "ai-draft"
+    },
+    {
+     "fixtureId": "LF-MVX9IMW2-67XPEJ7",
+     "name": "GEN-DL-08",
+     "fixtureType": "downlight",
+     "catalogCode": "GEN-DL",
+     "roomId": "0psO4sR39Elwf3r$dTc2qH",
+     "roomExpressId": 8050,
+     "ifcProjectId": "344O7vICcwH8qAEnwJDjSU",
+     "position": {
+      "ifcWorld": [
+       8.8,
+       7.65,
+       3.045
+      ],
+      "roomLocal": [
+       1.35,
+       0.75,
+       3.045
+      ]
+     },
+     "mountHeight": 3.04,
+     "rotation": {
+      "aimTilt": 0,
+      "aimAzimuth": 0,
+      "bodyRotation": 0
+     },
+     "mountReference": {
+      "kind": "surface",
+      "surface": "ceiling",
+      "elementGuid": "3xvIcKur9DAvYFfshfdsWA",
+      "elementId": 95313,
+      "elementName": "SLA - 012",
+      "normal": [
+       0,
+       0,
+       -1
+      ],
+      "status": "ok",
+      "message": "放置时拾取"
+     },
+     "photometricParameters": {
+      "flux": 600,
+      "power": 7,
+      "beamAngle": 60,
+      "cct": 3000,
+      "dimming": 100,
+      "on": true,
+      "length": null,
+      "distribution": "generic-cosine-power-v1",
+      "photometrySource": "generic",
+      "ies": null
+     },
+     "notes": "",
+     "designState": "ai-draft"
+    },
+    {
+     "fixtureId": "LF-MVX9IMW4-A80CMQ8",
+     "name": "GEN-DL-09",
+     "fixtureType": "downlight",
+     "catalogCode": "GEN-DL",
+     "roomId": "2ymTUnOG992vb4ee76wPlb",
+     "roomExpressId": 9110,
+     "ifcProjectId": "344O7vICcwH8qAEnwJDjSU",
+     "position": {
+      "ifcWorld": [
+       6.6,
+       15.65,
+       2.475
+      ],
+      "roomLocal": [
+       0.35,
+       0.35,
+       2.475
+      ]
+     },
+     "mountHeight": 2.48,
+     "rotation": {
+      "aimTilt": 0,
+      "aimAzimuth": 0,
+      "bodyRotation": 0
+     },
+     "mountReference": {
+      "kind": "surface",
+      "surface": "ceiling",
+      "elementGuid": "1c9fGNciTCnuakBMCJ1ePk",
+      "elementId": 98994,
+      "elementName": "SLA - 014",
+      "normal": [
+       0,
+       0,
+       -1
+      ],
+      "status": "ok",
+      "message": "放置时拾取"
+     },
+     "photometricParameters": {
+      "flux": 600,
+      "power": 7,
+      "beamAngle": 60,
+      "cct": 3000,
+      "dimming": 100,
+      "on": true,
+      "length": null,
+      "distribution": "generic-cosine-power-v1",
+      "photometrySource": "generic",
+      "ies": null
+     },
+     "notes": "",
+     "designState": "ai-draft"
+    },
+    {
+     "fixtureId": "LF-MVX9IMW4-G9VZSE9",
+     "name": "GEN-DL-10",
+     "fixtureType": "downlight",
+     "catalogCode": "GEN-DL",
+     "roomId": "2P0VxT$qjFPecwTq4rFS4G",
+     "roomExpressId": 7946,
+     "ifcProjectId": "344O7vICcwH8qAEnwJDjSU",
+     "position": {
+      "ifcWorld": [
+       8.7,
+       12.7,
+       3.045
+      ],
+      "roomLocal": [
+       0.95,
+       1.1,
+       3.045
+      ]
+     },
+     "mountHeight": 3.04,
+     "rotation": {
+      "aimTilt": 0,
+      "aimAzimuth": 0,
+      "bodyRotation": 0
+     },
+     "mountReference": {
+      "kind": "surface",
+      "surface": "ceiling",
+      "elementGuid": "3xvIcKur9DAvYFfshfdsWA",
+      "elementId": 95313,
+      "elementName": "SLA - 012",
+      "normal": [
+       0,
+       0,
+       -1
+      ],
+      "status": "ok",
+      "message": "放置时拾取"
+     },
+     "photometricParameters": {
+      "flux": 600,
+      "power": 7,
+      "beamAngle": 60,
+      "cct": 3000,
+      "dimming": 100,
+      "on": true,
+      "length": null,
+      "distribution": "generic-cosine-power-v1",
+      "photometrySource": "generic",
+      "ies": null
+     },
+     "notes": "",
+     "designState": "ai-draft"
+    },
+    {
+     "fixtureId": "LF-MVX9IMW5-BQPEFMa",
+     "name": "GEN-DL-11",
+     "fixtureType": "downlight",
+     "catalogCode": "GEN-DL",
+     "roomId": "2l$O0Ew7r2NBp2zURtjPqL",
+     "roomExpressId": 9171,
+     "ifcProjectId": "344O7vICcwH8qAEnwJDjSU",
+     "position": {
+      "ifcWorld": [
+       7.25,
+       5,
+       2.515
+      ],
+      "roomLocal": [
+       0.9,
+       0.9,
+       2.515
+      ]
+     },
+     "mountHeight": 2.51,
+     "rotation": {
+      "aimTilt": 0,
+      "aimAzimuth": 0,
+      "bodyRotation": 0
+     },
+     "mountReference": {
+      "kind": "surface",
+      "surface": "ceiling",
+      "elementGuid": "2Ucp6QiTD91Q8H4ken8OHG",
+      "elementId": 73001,
+      "elementName": "SLA - 014",
+      "normal": [
+       0,
+       0,
+       -1
+      ],
+      "status": "ok",
+      "message": "放置时拾取"
+     },
+     "photometricParameters": {
+      "flux": 600,
+      "power": 7,
+      "beamAngle": 60,
+      "cct": 3000,
+      "dimming": 100,
+      "on": true,
+      "length": null,
+      "distribution": "generic-cosine-power-v1",
+      "photometrySource": "generic",
+      "ies": null
+     },
+     "notes": "",
+     "designState": "ai-draft"
+    },
+    {
+     "fixtureId": "LF-MVX9IMW6-F0A6JXb",
+     "name": "GEN-DL-12",
+     "fixtureType": "downlight",
+     "catalogCode": "GEN-DL",
+     "roomId": "0eIzt0iabBggSQsO609AjW",
+     "roomExpressId": 9121,
+     "ifcProjectId": "344O7vICcwH8qAEnwJDjSU",
+     "position": {
+      "ifcWorld": [
+       4.7,
+       17.65,
+       2.475
+      ],
+      "roomLocal": [
+       4.625,
+       0.75,
+       2.475
+      ]
+     },
+     "mountHeight": 2.48,
+     "rotation": {
+      "aimTilt": 0,
+      "aimAzimuth": 0,
+      "bodyRotation": 0
+     },
+     "mountReference": {
+      "kind": "surface",
+      "surface": "ceiling",
+      "elementGuid": "1c9fGNciTCnuakBMCJ1ePk",
+      "elementId": 98994,
+      "elementName": "SLA - 014",
+      "normal": [
+       0,
+       0,
+       -1
+      ],
+      "status": "ok",
+      "message": "放置时拾取"
+     },
+     "photometricParameters": {
+      "flux": 600,
+      "power": 7,
+      "beamAngle": 60,
+      "cct": 3000,
+      "dimming": 100,
+      "on": true,
+      "length": null,
+      "distribution": "generic-cosine-power-v1",
+      "photometrySource": "generic",
+      "ies": null
+     },
+     "notes": "",
+     "designState": "ai-draft"
+    },
+    {
+     "fixtureId": "LF-MVX9IMW8-TI4QOJc",
+     "name": "GEN-DL-13",
+     "fixtureType": "downlight",
+     "catalogCode": "GEN-DL",
+     "roomId": "27FW5qE8z8LuvjA21ca59e",
+     "roomExpressId": 9103,
+     "ifcProjectId": "344O7vICcwH8qAEnwJDjSU",
+     "position": {
+      "ifcWorld": [
+       4.6,
+       15.4,
+       2.475
+      ],
+      "roomLocal": [
+       1.55,
+       2.1,
+       2.475
+      ]
+     },
+     "mountHeight": 2.48,
+     "rotation": {
+      "aimTilt": 0,
+      "aimAzimuth": 0,
+      "bodyRotation": 0
+     },
+     "mountReference": {
+      "kind": "surface",
+      "surface": "ceiling",
+      "elementGuid": "1c9fGNciTCnuakBMCJ1ePk",
+      "elementId": 98994,
+      "elementName": "SLA - 014",
+      "normal": [
+       0,
+       0,
+       -1
+      ],
+      "status": "ok",
+      "message": "放置时拾取"
+     },
+     "photometricParameters": {
+      "flux": 600,
+      "power": 7,
+      "beamAngle": 60,
+      "cct": 3000,
+      "dimming": 100,
+      "on": true,
+      "length": null,
+      "distribution": "generic-cosine-power-v1",
+      "photometrySource": "generic",
+      "ies": null
+     },
+     "notes": "",
+     "designState": "ai-draft"
+    },
+    {
+     "fixtureId": "LF-MVX9IMW9-2X5SNHd",
+     "name": "GEN-DL-14",
+     "fixtureType": "downlight",
+     "catalogCode": "GEN-DL",
+     "roomId": "1otYIBWDPFWO1xDlRAbJLD",
+     "roomExpressId": 8110,
+     "ifcProjectId": "344O7vICcwH8qAEnwJDjSU",
+     "position": {
+      "ifcWorld": [
+       1.55,
+       14.8,
+       2.475
+      ],
+      "roomLocal": [
+       1.4,
+       1.5,
+       2.475
+      ]
+     },
+     "mountHeight": 2.48,
+     "rotation": {
+      "aimTilt": 0,
+      "aimAzimuth": 0,
+      "bodyRotation": 0
+     },
+     "mountReference": {
+      "kind": "surface",
+      "surface": "ceiling",
+      "elementGuid": "0DNILSJVv7Be6h$aoL_RNa",
+      "elementId": 98919,
+      "elementName": "SLA - 014",
+      "normal": [
+       0,
+       0,
+       -1
+      ],
+      "status": "ok",
+      "message": "放置时拾取"
+     },
+     "photometricParameters": {
+      "flux": 600,
+      "power": 7,
+      "beamAngle": 60,
+      "cct": 3000,
+      "dimming": 100,
+      "on": true,
+      "length": null,
+      "distribution": "generic-cosine-power-v1",
+      "photometrySource": "generic",
+      "ies": null
+     },
+     "notes": "",
+     "designState": "ai-draft"
+    },
+    {
+     "fixtureId": "LF-MVX9IMW9-N4W91Ue",
+     "name": "GEN-DL-15",
+     "fixtureType": "downlight",
+     "catalogCode": "GEN-DL",
+     "roomId": "0j294L2OrDbP8n9OJF11Ex",
+     "roomExpressId": 10741,
+     "ifcProjectId": "344O7vICcwH8qAEnwJDjSU",
+     "position": {
+      "ifcWorld": [
+       3,
+       0.8,
+       2.495
+      ],
+      "roomLocal": [
+       2.925,
+       0.8,
+       2.495
+      ]
+     },
+     "mountHeight": 2.5,
+     "rotation": {
+      "aimTilt": 0,
+      "aimAzimuth": 0,
+      "bodyRotation": 0
+     },
+     "mountReference": {
+      "kind": "surface",
+      "surface": "ceiling",
+      "elementGuid": "00grNL_FL0TPzXdjoRBEoQ",
+      "elementId": 100049,
+      "elementName": "SLA - 014",
+      "normal": [
+       0,
+       0,
+       -1
+      ],
+      "status": "ok",
+      "message": "放置时拾取"
+     },
+     "photometricParameters": {
+      "flux": 600,
+      "power": 7,
+      "beamAngle": 60,
+      "cct": 3000,
+      "dimming": 100,
+      "on": true,
+      "length": null,
+      "distribution": "generic-cosine-power-v1",
+      "photometrySource": "generic",
+      "ies": null
+     },
+     "notes": "",
+     "designState": "ai-draft"
+    },
+    {
+     "fixtureId": "LF-MVX9IMWA-FDTS7Hf",
+     "name": "GEN-DL-16",
+     "fixtureType": "downlight",
+     "catalogCode": "GEN-DL",
+     "roomId": "3GrMwmLGvEavwZvDp5M5rs",
+     "roomExpressId": 10778,
+     "ifcProjectId": "344O7vICcwH8qAEnwJDjSU",
+     "position": {
+      "ifcWorld": [
+       9.65,
+       16.9,
+       2.795
+      ],
+      "roomLocal": [
+       1.398,
+       2.758,
+       2.795
+      ]
+     },
+     "mountHeight": 2.79,
+     "rotation": {
+      "aimTilt": 0,
+      "aimAzimuth": 0,
+      "bodyRotation": 0
+     },
+     "mountReference": {
+      "kind": "surface",
+      "surface": "ceiling",
+      "elementGuid": "39C_S0YRL6pOrVe6xJvGfK",
+      "elementId": 99129,
+      "elementName": "SLA - 014",
+      "normal": [
+       0,
+       0,
+       -1
+      ],
+      "status": "ok",
+      "message": "放置时拾取"
+     },
+     "photometricParameters": {
+      "flux": 600,
+      "power": 7,
+      "beamAngle": 60,
+      "cct": 3000,
+      "dimming": 100,
+      "on": true,
+      "length": null,
+      "distribution": "generic-cosine-power-v1",
+      "photometrySource": "generic",
+      "ies": null
+     },
+     "notes": "",
+     "designState": "ai-draft"
+    },
+    {
+     "fixtureId": "LF-MVX9IMWB-TQVC9Pg",
+     "name": "GEN-DL-17",
+     "fixtureType": "downlight",
+     "catalogCode": "GEN-DL",
+     "roomId": "27atJBm4vEoOb2cqBivrJt",
+     "roomExpressId": 9461,
+     "ifcProjectId": "344O7vICcwH8qAEnwJDjSU",
+     "position": {
+      "ifcWorld": [
+       15.25,
+       6.95,
+       2.495
+      ],
+      "roomLocal": [
+       1.35,
+       2.05,
+       2.495
+      ]
+     },
+     "mountHeight": 2.5,
+     "rotation": {
+      "aimTilt": 0,
+      "aimAzimuth": 0,
+      "bodyRotation": 0
+     },
+     "mountReference": {
+      "kind": "surface",
+      "surface": "ceiling",
+      "elementGuid": "3MZOOeEGD39x313hLnKQmu",
+      "elementId": 99150,
+      "elementName": "SLA - 014",
+      "normal": [
+       0,
+       0,
+       -1
+      ],
+      "status": "ok",
+      "message": "放置时拾取"
+     },
+     "photometricParameters": {
+      "flux": 600,
+      "power": 7,
+      "beamAngle": 60,
+      "cct": 3000,
+      "dimming": 100,
+      "on": true,
+      "length": null,
+      "distribution": "generic-cosine-power-v1",
+      "photometrySource": "generic",
+      "ies": null
+     },
+     "notes": "",
+     "designState": "ai-draft"
+    },
+    {
+     "fixtureId": "LF-MVX9IMWC-GNMYT8h",
+     "name": "GEN-DL-18",
+     "fixtureType": "downlight",
+     "catalogCode": "GEN-DL",
+     "roomId": "0W89gqn0r52A_Ke4gahzt3",
+     "roomExpressId": 9443,
+     "ifcProjectId": "344O7vICcwH8qAEnwJDjSU",
+     "position": {
+      "ifcWorld": [
+       11.85,
+       7.7,
+       2.495
+      ],
+      "roomLocal": [
+       1.6,
+       2.2,
+       2.495
+      ]
+     },
+     "mountHeight": 2.5,
+     "rotation": {
+      "aimTilt": 0,
+      "aimAzimuth": 0,
+      "bodyRotation": 0
+     },
+     "mountReference": {
+      "kind": "surface",
+      "surface": "ceiling",
+      "elementGuid": "1dYmM3ACr8lQ1vlWBy6RAb",
+      "elementId": 99147,
+      "elementName": "SLA - 014",
+      "normal": [
+       0,
+       0,
+       -1
+      ],
+      "status": "ok",
+      "message": "放置时拾取"
+     },
+     "photometricParameters": {
+      "flux": 600,
+      "power": 7,
+      "beamAngle": 60,
+      "cct": 3000,
+      "dimming": 100,
+      "on": true,
+      "length": null,
+      "distribution": "generic-cosine-power-v1",
+      "photometrySource": "generic",
+      "ies": null
+     },
+     "notes": "",
+     "designState": "ai-draft"
+    },
+    {
+     "fixtureId": "LF-MVX9IMWD-WJ0RVZi",
+     "name": "GEN-DL-19",
+     "fixtureType": "downlight",
+     "catalogCode": "GEN-DL",
+     "roomId": "35g8hwNXDBLwEkV2iMLjLH",
+     "roomExpressId": 9415,
+     "ifcProjectId": "344O7vICcwH8qAEnwJDjSU",
+     "position": {
+      "ifcWorld": [
+       11.4,
+       3.05,
+       2.495
+      ],
+      "roomLocal": [
+       1.15,
+       2.95,
+       2.495
+      ]
+     },
+     "mountHeight": 2.5,
+     "rotation": {
+      "aimTilt": 0,
+      "aimAzimuth": 0,
+      "bodyRotation": 0
+     },
+     "mountReference": {
+      "kind": "surface",
+      "surface": "ceiling",
+      "elementGuid": "2ALreRxSr5NRbBusADeEJX",
+      "elementId": 73256,
+      "elementName": "SLA - 014",
+      "normal": [
+       0,
+       0,
+       -1
+      ],
+      "status": "ok",
+      "message": "放置时拾取"
+     },
+     "photometricParameters": {
+      "flux": 600,
+      "power": 7,
+      "beamAngle": 60,
+      "cct": 3000,
+      "dimming": 100,
+      "on": true,
+      "length": null,
+      "distribution": "generic-cosine-power-v1",
+      "photometrySource": "generic",
+      "ies": null
+     },
+     "notes": "",
+     "designState": "ai-draft"
+    },
+    {
+     "fixtureId": "LF-MVX9IMWE-B02OFPj",
+     "name": "GEN-DL-20",
+     "fixtureType": "downlight",
+     "catalogCode": "GEN-DL",
+     "roomId": "0yfdpLzyj7pw0RManVIj7C",
+     "roomExpressId": 9030,
+     "ifcProjectId": "344O7vICcwH8qAEnwJDjSU",
+     "position": {
+      "ifcWorld": [
+       6.7,
+       14.65,
+       2.462
+      ],
+      "roomLocal": [
+       0.55,
+       0.55,
+       2.462
+      ]
+     },
+     "mountHeight": 2.46,
+     "rotation": {
+      "aimTilt": 0,
+      "aimAzimuth": 0,
+      "bodyRotation": 0
+     },
+     "mountReference": {
+      "kind": "surface",
+      "surface": "ceiling",
+      "elementGuid": "2WFDP0rcH6QuUf1HK1r58a",
+      "elementId": 102741,
+      "elementName": "CW-009",
+      "normal": [
+       0,
+       0,
+       -1
+      ],
+      "status": "ok",
+      "message": "放置时拾取"
+     },
+     "photometricParameters": {
+      "flux": 600,
+      "power": 7,
+      "beamAngle": 60,
+      "cct": 3000,
+      "dimming": 100,
+      "on": true,
+      "length": null,
+      "distribution": "generic-cosine-power-v1",
+      "photometrySource": "generic",
+      "ies": null
+     },
+     "notes": "",
+     "designState": "ai-draft"
+    },
+    {
+     "fixtureId": "LF-MVX9IMWG-T57T7Wk",
+     "name": "GEN-DL-21",
+     "fixtureType": "downlight",
+     "catalogCode": "GEN-DL",
+     "roomId": "0ev9prAzL7_RY3vvtnfOM6",
+     "roomExpressId": 10528,
+     "ifcProjectId": "344O7vICcwH8qAEnwJDjSU",
+     "position": {
+      "ifcWorld": [
+       14.55,
+       2.8,
+       2.845
+      ],
+      "roomLocal": [
+       1.95,
+       2.7,
+       2.845
+      ]
+     },
+     "mountHeight": 2.84,
+     "rotation": {
+      "aimTilt": 0,
+      "aimAzimuth": 0,
+      "bodyRotation": 0
+     },
+     "mountReference": {
+      "kind": "surface",
+      "surface": "ceiling",
+      "elementGuid": "1YK27XSXLFIeFlIibp1tph",
+      "elementId": 103068,
+      "elementName": "SLA - 014",
+      "normal": [
+       0,
+       0,
+       -1
+      ],
+      "status": "ok",
+      "message": "放置时拾取"
+     },
+     "photometricParameters": {
+      "flux": 600,
+      "power": 7,
+      "beamAngle": 60,
+      "cct": 3000,
+      "dimming": 100,
+      "on": true,
+      "length": null,
+      "distribution": "generic-cosine-power-v1",
+      "photometrySource": "generic",
+      "ies": null
+     },
+     "notes": "",
+     "designState": "ai-draft"
+    },
+    {
+     "fixtureId": "LF-MVX9IMWG-GFFBZIl",
+     "name": "GEN-DL-22",
+     "fixtureType": "downlight",
+     "catalogCode": "GEN-DL",
+     "roomId": "33PBVJv4LDJRMYt49EmFRj",
+     "roomExpressId": 10593,
+     "ifcProjectId": "344O7vICcwH8qAEnwJDjSU",
+     "position": {
+      "ifcWorld": [
+       8.2,
+       2.05,
+       2.845
+      ],
+      "roomLocal": [
+       1.9,
+       1.95,
+       2.845
+      ]
+     },
+     "mountHeight": 2.84,
+     "rotation": {
+      "aimTilt": 0,
+      "aimAzimuth": 0,
+      "bodyRotation": 0
+     },
+     "mountReference": {
+      "kind": "surface",
+      "surface": "ceiling",
+      "elementGuid": "1mOvR9LnH9NuStPK$lCmE_",
+      "elementId": 99153,
+      "elementName": "SLA - 014",
+      "normal": [
+       0,
+       0,
+       -1
+      ],
+      "status": "ok",
+      "message": "放置时拾取"
+     },
+     "photometricParameters": {
+      "flux": 600,
+      "power": 7,
+      "beamAngle": 60,
+      "cct": 3000,
+      "dimming": 100,
+      "on": true,
+      "length": null,
+      "distribution": "generic-cosine-power-v1",
+      "photometrySource": "generic",
+      "ies": null
+     },
+     "notes": "",
+     "designState": "ai-draft"
+    },
+    {
+     "fixtureId": "LF-MVX9IMWI-ECHZO8m",
+     "name": "GEN-DL-23",
+     "fixtureType": "downlight",
+     "catalogCode": "GEN-DL",
+     "roomId": "07zOKxPsLCD8Lgm1mekxS_",
+     "roomExpressId": 5174,
+     "ifcProjectId": "344O7vICcwH8qAEnwJDjSU",
+     "position": {
+      "ifcWorld": [
+       3.8,
+       8.75,
+       2.855
+      ],
+      "roomLocal": [
+       3.65,
+       1.6,
+       2.855
+      ]
+     },
+     "mountHeight": 2.85,
+     "rotation": {
+      "aimTilt": 0,
+      "aimAzimuth": 0,
+      "bodyRotation": 0
+     },
+     "mountReference": {
+      "kind": "surface",
+      "surface": "ceiling",
+      "elementGuid": "0y$_U9S8b7ZAkwNn2z3LxE",
+      "elementId": 100042,
+      "elementName": "SLA - 014",
+      "normal": [
+       0,
+       0,
+       -1
+      ],
+      "status": "ok",
+      "message": "放置时拾取"
+     },
+     "photometricParameters": {
+      "flux": 600,
+      "power": 7,
+      "beamAngle": 60,
+      "cct": 3000,
+      "dimming": 100,
+      "on": true,
+      "length": null,
+      "distribution": "generic-cosine-power-v1",
+      "photometrySource": "generic",
+      "ies": null
+     },
+     "notes": "",
+     "designState": "ai-draft"
+    },
+    {
+     "fixtureId": "LF-MVX9IMWJ-E3QXJRn",
+     "name": "GEN-DL-24",
+     "fixtureType": "downlight",
+     "catalogCode": "GEN-DL",
+     "roomId": "1PfKl91zj2RuH7WFkswWD1",
+     "roomExpressId": 7802,
+     "ifcProjectId": "344O7vICcwH8qAEnwJDjSU",
+     "position": {
+      "ifcWorld": [
+       3.95,
+       11.9,
+       2.855
+      ],
+      "roomLocal": [
+       3.8,
+       1.55,
+       2.855
+      ]
+     },
+     "mountHeight": 2.85,
+     "rotation": {
+      "aimTilt": 0,
+      "aimAzimuth": 0,
+      "bodyRotation": 0
+     },
+     "mountReference": {
+      "kind": "surface",
+      "surface": "ceiling",
+      "elementGuid": "0y$_U9S8b7ZAkwNn2z3LxE",
+      "elementId": 100042,
+      "elementName": "SLA - 014",
+      "normal": [
+       0,
+       0,
+       -1
+      ],
+      "status": "ok",
+      "message": "放置时拾取"
+     },
+     "photometricParameters": {
+      "flux": 600,
+      "power": 7,
+      "beamAngle": 60,
+      "cct": 3000,
+      "dimming": 100,
+      "on": true,
+      "length": null,
+      "distribution": "generic-cosine-power-v1",
+      "photometrySource": "generic",
+      "ies": null
+     },
+     "notes": "",
+     "designState": "ai-draft"
+    },
+    {
+     "fixtureId": "LF-MVX9IMWJ-HBZ87So",
+     "name": "GEN-DL-25",
+     "fixtureType": "downlight",
+     "catalogCode": "GEN-DL",
+     "roomId": "37vCJKFnjC5BzAVbbtuqE_",
+     "roomExpressId": 4794,
+     "ifcProjectId": "344O7vICcwH8qAEnwJDjSU",
+     "position": {
+      "ifcWorld": [
+       3.1,
+       4.5,
+       2.73152
+      ],
+      "roomLocal": [
+       2.95,
+       2.7,
+       2.732
+      ]
+     },
+     "mountHeight": 2.73,
+     "rotation": {
+      "aimTilt": 0,
+      "aimAzimuth": 0,
+      "bodyRotation": 0
+     },
+     "mountReference": {
+      "kind": "surface",
+      "surface": "ceiling",
+      "elementGuid": "36MNJ4bH17yPRZallN8Aia",
+      "elementId": 73470,
+      "elementName": "BMR - 009",
+      "normal": [
+       0,
+       0,
+       -1
+      ],
+      "status": "ok",
+      "message": "放置时拾取"
+     },
+     "photometricParameters": {
+      "flux": 600,
+      "power": 7,
+      "beamAngle": 60,
+      "cct": 3000,
+      "dimming": 100,
+      "on": true,
+      "length": null,
+      "distribution": "generic-cosine-power-v1",
+      "photometrySource": "generic",
+      "ies": null
+     },
+     "notes": "",
+     "designState": "ai-draft"
+    }
+   ],
+   "source": "demo",
+   "brief": "我希望每个房间的中心位置都架设一个筒灯",
+   "createdAt": "2026-11-01T03:20:32.313Z",
+   "baseScheme": "A",
+   "designedRooms": [
+    "1N7d0h7N563wq2ALSFrl3U",
+    "3d$FSQHNDB2BN5PlCdeeCH",
+    "1J2ktRHhrC$h4C0wCytnYh",
+    "0psO4sR39Elwf3r$dTc2qH",
+    "2ymTUnOG992vb4ee76wPlb",
+    "2P0VxT$qjFPecwTq4rFS4G",
+    "2l$O0Ew7r2NBp2zURtjPqL",
+    "0eIzt0iabBggSQsO609AjW",
+    "27FW5qE8z8LuvjA21ca59e",
+    "1otYIBWDPFWO1xDlRAbJLD",
+    "0j294L2OrDbP8n9OJF11Ex",
+    "3GrMwmLGvEavwZvDp5M5rs",
+    "27atJBm4vEoOb2cqBivrJt",
+    "0W89gqn0r52A_Ke4gahzt3",
+    "35g8hwNXDBLwEkV2iMLjLH",
+    "0yfdpLzyj7pw0RManVIj7C",
+    "0ev9prAzL7_RY3vvtnfOM6",
+    "33PBVJv4LDJRMYt49EmFRj",
+    "07zOKxPsLCD8Lgm1mekxS_",
+    "1PfKl91zj2RuH7WFkswWD1",
+    "37vCJKFnjC5BzAVbbtuqE_"
+   ],
+   "targets": {
+    "1N7d0h7N563wq2ALSFrl3U": {
+     "roomType": "other",
+     "standard": "GB 50034-2013 其他居住空间 0.75 m 水平面 100 lx",
+     "Eavg": [
+      100,
+      150
+     ],
+     "Emin_standard": 100,
+     "U0": 0.4,
+     "cct": [
+      2700,
+      4000
+     ],
+     "Ra": 80,
+     "lpdMax": 6,
+     "layered": false,
+     "notes": [],
+     "caveat": "照度区间与色温为 WEA 设计经验值（标准值为下限）；功率密度限值对应标准照度，提高照度时仅作参考"
+    },
+    "3d$FSQHNDB2BN5PlCdeeCH": {
+     "roomType": "bathroom",
+     "standard": "GB 50034-2013 卫生间 0.75 m 水平面 100 lx",
+     "Eavg": [
+      100,
+      150
+     ],
+     "Emin_standard": 100,
+     "U0": 0.4,
+     "cct": [
+      2700,
+      4000
+     ],
+     "Ra": 80,
+     "lpdMax": 6,
+     "layered": false,
+     "notes": [],
+     "caveat": "照度区间与色温为 WEA 设计经验值（标准值为下限）；功率密度限值对应标准照度，提高照度时仅作参考"
+    },
+    "1J2ktRHhrC$h4C0wCytnYh": {
+     "roomType": "bathroom",
+     "standard": "GB 50034-2013 卫生间 0.75 m 水平面 100 lx",
+     "Eavg": [
+      100,
+      150
+     ],
+     "Emin_standard": 100,
+     "U0": 0.4,
+     "cct": [
+      2700,
+      4000
+     ],
+     "Ra": 80,
+     "lpdMax": 6,
+     "layered": false,
+     "notes": [],
+     "caveat": "照度区间与色温为 WEA 设计经验值（标准值为下限）；功率密度限值对应标准照度，提高照度时仅作参考"
+    },
+    "0psO4sR39Elwf3r$dTc2qH": {
+     "roomType": "corridor",
+     "standard": "GB 50034-2013 走道、楼梯间 地面 50 lx",
+     "Eavg": [
+      50,
+      75
+     ],
+     "Emin_standard": 50,
+     "U0": 0.4,
+     "cct": [
+      2700,
+      4000
+     ],
+     "Ra": 80,
+     "lpdMax": 6,
+     "layered": false,
+     "notes": [],
+     "caveat": "照度区间与色温为 WEA 设计经验值（标准值为下限）；功率密度限值对应标准照度，提高照度时仅作参考"
+    },
+    "2ymTUnOG992vb4ee76wPlb": {
+     "roomType": "bathroom",
+     "standard": "GB 50034-2013 卫生间 0.75 m 水平面 100 lx",
+     "Eavg": [
+      100,
+      150
+     ],
+     "Emin_standard": 100,
+     "U0": 0.4,
+     "cct": [
+      2700,
+      4000
+     ],
+     "Ra": 80,
+     "lpdMax": 6,
+     "layered": false,
+     "notes": [],
+     "caveat": "照度区间与色温为 WEA 设计经验值（标准值为下限）；功率密度限值对应标准照度，提高照度时仅作参考"
+    },
+    "2P0VxT$qjFPecwTq4rFS4G": {
+     "roomType": "corridor",
+     "standard": "GB 50034-2013 走道、楼梯间 地面 50 lx",
+     "Eavg": [
+      50,
+      75
+     ],
+     "Emin_standard": 50,
+     "U0": 0.4,
+     "cct": [
+      2700,
+      4000
+     ],
+     "Ra": 80,
+     "lpdMax": 6,
+     "layered": false,
+     "notes": [],
+     "caveat": "照度区间与色温为 WEA 设计经验值（标准值为下限）；功率密度限值对应标准照度，提高照度时仅作参考"
+    },
+    "2l$O0Ew7r2NBp2zURtjPqL": {
+     "roomType": "bathroom",
+     "standard": "GB 50034-2013 卫生间 0.75 m 水平面 100 lx",
+     "Eavg": [
+      100,
+      150
+     ],
+     "Emin_standard": 100,
+     "U0": 0.4,
+     "cct": [
+      2700,
+      4000
+     ],
+     "Ra": 80,
+     "lpdMax": 6,
+     "layered": false,
+     "notes": [],
+     "caveat": "照度区间与色温为 WEA 设计经验值（标准值为下限）；功率密度限值对应标准照度，提高照度时仅作参考"
+    },
+    "0eIzt0iabBggSQsO609AjW": {
+     "roomType": "other",
+     "standard": "GB 50034-2013 其他居住空间 0.75 m 水平面 100 lx",
+     "Eavg": [
+      100,
+      150
+     ],
+     "Emin_standard": 100,
+     "U0": 0.4,
+     "cct": [
+      2700,
+      4000
+     ],
+     "Ra": 80,
+     "lpdMax": 6,
+     "layered": false,
+     "notes": [],
+     "caveat": "照度区间与色温为 WEA 设计经验值（标准值为下限）；功率密度限值对应标准照度，提高照度时仅作参考"
+    },
+    "27FW5qE8z8LuvjA21ca59e": {
+     "roomType": "study",
+     "standard": "GB 50034-2013 书房（按起居室阅读） 0.75 m 水平面 100 lx",
+     "Eavg": [
+      100,
+      150
+     ],
+     "Emin_standard": 100,
+     "U0": 0.4,
+     "cct": [
+      2700,
+      4000
+     ],
+     "Ra": 80,
+     "lpdMax": 6,
+     "layered": false,
+     "notes": [],
+     "caveat": "照度区间与色温为 WEA 设计经验值（标准值为下限）；功率密度限值对应标准照度，提高照度时仅作参考"
+    },
+    "1otYIBWDPFWO1xDlRAbJLD": {
+     "roomType": "kitchen",
+     "standard": "GB 50034-2013 厨房 0.75 m 水平面 100 lx",
+     "Eavg": [
+      100,
+      150
+     ],
+     "Emin_standard": 100,
+     "U0": 0.4,
+     "cct": [
+      2700,
+      4000
+     ],
+     "Ra": 80,
+     "lpdMax": 6,
+     "layered": false,
+     "notes": [],
+     "caveat": "照度区间与色温为 WEA 设计经验值（标准值为下限）；功率密度限值对应标准照度，提高照度时仅作参考"
+    },
+    "0j294L2OrDbP8n9OJF11Ex": {
+     "roomType": "other",
+     "standard": "GB 50034-2013 其他居住空间 0.75 m 水平面 100 lx",
+     "Eavg": [
+      100,
+      150
+     ],
+     "Emin_standard": 100,
+     "U0": 0.4,
+     "cct": [
+      2700,
+      4000
+     ],
+     "Ra": 80,
+     "lpdMax": 6,
+     "layered": false,
+     "notes": [],
+     "caveat": "照度区间与色温为 WEA 设计经验值（标准值为下限）；功率密度限值对应标准照度，提高照度时仅作参考"
+    },
+    "3GrMwmLGvEavwZvDp5M5rs": {
+     "roomType": "other",
+     "standard": "GB 50034-2013 其他居住空间 0.75 m 水平面 100 lx",
+     "Eavg": [
+      100,
+      150
+     ],
+     "Emin_standard": 100,
+     "U0": 0.4,
+     "cct": [
+      2700,
+      4000
+     ],
+     "Ra": 80,
+     "lpdMax": 6,
+     "layered": false,
+     "notes": [],
+     "caveat": "照度区间与色温为 WEA 设计经验值（标准值为下限）；功率密度限值对应标准照度，提高照度时仅作参考"
+    },
+    "27atJBm4vEoOb2cqBivrJt": {
+     "roomType": "other",
+     "standard": "GB 50034-2013 其他居住空间 0.75 m 水平面 100 lx",
+     "Eavg": [
+      100,
+      150
+     ],
+     "Emin_standard": 100,
+     "U0": 0.4,
+     "cct": [
+      2700,
+      4000
+     ],
+     "Ra": 80,
+     "lpdMax": 6,
+     "layered": false,
+     "notes": [],
+     "caveat": "照度区间与色温为 WEA 设计经验值（标准值为下限）；功率密度限值对应标准照度，提高照度时仅作参考"
+    },
+    "0W89gqn0r52A_Ke4gahzt3": {
+     "roomType": "corridor",
+     "standard": "GB 50034-2013 走道、楼梯间 地面 50 lx",
+     "Eavg": [
+      50,
+      75
+     ],
+     "Emin_standard": 50,
+     "U0": 0.4,
+     "cct": [
+      2700,
+      4000
+     ],
+     "Ra": 80,
+     "lpdMax": 6,
+     "layered": false,
+     "notes": [],
+     "caveat": "照度区间与色温为 WEA 设计经验值（标准值为下限）；功率密度限值对应标准照度，提高照度时仅作参考"
+    },
+    "35g8hwNXDBLwEkV2iMLjLH": {
+     "roomType": "bathroom",
+     "standard": "GB 50034-2013 卫生间 0.75 m 水平面 100 lx",
+     "Eavg": [
+      100,
+      150
+     ],
+     "Emin_standard": 100,
+     "U0": 0.4,
+     "cct": [
+      2700,
+      4000
+     ],
+     "Ra": 80,
+     "lpdMax": 6,
+     "layered": false,
+     "notes": [],
+     "caveat": "照度区间与色温为 WEA 设计经验值（标准值为下限）；功率密度限值对应标准照度，提高照度时仅作参考"
+    },
+    "0yfdpLzyj7pw0RManVIj7C": {
+     "roomType": "bedroom",
+     "standard": "GB 50034-2013 卧室 0.75 m 水平面 75 lx",
+     "Eavg": [
+      75,
+      113
+     ],
+     "Emin_standard": 75,
+     "U0": 0.4,
+     "cct": [
+      2700,
+      4000
+     ],
+     "Ra": 80,
+     "lpdMax": 6,
+     "layered": false,
+     "notes": [],
+     "caveat": "照度区间与色温为 WEA 设计经验值（标准值为下限）；功率密度限值对应标准照度，提高照度时仅作参考"
+    },
+    "0ev9prAzL7_RY3vvtnfOM6": {
+     "roomType": "bedroom",
+     "standard": "GB 50034-2013 卧室 0.75 m 水平面 75 lx",
+     "Eavg": [
+      75,
+      113
+     ],
+     "Emin_standard": 75,
+     "U0": 0.4,
+     "cct": [
+      2700,
+      4000
+     ],
+     "Ra": 80,
+     "lpdMax": 6,
+     "layered": false,
+     "notes": [],
+     "caveat": "照度区间与色温为 WEA 设计经验值（标准值为下限）；功率密度限值对应标准照度，提高照度时仅作参考"
+    },
+    "33PBVJv4LDJRMYt49EmFRj": {
+     "roomType": "bedroom",
+     "standard": "GB 50034-2013 卧室 0.75 m 水平面 75 lx",
+     "Eavg": [
+      75,
+      113
+     ],
+     "Emin_standard": 75,
+     "U0": 0.4,
+     "cct": [
+      2700,
+      4000
+     ],
+     "Ra": 80,
+     "lpdMax": 6,
+     "layered": false,
+     "notes": [],
+     "caveat": "照度区间与色温为 WEA 设计经验值（标准值为下限）；功率密度限值对应标准照度，提高照度时仅作参考"
+    },
+    "07zOKxPsLCD8Lgm1mekxS_": {
+     "roomType": "dining",
+     "standard": "GB 50034-2013 餐厅 0.75 m 餐桌面 150 lx",
+     "Eavg": [
+      150,
+      225
+     ],
+     "Emin_standard": 150,
+     "U0": 0.4,
+     "cct": [
+      2700,
+      4000
+     ],
+     "Ra": 80,
+     "lpdMax": 6,
+     "layered": false,
+     "notes": [],
+     "caveat": "照度区间与色温为 WEA 设计经验值（标准值为下限）；功率密度限值对应标准照度，提高照度时仅作参考"
+    },
+    "1PfKl91zj2RuH7WFkswWD1": {
+     "roomType": "kitchen",
+     "standard": "GB 50034-2013 厨房 0.75 m 水平面 100 lx",
+     "Eavg": [
+      100,
+      150
+     ],
+     "Emin_standard": 100,
+     "U0": 0.4,
+     "cct": [
+      2700,
+      4000
+     ],
+     "Ra": 80,
+     "lpdMax": 6,
+     "layered": false,
+     "notes": [],
+     "caveat": "照度区间与色温为 WEA 设计经验值（标准值为下限）；功率密度限值对应标准照度，提高照度时仅作参考"
+    },
+    "37vCJKFnjC5BzAVbbtuqE_": {
+     "roomType": "living",
+     "standard": "GB 50034-2013 起居室 0.75 m 水平面 100 lx",
+     "Eavg": [
+      100,
+      150
+     ],
+     "Emin_standard": 100,
+     "U0": 0.4,
+     "cct": [
+      2700,
+      4000
+     ],
+     "Ra": 80,
+     "lpdMax": 6,
+     "layered": false,
+     "notes": [],
+     "caveat": "照度区间与色温为 WEA 设计经验值（标准值为下限）；功率密度限值对应标准照度，提高照度时仅作参考"
+    }
+   },
+   "results": {
+    "1N7d0h7N563wq2ALSFrl3U": {
+     "Eavg": 174.30958551388972,
+     "Emin": 152.2650264182844,
+     "Emax": 191.7692792254018,
+     "U0": 0.8735321466652864,
+     "lpd": 3.203661327231121,
+     "power": 7,
+     "cct": [
+      3000
+     ],
+     "count": 1,
+     "pass": false,
+     "at": "2026-11-01T03:20:32.428Z"
+    },
+    "3d$FSQHNDB2BN5PlCdeeCH": {
+     "Eavg": 179.0845118867293,
+     "Emin": 171.15206967810929,
+     "Emax": 189.18752271551705,
+     "U0": 0.9557055932696331,
+     "lpd": 2.5925925925925926,
+     "power": 7,
+     "cct": [
+      3000
+     ],
+     "count": 1,
+     "pass": false,
+     "at": "2026-11-01T03:20:32.428Z"
+    },
+    "1J2ktRHhrC$h4C0wCytnYh": {
+     "Eavg": 148.2070972969289,
+     "Emin": 65.90229889615445,
+     "Emax": 194.77090598452105,
+     "U0": 0.44466358290602626,
+     "lpd": 1.950947603121516,
+     "power": 7,
+     "cct": [
+      3000
+     ],
+     "count": 1,
+     "pass": true,
+     "at": "2026-11-01T03:20:32.428Z"
+    },
+    "0psO4sR39Elwf3r$dTc2qH": {
+     "Eavg": 92.91993986563881,
+     "Emin": 70.22985142655082,
+     "Emax": 108.8704152036182,
+     "U0": 0.7558103409031732,
+     "lpd": 1.8469656992084433,
+     "power": 7,
+     "cct": [
+      3000
+     ],
+     "count": 1,
+     "pass": false,
+     "at": "2026-11-01T03:20:32.428Z"
+    },
+    "2ymTUnOG992vb4ee76wPlb": {
+     "Eavg": 110.47853739527143,
+     "Emin": 68.44040048665562,
+     "Emax": 161.29854033264263,
+     "U0": 0.6194904648473825,
+     "lpd": 1.7434620174346203,
+     "power": 7,
+     "cct": [
+      3000
+     ],
+     "count": 1,
+     "pass": true,
+     "at": "2026-11-01T03:20:32.428Z"
+    },
+    "2P0VxT$qjFPecwTq4rFS4G": {
+     "Eavg": 94.7693657377193,
+     "Emin": 78.56718530971936,
+     "Emax": 109.71628422834071,
+     "U0": 0.8290356772795063,
+     "lpd": 1.674641148325359,
+     "power": 7,
+     "cct": [
+      3000
+     ],
+     "count": 1,
+     "pass": false,
+     "at": "2026-11-01T03:20:32.428Z"
+    },
+    "2l$O0Ew7r2NBp2zURtjPqL": {
+     "Eavg": 118.73353104251234,
+     "Emin": 20.47642479803528,
+     "Emax": 188.6071955381326,
+     "U0": 0.1724569682906485,
+     "lpd": 1.3526570048309179,
+     "power": 7,
+     "cct": [
+      3000
+     ],
+     "count": 1,
+     "pass": false,
+     "at": "2026-11-01T03:20:32.429Z"
+    },
+    "0eIzt0iabBggSQsO609AjW": {
+     "Eavg": 51.40020231805495,
+     "Emin": 0.1161923079015643,
+     "Emax": 193.79785916956612,
+     "U0": 0.002260541839555179,
+     "lpd": 0.8020164986251146,
+     "power": 7,
+     "cct": [
+      3000
+     ],
+     "count": 1,
+     "pass": false,
+     "at": "2026-11-01T03:20:32.429Z"
+    },
+    "27FW5qE8z8LuvjA21ca59e": {
+     "Eavg": 101.18709150702107,
+     "Emin": 12.72553488466474,
+     "Emax": 196.33615596742075,
+     "U0": 0.1257624336774395,
+     "lpd": 0.7726269315673289,
+     "power": 7,
+     "cct": [
+      3000
+     ],
+     "count": 1,
+     "pass": false,
+     "at": "2026-11-01T03:20:32.429Z"
+    },
+    "1otYIBWDPFWO1xDlRAbJLD": {
+     "Eavg": 97.47772770035223,
+     "Emin": 22.003153661627145,
+     "Emax": 193.6301087118144,
+     "U0": 0.22572493410253794,
+     "lpd": 0.7723711795211298,
+     "power": 7,
+     "cct": [
+      3000
+     ],
+     "count": 1,
+     "pass": false,
+     "at": "2026-11-01T03:20:32.429Z"
+    },
+    "0j294L2OrDbP8n9OJF11Ex": {
+     "Eavg": 63.47375762562024,
+     "Emin": 2.3204501424031494,
+     "Emax": 191.28184536839316,
+     "U0": 0.03655762994353645,
+     "lpd": 0.7446808510638298,
+     "power": 7,
+     "cct": [
+      3000
+     ],
+     "count": 1,
+     "pass": false,
+     "at": "2026-11-01T03:20:32.429Z"
+    },
+    "3GrMwmLGvEavwZvDp5M5rs": {
+     "Eavg": 76.44563159401501,
+     "Emin": 11.132760654827429,
+     "Emax": 137.6789897081641,
+     "U0": 0.14562978188146752,
+     "lpd": 0.7429420505200593,
+     "power": 7,
+     "cct": [
+      3000
+     ],
+     "count": 1,
+     "pass": false,
+     "at": "2026-11-01T03:20:32.429Z"
+    },
+    "27atJBm4vEoOb2cqBivrJt": {
+     "Eavg": 88.39643022530677,
+     "Emin": 18.60458729347557,
+     "Emax": 191.7692792254018,
+     "U0": 0.21046763139705743,
+     "lpd": 0.6876903428627567,
+     "power": 7,
+     "cct": [
+      3000
+     ],
+     "count": 1,
+     "pass": false,
+     "at": "2026-11-01T03:20:32.429Z"
+    },
+    "0W89gqn0r52A_Ke4gahzt3": {
+     "Eavg": 91.02695391148885,
+     "Emin": 6.018669913135136,
+     "Emax": 191.7692792254018,
+     "U0": 0.06611964538533786,
+     "lpd": 0.6687046236148262,
+     "power": 7,
+     "cct": [
+      3000
+     ],
+     "count": 1,
+     "pass": false,
+     "at": "2026-11-01T03:20:32.429Z"
+    },
+    "35g8hwNXDBLwEkV2iMLjLH": {
+     "Eavg": 67.25238120589162,
+     "Emin": 2.427198504853572,
+     "Emax": 191.7692792254018,
+     "U0": 0.03609089315994268,
+     "lpd": 0.5687357816054599,
+     "power": 7,
+     "cct": [
+      3000
+     ],
+     "count": 1,
+     "pass": false,
+     "at": "2026-11-01T03:20:32.429Z"
+    },
+    "0yfdpLzyj7pw0RManVIj7C": {
+     "Eavg": 1.4226521052095775,
+     "Emin": 0.04643517246006672,
+     "Emax": 16.357096409879805,
+     "U0": 0.032639864862271536,
+     "lpd": 0.5213376033365607,
+     "power": 7,
+     "cct": [
+      3000
+     ],
+     "count": 1,
+     "pass": false,
+     "at": "2026-11-01T03:20:32.429Z"
+    },
+    "0ev9prAzL7_RY3vvtnfOM6": {
+     "Eavg": 42.686429459842536,
+     "Emin": 3.4153107050096154,
+     "Emax": 131.4801218843563,
+     "U0": 0.08000928511068336,
+     "lpd": 0.3559442692972643,
+     "power": 7,
+     "cct": [
+      3000
+     ],
+     "count": 1,
+     "pass": false,
+     "at": "2026-11-01T03:20:32.430Z"
+    },
+    "33PBVJv4LDJRMYt49EmFRj": {
+     "Eavg": 46.851093126801544,
+     "Emin": 0.1662549560583808,
+     "Emax": 132.09481941788195,
+     "U0": 0.0035485822200223825,
+     "lpd": 0.3539823008849558,
+     "power": 7,
+     "cct": [
+      3000
+     ],
+     "count": 1,
+     "pass": false,
+     "at": "2026-11-01T03:20:32.430Z"
+    },
+    "07zOKxPsLCD8Lgm1mekxS_": {
+     "Eavg": 32.415558591851216,
+     "Emin": 1.080498581847486,
+     "Emax": 131.4261514036841,
+     "U0": 0.03333271517706028,
+     "lpd": 0.2996575342465754,
+     "power": 7,
+     "cct": [
+      3000
+     ],
+     "count": 1,
+     "pass": false,
+     "at": "2026-11-01T03:20:32.430Z"
+    },
+    "1PfKl91zj2RuH7WFkswWD1": {
+     "Eavg": 33.66335053192005,
+     "Emin": 0.6930758497696464,
+     "Emax": 130.21688276597558,
+     "U0": 0.020588439321049232,
+     "lpd": 0.2985456561607029,
+     "power": 7,
+     "cct": [
+      3000
+     ],
+     "count": 1,
+     "pass": false,
+     "at": "2026-11-01T03:20:32.430Z"
+    },
+    "37vCJKFnjC5BzAVbbtuqE_": {
+     "Eavg": 119.2709152247063,
+     "Emin": 4.488714424412873,
+     "Emax": 1048.1838296791404,
+     "U0": 0.037634610382222176,
+     "lpd": 1.1182823183590007,
+     "power": 35,
+     "cct": [
+      3000
+     ],
+     "count": 5,
+     "pass": false,
+     "at": "2026-11-01T03:20:32.430Z"
+    }
+   },
+   "rationale": "在 21 个房间的视觉中心（离边界最远点，按 50 mm 模数取整）各布置 1 盏筒灯。起居室 原有灯具已保留，中心灯为新增。计算：2/21 个房间达到 GB 50034 标准值；未达标：储藏间 174 lx、卫生间 179 lx、走道 93 lx、玄关 95 lx、卫生间 119 lx、工作阳台 51 lx、书房 101 lx、厨房 97 lx、阳台 63 lx、客房 76 lx、衣帽间 88 lx、玄关 91 lx、卫生间 67 lx、次卧 1 lx、主卧 43 lx、卧室 47 lx、餐厅 32 lx、西厨 34 lx、起居室 119 lx（单灯不足以照亮较大房间，建议增加灯具）。",
+   "assumptions": [
+    "位置为房间几何中心，未考虑家具与吊顶造型",
+    "通用模拟灯具，照度为直接光估算"
+   ],
+   "finalizedAt": "2026-11-01T03:20:32.431Z"
+  },
+  "D": {
+   "name": "AI · 均匀基础光",
+   "fixtures": [
+    {
+     "fixtureId": "LF-MVX9JMYE-MZWTYUt",
+     "name": "GEN-DL-05",
+     "fixtureType": "downlight",
+     "catalogCode": "GEN-DL",
+     "roomId": "1N7d0h7N563wq2ALSFrl3U",
+     "roomExpressId": 5040,
+     "ifcProjectId": "344O7vICcwH8qAEnwJDjSU",
+     "position": {
+      "ifcWorld": [
+       8.7,
+       10.95,
+       2.495
+      ],
+      "roomLocal": [
+       0.95,
+       0.6,
+       2.495
+      ]
+     },
+     "mountHeight": 2.5,
+     "rotation": {
+      "aimTilt": 0,
+      "aimAzimuth": 0,
+      "bodyRotation": 0
+     },
+     "mountReference": {
+      "kind": "surface",
+      "surface": "ceiling",
+      "elementGuid": "32Wu79_0DFB9Q8rAFEUFns",
+      "elementId": 100035,
+      "elementName": "SLA - 014",
+      "normal": [
+       0,
+       0,
+       -1
+      ],
+      "status": "ok",
+      "message": "放置时拾取"
+     },
+     "photometricParameters": {
+      "flux": 600,
+      "power": 7,
+      "beamAngle": 60,
+      "cct": 3000,
+      "dimming": 100,
+      "on": true,
+      "length": null,
+      "distribution": "generic-cosine-power-v1",
+      "photometrySource": "generic",
+      "ies": null
+     },
+     "notes": "",
+     "designState": "ai-draft"
+    },
+    {
+     "fixtureId": "LF-MVX9JMYE-33IG7Ku",
+     "name": "GEN-DL-06",
+     "fixtureType": "downlight",
+     "catalogCode": "GEN-DL",
+     "roomId": "3d$FSQHNDB2BN5PlCdeeCH",
+     "roomExpressId": 5005,
+     "ifcProjectId": "344O7vICcwH8qAEnwJDjSU",
+     "position": {
+      "ifcWorld": [
+       8.3,
+       9.35,
+       2.495
+      ],
+      "roomLocal": [
+       0.75,
+       0.9,
+       2.495
+      ]
+     },
+     "mountHeight": 2.5,
+     "rotation": {
+      "aimTilt": 0,
+      "aimAzimuth": 0,
+      "bodyRotation": 0
+     },
+     "mountReference": {
+      "kind": "surface",
+      "surface": "ceiling",
+      "elementGuid": "32Wu79_0DFB9Q8rAFEUFns",
+      "elementId": 100035,
+      "elementName": "SLA - 014",
+      "normal": [
+       0,
+       0,
+       -1
+      ],
+      "status": "ok",
+      "message": "放置时拾取"
+     },
+     "photometricParameters": {
+      "flux": 600,
+      "power": 7,
+      "beamAngle": 60,
+      "cct": 3000,
+      "dimming": 100,
+      "on": true,
+      "length": null,
+      "distribution": "generic-cosine-power-v1",
+      "photometrySource": "generic",
+      "ies": null
+     },
+     "notes": "",
+     "designState": "ai-draft"
+    },
+    {
+     "fixtureId": "LF-MVX9JMYE-EEY1BKv",
+     "name": "GEN-DL-07",
+     "fixtureType": "downlight",
+     "catalogCode": "GEN-DL",
+     "roomId": "1J2ktRHhrC$h4C0wCytnYh",
+     "roomExpressId": 11707,
+     "ifcProjectId": "344O7vICcwH8qAEnwJDjSU",
+     "position": {
+      "ifcWorld": [
+       7.35,
+       16.65,
+       2.475
+      ],
+      "roomLocal": [
+       1.218,
+       0.683,
+       2.475
+      ]
+     },
+     "mountHeight": 2.48,
+     "rotation": {
+      "aimTilt": 0,
+      "aimAzimuth": 0,
+      "bodyRotation": 0
+     },
+     "mountReference": {
+      "kind": "surface",
+      "surface": "ceiling",
+      "elementGuid": "20r3rWh8jEswSujfr3NyaM",
+      "elementId": 99127,
+      "elementName": "SLA - 014",
+      "normal": [
+       0,
+       0,
+       -1
+      ],
+      "status": "ok",
+      "message": "放置时拾取"
+     },
+     "photometricParameters": {
+      "flux": 600,
+      "power": 7,
+      "beamAngle": 60,
+      "cct": 3000,
+      "dimming": 100,
+      "on": true,
+      "length": null,
+      "distribution": "generic-cosine-power-v1",
+      "photometrySource": "generic",
+      "ies": null
+     },
+     "notes": "",
+     "designState": "ai-draft"
+    },
+    {
+     "fixtureId": "LF-MVX9JMYE-IFX7YFw",
+     "name": "GEN-DL-08",
+     "fixtureType": "downlight",
+     "catalogCode": "GEN-DL",
+     "roomId": "0psO4sR39Elwf3r$dTc2qH",
+     "roomExpressId": 8050,
+     "ifcProjectId": "344O7vICcwH8qAEnwJDjSU",
+     "position": {
+      "ifcWorld": [
+       8.8,
+       7.65,
+       3.045
+      ],
+      "roomLocal": [
+       1.35,
+       0.75,
+       3.045
+      ]
+     },
+     "mountHeight": 3.04,
+     "rotation": {
+      "aimTilt": 0,
+      "aimAzimuth": 0,
+      "bodyRotation": 0
+     },
+     "mountReference": {
+      "kind": "surface",
+      "surface": "ceiling",
+      "elementGuid": "3xvIcKur9DAvYFfshfdsWA",
+      "elementId": 95313,
+      "elementName": "SLA - 012",
+      "normal": [
+       0,
+       0,
+       -1
+      ],
+      "status": "ok",
+      "message": "放置时拾取"
+     },
+     "photometricParameters": {
+      "flux": 600,
+      "power": 7,
+      "beamAngle": 60,
+      "cct": 3000,
+      "dimming": 100,
+      "on": true,
+      "length": null,
+      "distribution": "generic-cosine-power-v1",
+      "photometrySource": "generic",
+      "ies": null
+     },
+     "notes": "",
+     "designState": "ai-draft"
+    },
+    {
+     "fixtureId": "LF-MVX9JMYE-DRMTJKx",
+     "name": "GEN-DL-09",
+     "fixtureType": "downlight",
+     "catalogCode": "GEN-DL",
+     "roomId": "2ymTUnOG992vb4ee76wPlb",
+     "roomExpressId": 9110,
+     "ifcProjectId": "344O7vICcwH8qAEnwJDjSU",
+     "position": {
+      "ifcWorld": [
+       6.6,
+       15.65,
+       2.475
+      ],
+      "roomLocal": [
+       0.35,
+       0.35,
+       2.475
+      ]
+     },
+     "mountHeight": 2.48,
+     "rotation": {
+      "aimTilt": 0,
+      "aimAzimuth": 0,
+      "bodyRotation": 0
+     },
+     "mountReference": {
+      "kind": "surface",
+      "surface": "ceiling",
+      "elementGuid": "1c9fGNciTCnuakBMCJ1ePk",
+      "elementId": 98994,
+      "elementName": "SLA - 014",
+      "normal": [
+       0,
+       0,
+       -1
+      ],
+      "status": "ok",
+      "message": "放置时拾取"
+     },
+     "photometricParameters": {
+      "flux": 600,
+      "power": 7,
+      "beamAngle": 60,
+      "cct": 3000,
+      "dimming": 100,
+      "on": true,
+      "length": null,
+      "distribution": "generic-cosine-power-v1",
+      "photometrySource": "generic",
+      "ies": null
+     },
+     "notes": "",
+     "designState": "ai-draft"
+    },
+    {
+     "fixtureId": "LF-MVX9JMYE-KBM7N4y",
+     "name": "GEN-DL-10",
+     "fixtureType": "downlight",
+     "catalogCode": "GEN-DL",
+     "roomId": "2P0VxT$qjFPecwTq4rFS4G",
+     "roomExpressId": 7946,
+     "ifcProjectId": "344O7vICcwH8qAEnwJDjSU",
+     "position": {
+      "ifcWorld": [
+       8.7,
+       12.7,
+       3.045
+      ],
+      "roomLocal": [
+       0.95,
+       1.1,
+       3.045
+      ]
+     },
+     "mountHeight": 3.04,
+     "rotation": {
+      "aimTilt": 0,
+      "aimAzimuth": 0,
+      "bodyRotation": 0
+     },
+     "mountReference": {
+      "kind": "surface",
+      "surface": "ceiling",
+      "elementGuid": "3xvIcKur9DAvYFfshfdsWA",
+      "elementId": 95313,
+      "elementName": "SLA - 012",
+      "normal": [
+       0,
+       0,
+       -1
+      ],
+      "status": "ok",
+      "message": "放置时拾取"
+     },
+     "photometricParameters": {
+      "flux": 600,
+      "power": 7,
+      "beamAngle": 60,
+      "cct": 3000,
+      "dimming": 100,
+      "on": true,
+      "length": null,
+      "distribution": "generic-cosine-power-v1",
+      "photometrySource": "generic",
+      "ies": null
+     },
+     "notes": "",
+     "designState": "ai-draft"
+    },
+    {
+     "fixtureId": "LF-MVX9JMYE-I0DHL8z",
+     "name": "GEN-DL-11",
+     "fixtureType": "downlight",
+     "catalogCode": "GEN-DL",
+     "roomId": "2l$O0Ew7r2NBp2zURtjPqL",
+     "roomExpressId": 9171,
+     "ifcProjectId": "344O7vICcwH8qAEnwJDjSU",
+     "position": {
+      "ifcWorld": [
+       7.25,
+       5,
+       2.515
+      ],
+      "roomLocal": [
+       0.9,
+       0.9,
+       2.515
+      ]
+     },
+     "mountHeight": 2.51,
+     "rotation": {
+      "aimTilt": 0,
+      "aimAzimuth": 0,
+      "bodyRotation": 0
+     },
+     "mountReference": {
+      "kind": "surface",
+      "surface": "ceiling",
+      "elementGuid": "2Ucp6QiTD91Q8H4ken8OHG",
+      "elementId": 73001,
+      "elementName": "SLA - 014",
+      "normal": [
+       0,
+       0,
+       -1
+      ],
+      "status": "ok",
+      "message": "放置时拾取"
+     },
+     "photometricParameters": {
+      "flux": 600,
+      "power": 7,
+      "beamAngle": 60,
+      "cct": 3000,
+      "dimming": 100,
+      "on": true,
+      "length": null,
+      "distribution": "generic-cosine-power-v1",
+      "photometrySource": "generic",
+      "ies": null
+     },
+     "notes": "",
+     "designState": "ai-draft"
+    },
+    {
+     "fixtureId": "LF-MVX9JMYE-UUF7AO10",
+     "name": "GEN-DL-12",
+     "fixtureType": "downlight",
+     "catalogCode": "GEN-DL",
+     "roomId": "0eIzt0iabBggSQsO609AjW",
+     "roomExpressId": 9121,
+     "ifcProjectId": "344O7vICcwH8qAEnwJDjSU",
+     "position": {
+      "ifcWorld": [
+       4.7,
+       17.65,
+       2.475
+      ],
+      "roomLocal": [
+       4.625,
+       0.75,
+       2.475
+      ]
+     },
+     "mountHeight": 2.48,
+     "rotation": {
+      "aimTilt": 0,
+      "aimAzimuth": 0,
+      "bodyRotation": 0
+     },
+     "mountReference": {
+      "kind": "surface",
+      "surface": "ceiling",
+      "elementGuid": "1c9fGNciTCnuakBMCJ1ePk",
+      "elementId": 98994,
+      "elementName": "SLA - 014",
+      "normal": [
+       0,
+       0,
+       -1
+      ],
+      "status": "ok",
+      "message": "放置时拾取"
+     },
+     "photometricParameters": {
+      "flux": 600,
+      "power": 7,
+      "beamAngle": 60,
+      "cct": 3000,
+      "dimming": 100,
+      "on": true,
+      "length": null,
+      "distribution": "generic-cosine-power-v1",
+      "photometrySource": "generic",
+      "ies": null
+     },
+     "notes": "",
+     "designState": "ai-draft"
+    },
+    {
+     "fixtureId": "LF-MVX9JMYE-6M9QXA11",
+     "name": "GEN-DL-13",
+     "fixtureType": "downlight",
+     "catalogCode": "GEN-DL",
+     "roomId": "27FW5qE8z8LuvjA21ca59e",
+     "roomExpressId": 9103,
+     "ifcProjectId": "344O7vICcwH8qAEnwJDjSU",
+     "position": {
+      "ifcWorld": [
+       4.6,
+       15.4,
+       2.475
+      ],
+      "roomLocal": [
+       1.55,
+       2.1,
+       2.475
+      ]
+     },
+     "mountHeight": 2.48,
+     "rotation": {
+      "aimTilt": 0,
+      "aimAzimuth": 0,
+      "bodyRotation": 0
+     },
+     "mountReference": {
+      "kind": "surface",
+      "surface": "ceiling",
+      "elementGuid": "1c9fGNciTCnuakBMCJ1ePk",
+      "elementId": 98994,
+      "elementName": "SLA - 014",
+      "normal": [
+       0,
+       0,
+       -1
+      ],
+      "status": "ok",
+      "message": "放置时拾取"
+     },
+     "photometricParameters": {
+      "flux": 600,
+      "power": 7,
+      "beamAngle": 60,
+      "cct": 3000,
+      "dimming": 100,
+      "on": true,
+      "length": null,
+      "distribution": "generic-cosine-power-v1",
+      "photometrySource": "generic",
+      "ies": null
+     },
+     "notes": "",
+     "designState": "ai-draft"
+    },
+    {
+     "fixtureId": "LF-MVX9JMYE-N87YP312",
+     "name": "GEN-DL-14",
+     "fixtureType": "downlight",
+     "catalogCode": "GEN-DL",
+     "roomId": "1otYIBWDPFWO1xDlRAbJLD",
+     "roomExpressId": 8110,
+     "ifcProjectId": "344O7vICcwH8qAEnwJDjSU",
+     "position": {
+      "ifcWorld": [
+       1.55,
+       14.8,
+       2.475
+      ],
+      "roomLocal": [
+       1.4,
+       1.5,
+       2.475
+      ]
+     },
+     "mountHeight": 2.48,
+     "rotation": {
+      "aimTilt": 0,
+      "aimAzimuth": 0,
+      "bodyRotation": 0
+     },
+     "mountReference": {
+      "kind": "surface",
+      "surface": "ceiling",
+      "elementGuid": "0DNILSJVv7Be6h$aoL_RNa",
+      "elementId": 98919,
+      "elementName": "SLA - 014",
+      "normal": [
+       0,
+       0,
+       -1
+      ],
+      "status": "ok",
+      "message": "放置时拾取"
+     },
+     "photometricParameters": {
+      "flux": 600,
+      "power": 7,
+      "beamAngle": 60,
+      "cct": 3000,
+      "dimming": 100,
+      "on": true,
+      "length": null,
+      "distribution": "generic-cosine-power-v1",
+      "photometrySource": "generic",
+      "ies": null
+     },
+     "notes": "",
+     "designState": "ai-draft"
+    },
+    {
+     "fixtureId": "LF-MVX9JMYE-EECHP513",
+     "name": "GEN-DL-15",
+     "fixtureType": "downlight",
+     "catalogCode": "GEN-DL",
+     "roomId": "0j294L2OrDbP8n9OJF11Ex",
+     "roomExpressId": 10741,
+     "ifcProjectId": "344O7vICcwH8qAEnwJDjSU",
+     "position": {
+      "ifcWorld": [
+       3,
+       0.8,
+       2.495
+      ],
+      "roomLocal": [
+       2.925,
+       0.8,
+       2.495
+      ]
+     },
+     "mountHeight": 2.5,
+     "rotation": {
+      "aimTilt": 0,
+      "aimAzimuth": 0,
+      "bodyRotation": 0
+     },
+     "mountReference": {
+      "kind": "surface",
+      "surface": "ceiling",
+      "elementGuid": "00grNL_FL0TPzXdjoRBEoQ",
+      "elementId": 100049,
+      "elementName": "SLA - 014",
+      "normal": [
+       0,
+       0,
+       -1
+      ],
+      "status": "ok",
+      "message": "放置时拾取"
+     },
+     "photometricParameters": {
+      "flux": 600,
+      "power": 7,
+      "beamAngle": 60,
+      "cct": 3000,
+      "dimming": 100,
+      "on": true,
+      "length": null,
+      "distribution": "generic-cosine-power-v1",
+      "photometrySource": "generic",
+      "ies": null
+     },
+     "notes": "",
+     "designState": "ai-draft"
+    },
+    {
+     "fixtureId": "LF-MVX9JMYE-POPKHR14",
+     "name": "GEN-DL-16",
+     "fixtureType": "downlight",
+     "catalogCode": "GEN-DL",
+     "roomId": "3GrMwmLGvEavwZvDp5M5rs",
+     "roomExpressId": 10778,
+     "ifcProjectId": "344O7vICcwH8qAEnwJDjSU",
+     "position": {
+      "ifcWorld": [
+       9.65,
+       16.9,
+       2.795
+      ],
+      "roomLocal": [
+       1.398,
+       2.758,
+       2.795
+      ]
+     },
+     "mountHeight": 2.79,
+     "rotation": {
+      "aimTilt": 0,
+      "aimAzimuth": 0,
+      "bodyRotation": 0
+     },
+     "mountReference": {
+      "kind": "surface",
+      "surface": "ceiling",
+      "elementGuid": "39C_S0YRL6pOrVe6xJvGfK",
+      "elementId": 99129,
+      "elementName": "SLA - 014",
+      "normal": [
+       0,
+       0,
+       -1
+      ],
+      "status": "ok",
+      "message": "放置时拾取"
+     },
+     "photometricParameters": {
+      "flux": 600,
+      "power": 7,
+      "beamAngle": 60,
+      "cct": 3000,
+      "dimming": 100,
+      "on": true,
+      "length": null,
+      "distribution": "generic-cosine-power-v1",
+      "photometrySource": "generic",
+      "ies": null
+     },
+     "notes": "",
+     "designState": "ai-draft"
+    },
+    {
+     "fixtureId": "LF-MVX9JMYE-51TQKN15",
+     "name": "GEN-DL-17",
+     "fixtureType": "downlight",
+     "catalogCode": "GEN-DL",
+     "roomId": "27atJBm4vEoOb2cqBivrJt",
+     "roomExpressId": 9461,
+     "ifcProjectId": "344O7vICcwH8qAEnwJDjSU",
+     "position": {
+      "ifcWorld": [
+       15.25,
+       6.95,
+       2.495
+      ],
+      "roomLocal": [
+       1.35,
+       2.05,
+       2.495
+      ]
+     },
+     "mountHeight": 2.5,
+     "rotation": {
+      "aimTilt": 0,
+      "aimAzimuth": 0,
+      "bodyRotation": 0
+     },
+     "mountReference": {
+      "kind": "surface",
+      "surface": "ceiling",
+      "elementGuid": "3MZOOeEGD39x313hLnKQmu",
+      "elementId": 99150,
+      "elementName": "SLA - 014",
+      "normal": [
+       0,
+       0,
+       -1
+      ],
+      "status": "ok",
+      "message": "放置时拾取"
+     },
+     "photometricParameters": {
+      "flux": 600,
+      "power": 7,
+      "beamAngle": 60,
+      "cct": 3000,
+      "dimming": 100,
+      "on": true,
+      "length": null,
+      "distribution": "generic-cosine-power-v1",
+      "photometrySource": "generic",
+      "ies": null
+     },
+     "notes": "",
+     "designState": "ai-draft"
+    },
+    {
+     "fixtureId": "LF-MVX9JMYE-9MUITT16",
+     "name": "GEN-DL-18",
+     "fixtureType": "downlight",
+     "catalogCode": "GEN-DL",
+     "roomId": "0W89gqn0r52A_Ke4gahzt3",
+     "roomExpressId": 9443,
+     "ifcProjectId": "344O7vICcwH8qAEnwJDjSU",
+     "position": {
+      "ifcWorld": [
+       11.85,
+       7.7,
+       2.495
+      ],
+      "roomLocal": [
+       1.6,
+       2.2,
+       2.495
+      ]
+     },
+     "mountHeight": 2.5,
+     "rotation": {
+      "aimTilt": 0,
+      "aimAzimuth": 0,
+      "bodyRotation": 0
+     },
+     "mountReference": {
+      "kind": "surface",
+      "surface": "ceiling",
+      "elementGuid": "1dYmM3ACr8lQ1vlWBy6RAb",
+      "elementId": 99147,
+      "elementName": "SLA - 014",
+      "normal": [
+       0,
+       0,
+       -1
+      ],
+      "status": "ok",
+      "message": "放置时拾取"
+     },
+     "photometricParameters": {
+      "flux": 600,
+      "power": 7,
+      "beamAngle": 60,
+      "cct": 3000,
+      "dimming": 100,
+      "on": true,
+      "length": null,
+      "distribution": "generic-cosine-power-v1",
+      "photometrySource": "generic",
+      "ies": null
+     },
+     "notes": "",
+     "designState": "ai-draft"
+    },
+    {
+     "fixtureId": "LF-MVX9JMYE-GLB8ZV17",
+     "name": "GEN-DL-19",
+     "fixtureType": "downlight",
+     "catalogCode": "GEN-DL",
+     "roomId": "35g8hwNXDBLwEkV2iMLjLH",
+     "roomExpressId": 9415,
+     "ifcProjectId": "344O7vICcwH8qAEnwJDjSU",
+     "position": {
+      "ifcWorld": [
+       11.4,
+       3.05,
+       2.495
+      ],
+      "roomLocal": [
+       1.15,
+       2.95,
+       2.495
+      ]
+     },
+     "mountHeight": 2.5,
+     "rotation": {
+      "aimTilt": 0,
+      "aimAzimuth": 0,
+      "bodyRotation": 0
+     },
+     "mountReference": {
+      "kind": "surface",
+      "surface": "ceiling",
+      "elementGuid": "2ALreRxSr5NRbBusADeEJX",
+      "elementId": 73256,
+      "elementName": "SLA - 014",
+      "normal": [
+       0,
+       0,
+       -1
+      ],
+      "status": "ok",
+      "message": "放置时拾取"
+     },
+     "photometricParameters": {
+      "flux": 600,
+      "power": 7,
+      "beamAngle": 60,
+      "cct": 3000,
+      "dimming": 100,
+      "on": true,
+      "length": null,
+      "distribution": "generic-cosine-power-v1",
+      "photometrySource": "generic",
+      "ies": null
+     },
+     "notes": "",
+     "designState": "ai-draft"
+    },
+    {
+     "fixtureId": "LF-MVX9JMYE-60OFUZ18",
+     "name": "GEN-DL-20",
+     "fixtureType": "downlight",
+     "catalogCode": "GEN-DL",
+     "roomId": "0yfdpLzyj7pw0RManVIj7C",
+     "roomExpressId": 9030,
+     "ifcProjectId": "344O7vICcwH8qAEnwJDjSU",
+     "position": {
+      "ifcWorld": [
+       6.7,
+       14.65,
+       2.462
+      ],
+      "roomLocal": [
+       0.55,
+       0.55,
+       2.462
+      ]
+     },
+     "mountHeight": 2.46,
+     "rotation": {
+      "aimTilt": 0,
+      "aimAzimuth": 0,
+      "bodyRotation": 0
+     },
+     "mountReference": {
+      "kind": "surface",
+      "surface": "ceiling",
+      "elementGuid": "2WFDP0rcH6QuUf1HK1r58a",
+      "elementId": 102741,
+      "elementName": "CW-009",
+      "normal": [
+       0,
+       0,
+       -1
+      ],
+      "status": "ok",
+      "message": "放置时拾取"
+     },
+     "photometricParameters": {
+      "flux": 600,
+      "power": 7,
+      "beamAngle": 60,
+      "cct": 3000,
+      "dimming": 100,
+      "on": true,
+      "length": null,
+      "distribution": "generic-cosine-power-v1",
+      "photometrySource": "generic",
+      "ies": null
+     },
+     "notes": "",
+     "designState": "ai-draft"
+    },
+    {
+     "fixtureId": "LF-MVX9JMYE-Y8ETG719",
+     "name": "GEN-DL-21",
+     "fixtureType": "downlight",
+     "catalogCode": "GEN-DL",
+     "roomId": "0ev9prAzL7_RY3vvtnfOM6",
+     "roomExpressId": 10528,
+     "ifcProjectId": "344O7vICcwH8qAEnwJDjSU",
+     "position": {
+      "ifcWorld": [
+       14.55,
+       2.8,
+       2.845
+      ],
+      "roomLocal": [
+       1.95,
+       2.7,
+       2.845
+      ]
+     },
+     "mountHeight": 2.84,
+     "rotation": {
+      "aimTilt": 0,
+      "aimAzimuth": 0,
+      "bodyRotation": 0
+     },
+     "mountReference": {
+      "kind": "surface",
+      "surface": "ceiling",
+      "elementGuid": "1YK27XSXLFIeFlIibp1tph",
+      "elementId": 103068,
+      "elementName": "SLA - 014",
+      "normal": [
+       0,
+       0,
+       -1
+      ],
+      "status": "ok",
+      "message": "放置时拾取"
+     },
+     "photometricParameters": {
+      "flux": 600,
+      "power": 7,
+      "beamAngle": 60,
+      "cct": 3000,
+      "dimming": 100,
+      "on": true,
+      "length": null,
+      "distribution": "generic-cosine-power-v1",
+      "photometrySource": "generic",
+      "ies": null
+     },
+     "notes": "",
+     "designState": "ai-draft"
+    },
+    {
+     "fixtureId": "LF-MVX9JMYE-TS9H8I1a",
+     "name": "GEN-DL-22",
+     "fixtureType": "downlight",
+     "catalogCode": "GEN-DL",
+     "roomId": "33PBVJv4LDJRMYt49EmFRj",
+     "roomExpressId": 10593,
+     "ifcProjectId": "344O7vICcwH8qAEnwJDjSU",
+     "position": {
+      "ifcWorld": [
+       8.2,
+       2.05,
+       2.845
+      ],
+      "roomLocal": [
+       1.9,
+       1.95,
+       2.845
+      ]
+     },
+     "mountHeight": 2.84,
+     "rotation": {
+      "aimTilt": 0,
+      "aimAzimuth": 0,
+      "bodyRotation": 0
+     },
+     "mountReference": {
+      "kind": "surface",
+      "surface": "ceiling",
+      "elementGuid": "1mOvR9LnH9NuStPK$lCmE_",
+      "elementId": 99153,
+      "elementName": "SLA - 014",
+      "normal": [
+       0,
+       0,
+       -1
+      ],
+      "status": "ok",
+      "message": "放置时拾取"
+     },
+     "photometricParameters": {
+      "flux": 600,
+      "power": 7,
+      "beamAngle": 60,
+      "cct": 3000,
+      "dimming": 100,
+      "on": true,
+      "length": null,
+      "distribution": "generic-cosine-power-v1",
+      "photometrySource": "generic",
+      "ies": null
+     },
+     "notes": "",
+     "designState": "ai-draft"
+    },
+    {
+     "fixtureId": "LF-MVX9JMYE-U62BHK1b",
+     "name": "GEN-DL-23",
+     "fixtureType": "downlight",
+     "catalogCode": "GEN-DL",
+     "roomId": "07zOKxPsLCD8Lgm1mekxS_",
+     "roomExpressId": 5174,
+     "ifcProjectId": "344O7vICcwH8qAEnwJDjSU",
+     "position": {
+      "ifcWorld": [
+       3.8,
+       8.75,
+       2.855
+      ],
+      "roomLocal": [
+       3.65,
+       1.6,
+       2.855
+      ]
+     },
+     "mountHeight": 2.85,
+     "rotation": {
+      "aimTilt": 0,
+      "aimAzimuth": 0,
+      "bodyRotation": 0
+     },
+     "mountReference": {
+      "kind": "surface",
+      "surface": "ceiling",
+      "elementGuid": "0y$_U9S8b7ZAkwNn2z3LxE",
+      "elementId": 100042,
+      "elementName": "SLA - 014",
+      "normal": [
+       0,
+       0,
+       -1
+      ],
+      "status": "ok",
+      "message": "放置时拾取"
+     },
+     "photometricParameters": {
+      "flux": 600,
+      "power": 7,
+      "beamAngle": 60,
+      "cct": 3000,
+      "dimming": 100,
+      "on": true,
+      "length": null,
+      "distribution": "generic-cosine-power-v1",
+      "photometrySource": "generic",
+      "ies": null
+     },
+     "notes": "",
+     "designState": "ai-draft"
+    },
+    {
+     "fixtureId": "LF-MVX9JMYE-1IBIR31c",
+     "name": "GEN-DL-24",
+     "fixtureType": "downlight",
+     "catalogCode": "GEN-DL",
+     "roomId": "1PfKl91zj2RuH7WFkswWD1",
+     "roomExpressId": 7802,
+     "ifcProjectId": "344O7vICcwH8qAEnwJDjSU",
+     "position": {
+      "ifcWorld": [
+       3.45,
+       12,
+       2.855
+      ],
+      "roomLocal": [
+       3.3,
+       1.65,
+       2.855
+      ]
+     },
+     "mountHeight": 2.85,
+     "rotation": {
+      "aimTilt": 0,
+      "aimAzimuth": 0,
+      "bodyRotation": 0
+     },
+     "mountReference": {
+      "kind": "surface",
+      "surface": "ceiling",
+      "elementGuid": "0y$_U9S8b7ZAkwNn2z3LxE",
+      "elementId": 100042,
+      "elementName": "SLA - 014",
+      "normal": [
+       0,
+       0,
+       -1
+      ],
+      "status": "ok",
+      "message": "平面定位"
+     },
+     "photometricParameters": {
+      "flux": 600,
+      "power": 7,
+      "beamAngle": 60,
+      "cct": 3000,
+      "dimming": 100,
+      "on": true,
+      "length": null,
+      "distribution": "generic-cosine-power-v1",
+      "photometrySource": "generic",
+      "ies": null
+     },
+     "notes": "",
+     "designState": "ai-draft"
+    },
+    {
+     "fixtureId": "LF-MVX9JN0F-BUPWRU1e",
+     "name": "GEN-DL-21",
+     "fixtureType": "downlight",
+     "catalogCode": "GEN-DL",
+     "roomId": "37vCJKFnjC5BzAVbbtuqE_",
+     "roomExpressId": 4794,
+     "ifcProjectId": "344O7vICcwH8qAEnwJDjSU",
+     "position": {
+      "ifcWorld": [
+       1.15,
+       2.7,
+       2.495
+      ],
+      "roomLocal": [
+       1,
+       0.9,
+       2.495
+      ]
+     },
+     "mountHeight": 2.5,
+     "rotation": {
+      "aimTilt": 0,
+      "aimAzimuth": 0,
+      "bodyRotation": 0
+     },
+     "mountReference": {
+      "kind": "surface",
+      "surface": "ceiling",
+      "elementGuid": "00grNL_FL0TPzXdjoRBEoQ",
+      "elementId": 100049,
+      "elementName": "SLA - 014",
+      "normal": [
+       0,
+       0,
+       -1
+      ],
+      "status": "ok",
+      "message": "放置时拾取"
+     },
+     "photometricParameters": {
+      "flux": 560,
+      "power": 6.5,
+      "beamAngle": 90,
+      "cct": 2700,
+      "dimming": 100,
+      "on": true,
+      "length": null,
+      "distribution": "generic-cosine-power-v1",
+      "photometrySource": "generic",
+      "ies": null
+     },
+     "notes": "",
+     "designState": "ai-draft"
+    },
+    {
+     "fixtureId": "LF-MVX9JN0F-3KPWSU1f",
+     "name": "GEN-DL-22",
+     "fixtureType": "downlight",
+     "catalogCode": "GEN-DL",
+     "roomId": "37vCJKFnjC5BzAVbbtuqE_",
+     "roomExpressId": 4794,
+     "ifcProjectId": "344O7vICcwH8qAEnwJDjSU",
+     "position": {
+      "ifcWorld": [
+       3.05,
+       2.7,
+       2.495
+      ],
+      "roomLocal": [
+       2.9,
+       0.9,
+       2.495
+      ]
+     },
+     "mountHeight": 2.5,
+     "rotation": {
+      "aimTilt": 0,
+      "aimAzimuth": 0,
+      "bodyRotation": 0
+     },
+     "mountReference": {
+      "kind": "surface",
+      "surface": "ceiling",
+      "elementGuid": "00grNL_FL0TPzXdjoRBEoQ",
+      "elementId": 100049,
+      "elementName": "SLA - 014",
+      "normal": [
+       0,
+       0,
+       -1
+      ],
+      "status": "ok",
+      "message": "放置时拾取"
+     },
+     "photometricParameters": {
+      "flux": 560,
+      "power": 6.5,
+      "beamAngle": 90,
+      "cct": 2700,
+      "dimming": 100,
+      "on": true,
+      "length": null,
+      "distribution": "generic-cosine-power-v1",
+      "photometrySource": "generic",
+      "ies": null
+     },
+     "notes": "",
+     "designState": "ai-draft"
+    },
+    {
+     "fixtureId": "LF-MVX9JN0F-OND2B91g",
+     "name": "GEN-DL-23",
+     "fixtureType": "downlight",
+     "catalogCode": "GEN-DL",
+     "roomId": "37vCJKFnjC5BzAVbbtuqE_",
+     "roomExpressId": 4794,
+     "ifcProjectId": "344O7vICcwH8qAEnwJDjSU",
+     "position": {
+      "ifcWorld": [
+       5.05,
+       2.7,
+       2.495
+      ],
+      "roomLocal": [
+       4.9,
+       0.9,
+       2.495
+      ]
+     },
+     "mountHeight": 2.5,
+     "rotation": {
+      "aimTilt": 0,
+      "aimAzimuth": 0,
+      "bodyRotation": 0
+     },
+     "mountReference": {
+      "kind": "surface",
+      "surface": "ceiling",
+      "elementGuid": "00grNL_FL0TPzXdjoRBEoQ",
+      "elementId": 100049,
+      "elementName": "SLA - 014",
+      "normal": [
+       0,
+       0,
+       -1
+      ],
+      "status": "ok",
+      "message": "放置时拾取"
+     },
+     "photometricParameters": {
+      "flux": 560,
+      "power": 6.5,
+      "beamAngle": 90,
+      "cct": 2700,
+      "dimming": 100,
+      "on": true,
+      "length": null,
+      "distribution": "generic-cosine-power-v1",
+      "photometrySource": "generic",
+      "ies": null
+     },
+     "notes": "",
+     "designState": "ai-draft"
+    },
+    {
+     "fixtureId": "LF-MVX9JN0F-KY21L61h",
+     "name": "GEN-DL-24",
+     "fixtureType": "downlight",
+     "catalogCode": "GEN-DL",
+     "roomId": "37vCJKFnjC5BzAVbbtuqE_",
+     "roomExpressId": 4794,
+     "ifcProjectId": "344O7vICcwH8qAEnwJDjSU",
+     "position": {
+      "ifcWorld": [
+       1.15,
+       4.5,
+       2.73152
+      ],
+      "roomLocal": [
+       1,
+       2.7,
+       2.732
+      ]
+     },
+     "mountHeight": 2.73,
+     "rotation": {
+      "aimTilt": 0,
+      "aimAzimuth": 0,
+      "bodyRotation": 0
+     },
+     "mountReference": {
+      "kind": "surface",
+      "surface": "ceiling",
+      "elementGuid": "36MNJ4bH17yPRZallN8Aia",
+      "elementId": 73470,
+      "elementName": "BMR - 009",
+      "normal": [
+       0,
+       0,
+       -1
+      ],
+      "status": "ok",
+      "message": "放置时拾取"
+     },
+     "photometricParameters": {
+      "flux": 560,
+      "power": 6.5,
+      "beamAngle": 90,
+      "cct": 2700,
+      "dimming": 100,
+      "on": true,
+      "length": null,
+      "distribution": "generic-cosine-power-v1",
+      "photometrySource": "generic",
+      "ies": null
+     },
+     "notes": "",
+     "designState": "ai-draft"
+    },
+    {
+     "fixtureId": "LF-MVX9JN0G-IN2UQV1i",
+     "name": "GEN-DL-25",
+     "fixtureType": "downlight",
+     "catalogCode": "GEN-DL",
+     "roomId": "37vCJKFnjC5BzAVbbtuqE_",
+     "roomExpressId": 4794,
+     "ifcProjectId": "344O7vICcwH8qAEnwJDjSU",
+     "position": {
+      "ifcWorld": [
+       2.55,
+       4.5,
+       2.73152
+      ],
+      "roomLocal": [
+       2.4,
+       2.7,
+       2.732
+      ]
+     },
+     "mountHeight": 2.73,
+     "rotation": {
+      "aimTilt": 0,
+      "aimAzimuth": 0,
+      "bodyRotation": 0
+     },
+     "mountReference": {
+      "kind": "surface",
+      "surface": "ceiling",
+      "elementGuid": "36MNJ4bH17yPRZallN8Aia",
+      "elementId": 73470,
+      "elementName": "BMR - 009",
+      "normal": [
+       0,
+       0,
+       -1
+      ],
+      "status": "ok",
+      "message": "安装于 BMR - 009"
+     },
+     "photometricParameters": {
+      "flux": 560,
+      "power": 6.5,
+      "beamAngle": 90,
+      "cct": 2700,
+      "dimming": 100,
+      "on": true,
+      "length": null,
+      "distribution": "generic-cosine-power-v1",
+      "photometrySource": "generic",
+      "ies": null
+     },
+     "notes": "",
+     "designState": "ai-draft"
+    },
+    {
+     "fixtureId": "LF-MVX9JN0G-NUHAD51j",
+     "name": "GEN-DL-26",
+     "fixtureType": "downlight",
+     "catalogCode": "GEN-DL",
+     "roomId": "37vCJKFnjC5BzAVbbtuqE_",
+     "roomExpressId": 4794,
+     "ifcProjectId": "344O7vICcwH8qAEnwJDjSU",
+     "position": {
+      "ifcWorld": [
+       5.05,
+       4.5,
+       2.73152
+      ],
+      "roomLocal": [
+       4.9,
+       2.7,
+       2.732
+      ]
+     },
+     "mountHeight": 2.73,
+     "rotation": {
+      "aimTilt": 0,
+      "aimAzimuth": 0,
+      "bodyRotation": 0
+     },
+     "mountReference": {
+      "kind": "surface",
+      "surface": "ceiling",
+      "elementGuid": "36MNJ4bH17yPRZallN8Aia",
+      "elementId": 73470,
+      "elementName": "BMR - 009",
+      "normal": [
+       0,
+       0,
+       -1
+      ],
+      "status": "ok",
+      "message": "放置时拾取"
+     },
+     "photometricParameters": {
+      "flux": 560,
+      "power": 6.5,
+      "beamAngle": 90,
+      "cct": 2700,
+      "dimming": 100,
+      "on": true,
+      "length": null,
+      "distribution": "generic-cosine-power-v1",
+      "photometrySource": "generic",
+      "ies": null
+     },
+     "notes": "",
+     "designState": "ai-draft"
+    },
+    {
+     "fixtureId": "LF-MVX9JN0G-2HZ0DT1k",
+     "name": "GEN-DL-27",
+     "fixtureType": "downlight",
+     "catalogCode": "GEN-DL",
+     "roomId": "37vCJKFnjC5BzAVbbtuqE_",
+     "roomExpressId": 4794,
+     "ifcProjectId": "344O7vICcwH8qAEnwJDjSU",
+     "position": {
+      "ifcWorld": [
+       1.15,
+       6.25,
+       2.85499
+      ],
+      "roomLocal": [
+       1,
+       4.45,
+       2.855
+      ]
+     },
+     "mountHeight": 2.85,
+     "rotation": {
+      "aimTilt": 0,
+      "aimAzimuth": 0,
+      "bodyRotation": 0
+     },
+     "mountReference": {
+      "kind": "surface",
+      "surface": "ceiling",
+      "elementGuid": "0y$_U9S8b7ZAkwNn2z3LxE",
+      "elementId": 100042,
+      "elementName": "SLA - 014",
+      "normal": [
+       0,
+       0,
+       -1
+      ],
+      "status": "ok",
+      "message": "放置时拾取"
+     },
+     "photometricParameters": {
+      "flux": 560,
+      "power": 6.5,
+      "beamAngle": 90,
+      "cct": 2700,
+      "dimming": 100,
+      "on": true,
+      "length": null,
+      "distribution": "generic-cosine-power-v1",
+      "photometrySource": "generic",
+      "ies": null
+     },
+     "notes": "",
+     "designState": "ai-draft"
+    },
+    {
+     "fixtureId": "LF-MVX9JN0G-KE56GH1l",
+     "name": "GEN-DL-28",
+     "fixtureType": "downlight",
+     "catalogCode": "GEN-DL",
+     "roomId": "37vCJKFnjC5BzAVbbtuqE_",
+     "roomExpressId": 4794,
+     "ifcProjectId": "344O7vICcwH8qAEnwJDjSU",
+     "position": {
+      "ifcWorld": [
+       3.05,
+       6.25,
+       2.855
+      ],
+      "roomLocal": [
+       2.9,
+       4.45,
+       2.855
+      ]
+     },
+     "mountHeight": 2.86,
+     "rotation": {
+      "aimTilt": 0,
+      "aimAzimuth": 0,
+      "bodyRotation": 0
+     },
+     "mountReference": {
+      "kind": "surface",
+      "surface": "ceiling",
+      "elementGuid": "0y$_U9S8b7ZAkwNn2z3LxE",
+      "elementId": 100042,
+      "elementName": "SLA - 014",
+      "normal": [
+       0,
+       0,
+       -1
+      ],
+      "status": "ok",
+      "message": "放置时拾取"
+     },
+     "photometricParameters": {
+      "flux": 560,
+      "power": 6.5,
+      "beamAngle": 90,
+      "cct": 2700,
+      "dimming": 100,
+      "on": true,
+      "length": null,
+      "distribution": "generic-cosine-power-v1",
+      "photometrySource": "generic",
+      "ies": null
+     },
+     "notes": "",
+     "designState": "ai-draft"
+    },
+    {
+     "fixtureId": "LF-MVX9JN0G-A83SF61m",
+     "name": "GEN-DL-29",
+     "fixtureType": "downlight",
+     "catalogCode": "GEN-DL",
+     "roomId": "37vCJKFnjC5BzAVbbtuqE_",
+     "roomExpressId": 4794,
+     "ifcProjectId": "344O7vICcwH8qAEnwJDjSU",
+     "position": {
+      "ifcWorld": [
+       5.05,
+       6.25,
+       2.855
+      ],
+      "roomLocal": [
+       4.9,
+       4.45,
+       2.855
+      ]
+     },
+     "mountHeight": 2.86,
+     "rotation": {
+      "aimTilt": 0,
+      "aimAzimuth": 0,
+      "bodyRotation": 0
+     },
+     "mountReference": {
+      "kind": "surface",
+      "surface": "ceiling",
+      "elementGuid": "0y$_U9S8b7ZAkwNn2z3LxE",
+      "elementId": 100042,
+      "elementName": "SLA - 014",
+      "normal": [
+       0,
+       0,
+       -1
+      ],
+      "status": "ok",
+      "message": "放置时拾取"
+     },
+     "photometricParameters": {
+      "flux": 560,
+      "power": 6.5,
+      "beamAngle": 90,
+      "cct": 2700,
+      "dimming": 100,
+      "on": true,
+      "length": null,
+      "distribution": "generic-cosine-power-v1",
+      "photometrySource": "generic",
+      "ies": null
+     },
+     "notes": "",
+     "designState": "ai-draft"
+    }
+   ],
+   "source": "demo",
+   "brief": "客厅改为6盏灯",
+   "createdAt": "2026-11-01T03:21:19.094Z",
+   "baseScheme": "C",
+   "designedRooms": [
+    "37vCJKFnjC5BzAVbbtuqE_"
+   ],
+   "targets": {
+    "37vCJKFnjC5BzAVbbtuqE_": {
+     "roomType": "living",
+     "standard": "GB 50034-2013 起居室 0.75 m 水平面 100 lx",
+     "Eavg": [
+      100,
+      150
+     ],
+     "Emin_standard": 100,
+     "U0": 0.4,
+     "cct": [
+      2700,
+      4000
+     ],
+     "Ra": 80,
+     "lpdMax": 6,
+     "layered": false,
+     "notes": [],
+     "caveat": "照度区间与色温为 WEA 设计经验值（标准值为下限）；功率密度限值对应标准照度，提高照度时仅作参考"
+    }
+   },
+   "results": {
+    "37vCJKFnjC5BzAVbbtuqE_": {
+     "Eavg": 123.97179824141882,
+     "Emin": 84.83447286785137,
+     "Emax": 149.04024346202087,
+     "U0": 0.6843046085582091,
+     "lpd": 1.8691290178286153,
+     "power": 58.5,
+     "cct": [
+      2700
+     ],
+     "count": 9,
+     "pass": true,
+     "at": "2026-11-01T03:21:19.239Z"
+    }
+   },
+   "rationale": "9 盏灯按行列均分（端距 = 间距 / 2），宽光束垂直下照提供均匀基础光。色温 2700 K。计算：Eavg 124 lx、U0 0.68、功率密度 1.87 W/m²。调整：主灯光通量调至 560 lm。各项目标均达标。",
+   "assumptions": [
+    "通用模拟灯具（cosᵐ 配光，非厂家 IES）",
+    "照度为直接光估算，未计遮挡与反射"
+   ],
+   "finalizedAt": "2026-11-01T03:21:19.239Z"
+  },
+  "E": {
+   "name": "AI · 洗墙温馨",
+   "fixtures": [
+    {
+     "fixtureId": "LF-MVX9JN2Z-2UW17O1r",
+     "name": "GEN-DL-05",
+     "fixtureType": "downlight",
+     "catalogCode": "GEN-DL",
+     "roomId": "1N7d0h7N563wq2ALSFrl3U",
+     "roomExpressId": 5040,
+     "ifcProjectId": "344O7vICcwH8qAEnwJDjSU",
+     "position": {
+      "ifcWorld": [
+       8.7,
+       10.95,
+       2.495
+      ],
+      "roomLocal": [
+       0.95,
+       0.6,
+       2.495
+      ]
+     },
+     "mountHeight": 2.5,
+     "rotation": {
+      "aimTilt": 0,
+      "aimAzimuth": 0,
+      "bodyRotation": 0
+     },
+     "mountReference": {
+      "kind": "surface",
+      "surface": "ceiling",
+      "elementGuid": "32Wu79_0DFB9Q8rAFEUFns",
+      "elementId": 100035,
+      "elementName": "SLA - 014",
+      "normal": [
+       0,
+       0,
+       -1
+      ],
+      "status": "ok",
+      "message": "放置时拾取"
+     },
+     "photometricParameters": {
+      "flux": 600,
+      "power": 7,
+      "beamAngle": 60,
+      "cct": 3000,
+      "dimming": 100,
+      "on": true,
+      "length": null,
+      "distribution": "generic-cosine-power-v1",
+      "photometrySource": "generic",
+      "ies": null
+     },
+     "notes": "",
+     "designState": "ai-draft"
+    },
+    {
+     "fixtureId": "LF-MVX9JN2Z-GT3T0P1s",
+     "name": "GEN-DL-06",
+     "fixtureType": "downlight",
+     "catalogCode": "GEN-DL",
+     "roomId": "3d$FSQHNDB2BN5PlCdeeCH",
+     "roomExpressId": 5005,
+     "ifcProjectId": "344O7vICcwH8qAEnwJDjSU",
+     "position": {
+      "ifcWorld": [
+       8.3,
+       9.35,
+       2.495
+      ],
+      "roomLocal": [
+       0.75,
+       0.9,
+       2.495
+      ]
+     },
+     "mountHeight": 2.5,
+     "rotation": {
+      "aimTilt": 0,
+      "aimAzimuth": 0,
+      "bodyRotation": 0
+     },
+     "mountReference": {
+      "kind": "surface",
+      "surface": "ceiling",
+      "elementGuid": "32Wu79_0DFB9Q8rAFEUFns",
+      "elementId": 100035,
+      "elementName": "SLA - 014",
+      "normal": [
+       0,
+       0,
+       -1
+      ],
+      "status": "ok",
+      "message": "放置时拾取"
+     },
+     "photometricParameters": {
+      "flux": 600,
+      "power": 7,
+      "beamAngle": 60,
+      "cct": 3000,
+      "dimming": 100,
+      "on": true,
+      "length": null,
+      "distribution": "generic-cosine-power-v1",
+      "photometrySource": "generic",
+      "ies": null
+     },
+     "notes": "",
+     "designState": "ai-draft"
+    },
+    {
+     "fixtureId": "LF-MVX9JN2Z-FHJO3O1t",
+     "name": "GEN-DL-07",
+     "fixtureType": "downlight",
+     "catalogCode": "GEN-DL",
+     "roomId": "1J2ktRHhrC$h4C0wCytnYh",
+     "roomExpressId": 11707,
+     "ifcProjectId": "344O7vICcwH8qAEnwJDjSU",
+     "position": {
+      "ifcWorld": [
+       7.35,
+       16.65,
+       2.475
+      ],
+      "roomLocal": [
+       1.218,
+       0.683,
+       2.475
+      ]
+     },
+     "mountHeight": 2.48,
+     "rotation": {
+      "aimTilt": 0,
+      "aimAzimuth": 0,
+      "bodyRotation": 0
+     },
+     "mountReference": {
+      "kind": "surface",
+      "surface": "ceiling",
+      "elementGuid": "20r3rWh8jEswSujfr3NyaM",
+      "elementId": 99127,
+      "elementName": "SLA - 014",
+      "normal": [
+       0,
+       0,
+       -1
+      ],
+      "status": "ok",
+      "message": "放置时拾取"
+     },
+     "photometricParameters": {
+      "flux": 600,
+      "power": 7,
+      "beamAngle": 60,
+      "cct": 3000,
+      "dimming": 100,
+      "on": true,
+      "length": null,
+      "distribution": "generic-cosine-power-v1",
+      "photometrySource": "generic",
+      "ies": null
+     },
+     "notes": "",
+     "designState": "ai-draft"
+    },
+    {
+     "fixtureId": "LF-MVX9JN2Z-B8YN451u",
+     "name": "GEN-DL-08",
+     "fixtureType": "downlight",
+     "catalogCode": "GEN-DL",
+     "roomId": "0psO4sR39Elwf3r$dTc2qH",
+     "roomExpressId": 8050,
+     "ifcProjectId": "344O7vICcwH8qAEnwJDjSU",
+     "position": {
+      "ifcWorld": [
+       8.8,
+       7.65,
+       3.045
+      ],
+      "roomLocal": [
+       1.35,
+       0.75,
+       3.045
+      ]
+     },
+     "mountHeight": 3.04,
+     "rotation": {
+      "aimTilt": 0,
+      "aimAzimuth": 0,
+      "bodyRotation": 0
+     },
+     "mountReference": {
+      "kind": "surface",
+      "surface": "ceiling",
+      "elementGuid": "3xvIcKur9DAvYFfshfdsWA",
+      "elementId": 95313,
+      "elementName": "SLA - 012",
+      "normal": [
+       0,
+       0,
+       -1
+      ],
+      "status": "ok",
+      "message": "放置时拾取"
+     },
+     "photometricParameters": {
+      "flux": 600,
+      "power": 7,
+      "beamAngle": 60,
+      "cct": 3000,
+      "dimming": 100,
+      "on": true,
+      "length": null,
+      "distribution": "generic-cosine-power-v1",
+      "photometrySource": "generic",
+      "ies": null
+     },
+     "notes": "",
+     "designState": "ai-draft"
+    },
+    {
+     "fixtureId": "LF-MVX9JN2Z-OGMM6S1v",
+     "name": "GEN-DL-09",
+     "fixtureType": "downlight",
+     "catalogCode": "GEN-DL",
+     "roomId": "2ymTUnOG992vb4ee76wPlb",
+     "roomExpressId": 9110,
+     "ifcProjectId": "344O7vICcwH8qAEnwJDjSU",
+     "position": {
+      "ifcWorld": [
+       6.6,
+       15.65,
+       2.475
+      ],
+      "roomLocal": [
+       0.35,
+       0.35,
+       2.475
+      ]
+     },
+     "mountHeight": 2.48,
+     "rotation": {
+      "aimTilt": 0,
+      "aimAzimuth": 0,
+      "bodyRotation": 0
+     },
+     "mountReference": {
+      "kind": "surface",
+      "surface": "ceiling",
+      "elementGuid": "1c9fGNciTCnuakBMCJ1ePk",
+      "elementId": 98994,
+      "elementName": "SLA - 014",
+      "normal": [
+       0,
+       0,
+       -1
+      ],
+      "status": "ok",
+      "message": "放置时拾取"
+     },
+     "photometricParameters": {
+      "flux": 600,
+      "power": 7,
+      "beamAngle": 60,
+      "cct": 3000,
+      "dimming": 100,
+      "on": true,
+      "length": null,
+      "distribution": "generic-cosine-power-v1",
+      "photometrySource": "generic",
+      "ies": null
+     },
+     "notes": "",
+     "designState": "ai-draft"
+    },
+    {
+     "fixtureId": "LF-MVX9JN2Z-WQH16X1w",
+     "name": "GEN-DL-10",
+     "fixtureType": "downlight",
+     "catalogCode": "GEN-DL",
+     "roomId": "2P0VxT$qjFPecwTq4rFS4G",
+     "roomExpressId": 7946,
+     "ifcProjectId": "344O7vICcwH8qAEnwJDjSU",
+     "position": {
+      "ifcWorld": [
+       8.7,
+       12.7,
+       3.045
+      ],
+      "roomLocal": [
+       0.95,
+       1.1,
+       3.045
+      ]
+     },
+     "mountHeight": 3.04,
+     "rotation": {
+      "aimTilt": 0,
+      "aimAzimuth": 0,
+      "bodyRotation": 0
+     },
+     "mountReference": {
+      "kind": "surface",
+      "surface": "ceiling",
+      "elementGuid": "3xvIcKur9DAvYFfshfdsWA",
+      "elementId": 95313,
+      "elementName": "SLA - 012",
+      "normal": [
+       0,
+       0,
+       -1
+      ],
+      "status": "ok",
+      "message": "放置时拾取"
+     },
+     "photometricParameters": {
+      "flux": 600,
+      "power": 7,
+      "beamAngle": 60,
+      "cct": 3000,
+      "dimming": 100,
+      "on": true,
+      "length": null,
+      "distribution": "generic-cosine-power-v1",
+      "photometrySource": "generic",
+      "ies": null
+     },
+     "notes": "",
+     "designState": "ai-draft"
+    },
+    {
+     "fixtureId": "LF-MVX9JN2Z-ZNHXP61x",
+     "name": "GEN-DL-11",
+     "fixtureType": "downlight",
+     "catalogCode": "GEN-DL",
+     "roomId": "2l$O0Ew7r2NBp2zURtjPqL",
+     "roomExpressId": 9171,
+     "ifcProjectId": "344O7vICcwH8qAEnwJDjSU",
+     "position": {
+      "ifcWorld": [
+       7.25,
+       5,
+       2.515
+      ],
+      "roomLocal": [
+       0.9,
+       0.9,
+       2.515
+      ]
+     },
+     "mountHeight": 2.51,
+     "rotation": {
+      "aimTilt": 0,
+      "aimAzimuth": 0,
+      "bodyRotation": 0
+     },
+     "mountReference": {
+      "kind": "surface",
+      "surface": "ceiling",
+      "elementGuid": "2Ucp6QiTD91Q8H4ken8OHG",
+      "elementId": 73001,
+      "elementName": "SLA - 014",
+      "normal": [
+       0,
+       0,
+       -1
+      ],
+      "status": "ok",
+      "message": "放置时拾取"
+     },
+     "photometricParameters": {
+      "flux": 600,
+      "power": 7,
+      "beamAngle": 60,
+      "cct": 3000,
+      "dimming": 100,
+      "on": true,
+      "length": null,
+      "distribution": "generic-cosine-power-v1",
+      "photometrySource": "generic",
+      "ies": null
+     },
+     "notes": "",
+     "designState": "ai-draft"
+    },
+    {
+     "fixtureId": "LF-MVX9JN2Z-02YCXL1y",
+     "name": "GEN-DL-12",
+     "fixtureType": "downlight",
+     "catalogCode": "GEN-DL",
+     "roomId": "0eIzt0iabBggSQsO609AjW",
+     "roomExpressId": 9121,
+     "ifcProjectId": "344O7vICcwH8qAEnwJDjSU",
+     "position": {
+      "ifcWorld": [
+       4.7,
+       17.65,
+       2.475
+      ],
+      "roomLocal": [
+       4.625,
+       0.75,
+       2.475
+      ]
+     },
+     "mountHeight": 2.48,
+     "rotation": {
+      "aimTilt": 0,
+      "aimAzimuth": 0,
+      "bodyRotation": 0
+     },
+     "mountReference": {
+      "kind": "surface",
+      "surface": "ceiling",
+      "elementGuid": "1c9fGNciTCnuakBMCJ1ePk",
+      "elementId": 98994,
+      "elementName": "SLA - 014",
+      "normal": [
+       0,
+       0,
+       -1
+      ],
+      "status": "ok",
+      "message": "放置时拾取"
+     },
+     "photometricParameters": {
+      "flux": 600,
+      "power": 7,
+      "beamAngle": 60,
+      "cct": 3000,
+      "dimming": 100,
+      "on": true,
+      "length": null,
+      "distribution": "generic-cosine-power-v1",
+      "photometrySource": "generic",
+      "ies": null
+     },
+     "notes": "",
+     "designState": "ai-draft"
+    },
+    {
+     "fixtureId": "LF-MVX9JN2Z-VU1GG71z",
+     "name": "GEN-DL-13",
+     "fixtureType": "downlight",
+     "catalogCode": "GEN-DL",
+     "roomId": "27FW5qE8z8LuvjA21ca59e",
+     "roomExpressId": 9103,
+     "ifcProjectId": "344O7vICcwH8qAEnwJDjSU",
+     "position": {
+      "ifcWorld": [
+       4.6,
+       15.4,
+       2.475
+      ],
+      "roomLocal": [
+       1.55,
+       2.1,
+       2.475
+      ]
+     },
+     "mountHeight": 2.48,
+     "rotation": {
+      "aimTilt": 0,
+      "aimAzimuth": 0,
+      "bodyRotation": 0
+     },
+     "mountReference": {
+      "kind": "surface",
+      "surface": "ceiling",
+      "elementGuid": "1c9fGNciTCnuakBMCJ1ePk",
+      "elementId": 98994,
+      "elementName": "SLA - 014",
+      "normal": [
+       0,
+       0,
+       -1
+      ],
+      "status": "ok",
+      "message": "放置时拾取"
+     },
+     "photometricParameters": {
+      "flux": 600,
+      "power": 7,
+      "beamAngle": 60,
+      "cct": 3000,
+      "dimming": 100,
+      "on": true,
+      "length": null,
+      "distribution": "generic-cosine-power-v1",
+      "photometrySource": "generic",
+      "ies": null
+     },
+     "notes": "",
+     "designState": "ai-draft"
+    },
+    {
+     "fixtureId": "LF-MVX9JN2Z-7GAW5W20",
+     "name": "GEN-DL-14",
+     "fixtureType": "downlight",
+     "catalogCode": "GEN-DL",
+     "roomId": "1otYIBWDPFWO1xDlRAbJLD",
+     "roomExpressId": 8110,
+     "ifcProjectId": "344O7vICcwH8qAEnwJDjSU",
+     "position": {
+      "ifcWorld": [
+       1.55,
+       14.8,
+       2.475
+      ],
+      "roomLocal": [
+       1.4,
+       1.5,
+       2.475
+      ]
+     },
+     "mountHeight": 2.48,
+     "rotation": {
+      "aimTilt": 0,
+      "aimAzimuth": 0,
+      "bodyRotation": 0
+     },
+     "mountReference": {
+      "kind": "surface",
+      "surface": "ceiling",
+      "elementGuid": "0DNILSJVv7Be6h$aoL_RNa",
+      "elementId": 98919,
+      "elementName": "SLA - 014",
+      "normal": [
+       0,
+       0,
+       -1
+      ],
+      "status": "ok",
+      "message": "放置时拾取"
+     },
+     "photometricParameters": {
+      "flux": 600,
+      "power": 7,
+      "beamAngle": 60,
+      "cct": 3000,
+      "dimming": 100,
+      "on": true,
+      "length": null,
+      "distribution": "generic-cosine-power-v1",
+      "photometrySource": "generic",
+      "ies": null
+     },
+     "notes": "",
+     "designState": "ai-draft"
+    },
+    {
+     "fixtureId": "LF-MVX9JN2Z-804DIA21",
+     "name": "GEN-DL-15",
+     "fixtureType": "downlight",
+     "catalogCode": "GEN-DL",
+     "roomId": "0j294L2OrDbP8n9OJF11Ex",
+     "roomExpressId": 10741,
+     "ifcProjectId": "344O7vICcwH8qAEnwJDjSU",
+     "position": {
+      "ifcWorld": [
+       3,
+       0.8,
+       2.495
+      ],
+      "roomLocal": [
+       2.925,
+       0.8,
+       2.495
+      ]
+     },
+     "mountHeight": 2.5,
+     "rotation": {
+      "aimTilt": 0,
+      "aimAzimuth": 0,
+      "bodyRotation": 0
+     },
+     "mountReference": {
+      "kind": "surface",
+      "surface": "ceiling",
+      "elementGuid": "00grNL_FL0TPzXdjoRBEoQ",
+      "elementId": 100049,
+      "elementName": "SLA - 014",
+      "normal": [
+       0,
+       0,
+       -1
+      ],
+      "status": "ok",
+      "message": "放置时拾取"
+     },
+     "photometricParameters": {
+      "flux": 600,
+      "power": 7,
+      "beamAngle": 60,
+      "cct": 3000,
+      "dimming": 100,
+      "on": true,
+      "length": null,
+      "distribution": "generic-cosine-power-v1",
+      "photometrySource": "generic",
+      "ies": null
+     },
+     "notes": "",
+     "designState": "ai-draft"
+    },
+    {
+     "fixtureId": "LF-MVX9JN2Z-GIB08S22",
+     "name": "GEN-DL-16",
+     "fixtureType": "downlight",
+     "catalogCode": "GEN-DL",
+     "roomId": "3GrMwmLGvEavwZvDp5M5rs",
+     "roomExpressId": 10778,
+     "ifcProjectId": "344O7vICcwH8qAEnwJDjSU",
+     "position": {
+      "ifcWorld": [
+       9.65,
+       16.9,
+       2.795
+      ],
+      "roomLocal": [
+       1.398,
+       2.758,
+       2.795
+      ]
+     },
+     "mountHeight": 2.79,
+     "rotation": {
+      "aimTilt": 0,
+      "aimAzimuth": 0,
+      "bodyRotation": 0
+     },
+     "mountReference": {
+      "kind": "surface",
+      "surface": "ceiling",
+      "elementGuid": "39C_S0YRL6pOrVe6xJvGfK",
+      "elementId": 99129,
+      "elementName": "SLA - 014",
+      "normal": [
+       0,
+       0,
+       -1
+      ],
+      "status": "ok",
+      "message": "放置时拾取"
+     },
+     "photometricParameters": {
+      "flux": 600,
+      "power": 7,
+      "beamAngle": 60,
+      "cct": 3000,
+      "dimming": 100,
+      "on": true,
+      "length": null,
+      "distribution": "generic-cosine-power-v1",
+      "photometrySource": "generic",
+      "ies": null
+     },
+     "notes": "",
+     "designState": "ai-draft"
+    },
+    {
+     "fixtureId": "LF-MVX9JN2Z-YWRGH023",
+     "name": "GEN-DL-17",
+     "fixtureType": "downlight",
+     "catalogCode": "GEN-DL",
+     "roomId": "27atJBm4vEoOb2cqBivrJt",
+     "roomExpressId": 9461,
+     "ifcProjectId": "344O7vICcwH8qAEnwJDjSU",
+     "position": {
+      "ifcWorld": [
+       15.25,
+       6.95,
+       2.495
+      ],
+      "roomLocal": [
+       1.35,
+       2.05,
+       2.495
+      ]
+     },
+     "mountHeight": 2.5,
+     "rotation": {
+      "aimTilt": 0,
+      "aimAzimuth": 0,
+      "bodyRotation": 0
+     },
+     "mountReference": {
+      "kind": "surface",
+      "surface": "ceiling",
+      "elementGuid": "3MZOOeEGD39x313hLnKQmu",
+      "elementId": 99150,
+      "elementName": "SLA - 014",
+      "normal": [
+       0,
+       0,
+       -1
+      ],
+      "status": "ok",
+      "message": "放置时拾取"
+     },
+     "photometricParameters": {
+      "flux": 600,
+      "power": 7,
+      "beamAngle": 60,
+      "cct": 3000,
+      "dimming": 100,
+      "on": true,
+      "length": null,
+      "distribution": "generic-cosine-power-v1",
+      "photometrySource": "generic",
+      "ies": null
+     },
+     "notes": "",
+     "designState": "ai-draft"
+    },
+    {
+     "fixtureId": "LF-MVX9JN2Z-2MMO7Z24",
+     "name": "GEN-DL-18",
+     "fixtureType": "downlight",
+     "catalogCode": "GEN-DL",
+     "roomId": "0W89gqn0r52A_Ke4gahzt3",
+     "roomExpressId": 9443,
+     "ifcProjectId": "344O7vICcwH8qAEnwJDjSU",
+     "position": {
+      "ifcWorld": [
+       11.85,
+       7.7,
+       2.495
+      ],
+      "roomLocal": [
+       1.6,
+       2.2,
+       2.495
+      ]
+     },
+     "mountHeight": 2.5,
+     "rotation": {
+      "aimTilt": 0,
+      "aimAzimuth": 0,
+      "bodyRotation": 0
+     },
+     "mountReference": {
+      "kind": "surface",
+      "surface": "ceiling",
+      "elementGuid": "1dYmM3ACr8lQ1vlWBy6RAb",
+      "elementId": 99147,
+      "elementName": "SLA - 014",
+      "normal": [
+       0,
+       0,
+       -1
+      ],
+      "status": "ok",
+      "message": "放置时拾取"
+     },
+     "photometricParameters": {
+      "flux": 600,
+      "power": 7,
+      "beamAngle": 60,
+      "cct": 3000,
+      "dimming": 100,
+      "on": true,
+      "length": null,
+      "distribution": "generic-cosine-power-v1",
+      "photometrySource": "generic",
+      "ies": null
+     },
+     "notes": "",
+     "designState": "ai-draft"
+    },
+    {
+     "fixtureId": "LF-MVX9JN2Z-ZT6YUM25",
+     "name": "GEN-DL-19",
+     "fixtureType": "downlight",
+     "catalogCode": "GEN-DL",
+     "roomId": "35g8hwNXDBLwEkV2iMLjLH",
+     "roomExpressId": 9415,
+     "ifcProjectId": "344O7vICcwH8qAEnwJDjSU",
+     "position": {
+      "ifcWorld": [
+       11.4,
+       3.05,
+       2.495
+      ],
+      "roomLocal": [
+       1.15,
+       2.95,
+       2.495
+      ]
+     },
+     "mountHeight": 2.5,
+     "rotation": {
+      "aimTilt": 0,
+      "aimAzimuth": 0,
+      "bodyRotation": 0
+     },
+     "mountReference": {
+      "kind": "surface",
+      "surface": "ceiling",
+      "elementGuid": "2ALreRxSr5NRbBusADeEJX",
+      "elementId": 73256,
+      "elementName": "SLA - 014",
+      "normal": [
+       0,
+       0,
+       -1
+      ],
+      "status": "ok",
+      "message": "放置时拾取"
+     },
+     "photometricParameters": {
+      "flux": 600,
+      "power": 7,
+      "beamAngle": 60,
+      "cct": 3000,
+      "dimming": 100,
+      "on": true,
+      "length": null,
+      "distribution": "generic-cosine-power-v1",
+      "photometrySource": "generic",
+      "ies": null
+     },
+     "notes": "",
+     "designState": "ai-draft"
+    },
+    {
+     "fixtureId": "LF-MVX9JN2Z-L8APBE26",
+     "name": "GEN-DL-20",
+     "fixtureType": "downlight",
+     "catalogCode": "GEN-DL",
+     "roomId": "0yfdpLzyj7pw0RManVIj7C",
+     "roomExpressId": 9030,
+     "ifcProjectId": "344O7vICcwH8qAEnwJDjSU",
+     "position": {
+      "ifcWorld": [
+       6.7,
+       14.65,
+       2.462
+      ],
+      "roomLocal": [
+       0.55,
+       0.55,
+       2.462
+      ]
+     },
+     "mountHeight": 2.46,
+     "rotation": {
+      "aimTilt": 0,
+      "aimAzimuth": 0,
+      "bodyRotation": 0
+     },
+     "mountReference": {
+      "kind": "surface",
+      "surface": "ceiling",
+      "elementGuid": "2WFDP0rcH6QuUf1HK1r58a",
+      "elementId": 102741,
+      "elementName": "CW-009",
+      "normal": [
+       0,
+       0,
+       -1
+      ],
+      "status": "ok",
+      "message": "放置时拾取"
+     },
+     "photometricParameters": {
+      "flux": 600,
+      "power": 7,
+      "beamAngle": 60,
+      "cct": 3000,
+      "dimming": 100,
+      "on": true,
+      "length": null,
+      "distribution": "generic-cosine-power-v1",
+      "photometrySource": "generic",
+      "ies": null
+     },
+     "notes": "",
+     "designState": "ai-draft"
+    },
+    {
+     "fixtureId": "LF-MVX9JN2Z-LHF7GH27",
+     "name": "GEN-DL-21",
+     "fixtureType": "downlight",
+     "catalogCode": "GEN-DL",
+     "roomId": "0ev9prAzL7_RY3vvtnfOM6",
+     "roomExpressId": 10528,
+     "ifcProjectId": "344O7vICcwH8qAEnwJDjSU",
+     "position": {
+      "ifcWorld": [
+       14.55,
+       2.8,
+       2.845
+      ],
+      "roomLocal": [
+       1.95,
+       2.7,
+       2.845
+      ]
+     },
+     "mountHeight": 2.84,
+     "rotation": {
+      "aimTilt": 0,
+      "aimAzimuth": 0,
+      "bodyRotation": 0
+     },
+     "mountReference": {
+      "kind": "surface",
+      "surface": "ceiling",
+      "elementGuid": "1YK27XSXLFIeFlIibp1tph",
+      "elementId": 103068,
+      "elementName": "SLA - 014",
+      "normal": [
+       0,
+       0,
+       -1
+      ],
+      "status": "ok",
+      "message": "放置时拾取"
+     },
+     "photometricParameters": {
+      "flux": 600,
+      "power": 7,
+      "beamAngle": 60,
+      "cct": 3000,
+      "dimming": 100,
+      "on": true,
+      "length": null,
+      "distribution": "generic-cosine-power-v1",
+      "photometrySource": "generic",
+      "ies": null
+     },
+     "notes": "",
+     "designState": "ai-draft"
+    },
+    {
+     "fixtureId": "LF-MVX9JN2Z-L3NHZT28",
+     "name": "GEN-DL-22",
+     "fixtureType": "downlight",
+     "catalogCode": "GEN-DL",
+     "roomId": "33PBVJv4LDJRMYt49EmFRj",
+     "roomExpressId": 10593,
+     "ifcProjectId": "344O7vICcwH8qAEnwJDjSU",
+     "position": {
+      "ifcWorld": [
+       8.2,
+       2.05,
+       2.845
+      ],
+      "roomLocal": [
+       1.9,
+       1.95,
+       2.845
+      ]
+     },
+     "mountHeight": 2.84,
+     "rotation": {
+      "aimTilt": 0,
+      "aimAzimuth": 0,
+      "bodyRotation": 0
+     },
+     "mountReference": {
+      "kind": "surface",
+      "surface": "ceiling",
+      "elementGuid": "1mOvR9LnH9NuStPK$lCmE_",
+      "elementId": 99153,
+      "elementName": "SLA - 014",
+      "normal": [
+       0,
+       0,
+       -1
+      ],
+      "status": "ok",
+      "message": "放置时拾取"
+     },
+     "photometricParameters": {
+      "flux": 600,
+      "power": 7,
+      "beamAngle": 60,
+      "cct": 3000,
+      "dimming": 100,
+      "on": true,
+      "length": null,
+      "distribution": "generic-cosine-power-v1",
+      "photometrySource": "generic",
+      "ies": null
+     },
+     "notes": "",
+     "designState": "ai-draft"
+    },
+    {
+     "fixtureId": "LF-MVX9JN2Z-J1BVZA29",
+     "name": "GEN-DL-23",
+     "fixtureType": "downlight",
+     "catalogCode": "GEN-DL",
+     "roomId": "07zOKxPsLCD8Lgm1mekxS_",
+     "roomExpressId": 5174,
+     "ifcProjectId": "344O7vICcwH8qAEnwJDjSU",
+     "position": {
+      "ifcWorld": [
+       3.8,
+       8.75,
+       2.855
+      ],
+      "roomLocal": [
+       3.65,
+       1.6,
+       2.855
+      ]
+     },
+     "mountHeight": 2.85,
+     "rotation": {
+      "aimTilt": 0,
+      "aimAzimuth": 0,
+      "bodyRotation": 0
+     },
+     "mountReference": {
+      "kind": "surface",
+      "surface": "ceiling",
+      "elementGuid": "0y$_U9S8b7ZAkwNn2z3LxE",
+      "elementId": 100042,
+      "elementName": "SLA - 014",
+      "normal": [
+       0,
+       0,
+       -1
+      ],
+      "status": "ok",
+      "message": "放置时拾取"
+     },
+     "photometricParameters": {
+      "flux": 600,
+      "power": 7,
+      "beamAngle": 60,
+      "cct": 3000,
+      "dimming": 100,
+      "on": true,
+      "length": null,
+      "distribution": "generic-cosine-power-v1",
+      "photometrySource": "generic",
+      "ies": null
+     },
+     "notes": "",
+     "designState": "ai-draft"
+    },
+    {
+     "fixtureId": "LF-MVX9JN2Z-RGB2NL2a",
+     "name": "GEN-DL-24",
+     "fixtureType": "downlight",
+     "catalogCode": "GEN-DL",
+     "roomId": "1PfKl91zj2RuH7WFkswWD1",
+     "roomExpressId": 7802,
+     "ifcProjectId": "344O7vICcwH8qAEnwJDjSU",
+     "position": {
+      "ifcWorld": [
+       3.95,
+       11.9,
+       2.855
+      ],
+      "roomLocal": [
+       3.8,
+       1.55,
+       2.855
+      ]
+     },
+     "mountHeight": 2.85,
+     "rotation": {
+      "aimTilt": 0,
+      "aimAzimuth": 0,
+      "bodyRotation": 0
+     },
+     "mountReference": {
+      "kind": "surface",
+      "surface": "ceiling",
+      "elementGuid": "0y$_U9S8b7ZAkwNn2z3LxE",
+      "elementId": 100042,
+      "elementName": "SLA - 014",
+      "normal": [
+       0,
+       0,
+       -1
+      ],
+      "status": "ok",
+      "message": "放置时拾取"
+     },
+     "photometricParameters": {
+      "flux": 600,
+      "power": 7,
+      "beamAngle": 60,
+      "cct": 3000,
+      "dimming": 100,
+      "on": true,
+      "length": null,
+      "distribution": "generic-cosine-power-v1",
+      "photometrySource": "generic",
+      "ies": null
+     },
+     "notes": "",
+     "designState": "ai-draft"
+    },
+    {
+     "fixtureId": "LF-MVX9JN3I-2A2C832c",
+     "name": "GEN-DL-21",
+     "fixtureType": "downlight",
+     "catalogCode": "GEN-DL",
+     "roomId": "37vCJKFnjC5BzAVbbtuqE_",
+     "roomExpressId": 4794,
+     "ifcProjectId": "344O7vICcwH8qAEnwJDjSU",
+     "position": {
+      "ifcWorld": [
+       5.4,
+       2.4,
+       2.495
+      ],
+      "roomLocal": [
+       5.25,
+       0.6,
+       2.495
+      ]
+     },
+     "mountHeight": 2.5,
+     "rotation": {
+      "aimTilt": 25,
+      "aimAzimuth": 0,
+      "bodyRotation": 0
+     },
+     "mountReference": {
+      "kind": "surface",
+      "surface": "ceiling",
+      "elementGuid": "00grNL_FL0TPzXdjoRBEoQ",
+      "elementId": 100049,
+      "elementName": "SLA - 014",
+      "normal": [
+       0,
+       0,
+       -1
+      ],
+      "status": "ok",
+      "message": "放置时拾取"
+     },
+     "photometricParameters": {
+      "flux": 800,
+      "power": 9.3,
+      "beamAngle": 40,
+      "cct": 2700,
+      "dimming": 100,
+      "on": true,
+      "length": null,
+      "distribution": "generic-cosine-power-v1",
+      "photometrySource": "generic",
+      "ies": null
+     },
+     "notes": "",
+     "designState": "ai-draft"
+    },
+    {
+     "fixtureId": "LF-MVX9JN3I-HSVGP32d",
+     "name": "GEN-DL-22",
+     "fixtureType": "downlight",
+     "catalogCode": "GEN-DL",
+     "roomId": "37vCJKFnjC5BzAVbbtuqE_",
+     "roomExpressId": 4794,
+     "ifcProjectId": "344O7vICcwH8qAEnwJDjSU",
+     "position": {
+      "ifcWorld": [
+       4.25,
+       2.4,
+       2.495
+      ],
+      "roomLocal": [
+       4.1,
+       0.6,
+       2.495
+      ]
+     },
+     "mountHeight": 2.5,
+     "rotation": {
+      "aimTilt": 25,
+      "aimAzimuth": 0,
+      "bodyRotation": 0
+     },
+     "mountReference": {
+      "kind": "surface",
+      "surface": "ceiling",
+      "elementGuid": "00grNL_FL0TPzXdjoRBEoQ",
+      "elementId": 100049,
+      "elementName": "SLA - 014",
+      "normal": [
+       0,
+       0,
+       -1
+      ],
+      "status": "ok",
+      "message": "放置时拾取"
+     },
+     "photometricParameters": {
+      "flux": 800,
+      "power": 9.3,
+      "beamAngle": 40,
+      "cct": 2700,
+      "dimming": 100,
+      "on": true,
+      "length": null,
+      "distribution": "generic-cosine-power-v1",
+      "photometrySource": "generic",
+      "ies": null
+     },
+     "notes": "",
+     "designState": "ai-draft"
+    },
+    {
+     "fixtureId": "LF-MVX9JN3I-WN2Q2Z2e",
+     "name": "GEN-DL-23",
+     "fixtureType": "downlight",
+     "catalogCode": "GEN-DL",
+     "roomId": "37vCJKFnjC5BzAVbbtuqE_",
+     "roomExpressId": 4794,
+     "ifcProjectId": "344O7vICcwH8qAEnwJDjSU",
+     "position": {
+      "ifcWorld": [
+       3.1,
+       2.4,
+       2.495
+      ],
+      "roomLocal": [
+       2.95,
+       0.6,
+       2.495
+      ]
+     },
+     "mountHeight": 2.5,
+     "rotation": {
+      "aimTilt": 25,
+      "aimAzimuth": 0,
+      "bodyRotation": 0
+     },
+     "mountReference": {
+      "kind": "surface",
+      "surface": "ceiling",
+      "elementGuid": "00grNL_FL0TPzXdjoRBEoQ",
+      "elementId": 100049,
+      "elementName": "SLA - 014",
+      "normal": [
+       0,
+       0,
+       -1
+      ],
+      "status": "ok",
+      "message": "放置时拾取"
+     },
+     "photometricParameters": {
+      "flux": 800,
+      "power": 9.3,
+      "beamAngle": 40,
+      "cct": 2700,
+      "dimming": 100,
+      "on": true,
+      "length": null,
+      "distribution": "generic-cosine-power-v1",
+      "photometrySource": "generic",
+      "ies": null
+     },
+     "notes": "",
+     "designState": "ai-draft"
+    },
+    {
+     "fixtureId": "LF-MVX9JN3I-5NRWQM2f",
+     "name": "GEN-DL-24",
+     "fixtureType": "downlight",
+     "catalogCode": "GEN-DL",
+     "roomId": "37vCJKFnjC5BzAVbbtuqE_",
+     "roomExpressId": 4794,
+     "ifcProjectId": "344O7vICcwH8qAEnwJDjSU",
+     "position": {
+      "ifcWorld": [
+       1.9,
+       2.4,
+       2.495
+      ],
+      "roomLocal": [
+       1.75,
+       0.6,
+       2.495
+      ]
+     },
+     "mountHeight": 2.5,
+     "rotation": {
+      "aimTilt": 25,
+      "aimAzimuth": 0,
+      "bodyRotation": 0
+     },
+     "mountReference": {
+      "kind": "surface",
+      "surface": "ceiling",
+      "elementGuid": "00grNL_FL0TPzXdjoRBEoQ",
+      "elementId": 100049,
+      "elementName": "SLA - 014",
+      "normal": [
+       0,
+       0,
+       -1
+      ],
+      "status": "ok",
+      "message": "放置时拾取"
+     },
+     "photometricParameters": {
+      "flux": 800,
+      "power": 9.3,
+      "beamAngle": 40,
+      "cct": 2700,
+      "dimming": 100,
+      "on": true,
+      "length": null,
+      "distribution": "generic-cosine-power-v1",
+      "photometrySource": "generic",
+      "ies": null
+     },
+     "notes": "",
+     "designState": "ai-draft"
+    },
+    {
+     "fixtureId": "LF-MVX9JN3I-DOT0V62g",
+     "name": "GEN-DL-25",
+     "fixtureType": "downlight",
+     "catalogCode": "GEN-DL",
+     "roomId": "37vCJKFnjC5BzAVbbtuqE_",
+     "roomExpressId": 4794,
+     "ifcProjectId": "344O7vICcwH8qAEnwJDjSU",
+     "position": {
+      "ifcWorld": [
+       0.75,
+       2.4,
+       2.495
+      ],
+      "roomLocal": [
+       0.6,
+       0.6,
+       2.495
+      ]
+     },
+     "mountHeight": 2.5,
+     "rotation": {
+      "aimTilt": 25,
+      "aimAzimuth": 0,
+      "bodyRotation": 0
+     },
+     "mountReference": {
+      "kind": "surface",
+      "surface": "ceiling",
+      "elementGuid": "00grNL_FL0TPzXdjoRBEoQ",
+      "elementId": 100049,
+      "elementName": "SLA - 014",
+      "normal": [
+       0,
+       0,
+       -1
+      ],
+      "status": "ok",
+      "message": "放置时拾取"
+     },
+     "photometricParameters": {
+      "flux": 800,
+      "power": 9.3,
+      "beamAngle": 40,
+      "cct": 2700,
+      "dimming": 100,
+      "on": true,
+      "length": null,
+      "distribution": "generic-cosine-power-v1",
+      "photometrySource": "generic",
+      "ies": null
+     },
+     "notes": "",
+     "designState": "ai-draft"
+    },
+    {
+     "fixtureId": "LF-MVX9JN40-4M98AJ2h",
+     "name": "GEN-DL-26",
+     "fixtureType": "downlight",
+     "catalogCode": "GEN-DL",
+     "roomId": "37vCJKFnjC5BzAVbbtuqE_",
+     "roomExpressId": 4794,
+     "ifcProjectId": "344O7vICcwH8qAEnwJDjSU",
+     "position": {
+      "ifcWorld": [
+       0.9,
+       6.55,
+       2.85499
+      ],
+      "roomLocal": [
+       0.75,
+       4.75,
+       2.855
+      ]
+     },
+     "mountHeight": 2.85,
+     "rotation": {
+      "aimTilt": 25,
+      "aimAzimuth": 0,
+      "bodyRotation": 0
+     },
+     "mountReference": {
+      "kind": "surface",
+      "surface": "ceiling",
+      "elementGuid": "0y$_U9S8b7ZAkwNn2z3LxE",
+      "elementId": 100042,
+      "elementName": "SLA - 014",
+      "normal": [
+       0,
+       0,
+       -1
+      ],
+      "status": "ok",
+      "message": "放置时拾取"
+     },
+     "photometricParameters": {
+      "flux": 800,
+      "power": 9.3,
+      "beamAngle": 40,
+      "cct": 2700,
+      "dimming": 100,
+      "on": true,
+      "length": null,
+      "distribution": "generic-cosine-power-v1",
+      "photometrySource": "generic",
+      "ies": null
+     },
+     "notes": "",
+     "designState": "ai-draft"
+    },
+    {
+     "fixtureId": "LF-MVX9JN41-7SEH5M2i",
+     "name": "GEN-DL-27",
+     "fixtureType": "downlight",
+     "catalogCode": "GEN-DL",
+     "roomId": "37vCJKFnjC5BzAVbbtuqE_",
+     "roomExpressId": 4794,
+     "ifcProjectId": "344O7vICcwH8qAEnwJDjSU",
+     "position": {
+      "ifcWorld": [
+       2.35,
+       6.55,
+       2.855
+      ],
+      "roomLocal": [
+       2.2,
+       4.75,
+       2.855
+      ]
+     },
+     "mountHeight": 2.85,
+     "rotation": {
+      "aimTilt": 25,
+      "aimAzimuth": 0,
+      "bodyRotation": 0
+     },
+     "mountReference": {
+      "kind": "surface",
+      "surface": "ceiling",
+      "elementGuid": "0y$_U9S8b7ZAkwNn2z3LxE",
+      "elementId": 100042,
+      "elementName": "SLA - 014",
+      "normal": [
+       0,
+       0,
+       -1
+      ],
+      "status": "ok",
+      "message": "放置时拾取"
+     },
+     "photometricParameters": {
+      "flux": 800,
+      "power": 9.3,
+      "beamAngle": 40,
+      "cct": 2700,
+      "dimming": 100,
+      "on": true,
+      "length": null,
+      "distribution": "generic-cosine-power-v1",
+      "photometrySource": "generic",
+      "ies": null
+     },
+     "notes": "",
+     "designState": "ai-draft"
+    },
+    {
+     "fixtureId": "LF-MVX9JN41-F2U55D2j",
+     "name": "GEN-DL-28",
+     "fixtureType": "downlight",
+     "catalogCode": "GEN-DL",
+     "roomId": "37vCJKFnjC5BzAVbbtuqE_",
+     "roomExpressId": 4794,
+     "ifcProjectId": "344O7vICcwH8qAEnwJDjSU",
+     "position": {
+      "ifcWorld": [
+       3.8,
+       6.55,
+       2.855
+      ],
+      "roomLocal": [
+       3.65,
+       4.75,
+       2.855
+      ]
+     },
+     "mountHeight": 2.85,
+     "rotation": {
+      "aimTilt": 25,
+      "aimAzimuth": 0,
+      "bodyRotation": 0
+     },
+     "mountReference": {
+      "kind": "surface",
+      "surface": "ceiling",
+      "elementGuid": "0y$_U9S8b7ZAkwNn2z3LxE",
+      "elementId": 100042,
+      "elementName": "SLA - 014",
+      "normal": [
+       0,
+       0,
+       -1
+      ],
+      "status": "ok",
+      "message": "放置时拾取"
+     },
+     "photometricParameters": {
+      "flux": 800,
+      "power": 9.3,
+      "beamAngle": 40,
+      "cct": 2700,
+      "dimming": 100,
+      "on": true,
+      "length": null,
+      "distribution": "generic-cosine-power-v1",
+      "photometrySource": "generic",
+      "ies": null
+     },
+     "notes": "",
+     "designState": "ai-draft"
+    },
+    {
+     "fixtureId": "LF-MVX9JN41-HZVU8W2k",
+     "name": "GEN-DL-29",
+     "fixtureType": "downlight",
+     "catalogCode": "GEN-DL",
+     "roomId": "37vCJKFnjC5BzAVbbtuqE_",
+     "roomExpressId": 4794,
+     "ifcProjectId": "344O7vICcwH8qAEnwJDjSU",
+     "position": {
+      "ifcWorld": [
+       5.25,
+       6.55,
+       2.855
+      ],
+      "roomLocal": [
+       5.1,
+       4.75,
+       2.855
+      ]
+     },
+     "mountHeight": 2.85,
+     "rotation": {
+      "aimTilt": 25,
+      "aimAzimuth": 0,
+      "bodyRotation": 0
+     },
+     "mountReference": {
+      "kind": "surface",
+      "surface": "ceiling",
+      "elementGuid": "0y$_U9S8b7ZAkwNn2z3LxE",
+      "elementId": 100042,
+      "elementName": "SLA - 014",
+      "normal": [
+       0,
+       0,
+       -1
+      ],
+      "status": "ok",
+      "message": "放置时拾取"
+     },
+     "photometricParameters": {
+      "flux": 800,
+      "power": 9.3,
+      "beamAngle": 40,
+      "cct": 2700,
+      "dimming": 100,
+      "on": true,
+      "length": null,
+      "distribution": "generic-cosine-power-v1",
+      "photometrySource": "generic",
+      "ies": null
+     },
+     "notes": "",
+     "designState": "ai-draft"
+    }
+   ],
+   "source": "demo",
+   "brief": "客厅改为6盏灯",
+   "createdAt": "2026-11-01T03:21:19.259Z",
+   "baseScheme": "C",
+   "designedRooms": [
+    "37vCJKFnjC5BzAVbbtuqE_"
+   ],
+   "targets": {
+    "37vCJKFnjC5BzAVbbtuqE_": {
+     "roomType": "living",
+     "standard": "GB 50034-2013 起居室 0.75 m 水平面 100 lx",
+     "Eavg": [
+      100,
+      150
+     ],
+     "Emin_standard": 100,
+     "U0": null,
+     "cct": [
+      2700,
+      4000
+     ],
+     "Ra": 80,
+     "lpdMax": 6,
+     "layered": false,
+     "notes": [],
+     "caveat": "照度区间与色温为 WEA 设计经验值（标准值为下限）；功率密度限值对应标准照度，提高照度时仅作参考",
+     "overrides": {
+      "U0_min": null,
+      "reason": "分层照明：以墙面与重点照明为主，工作面均匀度不作为目标（GB 50034 住宅未规定 U0）"
+     }
+    }
+   },
+   "results": {
+    "37vCJKFnjC5BzAVbbtuqE_": {
+     "Eavg": 139.83462443495424,
+     "Emin": 0.8813646226421437,
+     "Emax": 539.8046503062341,
+     "U0": 0.006302906924544436,
+     "lpd": 2.6742922870470953,
+     "power": 83.69999999999999,
+     "cct": [
+      2700
+     ],
+     "count": 9,
+     "pass": true,
+     "at": "2026-11-01T03:21:19.331Z"
+    }
+   },
+   "rationale": "9 盏灯离墙 600 mm 沿两面长墙布置、斜照墙面，墙面亮、空间柔和，中部较暗以营造层次。色温 2700 K。计算：Eavg 140 lx、U0 0.01、功率密度 2.67 W/m²。各项目标均达标。 本方案为分层照明，不考核工作面均匀度。",
+   "assumptions": [
+    "通用模拟灯具（cosᵐ 配光，非厂家 IES）",
+    "照度为直接光估算，未计遮挡与反射"
+   ],
+   "finalizedAt": "2026-11-01T03:21:19.332Z"
+  },
+  "F": {
+   "name": "AI · 重点 + 氛围",
+   "fixtures": [
+    {
+     "fixtureId": "LF-MVX9JN5K-PI7STU2p",
+     "name": "GEN-DL-05",
+     "fixtureType": "downlight",
+     "catalogCode": "GEN-DL",
+     "roomId": "1N7d0h7N563wq2ALSFrl3U",
+     "roomExpressId": 5040,
+     "ifcProjectId": "344O7vICcwH8qAEnwJDjSU",
+     "position": {
+      "ifcWorld": [
+       8.7,
+       10.95,
+       2.495
+      ],
+      "roomLocal": [
+       0.95,
+       0.6,
+       2.495
+      ]
+     },
+     "mountHeight": 2.5,
+     "rotation": {
+      "aimTilt": 0,
+      "aimAzimuth": 0,
+      "bodyRotation": 0
+     },
+     "mountReference": {
+      "kind": "surface",
+      "surface": "ceiling",
+      "elementGuid": "32Wu79_0DFB9Q8rAFEUFns",
+      "elementId": 100035,
+      "elementName": "SLA - 014",
+      "normal": [
+       0,
+       0,
+       -1
+      ],
+      "status": "ok",
+      "message": "放置时拾取"
+     },
+     "photometricParameters": {
+      "flux": 600,
+      "power": 7,
+      "beamAngle": 60,
+      "cct": 3000,
+      "dimming": 100,
+      "on": true,
+      "length": null,
+      "distribution": "generic-cosine-power-v1",
+      "photometrySource": "generic",
+      "ies": null
+     },
+     "notes": "",
+     "designState": "ai-draft"
+    },
+    {
+     "fixtureId": "LF-MVX9JN5K-U6OMC22q",
+     "name": "GEN-DL-06",
+     "fixtureType": "downlight",
+     "catalogCode": "GEN-DL",
+     "roomId": "3d$FSQHNDB2BN5PlCdeeCH",
+     "roomExpressId": 5005,
+     "ifcProjectId": "344O7vICcwH8qAEnwJDjSU",
+     "position": {
+      "ifcWorld": [
+       8.3,
+       9.35,
+       2.495
+      ],
+      "roomLocal": [
+       0.75,
+       0.9,
+       2.495
+      ]
+     },
+     "mountHeight": 2.5,
+     "rotation": {
+      "aimTilt": 0,
+      "aimAzimuth": 0,
+      "bodyRotation": 0
+     },
+     "mountReference": {
+      "kind": "surface",
+      "surface": "ceiling",
+      "elementGuid": "32Wu79_0DFB9Q8rAFEUFns",
+      "elementId": 100035,
+      "elementName": "SLA - 014",
+      "normal": [
+       0,
+       0,
+       -1
+      ],
+      "status": "ok",
+      "message": "放置时拾取"
+     },
+     "photometricParameters": {
+      "flux": 600,
+      "power": 7,
+      "beamAngle": 60,
+      "cct": 3000,
+      "dimming": 100,
+      "on": true,
+      "length": null,
+      "distribution": "generic-cosine-power-v1",
+      "photometrySource": "generic",
+      "ies": null
+     },
+     "notes": "",
+     "designState": "ai-draft"
+    },
+    {
+     "fixtureId": "LF-MVX9JN5K-NEOM4B2r",
+     "name": "GEN-DL-07",
+     "fixtureType": "downlight",
+     "catalogCode": "GEN-DL",
+     "roomId": "1J2ktRHhrC$h4C0wCytnYh",
+     "roomExpressId": 11707,
+     "ifcProjectId": "344O7vICcwH8qAEnwJDjSU",
+     "position": {
+      "ifcWorld": [
+       7.35,
+       16.65,
+       2.475
+      ],
+      "roomLocal": [
+       1.218,
+       0.683,
+       2.475
+      ]
+     },
+     "mountHeight": 2.48,
+     "rotation": {
+      "aimTilt": 0,
+      "aimAzimuth": 0,
+      "bodyRotation": 0
+     },
+     "mountReference": {
+      "kind": "surface",
+      "surface": "ceiling",
+      "elementGuid": "20r3rWh8jEswSujfr3NyaM",
+      "elementId": 99127,
+      "elementName": "SLA - 014",
+      "normal": [
+       0,
+       0,
+       -1
+      ],
+      "status": "ok",
+      "message": "放置时拾取"
+     },
+     "photometricParameters": {
+      "flux": 600,
+      "power": 7,
+      "beamAngle": 60,
+      "cct": 3000,
+      "dimming": 100,
+      "on": true,
+      "length": null,
+      "distribution": "generic-cosine-power-v1",
+      "photometrySource": "generic",
+      "ies": null
+     },
+     "notes": "",
+     "designState": "ai-draft"
+    },
+    {
+     "fixtureId": "LF-MVX9JN5K-AHRKS92s",
+     "name": "GEN-DL-08",
+     "fixtureType": "downlight",
+     "catalogCode": "GEN-DL",
+     "roomId": "0psO4sR39Elwf3r$dTc2qH",
+     "roomExpressId": 8050,
+     "ifcProjectId": "344O7vICcwH8qAEnwJDjSU",
+     "position": {
+      "ifcWorld": [
+       8.8,
+       7.65,
+       3.045
+      ],
+      "roomLocal": [
+       1.35,
+       0.75,
+       3.045
+      ]
+     },
+     "mountHeight": 3.04,
+     "rotation": {
+      "aimTilt": 0,
+      "aimAzimuth": 0,
+      "bodyRotation": 0
+     },
+     "mountReference": {
+      "kind": "surface",
+      "surface": "ceiling",
+      "elementGuid": "3xvIcKur9DAvYFfshfdsWA",
+      "elementId": 95313,
+      "elementName": "SLA - 012",
+      "normal": [
+       0,
+       0,
+       -1
+      ],
+      "status": "ok",
+      "message": "放置时拾取"
+     },
+     "photometricParameters": {
+      "flux": 600,
+      "power": 7,
+      "beamAngle": 60,
+      "cct": 3000,
+      "dimming": 100,
+      "on": true,
+      "length": null,
+      "distribution": "generic-cosine-power-v1",
+      "photometrySource": "generic",
+      "ies": null
+     },
+     "notes": "",
+     "designState": "ai-draft"
+    },
+    {
+     "fixtureId": "LF-MVX9JN5K-YWFVKN2t",
+     "name": "GEN-DL-09",
+     "fixtureType": "downlight",
+     "catalogCode": "GEN-DL",
+     "roomId": "2ymTUnOG992vb4ee76wPlb",
+     "roomExpressId": 9110,
+     "ifcProjectId": "344O7vICcwH8qAEnwJDjSU",
+     "position": {
+      "ifcWorld": [
+       6.6,
+       15.65,
+       2.475
+      ],
+      "roomLocal": [
+       0.35,
+       0.35,
+       2.475
+      ]
+     },
+     "mountHeight": 2.48,
+     "rotation": {
+      "aimTilt": 0,
+      "aimAzimuth": 0,
+      "bodyRotation": 0
+     },
+     "mountReference": {
+      "kind": "surface",
+      "surface": "ceiling",
+      "elementGuid": "1c9fGNciTCnuakBMCJ1ePk",
+      "elementId": 98994,
+      "elementName": "SLA - 014",
+      "normal": [
+       0,
+       0,
+       -1
+      ],
+      "status": "ok",
+      "message": "放置时拾取"
+     },
+     "photometricParameters": {
+      "flux": 600,
+      "power": 7,
+      "beamAngle": 60,
+      "cct": 3000,
+      "dimming": 100,
+      "on": true,
+      "length": null,
+      "distribution": "generic-cosine-power-v1",
+      "photometrySource": "generic",
+      "ies": null
+     },
+     "notes": "",
+     "designState": "ai-draft"
+    },
+    {
+     "fixtureId": "LF-MVX9JN5K-NBYUPI2u",
+     "name": "GEN-DL-10",
+     "fixtureType": "downlight",
+     "catalogCode": "GEN-DL",
+     "roomId": "2P0VxT$qjFPecwTq4rFS4G",
+     "roomExpressId": 7946,
+     "ifcProjectId": "344O7vICcwH8qAEnwJDjSU",
+     "position": {
+      "ifcWorld": [
+       8.7,
+       12.7,
+       3.045
+      ],
+      "roomLocal": [
+       0.95,
+       1.1,
+       3.045
+      ]
+     },
+     "mountHeight": 3.04,
+     "rotation": {
+      "aimTilt": 0,
+      "aimAzimuth": 0,
+      "bodyRotation": 0
+     },
+     "mountReference": {
+      "kind": "surface",
+      "surface": "ceiling",
+      "elementGuid": "3xvIcKur9DAvYFfshfdsWA",
+      "elementId": 95313,
+      "elementName": "SLA - 012",
+      "normal": [
+       0,
+       0,
+       -1
+      ],
+      "status": "ok",
+      "message": "放置时拾取"
+     },
+     "photometricParameters": {
+      "flux": 600,
+      "power": 7,
+      "beamAngle": 60,
+      "cct": 3000,
+      "dimming": 100,
+      "on": true,
+      "length": null,
+      "distribution": "generic-cosine-power-v1",
+      "photometrySource": "generic",
+      "ies": null
+     },
+     "notes": "",
+     "designState": "ai-draft"
+    },
+    {
+     "fixtureId": "LF-MVX9JN5K-IDSO8U2v",
+     "name": "GEN-DL-11",
+     "fixtureType": "downlight",
+     "catalogCode": "GEN-DL",
+     "roomId": "2l$O0Ew7r2NBp2zURtjPqL",
+     "roomExpressId": 9171,
+     "ifcProjectId": "344O7vICcwH8qAEnwJDjSU",
+     "position": {
+      "ifcWorld": [
+       7.25,
+       5,
+       2.515
+      ],
+      "roomLocal": [
+       0.9,
+       0.9,
+       2.515
+      ]
+     },
+     "mountHeight": 2.51,
+     "rotation": {
+      "aimTilt": 0,
+      "aimAzimuth": 0,
+      "bodyRotation": 0
+     },
+     "mountReference": {
+      "kind": "surface",
+      "surface": "ceiling",
+      "elementGuid": "2Ucp6QiTD91Q8H4ken8OHG",
+      "elementId": 73001,
+      "elementName": "SLA - 014",
+      "normal": [
+       0,
+       0,
+       -1
+      ],
+      "status": "ok",
+      "message": "放置时拾取"
+     },
+     "photometricParameters": {
+      "flux": 600,
+      "power": 7,
+      "beamAngle": 60,
+      "cct": 3000,
+      "dimming": 100,
+      "on": true,
+      "length": null,
+      "distribution": "generic-cosine-power-v1",
+      "photometrySource": "generic",
+      "ies": null
+     },
+     "notes": "",
+     "designState": "ai-draft"
+    },
+    {
+     "fixtureId": "LF-MVX9JN5K-FY7ZJ62w",
+     "name": "GEN-DL-12",
+     "fixtureType": "downlight",
+     "catalogCode": "GEN-DL",
+     "roomId": "0eIzt0iabBggSQsO609AjW",
+     "roomExpressId": 9121,
+     "ifcProjectId": "344O7vICcwH8qAEnwJDjSU",
+     "position": {
+      "ifcWorld": [
+       4.7,
+       17.65,
+       2.475
+      ],
+      "roomLocal": [
+       4.625,
+       0.75,
+       2.475
+      ]
+     },
+     "mountHeight": 2.48,
+     "rotation": {
+      "aimTilt": 0,
+      "aimAzimuth": 0,
+      "bodyRotation": 0
+     },
+     "mountReference": {
+      "kind": "surface",
+      "surface": "ceiling",
+      "elementGuid": "1c9fGNciTCnuakBMCJ1ePk",
+      "elementId": 98994,
+      "elementName": "SLA - 014",
+      "normal": [
+       0,
+       0,
+       -1
+      ],
+      "status": "ok",
+      "message": "放置时拾取"
+     },
+     "photometricParameters": {
+      "flux": 600,
+      "power": 7,
+      "beamAngle": 60,
+      "cct": 3000,
+      "dimming": 100,
+      "on": true,
+      "length": null,
+      "distribution": "generic-cosine-power-v1",
+      "photometrySource": "generic",
+      "ies": null
+     },
+     "notes": "",
+     "designState": "ai-draft"
+    },
+    {
+     "fixtureId": "LF-MVX9JN5K-JBN8SN2x",
+     "name": "GEN-DL-13",
+     "fixtureType": "downlight",
+     "catalogCode": "GEN-DL",
+     "roomId": "27FW5qE8z8LuvjA21ca59e",
+     "roomExpressId": 9103,
+     "ifcProjectId": "344O7vICcwH8qAEnwJDjSU",
+     "position": {
+      "ifcWorld": [
+       4.6,
+       15.4,
+       2.475
+      ],
+      "roomLocal": [
+       1.55,
+       2.1,
+       2.475
+      ]
+     },
+     "mountHeight": 2.48,
+     "rotation": {
+      "aimTilt": 0,
+      "aimAzimuth": 0,
+      "bodyRotation": 0
+     },
+     "mountReference": {
+      "kind": "surface",
+      "surface": "ceiling",
+      "elementGuid": "1c9fGNciTCnuakBMCJ1ePk",
+      "elementId": 98994,
+      "elementName": "SLA - 014",
+      "normal": [
+       0,
+       0,
+       -1
+      ],
+      "status": "ok",
+      "message": "放置时拾取"
+     },
+     "photometricParameters": {
+      "flux": 600,
+      "power": 7,
+      "beamAngle": 60,
+      "cct": 3000,
+      "dimming": 100,
+      "on": true,
+      "length": null,
+      "distribution": "generic-cosine-power-v1",
+      "photometrySource": "generic",
+      "ies": null
+     },
+     "notes": "",
+     "designState": "ai-draft"
+    },
+    {
+     "fixtureId": "LF-MVX9JN5K-YQMMH02y",
+     "name": "GEN-DL-14",
+     "fixtureType": "downlight",
+     "catalogCode": "GEN-DL",
+     "roomId": "1otYIBWDPFWO1xDlRAbJLD",
+     "roomExpressId": 8110,
+     "ifcProjectId": "344O7vICcwH8qAEnwJDjSU",
+     "position": {
+      "ifcWorld": [
+       1.55,
+       14.8,
+       2.475
+      ],
+      "roomLocal": [
+       1.4,
+       1.5,
+       2.475
+      ]
+     },
+     "mountHeight": 2.48,
+     "rotation": {
+      "aimTilt": 0,
+      "aimAzimuth": 0,
+      "bodyRotation": 0
+     },
+     "mountReference": {
+      "kind": "surface",
+      "surface": "ceiling",
+      "elementGuid": "0DNILSJVv7Be6h$aoL_RNa",
+      "elementId": 98919,
+      "elementName": "SLA - 014",
+      "normal": [
+       0,
+       0,
+       -1
+      ],
+      "status": "ok",
+      "message": "放置时拾取"
+     },
+     "photometricParameters": {
+      "flux": 600,
+      "power": 7,
+      "beamAngle": 60,
+      "cct": 3000,
+      "dimming": 100,
+      "on": true,
+      "length": null,
+      "distribution": "generic-cosine-power-v1",
+      "photometrySource": "generic",
+      "ies": null
+     },
+     "notes": "",
+     "designState": "ai-draft"
+    },
+    {
+     "fixtureId": "LF-MVX9JN5K-OO5RVJ2z",
+     "name": "GEN-DL-15",
+     "fixtureType": "downlight",
+     "catalogCode": "GEN-DL",
+     "roomId": "0j294L2OrDbP8n9OJF11Ex",
+     "roomExpressId": 10741,
+     "ifcProjectId": "344O7vICcwH8qAEnwJDjSU",
+     "position": {
+      "ifcWorld": [
+       3,
+       0.8,
+       2.495
+      ],
+      "roomLocal": [
+       2.925,
+       0.8,
+       2.495
+      ]
+     },
+     "mountHeight": 2.5,
+     "rotation": {
+      "aimTilt": 0,
+      "aimAzimuth": 0,
+      "bodyRotation": 0
+     },
+     "mountReference": {
+      "kind": "surface",
+      "surface": "ceiling",
+      "elementGuid": "00grNL_FL0TPzXdjoRBEoQ",
+      "elementId": 100049,
+      "elementName": "SLA - 014",
+      "normal": [
+       0,
+       0,
+       -1
+      ],
+      "status": "ok",
+      "message": "放置时拾取"
+     },
+     "photometricParameters": {
+      "flux": 600,
+      "power": 7,
+      "beamAngle": 60,
+      "cct": 3000,
+      "dimming": 100,
+      "on": true,
+      "length": null,
+      "distribution": "generic-cosine-power-v1",
+      "photometrySource": "generic",
+      "ies": null
+     },
+     "notes": "",
+     "designState": "ai-draft"
+    },
+    {
+     "fixtureId": "LF-MVX9JN5K-MQF36C30",
+     "name": "GEN-DL-16",
+     "fixtureType": "downlight",
+     "catalogCode": "GEN-DL",
+     "roomId": "3GrMwmLGvEavwZvDp5M5rs",
+     "roomExpressId": 10778,
+     "ifcProjectId": "344O7vICcwH8qAEnwJDjSU",
+     "position": {
+      "ifcWorld": [
+       9.65,
+       16.9,
+       2.795
+      ],
+      "roomLocal": [
+       1.398,
+       2.758,
+       2.795
+      ]
+     },
+     "mountHeight": 2.79,
+     "rotation": {
+      "aimTilt": 0,
+      "aimAzimuth": 0,
+      "bodyRotation": 0
+     },
+     "mountReference": {
+      "kind": "surface",
+      "surface": "ceiling",
+      "elementGuid": "39C_S0YRL6pOrVe6xJvGfK",
+      "elementId": 99129,
+      "elementName": "SLA - 014",
+      "normal": [
+       0,
+       0,
+       -1
+      ],
+      "status": "ok",
+      "message": "放置时拾取"
+     },
+     "photometricParameters": {
+      "flux": 600,
+      "power": 7,
+      "beamAngle": 60,
+      "cct": 3000,
+      "dimming": 100,
+      "on": true,
+      "length": null,
+      "distribution": "generic-cosine-power-v1",
+      "photometrySource": "generic",
+      "ies": null
+     },
+     "notes": "",
+     "designState": "ai-draft"
+    },
+    {
+     "fixtureId": "LF-MVX9JN5K-QAUJ1331",
+     "name": "GEN-DL-17",
+     "fixtureType": "downlight",
+     "catalogCode": "GEN-DL",
+     "roomId": "27atJBm4vEoOb2cqBivrJt",
+     "roomExpressId": 9461,
+     "ifcProjectId": "344O7vICcwH8qAEnwJDjSU",
+     "position": {
+      "ifcWorld": [
+       15.25,
+       6.95,
+       2.495
+      ],
+      "roomLocal": [
+       1.35,
+       2.05,
+       2.495
+      ]
+     },
+     "mountHeight": 2.5,
+     "rotation": {
+      "aimTilt": 0,
+      "aimAzimuth": 0,
+      "bodyRotation": 0
+     },
+     "mountReference": {
+      "kind": "surface",
+      "surface": "ceiling",
+      "elementGuid": "3MZOOeEGD39x313hLnKQmu",
+      "elementId": 99150,
+      "elementName": "SLA - 014",
+      "normal": [
+       0,
+       0,
+       -1
+      ],
+      "status": "ok",
+      "message": "放置时拾取"
+     },
+     "photometricParameters": {
+      "flux": 600,
+      "power": 7,
+      "beamAngle": 60,
+      "cct": 3000,
+      "dimming": 100,
+      "on": true,
+      "length": null,
+      "distribution": "generic-cosine-power-v1",
+      "photometrySource": "generic",
+      "ies": null
+     },
+     "notes": "",
+     "designState": "ai-draft"
+    },
+    {
+     "fixtureId": "LF-MVX9JN5K-NPLE5O32",
+     "name": "GEN-DL-18",
+     "fixtureType": "downlight",
+     "catalogCode": "GEN-DL",
+     "roomId": "0W89gqn0r52A_Ke4gahzt3",
+     "roomExpressId": 9443,
+     "ifcProjectId": "344O7vICcwH8qAEnwJDjSU",
+     "position": {
+      "ifcWorld": [
+       11.85,
+       7.7,
+       2.495
+      ],
+      "roomLocal": [
+       1.6,
+       2.2,
+       2.495
+      ]
+     },
+     "mountHeight": 2.5,
+     "rotation": {
+      "aimTilt": 0,
+      "aimAzimuth": 0,
+      "bodyRotation": 0
+     },
+     "mountReference": {
+      "kind": "surface",
+      "surface": "ceiling",
+      "elementGuid": "1dYmM3ACr8lQ1vlWBy6RAb",
+      "elementId": 99147,
+      "elementName": "SLA - 014",
+      "normal": [
+       0,
+       0,
+       -1
+      ],
+      "status": "ok",
+      "message": "放置时拾取"
+     },
+     "photometricParameters": {
+      "flux": 600,
+      "power": 7,
+      "beamAngle": 60,
+      "cct": 3000,
+      "dimming": 100,
+      "on": true,
+      "length": null,
+      "distribution": "generic-cosine-power-v1",
+      "photometrySource": "generic",
+      "ies": null
+     },
+     "notes": "",
+     "designState": "ai-draft"
+    },
+    {
+     "fixtureId": "LF-MVX9JN5K-W11M1S33",
+     "name": "GEN-DL-19",
+     "fixtureType": "downlight",
+     "catalogCode": "GEN-DL",
+     "roomId": "35g8hwNXDBLwEkV2iMLjLH",
+     "roomExpressId": 9415,
+     "ifcProjectId": "344O7vICcwH8qAEnwJDjSU",
+     "position": {
+      "ifcWorld": [
+       11.4,
+       3.05,
+       2.495
+      ],
+      "roomLocal": [
+       1.15,
+       2.95,
+       2.495
+      ]
+     },
+     "mountHeight": 2.5,
+     "rotation": {
+      "aimTilt": 0,
+      "aimAzimuth": 0,
+      "bodyRotation": 0
+     },
+     "mountReference": {
+      "kind": "surface",
+      "surface": "ceiling",
+      "elementGuid": "2ALreRxSr5NRbBusADeEJX",
+      "elementId": 73256,
+      "elementName": "SLA - 014",
+      "normal": [
+       0,
+       0,
+       -1
+      ],
+      "status": "ok",
+      "message": "放置时拾取"
+     },
+     "photometricParameters": {
+      "flux": 600,
+      "power": 7,
+      "beamAngle": 60,
+      "cct": 3000,
+      "dimming": 100,
+      "on": true,
+      "length": null,
+      "distribution": "generic-cosine-power-v1",
+      "photometrySource": "generic",
+      "ies": null
+     },
+     "notes": "",
+     "designState": "ai-draft"
+    },
+    {
+     "fixtureId": "LF-MVX9JN5K-WFDU1K34",
+     "name": "GEN-DL-20",
+     "fixtureType": "downlight",
+     "catalogCode": "GEN-DL",
+     "roomId": "0yfdpLzyj7pw0RManVIj7C",
+     "roomExpressId": 9030,
+     "ifcProjectId": "344O7vICcwH8qAEnwJDjSU",
+     "position": {
+      "ifcWorld": [
+       6.7,
+       14.65,
+       2.462
+      ],
+      "roomLocal": [
+       0.55,
+       0.55,
+       2.462
+      ]
+     },
+     "mountHeight": 2.46,
+     "rotation": {
+      "aimTilt": 0,
+      "aimAzimuth": 0,
+      "bodyRotation": 0
+     },
+     "mountReference": {
+      "kind": "surface",
+      "surface": "ceiling",
+      "elementGuid": "2WFDP0rcH6QuUf1HK1r58a",
+      "elementId": 102741,
+      "elementName": "CW-009",
+      "normal": [
+       0,
+       0,
+       -1
+      ],
+      "status": "ok",
+      "message": "放置时拾取"
+     },
+     "photometricParameters": {
+      "flux": 600,
+      "power": 7,
+      "beamAngle": 60,
+      "cct": 3000,
+      "dimming": 100,
+      "on": true,
+      "length": null,
+      "distribution": "generic-cosine-power-v1",
+      "photometrySource": "generic",
+      "ies": null
+     },
+     "notes": "",
+     "designState": "ai-draft"
+    },
+    {
+     "fixtureId": "LF-MVX9JN5K-L85OWZ35",
+     "name": "GEN-DL-21",
+     "fixtureType": "downlight",
+     "catalogCode": "GEN-DL",
+     "roomId": "0ev9prAzL7_RY3vvtnfOM6",
+     "roomExpressId": 10528,
+     "ifcProjectId": "344O7vICcwH8qAEnwJDjSU",
+     "position": {
+      "ifcWorld": [
+       14.55,
+       2.8,
+       2.845
+      ],
+      "roomLocal": [
+       1.95,
+       2.7,
+       2.845
+      ]
+     },
+     "mountHeight": 2.84,
+     "rotation": {
+      "aimTilt": 0,
+      "aimAzimuth": 0,
+      "bodyRotation": 0
+     },
+     "mountReference": {
+      "kind": "surface",
+      "surface": "ceiling",
+      "elementGuid": "1YK27XSXLFIeFlIibp1tph",
+      "elementId": 103068,
+      "elementName": "SLA - 014",
+      "normal": [
+       0,
+       0,
+       -1
+      ],
+      "status": "ok",
+      "message": "放置时拾取"
+     },
+     "photometricParameters": {
+      "flux": 600,
+      "power": 7,
+      "beamAngle": 60,
+      "cct": 3000,
+      "dimming": 100,
+      "on": true,
+      "length": null,
+      "distribution": "generic-cosine-power-v1",
+      "photometrySource": "generic",
+      "ies": null
+     },
+     "notes": "",
+     "designState": "ai-draft"
+    },
+    {
+     "fixtureId": "LF-MVX9JN5K-LFU9B836",
+     "name": "GEN-DL-22",
+     "fixtureType": "downlight",
+     "catalogCode": "GEN-DL",
+     "roomId": "33PBVJv4LDJRMYt49EmFRj",
+     "roomExpressId": 10593,
+     "ifcProjectId": "344O7vICcwH8qAEnwJDjSU",
+     "position": {
+      "ifcWorld": [
+       8.2,
+       2.05,
+       2.845
+      ],
+      "roomLocal": [
+       1.9,
+       1.95,
+       2.845
+      ]
+     },
+     "mountHeight": 2.84,
+     "rotation": {
+      "aimTilt": 0,
+      "aimAzimuth": 0,
+      "bodyRotation": 0
+     },
+     "mountReference": {
+      "kind": "surface",
+      "surface": "ceiling",
+      "elementGuid": "1mOvR9LnH9NuStPK$lCmE_",
+      "elementId": 99153,
+      "elementName": "SLA - 014",
+      "normal": [
+       0,
+       0,
+       -1
+      ],
+      "status": "ok",
+      "message": "放置时拾取"
+     },
+     "photometricParameters": {
+      "flux": 600,
+      "power": 7,
+      "beamAngle": 60,
+      "cct": 3000,
+      "dimming": 100,
+      "on": true,
+      "length": null,
+      "distribution": "generic-cosine-power-v1",
+      "photometrySource": "generic",
+      "ies": null
+     },
+     "notes": "",
+     "designState": "ai-draft"
+    },
+    {
+     "fixtureId": "LF-MVX9JN5K-K147Z537",
+     "name": "GEN-DL-23",
+     "fixtureType": "downlight",
+     "catalogCode": "GEN-DL",
+     "roomId": "07zOKxPsLCD8Lgm1mekxS_",
+     "roomExpressId": 5174,
+     "ifcProjectId": "344O7vICcwH8qAEnwJDjSU",
+     "position": {
+      "ifcWorld": [
+       3.8,
+       8.75,
+       2.855
+      ],
+      "roomLocal": [
+       3.65,
+       1.6,
+       2.855
+      ]
+     },
+     "mountHeight": 2.85,
+     "rotation": {
+      "aimTilt": 0,
+      "aimAzimuth": 0,
+      "bodyRotation": 0
+     },
+     "mountReference": {
+      "kind": "surface",
+      "surface": "ceiling",
+      "elementGuid": "0y$_U9S8b7ZAkwNn2z3LxE",
+      "elementId": 100042,
+      "elementName": "SLA - 014",
+      "normal": [
+       0,
+       0,
+       -1
+      ],
+      "status": "ok",
+      "message": "放置时拾取"
+     },
+     "photometricParameters": {
+      "flux": 600,
+      "power": 7,
+      "beamAngle": 60,
+      "cct": 3000,
+      "dimming": 100,
+      "on": true,
+      "length": null,
+      "distribution": "generic-cosine-power-v1",
+      "photometrySource": "generic",
+      "ies": null
+     },
+     "notes": "",
+     "designState": "ai-draft"
+    },
+    {
+     "fixtureId": "LF-MVX9JN5K-9D0V7638",
+     "name": "GEN-DL-24",
+     "fixtureType": "downlight",
+     "catalogCode": "GEN-DL",
+     "roomId": "1PfKl91zj2RuH7WFkswWD1",
+     "roomExpressId": 7802,
+     "ifcProjectId": "344O7vICcwH8qAEnwJDjSU",
+     "position": {
+      "ifcWorld": [
+       3.95,
+       11.9,
+       2.855
+      ],
+      "roomLocal": [
+       3.8,
+       1.55,
+       2.855
+      ]
+     },
+     "mountHeight": 2.85,
+     "rotation": {
+      "aimTilt": 0,
+      "aimAzimuth": 0,
+      "bodyRotation": 0
+     },
+     "mountReference": {
+      "kind": "surface",
+      "surface": "ceiling",
+      "elementGuid": "0y$_U9S8b7ZAkwNn2z3LxE",
+      "elementId": 100042,
+      "elementName": "SLA - 014",
+      "normal": [
+       0,
+       0,
+       -1
+      ],
+      "status": "ok",
+      "message": "放置时拾取"
+     },
+     "photometricParameters": {
+      "flux": 600,
+      "power": 7,
+      "beamAngle": 60,
+      "cct": 3000,
+      "dimming": 100,
+      "on": true,
+      "length": null,
+      "distribution": "generic-cosine-power-v1",
+      "photometrySource": "generic",
+      "ies": null
+     },
+     "notes": "",
+     "designState": "ai-draft"
+    },
+    {
+     "fixtureId": "LF-MVX9JN62-32EFKU3a",
+     "name": "GEN-DL-21",
+     "fixtureType": "downlight",
+     "catalogCode": "GEN-DL",
+     "roomId": "37vCJKFnjC5BzAVbbtuqE_",
+     "roomExpressId": 4794,
+     "ifcProjectId": "344O7vICcwH8qAEnwJDjSU",
+     "position": {
+      "ifcWorld": [
+       1.6,
+       4.45,
+       2.70439
+      ],
+      "roomLocal": [
+       1.45,
+       2.65,
+       2.704
+      ]
+     },
+     "mountHeight": 2.7,
+     "rotation": {
+      "aimTilt": 0,
+      "aimAzimuth": 0,
+      "bodyRotation": 0
+     },
+     "mountReference": {
+      "kind": "surface",
+      "surface": "ceiling",
+      "elementGuid": "36MNJ4bH17yPRZallN8Aia",
+      "elementId": 73470,
+      "elementName": "BMR - 009",
+      "normal": [
+       0,
+       0,
+       -1
+      ],
+      "status": "ok",
+      "message": "放置时拾取"
+     },
+     "photometricParameters": {
+      "flux": 490,
+      "power": 5.7,
+      "beamAngle": 50,
+      "cct": 2700,
+      "dimming": 80,
+      "on": true,
+      "length": null,
+      "distribution": "generic-cosine-power-v1",
+      "photometrySource": "generic",
+      "ies": null
+     },
+     "notes": "",
+     "designState": "ai-draft"
+    },
+    {
+     "fixtureId": "LF-MVX9JN62-JQQSIV3b",
+     "name": "GEN-DL-22",
+     "fixtureType": "downlight",
+     "catalogCode": "GEN-DL",
+     "roomId": "37vCJKFnjC5BzAVbbtuqE_",
+     "roomExpressId": 4794,
+     "ifcProjectId": "344O7vICcwH8qAEnwJDjSU",
+     "position": {
+      "ifcWorld": [
+       2.35,
+       4.45,
+       2.70439
+      ],
+      "roomLocal": [
+       2.2,
+       2.65,
+       2.704
+      ]
+     },
+     "mountHeight": 2.7,
+     "rotation": {
+      "aimTilt": 0,
+      "aimAzimuth": 0,
+      "bodyRotation": 0
+     },
+     "mountReference": {
+      "kind": "surface",
+      "surface": "ceiling",
+      "elementGuid": "36MNJ4bH17yPRZallN8Aia",
+      "elementId": 73470,
+      "elementName": "BMR - 009",
+      "normal": [
+       0,
+       0,
+       -1
+      ],
+      "status": "ok",
+      "message": "放置时拾取"
+     },
+     "photometricParameters": {
+      "flux": 490,
+      "power": 5.7,
+      "beamAngle": 50,
+      "cct": 2700,
+      "dimming": 80,
+      "on": true,
+      "length": null,
+      "distribution": "generic-cosine-power-v1",
+      "photometrySource": "generic",
+      "ies": null
+     },
+     "notes": "",
+     "designState": "ai-draft"
+    },
+    {
+     "fixtureId": "LF-MVX9JN62-0VZCUA3c",
+     "name": "GEN-DL-23",
+     "fixtureType": "downlight",
+     "catalogCode": "GEN-DL",
+     "roomId": "37vCJKFnjC5BzAVbbtuqE_",
+     "roomExpressId": 4794,
+     "ifcProjectId": "344O7vICcwH8qAEnwJDjSU",
+     "position": {
+      "ifcWorld": [
+       3.05,
+       4.45,
+       2.70439
+      ],
+      "roomLocal": [
+       2.9,
+       2.65,
+       2.704
+      ]
+     },
+     "mountHeight": 2.7,
+     "rotation": {
+      "aimTilt": 0,
+      "aimAzimuth": 0,
+      "bodyRotation": 0
+     },
+     "mountReference": {
+      "kind": "surface",
+      "surface": "ceiling",
+      "elementGuid": "36MNJ4bH17yPRZallN8Aia",
+      "elementId": 73470,
+      "elementName": "BMR - 009",
+      "normal": [
+       0,
+       0,
+       -1
+      ],
+      "status": "ok",
+      "message": "放置时拾取"
+     },
+     "photometricParameters": {
+      "flux": 490,
+      "power": 5.7,
+      "beamAngle": 50,
+      "cct": 2700,
+      "dimming": 80,
+      "on": true,
+      "length": null,
+      "distribution": "generic-cosine-power-v1",
+      "photometrySource": "generic",
+      "ies": null
+     },
+     "notes": "",
+     "designState": "ai-draft"
+    },
+    {
+     "fixtureId": "LF-MVX9JN63-FRYQ373d",
+     "name": "GEN-DL-24",
+     "fixtureType": "downlight",
+     "catalogCode": "GEN-DL",
+     "roomId": "37vCJKFnjC5BzAVbbtuqE_",
+     "roomExpressId": 4794,
+     "ifcProjectId": "344O7vICcwH8qAEnwJDjSU",
+     "position": {
+      "ifcWorld": [
+       3.8,
+       4.45,
+       2.70439
+      ],
+      "roomLocal": [
+       3.65,
+       2.65,
+       2.704
+      ]
+     },
+     "mountHeight": 2.7,
+     "rotation": {
+      "aimTilt": 0,
+      "aimAzimuth": 0,
+      "bodyRotation": 0
+     },
+     "mountReference": {
+      "kind": "surface",
+      "surface": "ceiling",
+      "elementGuid": "36MNJ4bH17yPRZallN8Aia",
+      "elementId": 73470,
+      "elementName": "BMR - 009",
+      "normal": [
+       0,
+       0,
+       -1
+      ],
+      "status": "ok",
+      "message": "放置时拾取"
+     },
+     "photometricParameters": {
+      "flux": 490,
+      "power": 5.7,
+      "beamAngle": 50,
+      "cct": 2700,
+      "dimming": 80,
+      "on": true,
+      "length": null,
+      "distribution": "generic-cosine-power-v1",
+      "photometrySource": "generic",
+      "ies": null
+     },
+     "notes": "",
+     "designState": "ai-draft"
+    },
+    {
+     "fixtureId": "LF-MVX9JN63-D559CA3e",
+     "name": "GEN-DL-25",
+     "fixtureType": "downlight",
+     "catalogCode": "GEN-DL",
+     "roomId": "37vCJKFnjC5BzAVbbtuqE_",
+     "roomExpressId": 4794,
+     "ifcProjectId": "344O7vICcwH8qAEnwJDjSU",
+     "position": {
+      "ifcWorld": [
+       4.55,
+       4.45,
+       2.70439
+      ],
+      "roomLocal": [
+       4.4,
+       2.65,
+       2.704
+      ]
+     },
+     "mountHeight": 2.7,
+     "rotation": {
+      "aimTilt": 0,
+      "aimAzimuth": 0,
+      "bodyRotation": 0
+     },
+     "mountReference": {
+      "kind": "surface",
+      "surface": "ceiling",
+      "elementGuid": "36MNJ4bH17yPRZallN8Aia",
+      "elementId": 73470,
+      "elementName": "BMR - 009",
+      "normal": [
+       0,
+       0,
+       -1
+      ],
+      "status": "ok",
+      "message": "放置时拾取"
+     },
+     "photometricParameters": {
+      "flux": 490,
+      "power": 5.7,
+      "beamAngle": 50,
+      "cct": 2700,
+      "dimming": 80,
+      "on": true,
+      "length": null,
+      "distribution": "generic-cosine-power-v1",
+      "photometrySource": "generic",
+      "ies": null
+     },
+     "notes": "",
+     "designState": "ai-draft"
+    },
+    {
+     "fixtureId": "LF-MVX9JN6L-4XQ24I3f",
+     "name": "GEN-DL-26",
+     "fixtureType": "downlight",
+     "catalogCode": "GEN-DL",
+     "roomId": "37vCJKFnjC5BzAVbbtuqE_",
+     "roomExpressId": 4794,
+     "ifcProjectId": "344O7vICcwH8qAEnwJDjSU",
+     "position": {
+      "ifcWorld": [
+       5.25,
+       2.3,
+       2.495
+      ],
+      "roomLocal": [
+       5.1,
+       0.5,
+       2.495
+      ]
+     },
+     "mountHeight": 2.5,
+     "rotation": {
+      "aimTilt": 30,
+      "aimAzimuth": 0,
+      "bodyRotation": 0
+     },
+     "mountReference": {
+      "kind": "surface",
+      "surface": "ceiling",
+      "elementGuid": "00grNL_FL0TPzXdjoRBEoQ",
+      "elementId": 100049,
+      "elementName": "SLA - 014",
+      "normal": [
+       0,
+       0,
+       -1
+      ],
+      "status": "ok",
+      "message": "放置时拾取"
+     },
+     "photometricParameters": {
+      "flux": 490,
+      "power": 5.7,
+      "beamAngle": 24,
+      "cct": 2700,
+      "dimming": 100,
+      "on": true,
+      "length": null,
+      "distribution": "generic-cosine-power-v1",
+      "photometrySource": "generic",
+      "ies": null
+     },
+     "notes": "",
+     "designState": "ai-draft"
+    },
+    {
+     "fixtureId": "LF-MVX9JN6L-4B7W963g",
+     "name": "GEN-DL-27",
+     "fixtureType": "downlight",
+     "catalogCode": "GEN-DL",
+     "roomId": "37vCJKFnjC5BzAVbbtuqE_",
+     "roomExpressId": 4794,
+     "ifcProjectId": "344O7vICcwH8qAEnwJDjSU",
+     "position": {
+      "ifcWorld": [
+       3.8,
+       2.3,
+       2.495
+      ],
+      "roomLocal": [
+       3.65,
+       0.5,
+       2.495
+      ]
+     },
+     "mountHeight": 2.5,
+     "rotation": {
+      "aimTilt": 30,
+      "aimAzimuth": 0,
+      "bodyRotation": 0
+     },
+     "mountReference": {
+      "kind": "surface",
+      "surface": "ceiling",
+      "elementGuid": "00grNL_FL0TPzXdjoRBEoQ",
+      "elementId": 100049,
+      "elementName": "SLA - 014",
+      "normal": [
+       0,
+       0,
+       -1
+      ],
+      "status": "ok",
+      "message": "放置时拾取"
+     },
+     "photometricParameters": {
+      "flux": 490,
+      "power": 5.7,
+      "beamAngle": 24,
+      "cct": 2700,
+      "dimming": 100,
+      "on": true,
+      "length": null,
+      "distribution": "generic-cosine-power-v1",
+      "photometrySource": "generic",
+      "ies": null
+     },
+     "notes": "",
+     "designState": "ai-draft"
+    },
+    {
+     "fixtureId": "LF-MVX9JN6L-J58HU53h",
+     "name": "GEN-DL-28",
+     "fixtureType": "downlight",
+     "catalogCode": "GEN-DL",
+     "roomId": "37vCJKFnjC5BzAVbbtuqE_",
+     "roomExpressId": 4794,
+     "ifcProjectId": "344O7vICcwH8qAEnwJDjSU",
+     "position": {
+      "ifcWorld": [
+       2.35,
+       2.3,
+       2.495
+      ],
+      "roomLocal": [
+       2.2,
+       0.5,
+       2.495
+      ]
+     },
+     "mountHeight": 2.5,
+     "rotation": {
+      "aimTilt": 30,
+      "aimAzimuth": 0,
+      "bodyRotation": 0
+     },
+     "mountReference": {
+      "kind": "surface",
+      "surface": "ceiling",
+      "elementGuid": "00grNL_FL0TPzXdjoRBEoQ",
+      "elementId": 100049,
+      "elementName": "SLA - 014",
+      "normal": [
+       0,
+       0,
+       -1
+      ],
+      "status": "ok",
+      "message": "放置时拾取"
+     },
+     "photometricParameters": {
+      "flux": 490,
+      "power": 5.7,
+      "beamAngle": 24,
+      "cct": 2700,
+      "dimming": 100,
+      "on": true,
+      "length": null,
+      "distribution": "generic-cosine-power-v1",
+      "photometrySource": "generic",
+      "ies": null
+     },
+     "notes": "",
+     "designState": "ai-draft"
+    },
+    {
+     "fixtureId": "LF-MVX9JN6L-9K8NNC3i",
+     "name": "GEN-DL-29",
+     "fixtureType": "downlight",
+     "catalogCode": "GEN-DL",
+     "roomId": "37vCJKFnjC5BzAVbbtuqE_",
+     "roomExpressId": 4794,
+     "ifcProjectId": "344O7vICcwH8qAEnwJDjSU",
+     "position": {
+      "ifcWorld": [
+       0.9,
+       2.3,
+       2.495
+      ],
+      "roomLocal": [
+       0.75,
+       0.5,
+       2.495
+      ]
+     },
+     "mountHeight": 2.5,
+     "rotation": {
+      "aimTilt": 30,
+      "aimAzimuth": 0,
+      "bodyRotation": 0
+     },
+     "mountReference": {
+      "kind": "surface",
+      "surface": "ceiling",
+      "elementGuid": "00grNL_FL0TPzXdjoRBEoQ",
+      "elementId": 100049,
+      "elementName": "SLA - 014",
+      "normal": [
+       0,
+       0,
+       -1
+      ],
+      "status": "ok",
+      "message": "放置时拾取"
+     },
+     "photometricParameters": {
+      "flux": 490,
+      "power": 5.7,
+      "beamAngle": 24,
+      "cct": 2700,
+      "dimming": 100,
+      "on": true,
+      "length": null,
+      "distribution": "generic-cosine-power-v1",
+      "photometrySource": "generic",
+      "ies": null
+     },
+     "notes": "",
+     "designState": "ai-draft"
+    }
+   ],
+   "source": "demo",
+   "brief": "客厅改为6盏灯",
+   "createdAt": "2026-11-01T03:21:19.352Z",
+   "baseScheme": "C",
+   "designedRooms": [
+    "37vCJKFnjC5BzAVbbtuqE_"
+   ],
+   "targets": {
+    "37vCJKFnjC5BzAVbbtuqE_": {
+     "roomType": "living",
+     "standard": "GB 50034-2013 起居室 0.75 m 水平面 100 lx",
+     "Eavg": [
+      100,
+      150
+     ],
+     "Emin_standard": 100,
+     "U0": null,
+     "cct": [
+      2700,
+      4000
+     ],
+     "Ra": 80,
+     "lpdMax": 6,
+     "layered": false,
+     "notes": [],
+     "caveat": "照度区间与色温为 WEA 设计经验值（标准值为下限）；功率密度限值对应标准照度，提高照度时仅作参考",
+     "overrides": {
+      "U0_min": null,
+      "reason": "分层照明：以墙面与重点照明为主，工作面均匀度不作为目标（GB 50034 住宅未规定 U0）"
+     }
+    }
+   },
+   "results": {
+    "37vCJKFnjC5BzAVbbtuqE_": {
+     "Eavg": 126.21733856167768,
+     "Emin": 3.469955636973831,
+     "Emax": 566.0656836871676,
+     "U0": 0.02749190940417583,
+     "lpd": 1.4569621062048694,
+     "power": 45.6,
+     "cct": [
+      2700
+     ],
+     "count": 9,
+     "pass": true,
+     "at": "2026-11-01T03:21:19.456Z"
+    }
+   },
+   "rationale": "一半灯具在中部提供基础光，另一半沿主墙（电视墙 / 背景墙）做重点照明，基础光调暗以加强对比。色温 2700 K。计算：Eavg 126 lx、U0 0.03、功率密度 1.46 W/m²。调整：主灯光通量调至 490 lm。各项目标均达标。 本方案为分层照明，不考核工作面均匀度。",
+   "assumptions": [
+    "通用模拟灯具（cosᵐ 配光，非厂家 IES）",
+    "照度为直接光估算，未计遮挡与反射"
+   ],
+   "finalizedAt": "2026-11-01T03:21:19.456Z"
+  }
+ },
+ "roomOverrides": {},
+ "simulationSettings": {
+  "quality": "standard",
+  "electric": true,
+  "otherRooms": false,
+  "daylight": {
+   "enabled": false,
+   "year": 2026,
+   "month": 3,
+   "day": 21,
+   "hour": 10,
+   "sky": "clear",
+   "latitude": 39.9166,
+   "longitude": 116.3833,
+   "timezone": 8,
+   "northOffset": 0,
+   "locationSource": "IfcSite"
+  },
+  "materialReflectance": {}
+ },
+ "elvSettings": {
+  "lvVoltage": 24,
+  "dropLimit": 3,
+  "panelHeight": 1.3
+ },
+ "roomAnnotations": {}
+}

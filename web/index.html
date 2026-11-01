@@ -1,0 +1,143 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#111318">
+<title>WEA — Spatial Intelligence for MEP</title>
+<link rel="stylesheet" href="/style.css">
+<script type="importmap">{"imports":{"three":"/vendor/three/three.module.js","three/addons/":"/vendor/three/addons/"}}</script>
+</head>
+<body>
+<div class="app">
+  <header class="topbar">
+    <div class="brand"><div class="brandmark">W<span>·</span></div><div><div class="brand-name">WEA<span class="brand-sup">/ 01</span></div><div class="brand-desc">SPATIAL INTELLIGENCE</div></div></div>
+    <div class="top-mid"><div class="crumb">WORKSPACE</div><div class="crumb-separator">/</div><div id="projectTitle" class="crumb-name">恒昌玖里 · IFC MODEL</div><div id="headerTag" class="tag">IFC4</div>
+      <nav class="module-tabs" aria-label="工作模块"><button class="module-tab active" id="moduleBim"><span>◈</span>BIM Model Explorer</button><button class="module-tab" id="moduleLighting"><span>✦</span>Lighting Design<em>BETA</em></button><button class="module-tab" id="routingButton"><span>⌁</span>MEP Routing<em>BETA</em></button></nav></div>
+    <div class="top-actions"><span class="live-dot"></span><span class="top-state" id="topState">LOCAL WORKSPACE</span><button class="btn btn-outline" id="exportButton" title="导出当前选择构件 JSON">导出数据 <span class="arrow">↗</span></button><button class="btn btn-outline" id="objButton" title="选择 Archicad 导出 OBJ 的整个文件夹（含 .obj、.mtl 和贴图子文件夹），在本机提取贴图与真实铺贴尺寸，按材质名应用到当前模型">导入贴图 (OBJ)</button><input id="objInput" type="file" webkitdirectory multiple hidden><button class="btn btn-accent" id="uploadButton">＋ 导入 IFC</button><input id="fileInput" type="file" accept=".ifc,.IFC" hidden></div>
+  </header>
+  <div class="layout">
+    <aside class="sidebar left-sidebar">
+      <div class="side-heading"><div class="eyebrow">PROJECT EXPLORER</div><span class="small-grey">01 / BIM</span></div>
+      <div class="project-card"><div class="project-icon">▥</div><div class="project-info"><strong id="sideProjectName">恒昌玖里 8539</strong><span>ARCHICAD IFC4 · REFERENCE VIEW</span></div><span class="project-expand">⌄</span></div>
+      <div class="bim-only side-section"><div class="section-title">模型统计 <span>OVERVIEW</span></div><div class="mini-stats"><div><span class="stat-big" id="countObjects">—</span><small>构件</small></div><div><span class="stat-big" id="countRooms">—</span><small>空间</small></div><div><span class="stat-big" id="countLevels">—</span><small>楼层</small></div></div></div>
+      <div class="bim-only side-section discipline-section"><div class="section-title">专业 / DISCIPLINE <span>MODEL</span></div><div id="disciplineList"></div><div class="section-footnote">机电按 IFC 系统 / 端口 / 机电属性集识别；可在右侧面板手动改</div></div>
+      <div class="bim-only side-section floor-section"><div class="section-title">图层 / LAYERS <span id="floorBadge">4</span></div><div id="floorList"></div><div class="section-footnote">◉ 显示/隐藏　▸ 展开楼层内分类　点击楼层名 = 仅显示该层<br>楼层归属取自 IFC 空间结构；同层内上下分离请用“剖切”</div></div>
+      <div class="bim-only side-section category-section"><div class="section-title">构件分类 <span>ALL STOREYS</span></div><div id="categoryList"></div><div class="section-footnote">* 代理构件按名称和 Pset 推断分类</div></div>
+      <div class="bim-only side-section hidden-section"><div class="section-title">隐藏对象 <span id="hiddenBadge">0</span></div><div id="hiddenList"></div></div>
+      <div class="bim-only side-section room-section"><div class="section-title">房间 / SPACES <span id="roomsBadge">22</span></div><div class="filter-input"><span>⌕</span><input id="roomSearch" placeholder="搜索房间或构件..." autocomplete="off"></div><div id="roomList"></div></div>
+      <div class="routing-only side-section"><div class="section-title">MEP Routing <span>BETA</span></div>
+        <div class="section-footnote" style="margin-top:0">以 Lighting Design 的灯具方案为输入，生成机电深化图纸。当前提供：弱电（智能照明控制 + 低压灯具供电）。强电回路、管线自动路由等在后续版本。</div>
+        <div id="rtSource"></div>
+        <label class="lt-calcset">出图方案 <select id="rtScheme" class="lt-select"></select></label></div>
+      <div class="routing-only side-section"><div class="section-title">电气图纸 / ELECTRICAL <span>DXF</span></div>
+        <div class="lt-calcset"><label>低压 <select id="elvVoltage"><option value="24">24 V</option><option value="12">12 V</option></select></label>
+          <label>压降限值 <input type="number" id="elvDrop" min="1" max="10" step="0.5"> %</label><label>面板高度 <input type="number" id="elvPanelH" min="0.9" max="1.8" step="0.05"> m</label></div>
+        <div class="lt-sub">强电照明回路（220 V）</div>
+        <div class="lt-calcset"><label>回路电流 ≤ <input type="number" id="elvMaxI" min="2" max="16" step="0.5"> A</label><label>每回路房间 ≤ <input type="number" id="elvMaxRooms" min="1" max="30" step="1"></label>
+          <label>线缆 <input type="text" id="elvCable" style="width:84px"></label><label>保护管 <input type="text" id="elvConduit" style="width:56px"></label></div>
+        <div class="section-footnote" id="elvBoardNote"></div>
+        <div class="lt-btns"><button id="elvExport" class="lt-primary">生成并预览电气图纸</button><button id="elvReopen" hidden>打开预览</button></div>
+        <div class="section-footnote">输出：智能照明控制平面图、低压供电平面图、控制系统图及表格、<b>照明配电平面图</b>、<b>照明配电系统图</b>（毫米，IFC 世界坐标，可直接叠合 Archicad 平面）。控制协议待定时按控制分组 + 场景出逻辑图。默认：线性灯 24V 恒压供电，其余 220V 一体驱动；可在灯具属性中修改。</div></div>
+      <div class="lighting-only side-section"><div class="section-title">照明房间 / ROOM <span id="ltRoomBadge">—</span></div>
+        <select id="ltRoomSelect" class="lt-select"></select>
+        <div class="seg lt-viewseg"><button data-lt-view="orbit" class="active" title="剖切天花后的斜俯视">剖视</button><button data-lt-view="top" title="剖切天花的顶视图">顶视</button><button data-lt-view="plan" title="天花平面图：捕捉、对齐追踪、临时尺寸、输入坐标，精确定位灯位">平面定位</button><button data-lt-view="person" title="房间内人视透视">室内透视</button><button data-lt-view="global" title="整栋模型：不剖切，显示所有房间的灯具与照度热力图">全局</button></div>
+        <div id="ltRoomInfo" class="lt-room"></div></div>
+      <div class="lighting-only side-section"><div class="section-title">灯具库 / CATALOG <span>GENERIC</span></div><div id="ltCatalog"></div>
+        <div class="section-footnote">通用模拟灯具：无厂家光度数据，采用声明的 cosᵐ 光强分布（光通量守恒）。IES/LDT 接口已预留。</div></div>
+      <div class="lighting-only side-section"><div class="section-title">本房间灯具 <span id="ltFixtureCount">0</span></div><div id="ltFixtureList"></div></div>
+      <div class="lighting-only side-section"><div class="section-title">显示 / DISPLAY <span>VISUAL PREVIEW</span></div>
+        <div class="lt-toggles"><button data-lt-toggle="bodies">灯具</button><button data-lt-toggle="beams">光束</button><button data-lt-toggle="shadows">阴影</button><button data-lt-toggle="heatmap">热力图</button><button data-lt-toggle="sampleValues">数值</button><button data-lt-toggle="envelopeOnly" title="只显示从房间内部看得到的构件（完成面、固定家具、门窗玻璃；无饰面处保留结构），隐藏基层、龙骨、饰面后的结构与吊顶内机电；仿真同样只用这一层">仅室内外圈</button><button data-lt-toggle="isolateRoom">仅本房间</button><button data-lt-toggle="snap">吸附</button></div>
+        <label class="lt-field"><span>曝光</span><input type="range" id="ltExposure" min="-3" max="-0.5" step="0.05"><em id="ltExposureVal">—</em></label>
+        <label class="lt-field"><span>环境补光</span><input type="range" id="ltAmbient" min="0" max="20" step="0.5"><em id="ltAmbientVal">—</em></label>
+        <div class="lt-calcset"><label title="实时预览同时点亮的光源数。越多越接近全部灯具的效果，但每多一个光源，每帧渲染都更慢；照度计算不受影响">预览光源 <select id="ltPreviewLights"><option value="8">8（最快）</option><option value="16">16（默认）</option><option value="24">24</option><option value="32">32（较慢）</option></select></label></div>
+        <div class="section-footnote" id="ltShadowNote"></div><div class="section-footnote" id="ltEnvelopeNote"></div>
+        <details class="lt-manual" id="ltLayers"><summary>图层</summary><div class="section-footnote" style="margin:4px 0">取消勾选的图层不显示、不遮挡、不参与仿真（默认排除基层、龙骨、分缝、轴网、文档与导入参照模型）。</div><div class="lt-layer-list"></div></details><div class="section-footnote">曝光与环境补光只影响视觉预览，不进入照度计算。</div></div>
+      <div class="lighting-only side-section"><div class="section-title">日光 / DAYLIGHT <span id="ltSunInfo">—</span></div>
+        <div class="lt-toggles"><button id="ltDayOn" title="日光开 / 关：同时作用于视觉预览与 Radiance 仿真">日光 关</button></div>
+        <div id="ltDayBody">
+          <label class="lt-field"><span>日期</span><input type="date" id="ltDayDate"></label>
+          <label class="lt-field"><span>时间</span><input type="range" id="ltDayHour" min="5" max="20" step="0.25"><em id="ltDayHourVal">—</em></label>
+          <label class="lt-field"><span>天空</span><select id="ltDaySky" class="lt-select lt-inline"></select></label>
+          <div class="lt-grid4"><label>纬度 °N<input type="number" id="ltDayLat" step="0.0001"></label><label>经度 °E<input type="number" id="ltDayLon" step="0.0001"></label>
+            <label>时区 UTC+<input type="number" id="ltDayTz" step="0.5"></label><label>正北修正 °<input type="number" id="ltDayNorth" step="1"></label></div>
+          <div class="section-footnote" id="ltDayNote"></div></div></div>
+      <div class="lighting-only side-section"><div class="section-title">方案 / SCHEME <span id="ltSaveState">—</span></div>
+        <div id="ltSchemeList" class="lt-schemes"></div>
+        <div class="lt-btns"><button id="ltNewScheme" title="新建空白方案">新建</button><button id="ltCopyScheme" title="复制当前方案为新方案">复制为新方案</button><button id="ltRenameScheme">重命名</button><button id="ltDeleteScheme">删除</button></div>
+        <div class="lt-btns"><button id="ltSave" class="lt-primary">保存</button><button id="ltExport">导出 JSON</button><button id="ltImportBtn">导入</button><input type="file" id="ltImport" accept=".json,application/json" hidden></div>
+        <div id="ltReport"></div></div>
+    </aside>
+    <main class="viewer-shell">
+      <div class="viewer-toolbar"><div class="toolbar-left"><span class="viewport-dot"></span><span>3D VIEWPORT</span><span class="toolbar-divider">/</span><span id="viewportMode">全模型 · 透视</span></div><div class="toolbar-group"><div class="seg" id="renderModes"><button data-mode="material" class="active" title="IFC 表面样式材质 + 环境光照">材质</button><button data-mode="category" title="按构件分类着色">分类</button><button data-mode="clay" title="白模">白模</button><button data-mode="xray" title="半透明 X 光">X 光</button></div><div class="seg"><button id="aoButton" class="active" title="环境光遮蔽 (GTAO)">AO</button><button id="sectionButton" title="高度剖切：切掉某高度以上/以下的全部构件">剖切</button><button id="lensButton" title="镜头焦距与人视高度">镜头</button></div><div class="seg"><button id="hideSelected" title="隐藏选中构件 (H)">隐藏</button><button id="isolateTool" title="隔离选中构件 (I)">隔离</button><button id="showAll" title="全部显示 (Shift+H)">全部显示</button></div><div class="toolbar-tools"><button id="resetView" title="重置相机">⟲ <span>重置</span></button><button id="topView" title="俯视">⊞ <span>顶视</span></button><button id="wireButton" class="active" title="显示边界框">▣ <span>边界框</span></button></div></div></div>
+      <div class="section-panel" id="sectionPanel" hidden><div class="sp-title">高度剖切 <span>SECTION</span></div>
+        <label><span>顶部</span><input type="range" id="secTop"><b id="secTopVal">—</b></label>
+        <label><span>底部</span><input type="range" id="secBottom"><b id="secBottomVal">—</b></label>
+        <div class="sp-sub">按楼层层高范围</div><div class="sp-floors" id="secFloors"></div>
+        <div class="sp-foot">拖动“顶部”到楼板/吊顶以下即可俯视管线 <button id="secReset">重置</button></div></div>
+      <div class="section-panel lens-panel" id="lensPanel" hidden><div class="sp-title">镜头 <span>LENS · 35mm 等效</span></div>
+        <label><span>焦距</span><input type="range" id="focalRange" min="12" max="135" step="1"><b id="focalVal">—</b></label>
+        <div class="sp-floors" id="focalPresets"></div>
+        <label><span>视高</span><input type="range" id="eyeRange" min="0.9" max="2.0" step="0.05"><b id="eyeVal">—</b></label>
+        <div class="sp-foot"><span id="navState">轨道模式</span><button id="exitPerson">退出人视</button></div></div>
+      <canvas id="scene" aria-label="可交互三维 BIM 模型画布"></canvas>
+      <div id="noWebGL" class="empty-error" hidden>当前浏览器无法启动 WebGL2（three.js）。请使用最新版 Chrome、Edge 或 Safari。</div>
+      <div class="view-compass"><div class="compass-rose"><span>N</span><i></i></div><small>3D ORBIT</small></div>
+      <div class="view-hint" id="viewHint"><span class="hint-icon">⌘</span> 左键旋转 <i>·</i> 滚轮缩放 <i>·</i> 右键平移 <i>·</i> 点击选择 <i>·</i> Shift/⌘ 多选 <i>·</i> H 隐藏 · I 隔离 · Shift+H 全部显示</div>
+      <div class="lighting-only lt-toolbar"><div class="seg"><button data-lt-tool="select" class="active" title="选择灯具">选择</button><button data-lt-tool="add" title="添加：先在左侧灯具库选灯型">添加</button><button data-lt-tool="move" title="移动（操控器）">移动</button><button data-lt-tool="rotate" title="旋转 / 调整照射方向">旋转</button><button data-lt-tool="duplicate" title="复制 ⌘D">复制</button><button data-lt-tool="delete" title="删除 Del">删除</button></div>
+        <div class="seg"><button data-lt-tool="undo" title="撤销 ⌘Z">↶</button><button data-lt-tool="redo" title="重做 ⇧⌘Z">↷</button></div>
+        <div class="seg"><button data-lt-pick="fixture" class="active" title="点击选择灯具">选灯具</button><button data-lt-pick="bim" title="点击选择 BIM 构件（可按 H 隐藏遮挡）">选构件</button></div>
+        <div class="seg"><button id="ltAiToggle" class="lt-ai-btn" title="AI 设计师：用一句话描述需求，自动生成多个方案">✦ AI 设计师</button></div>
+        <span id="ltHint" class="lt-hint"></span></div>
+      <div class="lighting-only ai-panel" id="aiPanel" hidden>
+        <div class="ai-head"><b>✦ AI 设计师</b><select id="aiProvider" class="lt-select"><option value="demo">离线演示（规则脚本）</option><option value="openai">OpenAI（未配置）</option></select>
+          <button id="aiReset" title="清空对话（已生成的方案保留）">新对话</button><button id="aiClose" title="关闭">×</button></div>
+        <div class="ai-status" id="aiStatus"></div>
+        <div class="ai-log" id="aiLog"></div>
+        <div class="ai-input"><textarea id="aiInput" rows="3" placeholder="描述需求，例如：我要一个明亮温馨风格的客厅，架设八个射灯和一个装饰吊灯（Enter 发送，Shift+Enter 换行）"></textarea>
+          <div class="ai-input-bar"><button id="aiExample">示例</button><span id="aiUsage"></span><button id="aiSend" class="lt-primary">发送</button></div></div>
+      </div>
+      <div class="lighting-only lt-plan" id="ltPlan" hidden>
+        <div class="pl-bar" id="ltPlanBar"></div>
+        <svg id="ltPlanSvg" class="pl-svg"><defs><marker id="plArrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0L10 5L0 10Z" fill="context-stroke"/></marker></defs></svg>
+        <div class="pl-status" id="ltPlanStatus"></div>
+        <div class="pl-cmd" id="ltPlanCmd" hidden><span id="ltPlanCmdHint"></span><input id="ltPlanCmdInput" autocomplete="off" spellcheck="false"><small>Enter 确认 · Esc 取消</small></div>
+        <div class="pl-dim-edit" id="ltPlanDimEdit" hidden><input id="ltPlanDimInput" type="number" step="1"><span>mm ↵</span></div>
+      </div>
+      <div class="routing-only elv-preview" id="elvPreview" hidden>
+        <div class="elv-bar"><div class="seg" id="elvTabs"></div><span class="elv-hint">滚轮缩放 · 拖动平移 · 双击适应窗口</span>
+          <div class="lt-btns"><button id="elvFit">适应窗口</button><button id="elvDownload" class="lt-primary">下载 DXF（zip）</button><button id="elvClose">关闭预览</button></div></div>
+        <div class="elv-canvas" id="elvCanvas"><div class="elv-sheet" id="elvSheet"></div></div></div>
+      <div class="lighting-only lt-legend" id="ltLegend" hidden><div class="lt-legend-title">工作面直接照度 <b>lux</b></div><div class="lt-grad"></div><div class="lt-ticks"></div><div class="lt-legend-note"></div></div>
+      <div class="bottom-overlay"><div><div class="overlay-label">VIEW / MODEL COORDINATES</div><div id="coordText" class="overlay-value">—</div></div><div class="overlay-badges"><span id="geometryBadge">GEOMETRY LOADING</span><span>UNIT: METRE</span></div></div>
+      <div class="load-overlay" id="loading"><div class="loading-card"><div class="loading-spinner"></div><div class="load-title" id="loadTitle">正在准备 BIM 模型</div><div id="loadDetail" class="load-detail">正在读取几何与构件属性…</div><div class="progress"><span id="loadProgress"></span></div></div></div>
+    </main>
+    <aside class="sidebar right-sidebar"><div class="side-heading"><div class="eyebrow">OBJECT INSPECTOR</div><span class="small-grey">02 / DATA</span></div>
+      <div class="routing-only lt-right"><div class="lt-pane"><div class="lt-sub lt-sub-top">出图结果 / OUTPUT</div><div id="elvResult"><div class="hidden-empty">在左侧设置参数后点“生成并预览电气图纸”。</div></div></div>
+        <div class="lt-pane"><div class="lt-sub lt-sub-top">说明</div><div class="lt-disclaimer">图纸为方案阶段设计草图：控制协议未定时为逻辑连线、不分配总线地址；强电回路按电流、灯具数与房间数自动划分，配电箱未指定时自动放在入户门旁；所有线路为正交示意路由，未避让梁、风管与水管。须经电气专业复核后方可用于施工。</div></div></div>
+      <div class="lighting-only lt-right"><div class="lt-pane"><div class="lt-sub lt-sub-top">灯具属性 / FIXTURE</div><div id="ltInspector"></div></div>
+        <div class="lt-pane"><div class="lt-sub lt-sub-top">照度分析 / ILLUMINANCE</div>
+          <div class="seg lt-viewseg"><button data-lt-analysis="estimate" class="active" title="直接光逐点估算，拖动灯具实时更新">实时估算</button><button data-lt-analysis="simulation" title="Radiance 仿真：遮挡 + 多次反射 + 日光">Radiance 仿真</button></div>
+          <div id="ltSimPanel" hidden>
+            <div class="lt-calcset"><label>精度 <select id="ltSimQuality"></select></label></div>
+            <div class="lt-toggles"><button id="ltSimElectric" title="计入人工照明">人工照明</button><button id="ltSimOther" title="同时计入 6 m 范围内其他房间的灯具（仿真考虑遮挡）">含相邻房间灯具</button></div>
+            <div class="lt-btns"><button id="ltSimRun" class="lt-primary">运行仿真</button><button id="ltSimCancel" hidden>取消</button></div>
+            <div class="lt-progress" id="ltSimProgress" hidden><span></span></div>
+            <div id="ltSimStatus" class="lt-note" hidden></div>
+          </div>
+          <div class="lt-calcset"><label>工作面 <input type="number" id="ltWorkplane" min="0" max="2.5" step="0.05"> m</label><label>网格 <select id="ltSpacing"><option value="auto">自动</option><option value="0.1">0.1 m</option><option value="0.25">0.25 m</option><option value="0.5">0.5 m</option><option value="1">1 m</option></select></label><label title="计算区域不含距墙此宽度内的边缘带（EN 12464-1 等常用做法）">墙边排除 <input type="number" id="ltBorder" min="0" max="1" step="0.05"> m</label><label>图例上限 <input type="text" id="ltLegendMax" placeholder="自动"> lx</label></div>
+          <div id="ltStats"></div>
+          <details class="lt-manual" id="ltMatBox" hidden><summary>材质反射率（仿真输入）</summary><div id="ltMatTable"></div>
+            <div class="section-footnote">默认值由 IFC 显示颜色推算（显示色通常偏暗），请按材料样板/厂家数据修正。参考：白色乳胶漆 0.75–0.85，浅色木材 0.4–0.6，混凝土 0.25–0.4，深色地板 0.1–0.2。</div></details></div></div>
+      <div id="inspectorEmpty" class="bim-only inspector-empty"><div class="inspector-image"><svg viewBox="0 0 180 150" fill="none" aria-hidden="true"><path d="M90 9 155 44v66l-65 35-65-35V44L90 9Z" stroke="currentColor" stroke-width="1.2"/><path d="m25 44 65 36 65-36M90 80v65" stroke="currentColor" stroke-width="1.2"/><path d="m25 78 65 36 65-36M90 9v71" stroke="currentColor" stroke-width=".7" stroke-dasharray="3 5"/></svg></div><div class="inspector-empty-title">选择一个 BIM 构件</div><p>在三维视图中点击任意构件，或从左侧选择房间，查看 IFC 属性、空间尺寸及构件身份。</p><span class="selection-tip">↖  SELECT AN ELEMENT</span></div>
+      <div id="inspector" class="bim-only" hidden><div class="inspect-summary"><div class="inspect-type" id="inspectorType">IFC ELEMENT</div><div class="inspect-name" id="inspectorName">—</div><div class="inspect-id" id="inspectorId">#—</div><div class="inspect-actions"><button id="focusSelected">◎ 定位</button><button id="hideSelectedInspector">◌ 隐藏</button><button id="isolateSelected">◉ 隔离</button><button id="clearSelected">✕ 清除</button></div></div>
+        <div class="inspector-scroll"><div class="inspect-section"><h3>IDENTITY / 身份信息</h3><div id="identityRows"></div></div><div class="inspect-section"><h3>MATERIAL / 材质</h3><div id="materialRows"></div></div><div class="inspect-section"><h3>GEOMETRY / 几何范围</h3><div id="geometryRows"></div></div><div class="inspect-section"><h3>IFC PROPERTIES / 属性集</h3><div id="propertyRows"></div></div><div class="data-caution">构件分类可能为启发式识别；包围盒尺寸不等于施工工程量。</div></div>
+      </div>
+      <div class="right-bottom"><div class="side-section-status"><span class="status-dot"></span> <span>DATA SOURCE</span><strong>IFC4 / ARCHICAD 28</strong></div><p>WEA · Private MEP Research Prototype<br>Local-first workspace / No cloud upload</p></div>
+    </aside>
+  </div>
+  <footer class="statusbar"><span><b class="status-indicator"></b><span id="footerStatus">准备就绪</span></span><span>WEA // BIM SPATIAL CORE <span class="footer-accent">●</span> 0.4 RESEARCH BUILD</span></footer>
+</div>
+<div class="toast" id="toast" role="status"></div>
+<script type="module" src="/main.js"></script>
+</body>
+</html>

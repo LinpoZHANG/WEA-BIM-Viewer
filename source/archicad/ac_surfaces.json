@@ -1,0 +1,10291 @@
+[
+ {
+  "attributeId": {
+   "guid": "7E632729-6902-4B79-8423-2D232097CB4D"
+  },
+  "name": "MAS-混凝土砌块-灰色",
+  "materialType": "General",
+  "ambientReflection": 70,
+  "diffuseReflection": 70,
+  "specularReflection": 0,
+  "transparencyAttenuation": 0,
+  "emissionAttenuation": 0,
+  "surfaceColor": {
+   "red": 0.501960784,
+   "green": 0.501960784,
+   "blue": 0.501960784
+  },
+  "specularColor": {
+   "red": 0.8,
+   "green": 0.8,
+   "blue": 0.8
+  },
+  "emissionColor": {
+   "red": 0,
+   "green": 0,
+   "blue": 0
+  },
+  "fillId": {
+   "attributeId": {
+    "guid": "304F9C0E-58B2-48F4-AB8A-21FA4664D64D"
+   }
+  },
+  "transparency": 0,
+  "shine": 0,
+  "texture": {
+   "name": "MAS 加气混凝土砌块-1"
+  }
+ },
+ {
+  "attributeId": {
+   "guid": "28AEB210-D7D7-4698-B5A6-1432BE720273"
+  },
+  "name": "胶粘剂",
+  "materialType": "General",
+  "ambientReflection": 70,
+  "diffuseReflection": 70,
+  "specularReflection": 0,
+  "transparencyAttenuation": 0,
+  "emissionAttenuation": 0,
+  "surfaceColor": {
+   "red": 0.690196078,
+   "green": 0.709803922,
+   "blue": 0.694117647
+  },
+  "specularColor": {
+   "red": 0.8,
+   "green": 0.8,
+   "blue": 0.8
+  },
+  "emissionColor": {
+   "red": 0,
+   "green": 0,
+   "blue": 0
+  },
+  "fillId": {
+   "attributeId": {
+    "guid": "94A79CB0-D263-43F9-99EF-D12018A3F35C"
+   }
+  },
+  "transparency": 0,
+  "shine": 0,
+  "texture": {
+   "name": "FUN-素水泥膏"
+  }
+ },
+ {
+  "attributeId": {
+   "guid": "EB970D84-673B-454F-B43E-7107652E0ADD"
+  },
+  "name": "GB-欧松板-黄色",
+  "materialType": "General",
+  "ambientReflection": 70,
+  "diffuseReflection": 70,
+  "specularReflection": 0,
+  "transparencyAttenuation": 0,
+  "emissionAttenuation": 0,
+  "surfaceColor": {
+   "red": 0.658823529,
+   "green": 0.568627451,
+   "blue": 0.450980392
+  },
+  "specularColor": {
+   "red": 0.8,
+   "green": 0.8,
+   "blue": 0.8
+  },
+  "emissionColor": {
+   "red": 0,
+   "green": 0,
+   "blue": 0
+  },
+  "fillId": {
+   "error": {
+    "code": 6100,
+    "message": "Attribute is missing"
+   }
+  },
+  "transparency": 0,
+  "shine": 0,
+  "texture": {
+   "name": "GB-欧松板"
+  }
+ },
+ {
+  "attributeId": {
+   "guid": "2464E983-306D-4E1D-992B-9B51446BC493"
+  },
+  "name": "FUN-保温层-岩棉保温板-黄色",
+  "materialType": "General",
+  "ambientReflection": 70,
+  "diffuseReflection": 70,
+  "specularReflection": 0,
+  "transparencyAttenuation": 0,
+  "emissionAttenuation": 0,
+  "surfaceColor": {
+   "red": 0.843137255,
+   "green": 0.780392157,
+   "blue": 0.592156863
+  },
+  "specularColor": {
+   "red": 0.843137255,
+   "green": 0.780392157,
+   "blue": 0.592156863
+  },
+  "emissionColor": {
+   "red": 0,
+   "green": 0,
+   "blue": 0
+  },
+  "fillId": {
+   "error": {
+    "code": 6100,
+    "message": "Attribute is missing"
+   }
+  },
+  "transparency": 50,
+  "shine": 0,
+  "texture": {
+   "name": "隔离层 - 玻璃纤维 -opt"
+  }
+ },
+ {
+  "attributeId": {
+   "guid": "67827B88-DE99-4B6D-96A3-089437B8F090"
+  },
+  "name": "水泥砂浆",
+  "materialType": "General",
+  "ambientReflection": 70,
+  "diffuseReflection": 70,
+  "specularReflection": 0,
+  "transparencyAttenuation": 0,
+  "emissionAttenuation": 0,
+  "surfaceColor": {
+   "red": 0.654901961,
+   "green": 0.654901961,
+   "blue": 0.654901961
+  },
+  "specularColor": {
+   "red": 0.8,
+   "green": 0.8,
+   "blue": 0.8
+  },
+  "emissionColor": {
+   "red": 0,
+   "green": 0,
+   "blue": 0
+  },
+  "fillId": {
+   "error": {
+    "code": 6100,
+    "message": "Attribute is missing"
+   }
+  },
+  "transparency": 0,
+  "shine": 0,
+  "texture": {
+   "name": "FUN-水泥砂浆"
+  }
+ },
+ {
+  "attributeId": {
+   "guid": "4D5C8F4B-6304-4D2B-BDC9-A4F85164A0AF"
+  },
+  "name": "CON-混凝土-灰色",
+  "materialType": "General",
+  "ambientReflection": 100,
+  "diffuseReflection": 70,
+  "specularReflection": 0,
+  "transparencyAttenuation": 0,
+  "emissionAttenuation": 0,
+  "surfaceColor": {
+   "red": 0.752941176,
+   "green": 0.752941176,
+   "blue": 0.752941176
+  },
+  "specularColor": {
+   "red": 0.8,
+   "green": 0.8,
+   "blue": 0.8
+  },
+  "emissionColor": {
+   "red": 0,
+   "green": 0,
+   "blue": 0
+  },
+  "fillId": {
+   "attributeId": {
+    "guid": "5B58D4A2-D7DF-498B-B3E0-CC2E6630EF43"
+   }
+  },
+  "transparency": 0,
+  "shine": 0,
+  "texture": {
+   "name": "CON 混凝土-19"
+  }
+ },
+ {
+  "attributeId": {
+   "guid": "BA5DDD96-5BD8-4CD1-A0A0-631245A8774E"
+  },
+  "name": "CUT-切面-胶合板",
+  "materialType": "General",
+  "ambientReflection": 70,
+  "diffuseReflection": 70,
+  "specularReflection": 0,
+  "transparencyAttenuation": 0,
+  "emissionAttenuation": 0,
+  "surfaceColor": {
+   "red": 1,
+   "green": 1,
+   "blue": 1
+  },
+  "specularColor": {
+   "red": 0.8,
+   "green": 0.8,
+   "blue": 0.8
+  },
+  "emissionColor": {
+   "red": 0,
+   "green": 0,
+   "blue": 0
+  },
+  "fillId": {
+   "error": {
+    "code": 6100,
+    "message": "Attribute is missing"
+   }
+  },
+  "transparency": 0,
+  "shine": 0,
+  "texture": {
+   "name": "胶合板截面"
+  }
+ },
+ {
+  "attributeId": {
+   "guid": "92C89204-0B83-4240-AAC3-E9CDEF05ED66"
+  },
+  "name": "CUT-切面-木工板",
+  "materialType": "General",
+  "ambientReflection": 70,
+  "diffuseReflection": 70,
+  "specularReflection": 0,
+  "transparencyAttenuation": 0,
+  "emissionAttenuation": 0,
+  "surfaceColor": {
+   "red": 1,
+   "green": 1,
+   "blue": 1
+  },
+  "specularColor": {
+   "red": 0.8,
+   "green": 0.8,
+   "blue": 0.8
+  },
+  "emissionColor": {
+   "red": 0,
+   "green": 0,
+   "blue": 0
+  },
+  "fillId": {
+   "error": {
+    "code": 6100,
+    "message": "Attribute is missing"
+   }
+  },
+  "transparency": 0,
+  "shine": 0,
+  "texture": {
+   "name": "木工板截面"
+  }
+ },
+ {
+  "attributeId": {
+   "guid": "ED0DDC3B-85E8-4639-920B-86B06909FFD1"
+  },
+  "name": "P-排水管",
+  "materialType": "General",
+  "ambientReflection": 93,
+  "diffuseReflection": 41,
+  "specularReflection": 10,
+  "transparencyAttenuation": 0,
+  "emissionAttenuation": 0,
+  "surfaceColor": {
+   "red": 1,
+   "green": 0.501960784,
+   "blue": 0
+  },
+  "specularColor": {
+   "red": 0.990005341,
+   "green": 0.990005341,
+   "blue": 1
+  },
+  "emissionColor": {
+   "red": 0,
+   "green": 0,
+   "blue": 0
+  },
+  "fillId": {
+   "error": {
+    "code": 6100,
+    "message": "Attribute is missing"
+   }
+  },
+  "transparency": 0,
+  "shine": 72
+ },
+ {
+  "attributeId": {
+   "guid": "2D1280C0-860B-4501-8B81-16E303453A44"
+  },
+  "name": "AL-铝扣板-白色",
+  "materialType": "General",
+  "ambientReflection": 70,
+  "diffuseReflection": 70,
+  "specularReflection": 0,
+  "transparencyAttenuation": 0,
+  "emissionAttenuation": 0,
+  "surfaceColor": {
+   "red": 0.71372549,
+   "green": 0.71372549,
+   "blue": 0.71372549
+  },
+  "specularColor": {
+   "red": 0.8,
+   "green": 0.8,
+   "blue": 0.8
+  },
+  "emissionColor": {
+   "red": 0,
+   "green": 0,
+   "blue": 0
+  },
+  "fillId": {
+   "attributeId": {
+    "guid": "1211B8E7-01CB-42D9-A86C-CB6CF5D2901B"
+   }
+  },
+  "transparency": 0,
+  "shine": 0,
+  "texture": {
+   "name": "AL-铝板-灰色"
+  }
+ },
+ {
+  "attributeId": {
+   "guid": "F2771F82-2964-4462-82CD-E9A456289D1C"
+  },
+  "name": "CL-半透明色 - 镉黄",
+  "materialType": "General",
+  "ambientReflection": 93,
+  "diffuseReflection": 41,
+  "specularReflection": 10,
+  "transparencyAttenuation": 0,
+  "emissionAttenuation": 0,
+  "surfaceColor": {
+   "red": 0.988235294,
+   "green": 0.984313725,
+   "blue": 0
+  },
+  "specularColor": {
+   "red": 0.990005341,
+   "green": 0.990005341,
+   "blue": 1
+  },
+  "emissionColor": {
+   "red": 0,
+   "green": 0,
+   "blue": 0
+  },
+  "fillId": {
+   "error": {
+    "code": 6100,
+    "message": "Attribute is missing"
+   }
+  },
+  "transparency": 50,
+  "shine": 72
+ },
+ {
+  "attributeId": {
+   "guid": "E68C5AD1-B5F7-4590-9EA1-8DC01F47F87A"
+  },
+  "name": "CL-半透明色 - 淡蓝色",
+  "materialType": "General",
+  "ambientReflection": 93,
+  "diffuseReflection": 41,
+  "specularReflection": 10,
+  "transparencyAttenuation": 0,
+  "emissionAttenuation": 0,
+  "surfaceColor": {
+   "red": 0.635294118,
+   "green": 0.77254902,
+   "blue": 0.843137255
+  },
+  "specularColor": {
+   "red": 0.990005341,
+   "green": 0.990005341,
+   "blue": 1
+  },
+  "emissionColor": {
+   "red": 0,
+   "green": 0,
+   "blue": 0
+  },
+  "fillId": {
+   "error": {
+    "code": 6100,
+    "message": "Attribute is missing"
+   }
+  },
+  "transparency": 50,
+  "shine": 72
+ },
+ {
+  "attributeId": {
+   "guid": "40F89826-0206-45F6-A761-AEA710F69FDD"
+  },
+  "name": "CL-半透明色 - 波尔多红",
+  "materialType": "General",
+  "ambientReflection": 93,
+  "diffuseReflection": 53,
+  "specularReflection": 10,
+  "transparencyAttenuation": 0,
+  "emissionAttenuation": 0,
+  "surfaceColor": {
+   "red": 0.57254902,
+   "green": 0.054901961,
+   "blue": 0.184313725
+  },
+  "specularColor": {
+   "red": 0.990005341,
+   "green": 0.990005341,
+   "blue": 1
+  },
+  "emissionColor": {
+   "red": 0,
+   "green": 0,
+   "blue": 0
+  },
+  "fillId": {
+   "error": {
+    "code": 6100,
+    "message": "Attribute is missing"
+   }
+  },
+  "transparency": 50,
+  "shine": 72
+ },
+ {
+  "attributeId": {
+   "guid": "60A17B6D-7E4E-4181-982D-E4C431699A21"
+  },
+  "name": "CL-半透明色 - 粉红",
+  "materialType": "General",
+  "ambientReflection": 93,
+  "diffuseReflection": 41,
+  "specularReflection": 10,
+  "transparencyAttenuation": 0,
+  "emissionAttenuation": 0,
+  "surfaceColor": {
+   "red": 0.909803922,
+   "green": 0.682352941,
+   "blue": 0.607843137
+  },
+  "specularColor": {
+   "red": 0.990005341,
+   "green": 0.990005341,
+   "blue": 1
+  },
+  "emissionColor": {
+   "red": 0,
+   "green": 0,
+   "blue": 0
+  },
+  "fillId": {
+   "error": {
+    "code": 6100,
+    "message": "Attribute is missing"
+   }
+  },
+  "transparency": 50,
+  "shine": 72
+ },
+ {
+  "attributeId": {
+   "guid": "48BE4524-C873-428C-8E5A-9698FC59CA14"
+  },
+  "name": "CL-半透明色 - 镉橙",
+  "materialType": "General",
+  "ambientReflection": 93,
+  "diffuseReflection": 41,
+  "specularReflection": 10,
+  "transparencyAttenuation": 0,
+  "emissionAttenuation": 0,
+  "surfaceColor": {
+   "red": 0.925490196,
+   "green": 0.309803922,
+   "blue": 0.074509804
+  },
+  "specularColor": {
+   "red": 0.990005341,
+   "green": 0.990005341,
+   "blue": 1
+  },
+  "emissionColor": {
+   "red": 0,
+   "green": 0,
+   "blue": 0
+  },
+  "fillId": {
+   "error": {
+    "code": 6100,
+    "message": "Attribute is missing"
+   }
+  },
+  "transparency": 50,
+  "shine": 72
+ },
+ {
+  "attributeId": {
+   "guid": "7F18188D-6C13-4C49-B909-E5F62E26CF53"
+  },
+  "name": "CL-半透明色 - 钴蓝",
+  "materialType": "General",
+  "ambientReflection": 93,
+  "diffuseReflection": 41,
+  "specularReflection": 10,
+  "transparencyAttenuation": 0,
+  "emissionAttenuation": 0,
+  "surfaceColor": {
+   "red": 0.02745098,
+   "green": 0.376470588,
+   "blue": 0.721568627
+  },
+  "specularColor": {
+   "red": 0.990005341,
+   "green": 0.990005341,
+   "blue": 1
+  },
+  "emissionColor": {
+   "red": 0,
+   "green": 0,
+   "blue": 0
+  },
+  "fillId": {
+   "error": {
+    "code": 6100,
+    "message": "Attribute is missing"
+   }
+  },
+  "transparency": 50,
+  "shine": 72
+ },
+ {
+  "attributeId": {
+   "guid": "8683EF39-DCB4-4E56-B5E1-066FCCD191AB"
+  },
+  "name": "CL-半透明色 - 光面白",
+  "materialType": "General",
+  "ambientReflection": 88,
+  "diffuseReflection": 30,
+  "specularReflection": 69,
+  "transparencyAttenuation": 0,
+  "emissionAttenuation": 0,
+  "surfaceColor": {
+   "red": 1,
+   "green": 1,
+   "blue": 1
+  },
+  "specularColor": {
+   "red": 0.990005341,
+   "green": 0.990005341,
+   "blue": 1
+  },
+  "emissionColor": {
+   "red": 0,
+   "green": 0,
+   "blue": 0
+  },
+  "fillId": {
+   "error": {
+    "code": 6100,
+    "message": "Attribute is missing"
+   }
+  },
+  "transparency": 50,
+  "shine": 3856
+ },
+ {
+  "attributeId": {
+   "guid": "38C2771D-7AE6-4E97-B996-0DC904592C13"
+  },
+  "name": "CL-半透明色 - 皇家蓝",
+  "materialType": "General",
+  "ambientReflection": 93,
+  "diffuseReflection": 41,
+  "specularReflection": 10,
+  "transparencyAttenuation": 0,
+  "emissionAttenuation": 0,
+  "surfaceColor": {
+   "red": 0.082352941,
+   "green": 0.333333333,
+   "blue": 0.917647059
+  },
+  "specularColor": {
+   "red": 0.990005341,
+   "green": 0.990005341,
+   "blue": 1
+  },
+  "emissionColor": {
+   "red": 0,
+   "green": 0,
+   "blue": 0
+  },
+  "fillId": {
+   "error": {
+    "code": 6100,
+    "message": "Attribute is missing"
+   }
+  },
+  "transparency": 50,
+  "shine": 72
+ },
+ {
+  "attributeId": {
+   "guid": "FC5CC295-1039-4CE2-919E-CE070630AC1C"
+  },
+  "name": "CL-半透明色 - 煤灰色",
+  "materialType": "General",
+  "ambientReflection": 93,
+  "diffuseReflection": 41,
+  "specularReflection": 10,
+  "transparencyAttenuation": 0,
+  "emissionAttenuation": 0,
+  "surfaceColor": {
+   "red": 0.180392157,
+   "green": 0.180392157,
+   "blue": 0.180392157
+  },
+  "specularColor": {
+   "red": 0.990005341,
+   "green": 0.990005341,
+   "blue": 1
+  },
+  "emissionColor": {
+   "red": 0,
+   "green": 0,
+   "blue": 0
+  },
+  "fillId": {
+   "error": {
+    "code": 6100,
+    "message": "Attribute is missing"
+   }
+  },
+  "transparency": 50,
+  "shine": 72
+ },
+ {
+  "attributeId": {
+   "guid": "1CB34B15-3912-4E93-B4C0-7CB3D2382EBB"
+  },
+  "name": "CL-半透明色 - 米黄金",
+  "materialType": "General",
+  "ambientReflection": 93,
+  "diffuseReflection": 41,
+  "specularReflection": 10,
+  "transparencyAttenuation": 0,
+  "emissionAttenuation": 0,
+  "surfaceColor": {
+   "red": 0.733333333,
+   "green": 0.607843137,
+   "blue": 0.443137255
+  },
+  "specularColor": {
+   "red": 0.990005341,
+   "green": 0.990005341,
+   "blue": 1
+  },
+  "emissionColor": {
+   "red": 0,
+   "green": 0,
+   "blue": 0
+  },
+  "fillId": {
+   "error": {
+    "code": 6100,
+    "message": "Attribute is missing"
+   }
+  },
+  "transparency": 50,
+  "shine": 72
+ },
+ {
+  "attributeId": {
+   "guid": "36E69F5C-D848-4C3F-BB11-4232ABE1FE7F"
+  },
+  "name": "CL-半透明色 - 浅黄色",
+  "materialType": "General",
+  "ambientReflection": 88,
+  "diffuseReflection": 30,
+  "specularReflection": 69,
+  "transparencyAttenuation": 0,
+  "emissionAttenuation": 0,
+  "surfaceColor": {
+   "red": 0.901960784,
+   "green": 0.878431373,
+   "blue": 0.858823529
+  },
+  "specularColor": {
+   "red": 0.990005341,
+   "green": 0.990005341,
+   "blue": 1
+  },
+  "emissionColor": {
+   "red": 0,
+   "green": 0,
+   "blue": 0
+  },
+  "fillId": {
+   "error": {
+    "code": 6100,
+    "message": "Attribute is missing"
+   }
+  },
+  "transparency": 50,
+  "shine": 3856
+ },
+ {
+  "attributeId": {
+   "guid": "98D43529-5B5F-45C6-8C46-71F5B621D027"
+  },
+  "name": "CL-半透明色 - 浅灰色",
+  "materialType": "General",
+  "ambientReflection": 93,
+  "diffuseReflection": 41,
+  "specularReflection": 10,
+  "transparencyAttenuation": 0,
+  "emissionAttenuation": 0,
+  "surfaceColor": {
+   "red": 0.658823529,
+   "green": 0.658823529,
+   "blue": 0.658823529
+  },
+  "specularColor": {
+   "red": 0.990005341,
+   "green": 0.990005341,
+   "blue": 1
+  },
+  "emissionColor": {
+   "red": 0,
+   "green": 0,
+   "blue": 0
+  },
+  "fillId": {
+   "error": {
+    "code": 6100,
+    "message": "Attribute is missing"
+   }
+  },
+  "transparency": 50,
+  "shine": 72
+ },
+ {
+  "attributeId": {
+   "guid": "C6A893BF-4798-4959-9601-6B527F556216"
+  },
+  "name": "CL-半透明色 - 浅玉",
+  "materialType": "General",
+  "ambientReflection": 93,
+  "diffuseReflection": 41,
+  "specularReflection": 10,
+  "transparencyAttenuation": 0,
+  "emissionAttenuation": 0,
+  "surfaceColor": {
+   "red": 0.494117647,
+   "green": 0.705882353,
+   "blue": 0.647058824
+  },
+  "specularColor": {
+   "red": 0.990005341,
+   "green": 0.990005341,
+   "blue": 1
+  },
+  "emissionColor": {
+   "red": 0,
+   "green": 0,
+   "blue": 0
+  },
+  "fillId": {
+   "error": {
+    "code": 6100,
+    "message": "Attribute is missing"
+   }
+  },
+  "transparency": 50,
+  "shine": 72
+ },
+ {
+  "attributeId": {
+   "guid": "81949859-5182-49D2-B29C-BDEF5E3EF478"
+  },
+  "name": "CL-半透明色 - 青瓷色",
+  "materialType": "General",
+  "ambientReflection": 93,
+  "diffuseReflection": 41,
+  "specularReflection": 10,
+  "transparencyAttenuation": 0,
+  "emissionAttenuation": 0,
+  "surfaceColor": {
+   "red": 0.654901961,
+   "green": 0.776470588,
+   "blue": 0.650980392
+  },
+  "specularColor": {
+   "red": 0.990005341,
+   "green": 0.990005341,
+   "blue": 1
+  },
+  "emissionColor": {
+   "red": 0,
+   "green": 0,
+   "blue": 0
+  },
+  "fillId": {
+   "error": {
+    "code": 6100,
+    "message": "Attribute is missing"
+   }
+  },
+  "transparency": 50,
+  "shine": 72
+ },
+ {
+  "attributeId": {
+   "guid": "D011CB4A-D0FC-4046-A0EE-52F84CD21B87"
+  },
+  "name": "CL-半透明色 - 群青紫",
+  "materialType": "General",
+  "ambientReflection": 93,
+  "diffuseReflection": 41,
+  "specularReflection": 10,
+  "transparencyAttenuation": 0,
+  "emissionAttenuation": 0,
+  "surfaceColor": {
+   "red": 0.552941176,
+   "green": 0.337254902,
+   "blue": 0.819607843
+  },
+  "specularColor": {
+   "red": 0.990005341,
+   "green": 0.990005341,
+   "blue": 1
+  },
+  "emissionColor": {
+   "red": 0,
+   "green": 0,
+   "blue": 0
+  },
+  "fillId": {
+   "error": {
+    "code": 6100,
+    "message": "Attribute is missing"
+   }
+  },
+  "transparency": 50,
+  "shine": 72
+ },
+ {
+  "attributeId": {
+   "guid": "695D0535-4C62-49DB-B5A2-49A9D948B762"
+  },
+  "name": "CL-半透明色 - 森林绿",
+  "materialType": "General",
+  "ambientReflection": 93,
+  "diffuseReflection": 41,
+  "specularReflection": 10,
+  "transparencyAttenuation": 0,
+  "emissionAttenuation": 0,
+  "surfaceColor": {
+   "red": 0.129411765,
+   "green": 0.584313725,
+   "blue": 0.117647059
+  },
+  "specularColor": {
+   "red": 0.990005341,
+   "green": 0.990005341,
+   "blue": 1
+  },
+  "emissionColor": {
+   "red": 0,
+   "green": 0,
+   "blue": 0
+  },
+  "fillId": {
+   "error": {
+    "code": 6100,
+    "message": "Attribute is missing"
+   }
+  },
+  "transparency": 50,
+  "shine": 72
+ },
+ {
+  "attributeId": {
+   "guid": "407F77DE-C800-4170-8805-B907E5CF8E42"
+  },
+  "name": "CL-半透明色 - 沙褐色",
+  "materialType": "General",
+  "ambientReflection": 93,
+  "diffuseReflection": 41,
+  "specularReflection": 10,
+  "transparencyAttenuation": 0,
+  "emissionAttenuation": 0,
+  "surfaceColor": {
+   "red": 0.82745098,
+   "green": 0.780392157,
+   "blue": 0.670588235
+  },
+  "specularColor": {
+   "red": 0.990005341,
+   "green": 0.990005341,
+   "blue": 1
+  },
+  "emissionColor": {
+   "red": 0,
+   "green": 0,
+   "blue": 0
+  },
+  "fillId": {
+   "error": {
+    "code": 6100,
+    "message": "Attribute is missing"
+   }
+  },
+  "transparency": 50,
+  "shine": 72
+ },
+ {
+  "attributeId": {
+   "guid": "DAD512A1-94D5-4C34-896B-FEEE4ABBF060"
+  },
+  "name": "CL-半透明色 - 深灰色",
+  "materialType": "General",
+  "ambientReflection": 93,
+  "diffuseReflection": 41,
+  "specularReflection": 10,
+  "transparencyAttenuation": 0,
+  "emissionAttenuation": 0,
+  "surfaceColor": {
+   "red": 0.356862745,
+   "green": 0.356862745,
+   "blue": 0.356862745
+  },
+  "specularColor": {
+   "red": 0.990005341,
+   "green": 0.990005341,
+   "blue": 1
+  },
+  "emissionColor": {
+   "red": 0,
+   "green": 0,
+   "blue": 0
+  },
+  "fillId": {
+   "error": {
+    "code": 6100,
+    "message": "Attribute is missing"
+   }
+  },
+  "transparency": 50,
+  "shine": 72
+ },
+ {
+  "attributeId": {
+   "guid": "20B9CEE0-30D2-464D-ABA5-A2CF97931174"
+  },
+  "name": "CL-半透明色 - 钛白色",
+  "materialType": "General",
+  "ambientReflection": 93,
+  "diffuseReflection": 41,
+  "specularReflection": 10,
+  "transparencyAttenuation": 0,
+  "emissionAttenuation": 0,
+  "surfaceColor": {
+   "red": 1,
+   "green": 1,
+   "blue": 1
+  },
+  "specularColor": {
+   "red": 0.990005341,
+   "green": 0.990005341,
+   "blue": 1
+  },
+  "emissionColor": {
+   "red": 0,
+   "green": 0,
+   "blue": 0
+  },
+  "fillId": {
+   "error": {
+    "code": 6100,
+    "message": "Attribute is missing"
+   }
+  },
+  "transparency": 50,
+  "shine": 72
+ },
+ {
+  "attributeId": {
+   "guid": "59EFAC6A-72E0-4A64-9DFC-55E81AD217B0"
+  },
+  "name": "CL-半透明色 - 桃色",
+  "materialType": "General",
+  "ambientReflection": 93,
+  "diffuseReflection": 41,
+  "specularReflection": 10,
+  "transparencyAttenuation": 0,
+  "emissionAttenuation": 0,
+  "surfaceColor": {
+   "red": 0.996078431,
+   "green": 0.705882353,
+   "blue": 0.529411765
+  },
+  "specularColor": {
+   "red": 0.990005341,
+   "green": 0.990005341,
+   "blue": 1
+  },
+  "emissionColor": {
+   "red": 0,
+   "green": 0,
+   "blue": 0
+  },
+  "fillId": {
+   "error": {
+    "code": 6100,
+    "message": "Attribute is missing"
+   }
+  },
+  "transparency": 50,
+  "shine": 72
+ },
+ {
+  "attributeId": {
+   "guid": "A2673049-0D7C-4FA6-8FC5-D40FB8B954E0"
+  },
+  "name": "CL-半透明色 - 西耶娜沙色",
+  "materialType": "General",
+  "ambientReflection": 93,
+  "diffuseReflection": 41,
+  "specularReflection": 10,
+  "transparencyAttenuation": 0,
+  "emissionAttenuation": 0,
+  "surfaceColor": {
+   "red": 0.733333333,
+   "green": 0.580392157,
+   "blue": 0.443137255
+  },
+  "specularColor": {
+   "red": 0.990005341,
+   "green": 0.990005341,
+   "blue": 1
+  },
+  "emissionColor": {
+   "red": 0,
+   "green": 0,
+   "blue": 0
+  },
+  "fillId": {
+   "error": {
+    "code": 6100,
+    "message": "Attribute is missing"
+   }
+  },
+  "transparency": 50,
+  "shine": 72
+ },
+ {
+  "attributeId": {
+   "guid": "72617D66-0DF1-4BE8-8BA7-C6CB0812ACFC"
+  },
+  "name": "CL-半透明色 - 象牙黑",
+  "materialType": "General",
+  "ambientReflection": 93,
+  "diffuseReflection": 41,
+  "specularReflection": 36,
+  "transparencyAttenuation": 0,
+  "emissionAttenuation": 0,
+  "surfaceColor": {
+   "red": 0,
+   "green": 0,
+   "blue": 0
+  },
+  "specularColor": {
+   "red": 0.990005341,
+   "green": 0.990005341,
+   "blue": 1
+  },
+  "emissionColor": {
+   "red": 0,
+   "green": 0,
+   "blue": 0
+  },
+  "fillId": {
+   "error": {
+    "code": 6100,
+    "message": "Attribute is missing"
+   }
+  },
+  "transparency": 50,
+  "shine": 72
+ },
+ {
+  "attributeId": {
+   "guid": "E6567773-BBC6-4BF6-9BA1-61AD12A6B3A4"
+  },
+  "name": "CL-半透明色 - 胭脂红",
+  "materialType": "General",
+  "ambientReflection": 93,
+  "diffuseReflection": 41,
+  "specularReflection": 10,
+  "transparencyAttenuation": 0,
+  "emissionAttenuation": 0,
+  "surfaceColor": {
+   "red": 0.823529412,
+   "green": 0.070588235,
+   "blue": 0.258823529
+  },
+  "specularColor": {
+   "red": 0.990005341,
+   "green": 0.990005341,
+   "blue": 1
+  },
+  "emissionColor": {
+   "red": 0,
+   "green": 0,
+   "blue": 0
+  },
+  "fillId": {
+   "error": {
+    "code": 6100,
+    "message": "Attribute is missing"
+   }
+  },
+  "transparency": 50,
+  "shine": 72
+ },
+ {
+  "attributeId": {
+   "guid": "198BF91C-2975-4097-ACF6-4F5D06DF8781"
+  },
+  "name": "CL-半透明色 - 氧化铅黄色",
+  "materialType": "General",
+  "ambientReflection": 93,
+  "diffuseReflection": 41,
+  "specularReflection": 10,
+  "transparencyAttenuation": 0,
+  "emissionAttenuation": 0,
+  "surfaceColor": {
+   "red": 0.976470588,
+   "green": 0.77254902,
+   "blue": 0.066666667
+  },
+  "specularColor": {
+   "red": 0.990005341,
+   "green": 0.990005341,
+   "blue": 1
+  },
+  "emissionColor": {
+   "red": 0,
+   "green": 0,
+   "blue": 0
+  },
+  "fillId": {
+   "error": {
+    "code": 6100,
+    "message": "Attribute is missing"
+   }
+  },
+  "transparency": 50,
+  "shine": 72
+ },
+ {
+  "attributeId": {
+   "guid": "27841B57-7184-43C6-BB6B-5EF1CB337AC8"
+  },
+  "name": "CL-半透明色 - 赭石黄",
+  "materialType": "General",
+  "ambientReflection": 93,
+  "diffuseReflection": 41,
+  "specularReflection": 10,
+  "transparencyAttenuation": 0,
+  "emissionAttenuation": 0,
+  "surfaceColor": {
+   "red": 0.729411765,
+   "green": 0.541176471,
+   "blue": 0.188235294
+  },
+  "specularColor": {
+   "red": 0.990005341,
+   "green": 0.990005341,
+   "blue": 1
+  },
+  "emissionColor": {
+   "red": 0,
+   "green": 0,
+   "blue": 0
+  },
+  "fillId": {
+   "error": {
+    "code": 6100,
+    "message": "Attribute is missing"
+   }
+  },
+  "transparency": 50,
+  "shine": 72
+ },
+ {
+  "attributeId": {
+   "guid": "975B03A2-8801-4D70-9D97-8B27EFDAC473"
+  },
+  "name": "CL-半透明色 - 赭石金",
+  "materialType": "General",
+  "ambientReflection": 93,
+  "diffuseReflection": 41,
+  "specularReflection": 10,
+  "transparencyAttenuation": 0,
+  "emissionAttenuation": 0,
+  "surfaceColor": {
+   "red": 0.8,
+   "green": 0.549019608,
+   "blue": 0.196078431
+  },
+  "specularColor": {
+   "red": 0.990005341,
+   "green": 0.990005341,
+   "blue": 1
+  },
+  "emissionColor": {
+   "red": 0,
+   "green": 0,
+   "blue": 0
+  },
+  "fillId": {
+   "error": {
+    "code": 6100,
+    "message": "Attribute is missing"
+   }
+  },
+  "transparency": 50,
+  "shine": 72
+ },
+ {
+  "attributeId": {
+   "guid": "056E941B-17EF-443E-BBDE-2CFF8A035548"
+  },
+  "name": "CL-半透明色 - 朱红",
+  "materialType": "General",
+  "ambientReflection": 93,
+  "diffuseReflection": 41,
+  "specularReflection": 10,
+  "transparencyAttenuation": 0,
+  "emissionAttenuation": 0,
+  "surfaceColor": {
+   "red": 0.976470588,
+   "green": 0,
+   "blue": 0
+  },
+  "specularColor": {
+   "red": 0.990005341,
+   "green": 0.990005341,
+   "blue": 1
+  },
+  "emissionColor": {
+   "red": 0,
+   "green": 0,
+   "blue": 0
+  },
+  "fillId": {
+   "error": {
+    "code": 6100,
+    "message": "Attribute is missing"
+   }
+  },
+  "transparency": 50,
+  "shine": 72
+ },
+ {
+  "attributeId": {
+   "guid": "4A4AE2DB-636B-432C-AA66-89D3DD76EEF1"
+  },
+  "name": "CL-颜色 - 深灰色",
+  "materialType": "General",
+  "ambientReflection": 93,
+  "diffuseReflection": 41,
+  "specularReflection": 10,
+  "transparencyAttenuation": 0,
+  "emissionAttenuation": 0,
+  "surfaceColor": {
+   "red": 0.356862745,
+   "green": 0.356862745,
+   "blue": 0.356862745
+  },
+  "specularColor": {
+   "red": 0.990005341,
+   "green": 0.990005341,
+   "blue": 1
+  },
+  "emissionColor": {
+   "red": 0,
+   "green": 0,
+   "blue": 0
+  },
+  "fillId": {
+   "error": {
+    "code": 6100,
+    "message": "Attribute is missing"
+   }
+  },
+  "transparency": 0,
+  "shine": 72
+ },
+ {
+  "attributeId": {
+   "guid": "6BBA734D-894F-43CB-8BFE-EE9F147B2F92"
+  },
+  "name": "CL-颜色 - 煤灰色",
+  "materialType": "General",
+  "ambientReflection": 93,
+  "diffuseReflection": 41,
+  "specularReflection": 10,
+  "transparencyAttenuation": 0,
+  "emissionAttenuation": 0,
+  "surfaceColor": {
+   "red": 0.180392157,
+   "green": 0.180392157,
+   "blue": 0.180392157
+  },
+  "specularColor": {
+   "red": 0.990005341,
+   "green": 0.990005341,
+   "blue": 1
+  },
+  "emissionColor": {
+   "red": 0,
+   "green": 0,
+   "blue": 0
+  },
+  "fillId": {
+   "error": {
+    "code": 6100,
+    "message": "Attribute is missing"
+   }
+  },
+  "transparency": 0,
+  "shine": 72
+ },
+ {
+  "attributeId": {
+   "guid": "AED5A227-5CEF-4713-9670-E956CC941A60"
+  },
+  "name": "CL-颜色 - 钛白色",
+  "materialType": "General",
+  "ambientReflection": 93,
+  "diffuseReflection": 41,
+  "specularReflection": 10,
+  "transparencyAttenuation": 0,
+  "emissionAttenuation": 0,
+  "surfaceColor": {
+   "red": 1,
+   "green": 1,
+   "blue": 1
+  },
+  "specularColor": {
+   "red": 0.990005341,
+   "green": 0.990005341,
+   "blue": 1
+  },
+  "emissionColor": {
+   "red": 0,
+   "green": 0,
+   "blue": 0
+  },
+  "fillId": {
+   "error": {
+    "code": 6100,
+    "message": "Attribute is missing"
+   }
+  },
+  "transparency": 0,
+  "shine": 72
+ },
+ {
+  "attributeId": {
+   "guid": "F5BA076F-7BC5-4370-8695-DAEDB96DBA12"
+  },
+  "name": "CL-颜色 - 朱红",
+  "materialType": "General",
+  "ambientReflection": 93,
+  "diffuseReflection": 41,
+  "specularReflection": 10,
+  "transparencyAttenuation": 0,
+  "emissionAttenuation": 0,
+  "surfaceColor": {
+   "red": 0.976470588,
+   "green": 0,
+   "blue": 0
+  },
+  "specularColor": {
+   "red": 0.990005341,
+   "green": 0.990005341,
+   "blue": 1
+  },
+  "emissionColor": {
+   "red": 0,
+   "green": 0,
+   "blue": 0
+  },
+  "fillId": {
+   "error": {
+    "code": 6100,
+    "message": "Attribute is missing"
+   }
+  },
+  "transparency": 0,
+  "shine": 72
+ },
+ {
+  "attributeId": {
+   "guid": "0F114DAD-06A9-47E6-AB57-D99E199B09F5"
+  },
+  "name": "CL-颜色 - 群青紫",
+  "materialType": "General",
+  "ambientReflection": 93,
+  "diffuseReflection": 41,
+  "specularReflection": 10,
+  "transparencyAttenuation": 0,
+  "emissionAttenuation": 0,
+  "surfaceColor": {
+   "red": 0.552941176,
+   "green": 0.337254902,
+   "blue": 0.819607843
+  },
+  "specularColor": {
+   "red": 0.990005341,
+   "green": 0.990005341,
+   "blue": 1
+  },
+  "emissionColor": {
+   "red": 0,
+   "green": 0,
+   "blue": 0
+  },
+  "fillId": {
+   "error": {
+    "code": 6100,
+    "message": "Attribute is missing"
+   }
+  },
+  "transparency": 0,
+  "shine": 72
+ },
+ {
+  "attributeId": {
+   "guid": "ABAE68D4-2CB3-41D0-84EA-14D5FFEDB95F"
+  },
+  "name": "CL-颜色 - 波尔多红",
+  "materialType": "General",
+  "ambientReflection": 93,
+  "diffuseReflection": 53,
+  "specularReflection": 10,
+  "transparencyAttenuation": 0,
+  "emissionAttenuation": 0,
+  "surfaceColor": {
+   "red": 0.57254902,
+   "green": 0.054901961,
+   "blue": 0.184313725
+  },
+  "specularColor": {
+   "red": 0.990005341,
+   "green": 0.990005341,
+   "blue": 1
+  },
+  "emissionColor": {
+   "red": 0,
+   "green": 0,
+   "blue": 0
+  },
+  "fillId": {
+   "error": {
+    "code": 6100,
+    "message": "Attribute is missing"
+   }
+  },
+  "transparency": 0,
+  "shine": 72
+ },
+ {
+  "attributeId": {
+   "guid": "B7ADCC03-E632-46CC-810E-72B64B76F535"
+  },
+  "name": "CL-颜色 - 钴蓝",
+  "materialType": "General",
+  "ambientReflection": 93,
+  "diffuseReflection": 41,
+  "specularReflection": 10,
+  "transparencyAttenuation": 0,
+  "emissionAttenuation": 0,
+  "surfaceColor": {
+   "red": 0.02745098,
+   "green": 0.376470588,
+   "blue": 0.721568627
+  },
+  "specularColor": {
+   "red": 0.990005341,
+   "green": 0.990005341,
+   "blue": 1
+  },
+  "emissionColor": {
+   "red": 0,
+   "green": 0,
+   "blue": 0
+  },
+  "fillId": {
+   "error": {
+    "code": 6100,
+    "message": "Attribute is missing"
+   }
+  },
+  "transparency": 0,
+  "shine": 72
+ },
+ {
+  "attributeId": {
+   "guid": "49AB0B73-6575-40AB-A883-8A087DFE74A0"
+  },
+  "name": "CL-颜色 - 象牙黑",
+  "materialType": "General",
+  "ambientReflection": 93,
+  "diffuseReflection": 41,
+  "specularReflection": 36,
+  "transparencyAttenuation": 0,
+  "emissionAttenuation": 0,
+  "surfaceColor": {
+   "red": 0,
+   "green": 0,
+   "blue": 0
+  },
+  "specularColor": {
+   "red": 0.990005341,
+   "green": 0.990005341,
+   "blue": 1
+  },
+  "emissionColor": {
+   "red": 0,
+   "green": 0,
+   "blue": 0
+  },
+  "fillId": {
+   "error": {
+    "code": 6100,
+    "message": "Attribute is missing"
+   }
+  },
+  "transparency": 0,
+  "shine": 72
+ },
+ {
+  "attributeId": {
+   "guid": "9D8AA3E7-D437-4EB2-9C39-DAF05E52A773"
+  },
+  "name": "CL-颜色 - 光面白",
+  "materialType": "General",
+  "ambientReflection": 88,
+  "diffuseReflection": 30,
+  "specularReflection": 69,
+  "transparencyAttenuation": 0,
+  "emissionAttenuation": 0,
+  "surfaceColor": {
+   "red": 1,
+   "green": 1,
+   "blue": 1
+  },
+  "specularColor": {
+   "red": 0.990005341,
+   "green": 0.990005341,
+   "blue": 1
+  },
+  "emissionColor": {
+   "red": 0,
+   "green": 0,
+   "blue": 0
+  },
+  "fillId": {
+   "error": {
+    "code": 6100,
+    "message": "Attribute is missing"
+   }
+  },
+  "transparency": 0,
+  "shine": 3856
+ },
+ {
+  "attributeId": {
+   "guid": "79490BDC-1CA1-4EEC-A4B6-DD361DEB529F"
+  },
+  "name": "CL-颜色 - 沙褐色",
+  "materialType": "General",
+  "ambientReflection": 93,
+  "diffuseReflection": 41,
+  "specularReflection": 10,
+  "transparencyAttenuation": 0,
+  "emissionAttenuation": 0,
+  "surfaceColor": {
+   "red": 0.82745098,
+   "green": 0.780392157,
+   "blue": 0.670588235
+  },
+  "specularColor": {
+   "red": 0.990005341,
+   "green": 0.990005341,
+   "blue": 1
+  },
+  "emissionColor": {
+   "red": 0,
+   "green": 0,
+   "blue": 0
+  },
+  "fillId": {
+   "error": {
+    "code": 6100,
+    "message": "Attribute is missing"
+   }
+  },
+  "transparency": 0,
+  "shine": 72
+ },
+ {
+  "attributeId": {
+   "guid": "048DDC26-A5B3-4E8F-A432-6AB6909DD540"
+  },
+  "name": "CL-颜色 - 米黄金",
+  "materialType": "General",
+  "ambientReflection": 93,
+  "diffuseReflection": 41,
+  "specularReflection": 10,
+  "transparencyAttenuation": 0,
+  "emissionAttenuation": 0,
+  "surfaceColor": {
+   "red": 0.733333333,
+   "green": 0.607843137,
+   "blue": 0.443137255
+  },
+  "specularColor": {
+   "red": 0.990005341,
+   "green": 0.990005341,
+   "blue": 1
+  },
+  "emissionColor": {
+   "red": 0,
+   "green": 0,
+   "blue": 0
+  },
+  "fillId": {
+   "error": {
+    "code": 6100,
+    "message": "Attribute is missing"
+   }
+  },
+  "transparency": 0,
+  "shine": 72
+ },
+ {
+  "attributeId": {
+   "guid": "1BB3A409-37D2-47BA-8893-30DD1BF60164"
+  },
+  "name": "CL-颜色 - 西耶娜沙色",
+  "materialType": "General",
+  "ambientReflection": 93,
+  "diffuseReflection": 41,
+  "specularReflection": 10,
+  "transparencyAttenuation": 0,
+  "emissionAttenuation": 0,
+  "surfaceColor": {
+   "red": 0.733333333,
+   "green": 0.580392157,
+   "blue": 0.443137255
+  },
+  "specularColor": {
+   "red": 0.990005341,
+   "green": 0.990005341,
+   "blue": 1
+  },
+  "emissionColor": {
+   "red": 0,
+   "green": 0,
+   "blue": 0
+  },
+  "fillId": {
+   "error": {
+    "code": 6100,
+    "message": "Attribute is missing"
+   }
+  },
+  "transparency": 0,
+  "shine": 72
+ },
+ {
+  "attributeId": {
+   "guid": "2E88B6ED-DE8E-4F9D-B711-159C9A6ADD35"
+  },
+  "name": "CL-颜色 - 青瓷色",
+  "materialType": "General",
+  "ambientReflection": 93,
+  "diffuseReflection": 41,
+  "specularReflection": 10,
+  "transparencyAttenuation": 0,
+  "emissionAttenuation": 0,
+  "surfaceColor": {
+   "red": 0.654901961,
+   "green": 0.776470588,
+   "blue": 0.650980392
+  },
+  "specularColor": {
+   "red": 0.990005341,
+   "green": 0.990005341,
+   "blue": 1
+  },
+  "emissionColor": {
+   "red": 0,
+   "green": 0,
+   "blue": 0
+  },
+  "fillId": {
+   "error": {
+    "code": 6100,
+    "message": "Attribute is missing"
+   }
+  },
+  "transparency": 0,
+  "shine": 72
+ },
+ {
+  "attributeId": {
+   "guid": "9FD7D656-E010-4842-8F43-E074C28CF742"
+  },
+  "name": "CL-颜色 - 浅玉",
+  "materialType": "General",
+  "ambientReflection": 93,
+  "diffuseReflection": 41,
+  "specularReflection": 10,
+  "transparencyAttenuation": 0,
+  "emissionAttenuation": 0,
+  "surfaceColor": {
+   "red": 0.494117647,
+   "green": 0.705882353,
+   "blue": 0.647058824
+  },
+  "specularColor": {
+   "red": 0.990005341,
+   "green": 0.990005341,
+   "blue": 1
+  },
+  "emissionColor": {
+   "red": 0,
+   "green": 0,
+   "blue": 0
+  },
+  "fillId": {
+   "error": {
+    "code": 6100,
+    "message": "Attribute is missing"
+   }
+  },
+  "transparency": 0,
+  "shine": 72
+ },
+ {
+  "attributeId": {
+   "guid": "EFE89A25-9A37-44FE-B13E-243CAB0510D7"
+  },
+  "name": "CL-颜色 - 桃色",
+  "materialType": "General",
+  "ambientReflection": 93,
+  "diffuseReflection": 41,
+  "specularReflection": 10,
+  "transparencyAttenuation": 0,
+  "emissionAttenuation": 0,
+  "surfaceColor": {
+   "red": 0.996078431,
+   "green": 0.705882353,
+   "blue": 0.529411765
+  },
+  "specularColor": {
+   "red": 0.990005341,
+   "green": 0.990005341,
+   "blue": 1
+  },
+  "emissionColor": {
+   "red": 0,
+   "green": 0,
+   "blue": 0
+  },
+  "fillId": {
+   "error": {
+    "code": 6100,
+    "message": "Attribute is missing"
+   }
+  },
+  "transparency": 0,
+  "shine": 72
+ },
+ {
+  "attributeId": {
+   "guid": "9830F09D-01A2-4650-992E-06A7A3577F97"
+  },
+  "name": "CL-颜色 - 粉红",
+  "materialType": "General",
+  "ambientReflection": 93,
+  "diffuseReflection": 41,
+  "specularReflection": 10,
+  "transparencyAttenuation": 0,
+  "emissionAttenuation": 0,
+  "surfaceColor": {
+   "red": 0.909803922,
+   "green": 0.682352941,
+   "blue": 0.607843137
+  },
+  "specularColor": {
+   "red": 0.990005341,
+   "green": 0.990005341,
+   "blue": 1
+  },
+  "emissionColor": {
+   "red": 0,
+   "green": 0,
+   "blue": 0
+  },
+  "fillId": {
+   "error": {
+    "code": 6100,
+    "message": "Attribute is missing"
+   }
+  },
+  "transparency": 0,
+  "shine": 72
+ },
+ {
+  "attributeId": {
+   "guid": "6802E779-53C5-4D6E-88BC-4B1424EF95E6"
+  },
+  "name": "CL-颜色 - 赭石金",
+  "materialType": "General",
+  "ambientReflection": 93,
+  "diffuseReflection": 41,
+  "specularReflection": 10,
+  "transparencyAttenuation": 0,
+  "emissionAttenuation": 0,
+  "surfaceColor": {
+   "red": 0.811764706,
+   "green": 0.658823529,
+   "blue": 0.188235294
+  },
+  "specularColor": {
+   "red": 0.990005341,
+   "green": 0.990005341,
+   "blue": 1
+  },
+  "emissionColor": {
+   "red": 0,
+   "green": 0,
+   "blue": 0
+  },
+  "fillId": {
+   "error": {
+    "code": 6100,
+    "message": "Attribute is missing"
+   }
+  },
+  "transparency": 0,
+  "shine": 72
+ },
+ {
+  "attributeId": {
+   "guid": "C1B8314F-F0B8-4C7A-9824-FD62C7025F0E"
+  },
+  "name": "CL-颜色 - 赭石黄",
+  "materialType": "General",
+  "ambientReflection": 93,
+  "diffuseReflection": 41,
+  "specularReflection": 10,
+  "transparencyAttenuation": 0,
+  "emissionAttenuation": 0,
+  "surfaceColor": {
+   "red": 0.729411765,
+   "green": 0.541176471,
+   "blue": 0.188235294
+  },
+  "specularColor": {
+   "red": 0.990005341,
+   "green": 0.990005341,
+   "blue": 1
+  },
+  "emissionColor": {
+   "red": 0,
+   "green": 0,
+   "blue": 0
+  },
+  "fillId": {
+   "error": {
+    "code": 6100,
+    "message": "Attribute is missing"
+   }
+  },
+  "transparency": 0,
+  "shine": 72
+ },
+ {
+  "attributeId": {
+   "guid": "FCC51D36-0239-4733-B4EC-2258914DF542"
+  },
+  "name": "CL-颜色 - 皇家蓝",
+  "materialType": "General",
+  "ambientReflection": 93,
+  "diffuseReflection": 41,
+  "specularReflection": 10,
+  "transparencyAttenuation": 0,
+  "emissionAttenuation": 0,
+  "surfaceColor": {
+   "red": 0.082352941,
+   "green": 0.333333333,
+   "blue": 0.917647059
+  },
+  "specularColor": {
+   "red": 0.990005341,
+   "green": 0.990005341,
+   "blue": 1
+  },
+  "emissionColor": {
+   "red": 0,
+   "green": 0,
+   "blue": 0
+  },
+  "fillId": {
+   "error": {
+    "code": 6100,
+    "message": "Attribute is missing"
+   }
+  },
+  "transparency": 0,
+  "shine": 72
+ },
+ {
+  "attributeId": {
+   "guid": "73B24F67-00FB-4951-B9FE-06A76A704C7D"
+  },
+  "name": "CL-颜色 - 森林绿",
+  "materialType": "General",
+  "ambientReflection": 93,
+  "diffuseReflection": 41,
+  "specularReflection": 10,
+  "transparencyAttenuation": 0,
+  "emissionAttenuation": 0,
+  "surfaceColor": {
+   "red": 0.129411765,
+   "green": 0.584313725,
+   "blue": 0.117647059
+  },
+  "specularColor": {
+   "red": 0.990005341,
+   "green": 0.990005341,
+   "blue": 1
+  },
+  "emissionColor": {
+   "red": 0,
+   "green": 0,
+   "blue": 0
+  },
+  "fillId": {
+   "error": {
+    "code": 6100,
+    "message": "Attribute is missing"
+   }
+  },
+  "transparency": 0,
+  "shine": 72
+ },
+ {
+  "attributeId": {
+   "guid": "0FCC5A0A-7D13-46EE-AD3B-79EA06ACCB25"
+  },
+  "name": "CL-颜色 - 镉橙",
+  "materialType": "General",
+  "ambientReflection": 93,
+  "diffuseReflection": 41,
+  "specularReflection": 10,
+  "transparencyAttenuation": 0,
+  "emissionAttenuation": 0,
+  "surfaceColor": {
+   "red": 0.925490196,
+   "green": 0.309803922,
+   "blue": 0.074509804
+  },
+  "specularColor": {
+   "red": 0.990005341,
+   "green": 0.990005341,
+   "blue": 1
+  },
+  "emissionColor": {
+   "red": 0,
+   "green": 0,
+   "blue": 0
+  },
+  "fillId": {
+   "error": {
+    "code": 6100,
+    "message": "Attribute is missing"
+   }
+  },
+  "transparency": 0,
+  "shine": 72
+ },
+ {
+  "attributeId": {
+   "guid": "AE957A9B-96A3-46D4-9602-57D4220043EF"
+  },
+  "name": "CL-颜色 - 镉黄",
+  "materialType": "General",
+  "ambientReflection": 93,
+  "diffuseReflection": 41,
+  "specularReflection": 10,
+  "transparencyAttenuation": 0,
+  "emissionAttenuation": 0,
+  "surfaceColor": {
+   "red": 0.988235294,
+   "green": 0.984313725,
+   "blue": 0
+  },
+  "specularColor": {
+   "red": 0.990005341,
+   "green": 0.990005341,
+   "blue": 1
+  },
+  "emissionColor": {
+   "red": 0,
+   "green": 0,
+   "blue": 0
+  },
+  "fillId": {
+   "error": {
+    "code": 6100,
+    "message": "Attribute is missing"
+   }
+  },
+  "transparency": 0,
+  "shine": 72
+ },
+ {
+  "attributeId": {
+   "guid": "B0A539B0-F7CF-4A21-A092-25EB04948853"
+  },
+  "name": "CL-颜色 - 胭脂红",
+  "materialType": "General",
+  "ambientReflection": 93,
+  "diffuseReflection": 41,
+  "specularReflection": 10,
+  "transparencyAttenuation": 0,
+  "emissionAttenuation": 0,
+  "surfaceColor": {
+   "red": 0.823529412,
+   "green": 0.070588235,
+   "blue": 0.258823529
+  },
+  "specularColor": {
+   "red": 0.990005341,
+   "green": 0.990005341,
+   "blue": 1
+  },
+  "emissionColor": {
+   "red": 0,
+   "green": 0,
+   "blue": 0
+  },
+  "fillId": {
+   "error": {
+    "code": 6100,
+    "message": "Attribute is missing"
+   }
+  },
+  "transparency": 0,
+  "shine": 72
+ },
+ {
+  "attributeId": {
+   "guid": "80A44A86-1ED8-4B62-A166-08B69260F8C3"
+  },
+  "name": "CL-颜色 - 浅灰色",
+  "materialType": "General",
+  "ambientReflection": 93,
+  "diffuseReflection": 41,
+  "specularReflection": 10,
+  "transparencyAttenuation": 0,
+  "emissionAttenuation": 0,
+  "surfaceColor": {
+   "red": 0.658823529,
+   "green": 0.658823529,
+   "blue": 0.658823529
+  },
+  "specularColor": {
+   "red": 0.990005341,
+   "green": 0.990005341,
+   "blue": 1
+  },
+  "emissionColor": {
+   "red": 0,
+   "green": 0,
+   "blue": 0
+  },
+  "fillId": {
+   "error": {
+    "code": 6100,
+    "message": "Attribute is missing"
+   }
+  },
+  "transparency": 0,
+  "shine": 72
+ },
+ {
+  "attributeId": {
+   "guid": "083B97C2-7E6D-49FF-8471-C1985C847373"
+  },
+  "name": "CL-颜色 - 淡蓝色",
+  "materialType": "General",
+  "ambientReflection": 93,
+  "diffuseReflection": 41,
+  "specularReflection": 10,
+  "transparencyAttenuation": 0,
+  "emissionAttenuation": 0,
+  "surfaceColor": {
+   "red": 0.635294118,
+   "green": 0.77254902,
+   "blue": 0.843137255
+  },
+  "specularColor": {
+   "red": 0.990005341,
+   "green": 0.990005341,
+   "blue": 1
+  },
+  "emissionColor": {
+   "red": 0,
+   "green": 0,
+   "blue": 0
+  },
+  "fillId": {
+   "error": {
+    "code": 6100,
+    "message": "Attribute is missing"
+   }
+  },
+  "transparency": 0,
+  "shine": 72
+ },
+ {
+  "attributeId": {
+   "guid": "7A317AD0-EBCD-4C88-8839-14298E694D4B"
+  },
+  "name": "CL-颜色 - 氧化铅黄色",
+  "materialType": "General",
+  "ambientReflection": 93,
+  "diffuseReflection": 41,
+  "specularReflection": 10,
+  "transparencyAttenuation": 0,
+  "emissionAttenuation": 0,
+  "surfaceColor": {
+   "red": 0.976470588,
+   "green": 0.77254902,
+   "blue": 0.066666667
+  },
+  "specularColor": {
+   "red": 0.990005341,
+   "green": 0.990005341,
+   "blue": 1
+  },
+  "emissionColor": {
+   "red": 0,
+   "green": 0,
+   "blue": 0
+  },
+  "fillId": {
+   "error": {
+    "code": 6100,
+    "message": "Attribute is missing"
+   }
+  },
+  "transparency": 0,
+  "shine": 72
+ },
+ {
+  "attributeId": {
+   "guid": "114CBC20-ABCB-4966-90D0-DBA60F0A4B55"
+  },
+  "name": "CL-颜色 - 浅黄色",
+  "materialType": "General",
+  "ambientReflection": 88,
+  "diffuseReflection": 30,
+  "specularReflection": 69,
+  "transparencyAttenuation": 0,
+  "emissionAttenuation": 0,
+  "surfaceColor": {
+   "red": 0.901960784,
+   "green": 0.878431373,
+   "blue": 0.858823529
+  },
+  "specularColor": {
+   "red": 0.990005341,
+   "green": 0.990005341,
+   "blue": 1
+  },
+  "emissionColor": {
+   "red": 0,
+   "green": 0,
+   "blue": 0
+  },
+  "fillId": {
+   "error": {
+    "code": 6100,
+    "message": "Attribute is missing"
+   }
+  },
+  "transparency": 50,
+  "shine": 3856
+ },
+ {
+  "attributeId": {
+   "guid": "6D17764F-2499-4168-9487-10755D1D3A1C"
+  },
+  "name": "AIR-空气-无色",
+  "materialType": "General",
+  "ambientReflection": 0,
+  "diffuseReflection": 0,
+  "specularReflection": 0,
+  "transparencyAttenuation": 0,
+  "emissionAttenuation": 0,
+  "surfaceColor": {
+   "red": 1,
+   "green": 1,
+   "blue": 1
+  },
+  "specularColor": {
+   "red": 0.990005341,
+   "green": 0.990005341,
+   "blue": 1
+  },
+  "emissionColor": {
+   "red": 0,
+   "green": 0,
+   "blue": 0
+  },
+  "fillId": {
+   "error": {
+    "code": 6100,
+    "message": "Attribute is missing"
+   }
+  },
+  "transparency": 100,
+  "shine": 0
+ },
+ {
+  "attributeId": {
+   "guid": "4582D0E8-0464-437B-B97E-B7AEF1200761"
+  },
+  "name": "GM 通用-通用",
+  "materialType": "General",
+  "ambientReflection": 93,
+  "diffuseReflection": 41,
+  "specularReflection": 0,
+  "transparencyAttenuation": 0,
+  "emissionAttenuation": 0,
+  "surfaceColor": {
+   "red": 1,
+   "green": 1,
+   "blue": 1
+  },
+  "specularColor": {
+   "red": 0.990005341,
+   "green": 0.990005341,
+   "blue": 1
+  },
+  "emissionColor": {
+   "red": 0,
+   "green": 0,
+   "blue": 0
+  },
+  "fillId": {
+   "error": {
+    "code": 6100,
+    "message": "Attribute is missing"
+   }
+  },
+  "transparency": 0,
+  "shine": 72
+ },
+ {
+  "attributeId": {
+   "guid": "B098BA77-1B13-49CB-B494-28907ACA86CA"
+  },
+  "name": "BLD-周边建筑-无色",
+  "materialType": "General",
+  "ambientReflection": 93,
+  "diffuseReflection": 41,
+  "specularReflection": 0,
+  "transparencyAttenuation": 0,
+  "emissionAttenuation": 0,
+  "surfaceColor": {
+   "red": 1,
+   "green": 1,
+   "blue": 1
+  },
+  "specularColor": {
+   "red": 0.990005341,
+   "green": 0.990005341,
+   "blue": 1
+  },
+  "emissionColor": {
+   "red": 0,
+   "green": 0,
+   "blue": 0
+  },
+  "fillId": {
+   "error": {
+    "code": 6100,
+    "message": "Attribute is missing"
+   }
+  },
+  "transparency": 50,
+  "shine": 72
+ },
+ {
+  "attributeId": {
+   "guid": "0C92F0BC-06B9-441F-A10A-65706491F279"
+  },
+  "name": "M-新风 取风",
+  "materialType": "General",
+  "ambientReflection": 93,
+  "diffuseReflection": 41,
+  "specularReflection": 10,
+  "transparencyAttenuation": 0,
+  "emissionAttenuation": 0,
+  "surfaceColor": {
+   "red": 0.501960784,
+   "green": 0.501960784,
+   "blue": 0
+  },
+  "specularColor": {
+   "red": 0.990005341,
+   "green": 0.990005341,
+   "blue": 1
+  },
+  "emissionColor": {
+   "red": 0,
+   "green": 0,
+   "blue": 0
+  },
+  "fillId": {
+   "error": {
+    "code": 6100,
+    "message": "Attribute is missing"
+   }
+  },
+  "transparency": 0,
+  "shine": 72
+ },
+ {
+  "attributeId": {
+   "guid": "321DC503-7383-4375-89B4-C66E1C0A7FAA"
+  },
+  "name": "M-新风 排风",
+  "materialType": "General",
+  "ambientReflection": 93,
+  "diffuseReflection": 41,
+  "specularReflection": 10,
+  "transparencyAttenuation": 0,
+  "emissionAttenuation": 0,
+  "surfaceColor": {
+   "red": 1,
+   "green": 0,
+   "blue": 1
+  },
+  "specularColor": {
+   "red": 0.990005341,
+   "green": 0.990005341,
+   "blue": 1
+  },
+  "emissionColor": {
+   "red": 0,
+   "green": 0,
+   "blue": 0
+  },
+  "fillId": {
+   "error": {
+    "code": 6100,
+    "message": "Attribute is missing"
+   }
+  },
+  "transparency": 0,
+  "shine": 72
+ },
+ {
+  "attributeId": {
+   "guid": "C46E34D8-2A41-4B82-976C-61049DF56E6C"
+  },
+  "name": "GL-清玻璃-无色",
+  "materialType": "General",
+  "ambientReflection": 70,
+  "diffuseReflection": 70,
+  "specularReflection": 0,
+  "transparencyAttenuation": 0,
+  "emissionAttenuation": 0,
+  "surfaceColor": {
+   "red": 0.925490196,
+   "green": 0.952941176,
+   "blue": 0.956862745
+  },
+  "specularColor": {
+   "red": 0.8,
+   "green": 0.8,
+   "blue": 0.8
+  },
+  "emissionColor": {
+   "red": 0,
+   "green": 0,
+   "blue": 0
+  },
+  "fillId": {
+   "attributeId": {
+    "guid": "D13599B9-E164-4D15-8941-2E43D009733B"
+   }
+  },
+  "transparency": 75,
+  "shine": 0
+ },
+ {
+  "attributeId": {
+   "guid": "86AE694C-E0D0-46A6-B860-9C4C748419C0"
+  },
+  "name": "FA-麻布-浅色",
+  "materialType": "General",
+  "ambientReflection": 70,
+  "diffuseReflection": 70,
+  "specularReflection": 0,
+  "transparencyAttenuation": 0,
+  "emissionAttenuation": 0,
+  "surfaceColor": {
+   "red": 1,
+   "green": 1,
+   "blue": 1
+  },
+  "specularColor": {
+   "red": 0.8,
+   "green": 0.8,
+   "blue": 0.8
+  },
+  "emissionColor": {
+   "red": 0,
+   "green": 0,
+   "blue": 0
+  },
+  "fillId": {
+   "attributeId": {
+    "guid": "04CE4295-BAA5-429C-916C-1BC38CFE7AAB"
+   }
+  },
+  "transparency": 0,
+  "shine": 0,
+  "texture": {
+   "name": "FA-02 浅色壁布"
+  }
+ },
+ {
+  "attributeId": {
+   "guid": "2A81A9F8-FD9C-47C6-8217-DE582D80B128"
+  },
+  "name": "MT-合金-深灰色",
+  "materialType": "General",
+  "ambientReflection": 70,
+  "diffuseReflection": 70,
+  "specularReflection": 0,
+  "transparencyAttenuation": 0,
+  "emissionAttenuation": 0,
+  "surfaceColor": {
+   "red": 0.619607843,
+   "green": 0.619607843,
+   "blue": 0.619607843
+  },
+  "specularColor": {
+   "red": 0.8,
+   "green": 0.8,
+   "blue": 0.8
+  },
+  "emissionColor": {
+   "red": 0,
+   "green": 0,
+   "blue": 0
+  },
+  "fillId": {
+   "attributeId": {
+    "guid": "65932265-5D69-4F6A-B071-49B3688F036E"
+   }
+  },
+  "transparency": 0,
+  "shine": 0,
+  "texture": {
+   "name": "MT-镀锌-深灰色"
+  }
+ },
+ {
+  "attributeId": {
+   "guid": "B1C490A5-F0EC-4782-B9DF-BD88C092CC77"
+  },
+  "name": "DW-铝合金门窗",
+  "materialType": "General",
+  "ambientReflection": 70,
+  "diffuseReflection": 70,
+  "specularReflection": 0,
+  "transparencyAttenuation": 0,
+  "emissionAttenuation": 0,
+  "surfaceColor": {
+   "red": 0.501960784,
+   "green": 0.501960784,
+   "blue": 0.501960784
+  },
+  "specularColor": {
+   "red": 0.8,
+   "green": 0.8,
+   "blue": 0.8
+  },
+  "emissionColor": {
+   "red": 0,
+   "green": 0,
+   "blue": 0
+  },
+  "fillId": {
+   "attributeId": {
+    "guid": "D95A9C3B-2515-42C9-B5B9-F79030FF6BCD"
+   }
+  },
+  "transparency": 0,
+  "shine": 0
+ },
+ {
+  "attributeId": {
+   "guid": "5519D0D7-8570-4FAD-8A2C-BE3A731517E0"
+  },
+  "name": "硅酮耐候密封胶",
+  "materialType": "General",
+  "ambientReflection": 70,
+  "diffuseReflection": 70,
+  "specularReflection": 0,
+  "transparencyAttenuation": 0,
+  "emissionAttenuation": 0,
+  "surfaceColor": {
+   "red": 0.133333333,
+   "green": 0.192156863,
+   "blue": 0.717647059
+  },
+  "specularColor": {
+   "red": 0.8,
+   "green": 0.8,
+   "blue": 0.8
+  },
+  "emissionColor": {
+   "red": 0,
+   "green": 0,
+   "blue": 0
+  },
+  "fillId": {
+   "error": {
+    "code": 6100,
+    "message": "Attribute is missing"
+   }
+  },
+  "transparency": 0,
+  "shine": 0
+ },
+ {
+  "attributeId": {
+   "guid": "C0DE9626-3282-4C5D-BF15-21E65D59BBDF"
+  },
+  "name": "FUN-防火层-防火涂料-白色",
+  "materialType": "General",
+  "ambientReflection": 70,
+  "diffuseReflection": 70,
+  "specularReflection": 0,
+  "transparencyAttenuation": 0,
+  "emissionAttenuation": 0,
+  "surfaceColor": {
+   "red": 0.960784314,
+   "green": 0.960784314,
+   "blue": 0.960784314
+  },
+  "specularColor": {
+   "red": 0.8,
+   "green": 0.8,
+   "blue": 0.8
+  },
+  "emissionColor": {
+   "red": 0,
+   "green": 0,
+   "blue": 0
+  },
+  "fillId": {
+   "error": {
+    "code": 6100,
+    "message": "Attribute is missing"
+   }
+  },
+  "transparency": 0,
+  "shine": 0
+ },
+ {
+  "attributeId": {
+   "guid": "0FF147C2-CAAC-4644-BF8D-1B269327FF73"
+  },
+  "name": "MT-铝镁锰合金-浅灰色",
+  "materialType": "General",
+  "ambientReflection": 70,
+  "diffuseReflection": 70,
+  "specularReflection": 0,
+  "transparencyAttenuation": 0,
+  "emissionAttenuation": 0,
+  "surfaceColor": {
+   "red": 0.619607843,
+   "green": 0.619607843,
+   "blue": 0.619607843
+  },
+  "specularColor": {
+   "red": 0.8,
+   "green": 0.8,
+   "blue": 0.8
+  },
+  "emissionColor": {
+   "red": 0,
+   "green": 0,
+   "blue": 0
+  },
+  "fillId": {
+   "attributeId": {
+    "guid": "65932265-5D69-4F6A-B071-49B3688F036E"
+   }
+  },
+  "transparency": 0,
+  "shine": 0,
+  "texture": {
+   "name": "MT-镀锌-浅灰色"
+  }
+ },
+ {
+  "attributeId": {
+   "guid": "D067B5D0-785F-48F5-93AA-F016CFAB5FB6"
+  },
+  "name": "MT-钛锌-浅灰色",
+  "materialType": "General",
+  "ambientReflection": 70,
+  "diffuseReflection": 70,
+  "specularReflection": 0,
+  "transparencyAttenuation": 0,
+  "emissionAttenuation": 0,
+  "surfaceColor": {
+   "red": 0.619607843,
+   "green": 0.619607843,
+   "blue": 0.619607843
+  },
+  "specularColor": {
+   "red": 0.8,
+   "green": 0.8,
+   "blue": 0.8
+  },
+  "emissionColor": {
+   "red": 0,
+   "green": 0,
+   "blue": 0
+  },
+  "fillId": {
+   "attributeId": {
+    "guid": "65932265-5D69-4F6A-B071-49B3688F036E"
+   }
+  },
+  "transparency": 0,
+  "shine": 0,
+  "texture": {
+   "name": "MT-镀锌-浅灰色"
+  }
+ },
+ {
+  "attributeId": {
+   "guid": "4316D233-E7F9-4AC2-A45C-8CF0002EE6D5"
+  },
+  "name": "ST-水磨石-白色",
+  "materialType": "General",
+  "ambientReflection": 70,
+  "diffuseReflection": 70,
+  "specularReflection": 0,
+  "transparencyAttenuation": 0,
+  "emissionAttenuation": 0,
+  "surfaceColor": {
+   "red": 0.901960784,
+   "green": 0.901960784,
+   "blue": 0.901960784
+  },
+  "specularColor": {
+   "red": 0.8,
+   "green": 0.8,
+   "blue": 0.8
+  },
+  "emissionColor": {
+   "red": 0,
+   "green": 0,
+   "blue": 0
+  },
+  "fillId": {
+   "attributeId": {
+    "guid": "B1CD9FCF-6076-4B4F-AB93-C3CF0DF1511E"
+   }
+  },
+  "transparency": 0,
+  "shine": 0,
+  "texture": {
+   "name": "ST-水磨石-浅灰色-大斑点"
+  }
+ },
+ {
+  "attributeId": {
+   "guid": "15EE6FB1-8692-4C89-81D2-FB6B748CA00B"
+  },
+  "name": "ST-透光玉石-白色",
+  "materialType": "General",
+  "ambientReflection": 70,
+  "diffuseReflection": 70,
+  "specularReflection": 0,
+  "transparencyAttenuation": 0,
+  "emissionAttenuation": 0,
+  "surfaceColor": {
+   "red": 0.901960784,
+   "green": 0.901960784,
+   "blue": 0.901960784
+  },
+  "specularColor": {
+   "red": 0.8,
+   "green": 0.8,
+   "blue": 0.8
+  },
+  "emissionColor": {
+   "red": 0,
+   "green": 0,
+   "blue": 0
+  },
+  "fillId": {
+   "attributeId": {
+    "guid": "4ABEBDA3-A2FA-4F6D-A4F4-733E18B13C3A"
+   }
+  },
+  "transparency": 0,
+  "shine": 0,
+  "texture": {
+   "name": "ST-透光玉石-白色-汉白玉"
+  }
+ },
+ {
+  "attributeId": {
+   "guid": "0400940C-C18C-4350-B2B6-74D68AB270C8"
+  },
+  "name": "ST-石英石-白色",
+  "materialType": "General",
+  "ambientReflection": 70,
+  "diffuseReflection": 70,
+  "specularReflection": 0,
+  "transparencyAttenuation": 0,
+  "emissionAttenuation": 0,
+  "surfaceColor": {
+   "red": 0.901960784,
+   "green": 0.901960784,
+   "blue": 0.901960784
+  },
+  "specularColor": {
+   "red": 0.8,
+   "green": 0.8,
+   "blue": 0.8
+  },
+  "emissionColor": {
+   "red": 0,
+   "green": 0,
+   "blue": 0
+  },
+  "fillId": {
+   "attributeId": {
+    "guid": "4ABEBDA3-A2FA-4F6D-A4F4-733E18B13C3A"
+   }
+  },
+  "transparency": 0,
+  "shine": 0,
+  "texture": {
+   "name": "ST-人造石-米白色-小斑点"
+  }
+ },
+ {
+  "attributeId": {
+   "guid": "CAE5CAF5-7569-4FC5-9619-E7C576723C9F"
+  },
+  "name": "ST-人造大理石-白色",
+  "materialType": "General",
+  "ambientReflection": 70,
+  "diffuseReflection": 70,
+  "specularReflection": 0,
+  "transparencyAttenuation": 0,
+  "emissionAttenuation": 0,
+  "surfaceColor": {
+   "red": 0.901960784,
+   "green": 0.901960784,
+   "blue": 0.901960784
+  },
+  "specularColor": {
+   "red": 0.8,
+   "green": 0.8,
+   "blue": 0.8
+  },
+  "emissionColor": {
+   "red": 0,
+   "green": 0,
+   "blue": 0
+  },
+  "fillId": {
+   "attributeId": {
+    "guid": "4ABEBDA3-A2FA-4F6D-A4F4-733E18B13C3A"
+   }
+  },
+  "transparency": 0,
+  "shine": 0,
+  "texture": {
+   "name": "ST-大理石-白色-诺贝尔白"
+  }
+ },
+ {
+  "attributeId": {
+   "guid": "4BB69E1A-73AA-4147-ADF7-6E817B95AA03"
+  },
+  "name": "ST-石英岩-白色",
+  "materialType": "General",
+  "ambientReflection": 70,
+  "diffuseReflection": 70,
+  "specularReflection": 0,
+  "transparencyAttenuation": 0,
+  "emissionAttenuation": 0,
+  "surfaceColor": {
+   "red": 0.901960784,
+   "green": 0.901960784,
+   "blue": 0.901960784
+  },
+  "specularColor": {
+   "red": 0.8,
+   "green": 0.8,
+   "blue": 0.8
+  },
+  "emissionColor": {
+   "red": 0,
+   "green": 0,
+   "blue": 0
+  },
+  "fillId": {
+   "attributeId": {
+    "guid": "4ABEBDA3-A2FA-4F6D-A4F4-733E18B13C3A"
+   }
+  },
+  "transparency": 0,
+  "shine": 0,
+  "texture": {
+   "name": "ST-透光玉石-白色-汉白玉"
+  }
+ },
+ {
+  "attributeId": {
+   "guid": "F929A915-58F1-4552-A129-D8E9B3C83BB2"
+  },
+  "name": "GB-阻燃板-黄色",
+  "materialType": "General",
+  "ambientReflection": 70,
+  "diffuseReflection": 70,
+  "specularReflection": 0,
+  "transparencyAttenuation": 0,
+  "emissionAttenuation": 0,
+  "surfaceColor": {
+   "red": 0.619607843,
+   "green": 0.470588235,
+   "blue": 0.305882353
+  },
+  "specularColor": {
+   "red": 0.8,
+   "green": 0.8,
+   "blue": 0.8
+  },
+  "emissionColor": {
+   "red": 0,
+   "green": 0,
+   "blue": 0
+  },
+  "fillId": {
+   "attributeId": {
+    "guid": "94A79CB0-D263-43F9-99EF-D12018A3F35C"
+   }
+  },
+  "transparency": 0,
+  "shine": 0
+ },
+ {
+  "attributeId": {
+   "guid": "152C5C52-E3BA-4BE4-829C-21EF6038C10C"
+  },
+  "name": "SP-塑料-白色",
+  "materialType": "General",
+  "ambientReflection": 70,
+  "diffuseReflection": 70,
+  "specularReflection": 0,
+  "transparencyAttenuation": 0,
+  "emissionAttenuation": 0,
+  "surfaceColor": {
+   "red": 1,
+   "green": 1,
+   "blue": 1
+  },
+  "specularColor": {
+   "red": 0.8,
+   "green": 0.8,
+   "blue": 0.8
+  },
+  "emissionColor": {
+   "red": 0,
+   "green": 0,
+   "blue": 0
+  },
+  "fillId": {
+   "attributeId": {
+    "guid": "94A79CB0-D263-43F9-99EF-D12018A3F35C"
+   }
+  },
+  "transparency": 0,
+  "shine": 0
+ },
+ {
+  "attributeId": {
+   "guid": "C18451D9-CBBD-499E-A106-0845353BB47A"
+  },
+  "name": "SP-竹编-黄色",
+  "materialType": "General",
+  "ambientReflection": 70,
+  "diffuseReflection": 70,
+  "specularReflection": 0,
+  "transparencyAttenuation": 0,
+  "emissionAttenuation": 0,
+  "surfaceColor": {
+   "red": 0.815686275,
+   "green": 0.717647059,
+   "blue": 0.584313725
+  },
+  "specularColor": {
+   "red": 0.8,
+   "green": 0.8,
+   "blue": 0.8
+  },
+  "emissionColor": {
+   "red": 0,
+   "green": 0,
+   "blue": 0
+  },
+  "fillId": {
+   "attributeId": {
+    "guid": "94A79CB0-D263-43F9-99EF-D12018A3F35C"
+   }
+  },
+  "transparency": 0,
+  "shine": 0,
+  "texture": {
+   "name": "SP-藤编"
+  }
+ },
+ {
+  "attributeId": {
+   "guid": "40EC7CAB-5AF9-49FE-9C49-F5D0BC9BEB8A"
+  },
+  "name": "GB 多层板侧边",
+  "materialType": "General",
+  "ambientReflection": 67,
+  "diffuseReflection": 100,
+  "specularReflection": 0,
+  "transparencyAttenuation": 0,
+  "emissionAttenuation": 0,
+  "surfaceColor": {
+   "red": 0.874509804,
+   "green": 0.874509804,
+   "blue": 0.874509804
+  },
+  "specularColor": {
+   "red": 1,
+   "green": 1,
+   "blue": 1
+  },
+  "emissionColor": {
+   "red": 0,
+   "green": 0,
+   "blue": 0
+  },
+  "fillId": {
+   "attributeId": {
+    "guid": "04730918-272D-4F30-A00E-35283F953A36"
+   }
+  },
+  "transparency": 0,
+  "shine": 5382
+ },
+ {
+  "attributeId": {
+   "guid": "6E6B3991-9AB8-476E-B74C-FC0CB3A06DC3"
+  },
+  "name": "GB 桦木多层板",
+  "materialType": "General",
+  "ambientReflection": 67,
+  "diffuseReflection": 100,
+  "specularReflection": 0,
+  "transparencyAttenuation": 0,
+  "emissionAttenuation": 0,
+  "surfaceColor": {
+   "red": 0.874509804,
+   "green": 0.874509804,
+   "blue": 0.874509804
+  },
+  "specularColor": {
+   "red": 1,
+   "green": 1,
+   "blue": 1
+  },
+  "emissionColor": {
+   "red": 0,
+   "green": 0,
+   "blue": 0
+  },
+  "fillId": {
+   "attributeId": {
+    "guid": "51BAF6C2-B329-40B7-9B32-CE017E0E8A02"
+   }
+  },
+  "transparency": 0,
+  "shine": 5382
+ },
+ {
+  "attributeId": {
+   "guid": "1DB5F71A-647D-4041-A1E9-5E7FFC457431"
+  },
+  "name": "PT-水泥漆",
+  "materialType": "General",
+  "ambientReflection": 70,
+  "diffuseReflection": 70,
+  "specularReflection": 0,
+  "transparencyAttenuation": 0,
+  "emissionAttenuation": 0,
+  "surfaceColor": {
+   "red": 1,
+   "green": 1,
+   "blue": 1
+  },
+  "specularColor": {
+   "red": 0.8,
+   "green": 0.8,
+   "blue": 0.8
+  },
+  "emissionColor": {
+   "red": 0,
+   "green": 0,
+   "blue": 0
+  },
+  "fillId": {
+   "error": {
+    "code": 6100,
+    "message": "Attribute is missing"
+   }
+  },
+  "transparency": 0,
+  "shine": 0,
+  "texture": {
+   "name": "PT-无机涂料-白色"
+  }
+ },
+ {
+  "attributeId": {
+   "guid": "B3EA83DB-D224-496F-A89B-67951A6B63CD"
+  },
+  "name": "PB-矿棉板",
+  "materialType": "General",
+  "ambientReflection": 70,
+  "diffuseReflection": 70,
+  "specularReflection": 70,
+  "transparencyAttenuation": 0,
+  "emissionAttenuation": 0,
+  "surfaceColor": {
+   "red": 0.380392157,
+   "green": 0.337254902,
+   "blue": 0.247058824
+  },
+  "specularColor": {
+   "red": 0.8,
+   "green": 0.8,
+   "blue": 0.8
+  },
+  "emissionColor": {
+   "red": 0,
+   "green": 0,
+   "blue": 0
+  },
+  "fillId": {
+   "attributeId": {
+    "guid": "C34904A6-8578-45BE-9EA2-BED7615B5921"
+   }
+  },
+  "transparency": 0,
+  "shine": 1700
+ },
+ {
+  "attributeId": {
+   "guid": "007E02CE-9497-4BA8-BF03-73BE1B08D440"
+  },
+  "name": "PB-铝塑复合板",
+  "materialType": "General",
+  "ambientReflection": 70,
+  "diffuseReflection": 70,
+  "specularReflection": 70,
+  "transparencyAttenuation": 0,
+  "emissionAttenuation": 0,
+  "surfaceColor": {
+   "red": 0.380392157,
+   "green": 0.337254902,
+   "blue": 0.247058824
+  },
+  "specularColor": {
+   "red": 0.8,
+   "green": 0.8,
+   "blue": 0.8
+  },
+  "emissionColor": {
+   "red": 0,
+   "green": 0,
+   "blue": 0
+  },
+  "fillId": {
+   "attributeId": {
+    "guid": "8BFFC8F4-88D6-4F7B-8089-E8CEAB87E36B"
+   }
+  },
+  "transparency": 0,
+  "shine": 1700
+ },
+ {
+  "attributeId": {
+   "guid": "C837B52E-6360-47D2-A65D-F6690BD07DCC"
+  },
+  "name": "LUM-自发光",
+  "materialType": "General",
+  "ambientReflection": 45,
+  "diffuseReflection": 0,
+  "specularReflection": 0,
+  "transparencyAttenuation": 0,
+  "emissionAttenuation": 0,
+  "surfaceColor": {
+   "red": 1,
+   "green": 1,
+   "blue": 0.807843137
+  },
+  "specularColor": {
+   "red": 0.990005341,
+   "green": 0.990005341,
+   "blue": 1
+  },
+  "emissionColor": {
+   "red": 1,
+   "green": 1,
+   "blue": 0.501960784
+  },
+  "fillId": {
+   "attributeId": {
+    "guid": "C62D861F-5EE0-4052-B33B-7187E516C2F4"
+   }
+  },
+  "transparency": 0,
+  "shine": 10000
+ },
+ {
+  "attributeId": {
+   "guid": "AA6D89CD-46C2-4616-9162-2EA272F3D307"
+  },
+  "name": "PB-木丝板",
+  "materialType": "General",
+  "ambientReflection": 70,
+  "diffuseReflection": 70,
+  "specularReflection": 70,
+  "transparencyAttenuation": 0,
+  "emissionAttenuation": 0,
+  "surfaceColor": {
+   "red": 0.380392157,
+   "green": 0.337254902,
+   "blue": 0.247058824
+  },
+  "specularColor": {
+   "red": 0.8,
+   "green": 0.8,
+   "blue": 0.8
+  },
+  "emissionColor": {
+   "red": 0,
+   "green": 0,
+   "blue": 0
+  },
+  "fillId": {
+   "attributeId": {
+    "guid": "C34904A6-8578-45BE-9EA2-BED7615B5921"
+   }
+  },
+  "transparency": 0,
+  "shine": 1700
+ },
+ {
+  "attributeId": {
+   "guid": "374D3A8D-9C6E-445F-9B6F-2EE4A365F58C"
+  },
+  "name": "PB-三聚氰胺贴面板",
+  "materialType": "General",
+  "ambientReflection": 70,
+  "diffuseReflection": 70,
+  "specularReflection": 70,
+  "transparencyAttenuation": 0,
+  "emissionAttenuation": 0,
+  "surfaceColor": {
+   "red": 0.380392157,
+   "green": 0.337254902,
+   "blue": 0.247058824
+  },
+  "specularColor": {
+   "red": 0.8,
+   "green": 0.8,
+   "blue": 0.8
+  },
+  "emissionColor": {
+   "red": 0,
+   "green": 0,
+   "blue": 0
+  },
+  "fillId": {
+   "attributeId": {
+    "guid": "C34904A6-8578-45BE-9EA2-BED7615B5921"
+   }
+  },
+  "transparency": 0,
+  "shine": 1700
+ },
+ {
+  "attributeId": {
+   "guid": "6133358A-DB7F-409E-A989-CAEC3CD13F88"
+  },
+  "name": "WF-防腐木地板-原木色-横拼",
+  "materialType": "General",
+  "ambientReflection": 70,
+  "diffuseReflection": 70,
+  "specularReflection": 0,
+  "transparencyAttenuation": 0,
+  "emissionAttenuation": 0,
+  "surfaceColor": {
+   "red": 0.847058824,
+   "green": 0.77254902,
+   "blue": 0.647058824
+  },
+  "specularColor": {
+   "red": 0.8,
+   "green": 0.8,
+   "blue": 0.8
+  },
+  "emissionColor": {
+   "red": 0,
+   "green": 0,
+   "blue": 0
+  },
+  "fillId": {
+   "attributeId": {
+    "guid": "17AA3202-4723-4354-ADA9-4479965D43BF"
+   }
+  },
+  "transparency": 0,
+  "shine": 0,
+  "texture": {
+   "name": "WF-防腐木-原木色-横拼"
+  }
+ },
+ {
+  "attributeId": {
+   "guid": "9007A50A-2764-4E42-B19B-1CCF4969DEFD"
+  },
+  "name": "WF-塑木地板-棕色",
+  "materialType": "General",
+  "ambientReflection": 70,
+  "diffuseReflection": 70,
+  "specularReflection": 0,
+  "transparencyAttenuation": 0,
+  "emissionAttenuation": 0,
+  "surfaceColor": {
+   "red": 0.847058824,
+   "green": 0.77254902,
+   "blue": 0.647058824
+  },
+  "specularColor": {
+   "red": 0.8,
+   "green": 0.8,
+   "blue": 0.8
+  },
+  "emissionColor": {
+   "red": 0,
+   "green": 0,
+   "blue": 0
+  },
+  "fillId": {
+   "attributeId": {
+    "guid": "1403BD8E-691B-4F44-9455-B892FC1FC564"
+   }
+  },
+  "transparency": 0,
+  "shine": 0,
+  "texture": {
+   "name": "WF-实木地板-原木色直纹-工字拼"
+  }
+ },
+ {
+  "attributeId": {
+   "guid": "FF17F23B-0760-4F65-99D3-9657A8DB29B3"
+  },
+  "name": "GL-夹层玻璃",
+  "materialType": "General",
+  "ambientReflection": 70,
+  "diffuseReflection": 70,
+  "specularReflection": 0,
+  "transparencyAttenuation": 0,
+  "emissionAttenuation": 0,
+  "surfaceColor": {
+   "red": 1,
+   "green": 1,
+   "blue": 1
+  },
+  "specularColor": {
+   "red": 1,
+   "green": 1,
+   "blue": 1
+  },
+  "emissionColor": {
+   "red": 0,
+   "green": 0,
+   "blue": 0
+  },
+  "fillId": {
+   "attributeId": {
+    "guid": "D13599B9-E164-4D15-8941-2E43D009733B"
+   }
+  },
+  "transparency": 75,
+  "shine": 0,
+  "texture": {
+   "name": "GL-夹丝玻璃"
+  }
+ },
+ {
+  "attributeId": {
+   "guid": "E7CC229E-C063-4FAF-AE00-3A7175148D6C"
+  },
+  "name": "GL-彩色玻璃",
+  "materialType": "General",
+  "ambientReflection": 70,
+  "diffuseReflection": 70,
+  "specularReflection": 0,
+  "transparencyAttenuation": 0,
+  "emissionAttenuation": 0,
+  "surfaceColor": {
+   "red": 1,
+   "green": 1,
+   "blue": 1
+  },
+  "specularColor": {
+   "red": 1,
+   "green": 1,
+   "blue": 1
+  },
+  "emissionColor": {
+   "red": 0,
+   "green": 0,
+   "blue": 0
+  },
+  "fillId": {
+   "attributeId": {
+    "guid": "D13599B9-E164-4D15-8941-2E43D009733B"
+   }
+  },
+  "transparency": 75,
+  "shine": 0,
+  "texture": {
+   "name": "GL-长虹玻璃-橙色-渐变"
+  }
+ },
+ {
+  "attributeId": {
+   "guid": "7E6B8E33-D546-4D38-AFBD-086C18828184"
+  },
+  "name": "GL-超白玻",
+  "materialType": "General",
+  "ambientReflection": 70,
+  "diffuseReflection": 70,
+  "specularReflection": 0,
+  "transparencyAttenuation": 0,
+  "emissionAttenuation": 0,
+  "surfaceColor": {
+   "red": 1,
+   "green": 1,
+   "blue": 1
+  },
+  "specularColor": {
+   "red": 1,
+   "green": 1,
+   "blue": 1
+  },
+  "emissionColor": {
+   "red": 0,
+   "green": 0,
+   "blue": 0
+  },
+  "fillId": {
+   "attributeId": {
+    "guid": "D13599B9-E164-4D15-8941-2E43D009733B"
+   }
+  },
+  "transparency": 75,
+  "shine": 0
+ },
+ {
+  "attributeId": {
+   "guid": "AE56EA79-DAD3-4F68-8737-D546B8C034B4"
+  },
+  "name": "GL-玻璃砖",
+  "materialType": "General",
+  "ambientReflection": 70,
+  "diffuseReflection": 70,
+  "specularReflection": 0,
+  "transparencyAttenuation": 0,
+  "emissionAttenuation": 0,
+  "surfaceColor": {
+   "red": 1,
+   "green": 1,
+   "blue": 1
+  },
+  "specularColor": {
+   "red": 0.8,
+   "green": 0.8,
+   "blue": 0.8
+  },
+  "emissionColor": {
+   "red": 0,
+   "green": 0,
+   "blue": 0
+  },
+  "fillId": {
+   "attributeId": {
+    "guid": "D13599B9-E164-4D15-8941-2E43D009733B"
+   }
+  },
+  "transparency": 75,
+  "shine": 0,
+  "texture": {
+   "name": "GL-玻璃砖"
+  }
+ },
+ {
+  "attributeId": {
+   "guid": "517A8EF5-8FBE-4FFE-AAF4-8AEB83DB86AF"
+  },
+  "name": "GL-贴膜玻璃",
+  "materialType": "General",
+  "ambientReflection": 70,
+  "diffuseReflection": 70,
+  "specularReflection": 0,
+  "transparencyAttenuation": 0,
+  "emissionAttenuation": 0,
+  "surfaceColor": {
+   "red": 1,
+   "green": 1,
+   "blue": 1
+  },
+  "specularColor": {
+   "red": 0.8,
+   "green": 0.8,
+   "blue": 0.8
+  },
+  "emissionColor": {
+   "red": 0,
+   "green": 0,
+   "blue": 0
+  },
+  "fillId": {
+   "attributeId": {
+    "guid": "D5EEBC60-4F60-4637-B204-46C491E0D528"
+   }
+  },
+  "transparency": 75,
+  "shine": 0,
+  "texture": {
+   "name": "GL-艺术玻璃"
+  }
+ },
+ {
+  "attributeId": {
+   "guid": "427A398B-6D65-4D58-9B81-653495C77C58"
+  },
+  "name": "GL-压花玻璃",
+  "materialType": "General",
+  "ambientReflection": 70,
+  "diffuseReflection": 70,
+  "specularReflection": 0,
+  "transparencyAttenuation": 0,
+  "emissionAttenuation": 0,
+  "surfaceColor": {
+   "red": 1,
+   "green": 1,
+   "blue": 1
+  },
+  "specularColor": {
+   "red": 0.8,
+   "green": 0.8,
+   "blue": 0.8
+  },
+  "emissionColor": {
+   "red": 0,
+   "green": 0,
+   "blue": 0
+  },
+  "fillId": {
+   "attributeId": {
+    "guid": "D13599B9-E164-4D15-8941-2E43D009733B"
+   }
+  },
+  "transparency": 75,
+  "shine": 0,
+  "texture": {
+   "name": "GL-长虹玻璃-白色"
+  }
+ },
+ {
+  "attributeId": {
+   "guid": "0C795D7E-7904-4247-8B55-4657CEFC2B44"
+  },
+  "name": "MO-玻璃马赛克",
+  "materialType": "General",
+  "ambientReflection": 70,
+  "diffuseReflection": 70,
+  "specularReflection": 100,
+  "transparencyAttenuation": 0,
+  "emissionAttenuation": 0,
+  "surfaceColor": {
+   "red": 1,
+   "green": 1,
+   "blue": 1
+  },
+  "specularColor": {
+   "red": 0.88627451,
+   "green": 0.88627451,
+   "blue": 0.88627451
+  },
+  "emissionColor": {
+   "red": 0,
+   "green": 0,
+   "blue": 0
+  },
+  "fillId": {
+   "attributeId": {
+    "guid": "763F60CF-18E4-4783-9CC6-002F03A9297B"
+   }
+  },
+  "transparency": 0,
+  "shine": 0,
+  "texture": {
+   "name": "MO-炫彩马赛克-白色"
+  }
+ },
+ {
+  "attributeId": {
+   "guid": "4FBFB90D-EA15-41DD-B5FA-7DECBBC16D5A"
+  },
+  "name": "CT-黏土瓷砖-绿色",
+  "materialType": "General",
+  "ambientReflection": 70,
+  "diffuseReflection": 70,
+  "specularReflection": 0,
+  "transparencyAttenuation": 0,
+  "emissionAttenuation": 0,
+  "surfaceColor": {
+   "red": 1,
+   "green": 1,
+   "blue": 1
+  },
+  "specularColor": {
+   "red": 0.8,
+   "green": 0.8,
+   "blue": 0.8
+  },
+  "emissionColor": {
+   "red": 0,
+   "green": 0,
+   "blue": 0
+  },
+  "fillId": {
+   "attributeId": {
+    "guid": "DC3CAB0B-AD8A-4DD0-AE80-0CD96C335F84"
+   }
+  },
+  "transparency": 0,
+  "shine": 0,
+  "texture": {
+   "name": "CT-条形瓷砖-绿色-条形"
+  }
+ },
+ {
+  "attributeId": {
+   "guid": "D5B1AF1F-72B9-4BFA-BCED-F02A5C41044A"
+  },
+  "name": "CT-水泥瓷砖-深灰色",
+  "materialType": "General",
+  "ambientReflection": 70,
+  "diffuseReflection": 70,
+  "specularReflection": 0,
+  "transparencyAttenuation": 0,
+  "emissionAttenuation": 0,
+  "surfaceColor": {
+   "red": 1,
+   "green": 1,
+   "blue": 1
+  },
+  "specularColor": {
+   "red": 0.8,
+   "green": 0.8,
+   "blue": 0.8
+  },
+  "emissionColor": {
+   "red": 0,
+   "green": 0,
+   "blue": 0
+  },
+  "fillId": {
+   "attributeId": {
+    "guid": "DC3CAB0B-AD8A-4DD0-AE80-0CD96C335F84"
+   }
+  },
+  "transparency": 0,
+  "shine": 0,
+  "texture": {
+   "name": "CT-瓷砖-深灰色-通利"
+  }
+ },
+ {
+  "attributeId": {
+   "guid": "A15C2124-7AF9-4267-9E1D-DF741D2E9F12"
+  },
+  "name": "CT-陶砖-浅灰色",
+  "materialType": "General",
+  "ambientReflection": 70,
+  "diffuseReflection": 70,
+  "specularReflection": 0,
+  "transparencyAttenuation": 0,
+  "emissionAttenuation": 0,
+  "surfaceColor": {
+   "red": 1,
+   "green": 1,
+   "blue": 1
+  },
+  "specularColor": {
+   "red": 0.8,
+   "green": 0.8,
+   "blue": 0.8
+  },
+  "emissionColor": {
+   "red": 0,
+   "green": 0,
+   "blue": 0
+  },
+  "fillId": {
+   "attributeId": {
+    "guid": "C6CB822F-5C87-4E5B-9A3E-5114E9D7B594"
+   }
+  },
+  "transparency": 0,
+  "shine": 0,
+  "texture": {
+   "name": "MAS-陶土砖-浅灰色-条形纹"
+  }
+ },
+ {
+  "attributeId": {
+   "guid": "C5B50B32-3C38-482D-94A9-39CC739B29CC"
+  },
+  "name": "MO-瓷砖马赛克-白色",
+  "materialType": "General",
+  "ambientReflection": 70,
+  "diffuseReflection": 70,
+  "specularReflection": 0,
+  "transparencyAttenuation": 0,
+  "emissionAttenuation": 0,
+  "surfaceColor": {
+   "red": 1,
+   "green": 1,
+   "blue": 1
+  },
+  "specularColor": {
+   "red": 0.8,
+   "green": 0.8,
+   "blue": 0.8
+  },
+  "emissionColor": {
+   "red": 0,
+   "green": 0,
+   "blue": 0
+  },
+  "fillId": {
+   "attributeId": {
+    "guid": "DC3CAB0B-AD8A-4DD0-AE80-0CD96C335F84"
+   }
+  },
+  "transparency": 0,
+  "shine": 0,
+  "texture": {
+   "name": "MO-瓷砖马赛克-白色"
+  }
+ },
+ {
+  "attributeId": {
+   "guid": "D7A2AF32-D8C3-427B-94E2-7AD3541E3C35"
+  },
+  "name": "ST-石材马赛克-绿色",
+  "materialType": "General",
+  "ambientReflection": 70,
+  "diffuseReflection": 70,
+  "specularReflection": 0,
+  "transparencyAttenuation": 0,
+  "emissionAttenuation": 0,
+  "surfaceColor": {
+   "red": 0.901960784,
+   "green": 0.901960784,
+   "blue": 0.901960784
+  },
+  "specularColor": {
+   "red": 0.8,
+   "green": 0.8,
+   "blue": 0.8
+  },
+  "emissionColor": {
+   "red": 0,
+   "green": 0,
+   "blue": 0
+  },
+  "fillId": {
+   "attributeId": {
+    "guid": "4ABEBDA3-A2FA-4F6D-A4F4-733E18B13C3A"
+   }
+  },
+  "transparency": 0,
+  "shine": 0,
+  "texture": {
+   "name": "MO-石材马赛克-墨绿色"
+  }
+ },
+ {
+  "attributeId": {
+   "guid": "FAB6565B-FD79-4D4C-A021-841DC8654A7E"
+  },
+  "name": "ST-安山岩-灰色",
+  "materialType": "General",
+  "ambientReflection": 70,
+  "diffuseReflection": 70,
+  "specularReflection": 0,
+  "transparencyAttenuation": 0,
+  "emissionAttenuation": 0,
+  "surfaceColor": {
+   "red": 0.901960784,
+   "green": 0.901960784,
+   "blue": 0.901960784
+  },
+  "specularColor": {
+   "red": 0.8,
+   "green": 0.8,
+   "blue": 0.8
+  },
+  "emissionColor": {
+   "red": 0,
+   "green": 0,
+   "blue": 0
+  },
+  "fillId": {
+   "attributeId": {
+    "guid": "4ABEBDA3-A2FA-4F6D-A4F4-733E18B13C3A"
+   }
+  },
+  "transparency": 0,
+  "shine": 0,
+  "texture": {
+   "name": "ST-花岗岩-灰色-芝麻灰"
+  }
+ },
+ {
+  "attributeId": {
+   "guid": "A602977F-74B5-479D-A44E-0CDBE9665D9F"
+  },
+  "name": "ST-板岩-灰色",
+  "materialType": "General",
+  "ambientReflection": 70,
+  "diffuseReflection": 70,
+  "specularReflection": 0,
+  "transparencyAttenuation": 0,
+  "emissionAttenuation": 0,
+  "surfaceColor": {
+   "red": 0.901960784,
+   "green": 0.901960784,
+   "blue": 0.901960784
+  },
+  "specularColor": {
+   "red": 0.8,
+   "green": 0.8,
+   "blue": 0.8
+  },
+  "emissionColor": {
+   "red": 0,
+   "green": 0,
+   "blue": 0
+  },
+  "fillId": {
+   "attributeId": {
+    "guid": "4ABEBDA3-A2FA-4F6D-A4F4-733E18B13C3A"
+   }
+  },
+  "transparency": 0,
+  "shine": 0,
+  "texture": {
+   "name": "ST-大理石-灰色-圣罗兰灰"
+  }
+ },
+ {
+  "attributeId": {
+   "guid": "2B1D450B-D387-477A-8F28-12B936F2F82A"
+  },
+  "name": "MT-不锈钢-银白色",
+  "materialType": "General",
+  "ambientReflection": 70,
+  "diffuseReflection": 70,
+  "specularReflection": 0,
+  "transparencyAttenuation": 0,
+  "emissionAttenuation": 0,
+  "surfaceColor": {
+   "red": 0.878431373,
+   "green": 0.878431373,
+   "blue": 0.878431373
+  },
+  "specularColor": {
+   "red": 0.8,
+   "green": 0.8,
+   "blue": 0.8
+  },
+  "emissionColor": {
+   "red": 0,
+   "green": 0,
+   "blue": 0
+  },
+  "fillId": {
+   "attributeId": {
+    "guid": "65932265-5D69-4F6A-B071-49B3688F036E"
+   }
+  },
+  "transparency": 0,
+  "shine": 0
+ },
+ {
+  "attributeId": {
+   "guid": "AD68B566-B7F8-4F6F-85FA-0BF0A1390136"
+  },
+  "name": "P-上水管（冷）",
+  "materialType": "General",
+  "ambientReflection": 93,
+  "diffuseReflection": 41,
+  "specularReflection": 10,
+  "transparencyAttenuation": 0,
+  "emissionAttenuation": 0,
+  "surfaceColor": {
+   "red": 0.396078431,
+   "green": 0.901960784,
+   "blue": 0.952941176
+  },
+  "specularColor": {
+   "red": 0.990005341,
+   "green": 0.990005341,
+   "blue": 1
+  },
+  "emissionColor": {
+   "red": 0,
+   "green": 0,
+   "blue": 0
+  },
+  "fillId": {
+   "error": {
+    "code": 6100,
+    "message": "Attribute is missing"
+   }
+  },
+  "transparency": 0,
+  "shine": 72
+ },
+ {
+  "attributeId": {
+   "guid": "E0094C7D-09DF-410A-B585-4F388853AF46"
+  },
+  "name": "DW-钢制门窗",
+  "materialType": "General",
+  "ambientReflection": 70,
+  "diffuseReflection": 70,
+  "specularReflection": 0,
+  "transparencyAttenuation": 0,
+  "emissionAttenuation": 0,
+  "surfaceColor": {
+   "red": 0.501960784,
+   "green": 0.501960784,
+   "blue": 0.501960784
+  },
+  "specularColor": {
+   "red": 0.8,
+   "green": 0.8,
+   "blue": 0.8
+  },
+  "emissionColor": {
+   "red": 0,
+   "green": 0,
+   "blue": 0
+  },
+  "fillId": {
+   "attributeId": {
+    "guid": "65932265-5D69-4F6A-B071-49B3688F036E"
+   }
+  },
+  "transparency": 0,
+  "shine": 0
+ },
+ {
+  "attributeId": {
+   "guid": "EA97C76E-7540-449F-8F75-7DF2DC61C3F9"
+  },
+  "name": "DW-木门窗",
+  "materialType": "General",
+  "ambientReflection": 70,
+  "diffuseReflection": 70,
+  "specularReflection": 0,
+  "transparencyAttenuation": 0,
+  "emissionAttenuation": 0,
+  "surfaceColor": {
+   "red": 0.501960784,
+   "green": 0.501960784,
+   "blue": 0.501960784
+  },
+  "specularColor": {
+   "red": 0.8,
+   "green": 0.8,
+   "blue": 0.8
+  },
+  "emissionColor": {
+   "red": 0,
+   "green": 0,
+   "blue": 0
+  },
+  "fillId": {
+   "attributeId": {
+    "guid": "51BAF6C2-B329-40B7-9B32-CE017E0E8A02"
+   }
+  },
+  "transparency": 0,
+  "shine": 0,
+  "texture": {
+   "name": "WD-白橡木-原木色-山纹"
+  }
+ },
+ {
+  "attributeId": {
+   "guid": "30ACA733-8BAC-4496-83A0-AF5FCC563859"
+  },
+  "name": "MAS-普通砖-红色",
+  "materialType": "General",
+  "ambientReflection": 70,
+  "diffuseReflection": 70,
+  "specularReflection": 0,
+  "transparencyAttenuation": 0,
+  "emissionAttenuation": 0,
+  "surfaceColor": {
+   "red": 0.501960784,
+   "green": 0.250980392,
+   "blue": 0.250980392
+  },
+  "specularColor": {
+   "red": 0.8,
+   "green": 0.8,
+   "blue": 0.8
+  },
+  "emissionColor": {
+   "red": 0,
+   "green": 0,
+   "blue": 0
+  },
+  "fillId": {
+   "attributeId": {
+    "guid": "6C1EF276-2E50-49E0-A05B-2B2763F2E59F"
+   }
+  },
+  "transparency": 0,
+  "shine": 0,
+  "texture": {
+   "name": "MAS 加气混凝土砌块-1"
+  }
+ },
+ {
+  "attributeId": {
+   "guid": "8DAEB7A8-8A08-4902-9CCA-353BADC772B4"
+  },
+  "name": "CON-清水混凝土-浅灰色-表面带孔",
+  "materialType": "General",
+  "ambientReflection": 70,
+  "diffuseReflection": 70,
+  "specularReflection": 0,
+  "transparencyAttenuation": 0,
+  "emissionAttenuation": 0,
+  "surfaceColor": {
+   "red": 0.752941176,
+   "green": 0.752941176,
+   "blue": 0.752941176
+  },
+  "specularColor": {
+   "red": 0.8,
+   "green": 0.8,
+   "blue": 0.8
+  },
+  "emissionColor": {
+   "red": 0,
+   "green": 0,
+   "blue": 0
+  },
+  "fillId": {
+   "attributeId": {
+    "guid": "5B58D4A2-D7DF-498B-B3E0-CC2E6630EF43"
+   }
+  },
+  "transparency": 0,
+  "shine": 0,
+  "texture": {
+   "name": "CON-清水混凝土-浅灰色-表面带孔"
+  }
+ },
+ {
+  "attributeId": {
+   "guid": "DFF397D5-2715-4715-AA05-7FB3C2D2D5D5"
+  },
+  "name": "FUN-保温层-挤塑聚苯乙烯泡沫板XPS-浅米色",
+  "materialType": "General",
+  "ambientReflection": 70,
+  "diffuseReflection": 70,
+  "specularReflection": 0,
+  "transparencyAttenuation": 0,
+  "emissionAttenuation": 0,
+  "surfaceColor": {
+   "red": 0.443137255,
+   "green": 0.678431373,
+   "blue": 0.756862745
+  },
+  "specularColor": {
+   "red": 0.8,
+   "green": 0.8,
+   "blue": 0.8
+  },
+  "emissionColor": {
+   "red": 0,
+   "green": 0,
+   "blue": 0
+  },
+  "fillId": {
+   "error": {
+    "code": 6100,
+    "message": "Attribute is missing"
+   }
+  },
+  "transparency": 0,
+  "shine": 0,
+  "texture": {
+   "name": "SP-泡沫-白色"
+  }
+ },
+ {
+  "attributeId": {
+   "guid": "50148754-2E44-40A0-A260-92BACC2784A3"
+  },
+  "name": "石灰砂浆",
+  "materialType": "General",
+  "ambientReflection": 70,
+  "diffuseReflection": 70,
+  "specularReflection": 0,
+  "transparencyAttenuation": 0,
+  "emissionAttenuation": 0,
+  "surfaceColor": {
+   "red": 0.690196078,
+   "green": 0.709803922,
+   "blue": 0.694117647
+  },
+  "specularColor": {
+   "red": 0.8,
+   "green": 0.8,
+   "blue": 0.8
+  },
+  "emissionColor": {
+   "red": 0,
+   "green": 0,
+   "blue": 0
+  },
+  "fillId": {
+   "attributeId": {
+    "guid": "94A79CB0-D263-43F9-99EF-D12018A3F35C"
+   }
+  },
+  "transparency": 0,
+  "shine": 0,
+  "texture": {
+   "name": "FUN-素水泥膏"
+  }
+ },
+ {
+  "attributeId": {
+   "guid": "F80C2F52-6480-494F-9517-5413F0186C3A"
+  },
+  "name": "FUN-防水层-防水透气膜、隔汽膜",
+  "materialType": "General",
+  "ambientReflection": 70,
+  "diffuseReflection": 70,
+  "specularReflection": 0,
+  "transparencyAttenuation": 0,
+  "emissionAttenuation": 0,
+  "surfaceColor": {
+   "red": 0,
+   "green": 0.501960784,
+   "blue": 0.752941176
+  },
+  "specularColor": {
+   "red": 0.8,
+   "green": 0.8,
+   "blue": 0.8
+  },
+  "emissionColor": {
+   "red": 0,
+   "green": 0,
+   "blue": 0
+  },
+  "fillId": {
+   "attributeId": {
+    "guid": "94A79CB0-D263-43F9-99EF-D12018A3F35C"
+   }
+  },
+  "transparency": 0,
+  "shine": 0,
+  "texture": {
+   "name": "FUN-防水层"
+  }
+ },
+ {
+  "attributeId": {
+   "guid": "776B6847-D1B9-4E2F-B543-270241ECB131"
+  },
+  "name": "GB-纸面石膏板-白色",
+  "materialType": "General",
+  "ambientReflection": 70,
+  "diffuseReflection": 70,
+  "specularReflection": 0,
+  "transparencyAttenuation": 0,
+  "emissionAttenuation": 0,
+  "surfaceColor": {
+   "red": 1,
+   "green": 1,
+   "blue": 1
+  },
+  "specularColor": {
+   "red": 0.8,
+   "green": 0.8,
+   "blue": 0.8
+  },
+  "emissionColor": {
+   "red": 0,
+   "green": 0,
+   "blue": 0
+  },
+  "fillId": {
+   "error": {
+    "code": 6100,
+    "message": "Attribute is missing"
+   }
+  },
+  "transparency": 0,
+  "shine": 0,
+  "texture": {
+   "name": "纸面石膏板"
+  }
+ },
+ {
+  "attributeId": {
+   "guid": "D8A329F2-D94F-4F0E-8F9B-8D3C73BADE33"
+  },
+  "name": "MT-铁-灰色",
+  "materialType": "General",
+  "ambientReflection": 70,
+  "diffuseReflection": 70,
+  "specularReflection": 0,
+  "transparencyAttenuation": 0,
+  "emissionAttenuation": 0,
+  "surfaceColor": {
+   "red": 0.843137255,
+   "green": 0.843137255,
+   "blue": 0.843137255
+  },
+  "specularColor": {
+   "red": 0.8,
+   "green": 0.8,
+   "blue": 0.8
+  },
+  "emissionColor": {
+   "red": 0,
+   "green": 0,
+   "blue": 0
+  },
+  "fillId": {
+   "attributeId": {
+    "guid": "65932265-5D69-4F6A-B071-49B3688F036E"
+   }
+  },
+  "transparency": 0,
+  "shine": 0,
+  "texture": {
+   "name": "MT-铁-灰色"
+  }
+ },
+ {
+  "attributeId": {
+   "guid": "5C30241A-7F1A-4F51-88D7-AFA812C69F61"
+  },
+  "name": "STL-钢结构-深灰色",
+  "materialType": "General",
+  "ambientReflection": 70,
+  "diffuseReflection": 70,
+  "specularReflection": 0,
+  "transparencyAttenuation": 0,
+  "emissionAttenuation": 0,
+  "surfaceColor": {
+   "red": 0.850980392,
+   "green": 0.850980392,
+   "blue": 0.850980392
+  },
+  "specularColor": {
+   "red": 0.8,
+   "green": 0.8,
+   "blue": 0.8
+  },
+  "emissionColor": {
+   "red": 0,
+   "green": 0,
+   "blue": 0
+  },
+  "fillId": {
+   "attributeId": {
+    "guid": "65932265-5D69-4F6A-B071-49B3688F036E"
+   }
+  },
+  "transparency": 0,
+  "shine": 0,
+  "texture": {
+   "name": "MT-铁-灰色"
+  }
+ },
+ {
+  "attributeId": {
+   "guid": "3BA95F62-4423-40C7-9307-0401500C7BAC"
+  },
+  "name": "MT-镀锌-浅灰色",
+  "materialType": "General",
+  "ambientReflection": 70,
+  "diffuseReflection": 70,
+  "specularReflection": 0,
+  "transparencyAttenuation": 0,
+  "emissionAttenuation": 0,
+  "surfaceColor": {
+   "red": 0.619607843,
+   "green": 0.619607843,
+   "blue": 0.619607843
+  },
+  "specularColor": {
+   "red": 0.8,
+   "green": 0.8,
+   "blue": 0.8
+  },
+  "emissionColor": {
+   "red": 0,
+   "green": 0,
+   "blue": 0
+  },
+  "fillId": {
+   "attributeId": {
+    "guid": "C01050E6-2C95-468E-B96E-420C90BCFF0C"
+   }
+  },
+  "transparency": 0,
+  "shine": 0,
+  "texture": {
+   "name": "MT-镀锌-浅灰色"
+  }
+ },
+ {
+  "attributeId": {
+   "guid": "F393C7A3-CE09-4E0B-92F5-C471320A9037"
+  },
+  "name": "WD-原木-原木色-山纹",
+  "materialType": "General",
+  "ambientReflection": 70,
+  "diffuseReflection": 70,
+  "specularReflection": 0,
+  "transparencyAttenuation": 0,
+  "emissionAttenuation": 0,
+  "surfaceColor": {
+   "red": 0.803921569,
+   "green": 0.77254902,
+   "blue": 0.694117647
+  },
+  "specularColor": {
+   "red": 0.8,
+   "green": 0.8,
+   "blue": 0.8
+  },
+  "emissionColor": {
+   "red": 0,
+   "green": 0,
+   "blue": 0
+  },
+  "fillId": {
+   "attributeId": {
+    "guid": "A1F4B721-8E2B-483D-89CE-018EFF045496"
+   }
+  },
+  "transparency": 0,
+  "shine": 0,
+  "texture": {
+   "name": "WD-原木-原木色-山纹"
+  }
+ },
+ {
+  "attributeId": {
+   "guid": "12A34DB8-B3AA-497F-B546-0E3D48A6A11B"
+  },
+  "name": "CP-块毯-灰色",
+  "materialType": "General",
+  "ambientReflection": 70,
+  "diffuseReflection": 70,
+  "specularReflection": 0,
+  "transparencyAttenuation": 0,
+  "emissionAttenuation": 0,
+  "surfaceColor": {
+   "red": 0.619607843,
+   "green": 0.619607843,
+   "blue": 0.619607843
+  },
+  "specularColor": {
+   "red": 0.8,
+   "green": 0.8,
+   "blue": 0.8
+  },
+  "emissionColor": {
+   "red": 0,
+   "green": 0,
+   "blue": 0
+  },
+  "fillId": {
+   "attributeId": {
+    "guid": "25498D2A-8B54-4EC8-B117-3AEB610DA465"
+   }
+  },
+  "transparency": 0,
+  "shine": 0,
+  "texture": {
+   "name": "CP-块毯-灰色"
+  }
+ },
+ {
+  "attributeId": {
+   "guid": "FE40D8E3-EA44-4A2D-9822-DA949DBB8716"
+  },
+  "name": "FA-麻布-浅灰色",
+  "materialType": "General",
+  "ambientReflection": 70,
+  "diffuseReflection": 70,
+  "specularReflection": 0,
+  "transparencyAttenuation": 0,
+  "emissionAttenuation": 0,
+  "surfaceColor": {
+   "red": 1,
+   "green": 1,
+   "blue": 1
+  },
+  "specularColor": {
+   "red": 0.8,
+   "green": 0.8,
+   "blue": 0.8
+  },
+  "emissionColor": {
+   "red": 0,
+   "green": 0,
+   "blue": 0
+  },
+  "fillId": {
+   "attributeId": {
+    "guid": "AABEE132-5F0D-42D1-B6F3-D74FAE0199C2"
+   }
+  },
+  "transparency": 0,
+  "shine": 0,
+  "texture": {
+   "name": "FA-麻布-浅灰色"
+  }
+ },
+ {
+  "attributeId": {
+   "guid": "E8FE60C5-D80E-432F-9782-16B1DD3B218A"
+  },
+  "name": "PB-烤漆板-白色",
+  "materialType": "General",
+  "ambientReflection": 70,
+  "diffuseReflection": 70,
+  "specularReflection": 0,
+  "transparencyAttenuation": 0,
+  "emissionAttenuation": 0,
+  "surfaceColor": {
+   "red": 1,
+   "green": 1,
+   "blue": 1
+  },
+  "specularColor": {
+   "red": 0.8,
+   "green": 0.8,
+   "blue": 0.8
+  },
+  "emissionColor": {
+   "red": 0,
+   "green": 0,
+   "blue": 0
+  },
+  "fillId": {
+   "attributeId": {
+    "guid": "8BFFC8F4-88D6-4F7B-8089-E8CEAB87E36B"
+   }
+  },
+  "transparency": 0,
+  "shine": 0,
+  "texture": {
+   "name": "PB-亚克力-白色"
+  }
+ },
+ {
+  "attributeId": {
+   "guid": "40346662-7C1C-4EF5-8E52-921B2F1FA63E"
+  },
+  "name": "PB-亚克力-透明-磨砂",
+  "materialType": "General",
+  "ambientReflection": 70,
+  "diffuseReflection": 70,
+  "specularReflection": 0,
+  "transparencyAttenuation": 0,
+  "emissionAttenuation": 0,
+  "surfaceColor": {
+   "red": 1,
+   "green": 1,
+   "blue": 1
+  },
+  "specularColor": {
+   "red": 0.8,
+   "green": 0.8,
+   "blue": 0.8
+  },
+  "emissionColor": {
+   "red": 0,
+   "green": 0,
+   "blue": 0
+  },
+  "fillId": {
+   "error": {
+    "code": 6100,
+    "message": "Attribute is missing"
+   }
+  },
+  "transparency": 25,
+  "shine": 0,
+  "texture": {
+   "name": "PB-亚克力-透明-磨砂"
+  }
+ },
+ {
+  "attributeId": {
+   "guid": "06578AB7-BF8C-411E-8A2C-33699B8ECB85"
+  },
+  "name": "GL-磨砂玻璃-无色",
+  "materialType": "General",
+  "ambientReflection": 70,
+  "diffuseReflection": 70,
+  "specularReflection": 0,
+  "transparencyAttenuation": 0,
+  "emissionAttenuation": 0,
+  "surfaceColor": {
+   "red": 1,
+   "green": 1,
+   "blue": 1
+  },
+  "specularColor": {
+   "red": 0.8,
+   "green": 0.8,
+   "blue": 0.8
+  },
+  "emissionColor": {
+   "red": 0,
+   "green": 0,
+   "blue": 0
+  },
+  "fillId": {
+   "attributeId": {
+    "guid": "D5EEBC60-4F60-4637-B204-46C491E0D528"
+   }
+  },
+  "transparency": 25,
+  "shine": 0,
+  "texture": {
+   "name": "GL-磨砂玻璃"
+  }
+ },
+ {
+  "attributeId": {
+   "guid": "4D283F1F-D903-423C-8990-5859FD24B1DA"
+  },
+  "name": "MR-灰镜-灰色",
+  "materialType": "General",
+  "ambientReflection": 70,
+  "diffuseReflection": 70,
+  "specularReflection": 100,
+  "transparencyAttenuation": 0,
+  "emissionAttenuation": 0,
+  "surfaceColor": {
+   "red": 1,
+   "green": 1,
+   "blue": 1
+  },
+  "specularColor": {
+   "red": 0.478431373,
+   "green": 0.478431373,
+   "blue": 0.478431373
+  },
+  "emissionColor": {
+   "red": 0,
+   "green": 0,
+   "blue": 0
+  },
+  "fillId": {
+   "attributeId": {
+    "guid": "32F49F40-1C95-492F-9DFE-3877F0AF2BF2"
+   }
+  },
+  "transparency": 0,
+  "shine": 0,
+  "texture": {
+   "name": "MR-灰镜"
+  }
+ },
+ {
+  "attributeId": {
+   "guid": "925BACB1-B628-4093-950B-C56F5EE3E2FD"
+  },
+  "name": "LA-皮革-浅灰色",
+  "materialType": "General",
+  "ambientReflection": 70,
+  "diffuseReflection": 70,
+  "specularReflection": 0,
+  "transparencyAttenuation": 0,
+  "emissionAttenuation": 0,
+  "surfaceColor": {
+   "red": 1,
+   "green": 1,
+   "blue": 1
+  },
+  "specularColor": {
+   "red": 0.8,
+   "green": 0.8,
+   "blue": 0.8
+  },
+  "emissionColor": {
+   "red": 0,
+   "green": 0,
+   "blue": 0
+  },
+  "fillId": {
+   "error": {
+    "code": 6100,
+    "message": "Attribute is missing"
+   }
+  },
+  "transparency": 0,
+  "shine": 0,
+  "texture": {
+   "name": "LA-灰色皮革-浅灰色"
+  }
+ },
+ {
+  "attributeId": {
+   "guid": "438F8C98-D86E-4B5D-A2C4-B87FC3D10C6F"
+  },
+  "name": "SP-瓦楞纸-浅棕色-淡纹",
+  "materialType": "General",
+  "ambientReflection": 70,
+  "diffuseReflection": 70,
+  "specularReflection": 0,
+  "transparencyAttenuation": 0,
+  "emissionAttenuation": 0,
+  "surfaceColor": {
+   "red": 0.603921569,
+   "green": 0.454901961,
+   "blue": 0.270588235
+  },
+  "specularColor": {
+   "red": 0.8,
+   "green": 0.8,
+   "blue": 0.8
+  },
+  "emissionColor": {
+   "red": 0,
+   "green": 0,
+   "blue": 0
+  },
+  "fillId": {
+   "error": {
+    "code": 6100,
+    "message": "Attribute is missing"
+   }
+  },
+  "transparency": 0,
+  "shine": 0,
+  "texture": {
+   "name": "SP-瓦楞纸-浅棕色-淡纹"
+  }
+ },
+ {
+  "attributeId": {
+   "guid": "BAF4F2CF-E183-4449-A0A8-6E6B50ED5A4C"
+  },
+  "name": "MR-银镜-银色",
+  "materialType": "General",
+  "ambientReflection": 70,
+  "diffuseReflection": 70,
+  "specularReflection": 100,
+  "transparencyAttenuation": 0,
+  "emissionAttenuation": 0,
+  "surfaceColor": {
+   "red": 1,
+   "green": 1,
+   "blue": 1
+  },
+  "specularColor": {
+   "red": 0.88627451,
+   "green": 0.88627451,
+   "blue": 0.88627451
+  },
+  "emissionColor": {
+   "red": 0,
+   "green": 0,
+   "blue": 0
+  },
+  "fillId": {
+   "attributeId": {
+    "guid": "32F49F40-1C95-492F-9DFE-3877F0AF2BF2"
+   }
+  },
+  "transparency": 0,
+  "shine": 0,
+  "texture": {
+   "name": "MR-银镜"
+  }
+ },
+ {
+  "attributeId": {
+   "guid": "10AD4D2B-D325-4B51-A171-755556429E54"
+  },
+  "name": "MT-黄铜-表面脏旧",
+  "materialType": "General",
+  "ambientReflection": 70,
+  "diffuseReflection": 70,
+  "specularReflection": 0,
+  "transparencyAttenuation": 0,
+  "emissionAttenuation": 0,
+  "surfaceColor": {
+   "red": 0.768627451,
+   "green": 0.584313725,
+   "blue": 0.415686275
+  },
+  "specularColor": {
+   "red": 0.8,
+   "green": 0.8,
+   "blue": 0.8
+  },
+  "emissionColor": {
+   "red": 0,
+   "green": 0,
+   "blue": 0
+  },
+  "fillId": {
+   "attributeId": {
+    "guid": "65932265-5D69-4F6A-B071-49B3688F036E"
+   }
+  },
+  "transparency": 0,
+  "shine": 0,
+  "texture": {
+   "name": "MT-铜-黄铜-表面脏旧"
+  }
+ },
+ {
+  "attributeId": {
+   "guid": "FAB6496A-37A6-479D-A390-5ECDDE1D9FD2"
+  },
+  "name": "SP-陶瓷-米白色",
+  "materialType": "General",
+  "ambientReflection": 70,
+  "diffuseReflection": 70,
+  "specularReflection": 0,
+  "transparencyAttenuation": 0,
+  "emissionAttenuation": 0,
+  "surfaceColor": {
+   "red": 0.960784314,
+   "green": 0.960784314,
+   "blue": 0.952941176
+  },
+  "specularColor": {
+   "red": 0.8,
+   "green": 0.8,
+   "blue": 0.8
+  },
+  "emissionColor": {
+   "red": 0,
+   "green": 0,
+   "blue": 0
+  },
+  "fillId": {
+   "error": {
+    "code": 6100,
+    "message": "Attribute is missing"
+   }
+  },
+  "transparency": 0,
+  "shine": 0,
+  "texture": {
+   "name": "SP-陶瓷-米白色"
+  }
+ },
+ {
+  "attributeId": {
+   "guid": "70EA5D73-33C3-4D54-8870-58C213BDF68E"
+  },
+  "name": "SP-塑料橡胶-红色",
+  "materialType": "General",
+  "ambientReflection": 70,
+  "diffuseReflection": 70,
+  "specularReflection": 0,
+  "transparencyAttenuation": 0,
+  "emissionAttenuation": 0,
+  "surfaceColor": {
+   "red": 0.529411765,
+   "green": 0.352941176,
+   "blue": 0.294117647
+  },
+  "specularColor": {
+   "red": 0.8,
+   "green": 0.8,
+   "blue": 0.8
+  },
+  "emissionColor": {
+   "red": 0,
+   "green": 0,
+   "blue": 0
+  },
+  "fillId": {
+   "error": {
+    "code": 6100,
+    "message": "Attribute is missing"
+   }
+  },
+  "transparency": 0,
+  "shine": 0,
+  "texture": {
+   "name": "SP-塑料橡胶-红色"
+  }
+ },
+ {
+  "attributeId": {
+   "guid": "DF6AB46D-3DFF-4E8C-BE52-7758D58F3404"
+  },
+  "name": "SP-透光膜-米白",
+  "materialType": "General",
+  "ambientReflection": 70,
+  "diffuseReflection": 70,
+  "specularReflection": 0,
+  "transparencyAttenuation": 0,
+  "emissionAttenuation": 0,
+  "surfaceColor": {
+   "red": 0.960784314,
+   "green": 0.952941176,
+   "blue": 0.929411765
+  },
+  "specularColor": {
+   "red": 0.8,
+   "green": 0.8,
+   "blue": 0.8
+  },
+  "emissionColor": {
+   "red": 0,
+   "green": 0,
+   "blue": 0
+  },
+  "fillId": {
+   "error": {
+    "code": 6100,
+    "message": "Attribute is missing"
+   }
+  },
+  "transparency": 45,
+  "shine": 0,
+  "texture": {
+   "name": "SP-透光膜-米白"
+  }
+ },
+ {
+  "attributeId": {
+   "guid": "CA0AF780-B3BE-434C-9B39-4E44C9B6BE1A"
+  },
+  "name": "SP-牛皮纸-棕色-皱纹",
+  "materialType": "General",
+  "ambientReflection": 70,
+  "diffuseReflection": 70,
+  "specularReflection": 0,
+  "transparencyAttenuation": 0,
+  "emissionAttenuation": 0,
+  "surfaceColor": {
+   "red": 0.768627451,
+   "green": 0.639215686,
+   "blue": 0.482352941
+  },
+  "specularColor": {
+   "red": 0.8,
+   "green": 0.8,
+   "blue": 0.8
+  },
+  "emissionColor": {
+   "red": 0,
+   "green": 0,
+   "blue": 0
+  },
+  "fillId": {
+   "error": {
+    "code": 6100,
+    "message": "Attribute is missing"
+   }
+  },
+  "transparency": 0,
+  "shine": 0,
+  "texture": {
+   "name": "SP-牛皮纸-棕色-皱纹"
+  }
+ },
+ {
+  "attributeId": {
+   "guid": "99BF6050-A77D-4F83-993A-B200149EC176"
+  },
+  "name": "SP-藤编-黄色-镂空",
+  "materialType": "General",
+  "ambientReflection": 70,
+  "diffuseReflection": 70,
+  "specularReflection": 0,
+  "transparencyAttenuation": 0,
+  "emissionAttenuation": 0,
+  "surfaceColor": {
+   "red": 0.815686275,
+   "green": 0.717647059,
+   "blue": 0.584313725
+  },
+  "specularColor": {
+   "red": 0.8,
+   "green": 0.8,
+   "blue": 0.8
+  },
+  "emissionColor": {
+   "red": 0,
+   "green": 0,
+   "blue": 0
+  },
+  "fillId": {
+   "error": {
+    "code": 6100,
+    "message": "Attribute is missing"
+   }
+  },
+  "transparency": 0,
+  "shine": 0,
+  "texture": {
+   "name": "SP-藤编-镂空"
+  }
+ },
+ {
+  "attributeId": {
+   "guid": "2E992BE4-2619-4419-8841-BE896BA8B565"
+  },
+  "name": "SP-藤编-黄色",
+  "materialType": "General",
+  "ambientReflection": 70,
+  "diffuseReflection": 70,
+  "specularReflection": 0,
+  "transparencyAttenuation": 0,
+  "emissionAttenuation": 0,
+  "surfaceColor": {
+   "red": 0.815686275,
+   "green": 0.717647059,
+   "blue": 0.584313725
+  },
+  "specularColor": {
+   "red": 0.8,
+   "green": 0.8,
+   "blue": 0.8
+  },
+  "emissionColor": {
+   "red": 0,
+   "green": 0,
+   "blue": 0
+  },
+  "fillId": {
+   "error": {
+    "code": 6100,
+    "message": "Attribute is missing"
+   }
+  },
+  "transparency": 0,
+  "shine": 0,
+  "texture": {
+   "name": "SP-藤编"
+  }
+ },
+ {
+  "attributeId": {
+   "guid": "CEB04308-40D2-47B3-92F1-648CBF1D0001"
+  },
+  "name": "UP-硬包-深灰色",
+  "materialType": "General",
+  "ambientReflection": 70,
+  "diffuseReflection": 70,
+  "specularReflection": 0,
+  "transparencyAttenuation": 0,
+  "emissionAttenuation": 0,
+  "surfaceColor": {
+   "red": 1,
+   "green": 1,
+   "blue": 1
+  },
+  "specularColor": {
+   "red": 0.8,
+   "green": 0.8,
+   "blue": 0.8
+  },
+  "emissionColor": {
+   "red": 0,
+   "green": 0,
+   "blue": 0
+  },
+  "fillId": {
+   "attributeId": {
+    "guid": "CFB5F0E7-E0DE-49B0-93F1-75C29581E07E"
+   }
+  },
+  "transparency": 0,
+  "shine": 0,
+  "texture": {
+   "name": "FA-棉布-灰色"
+  }
+ },
+ {
+  "attributeId": {
+   "guid": "5E63DE85-CAEC-4B19-9BAF-BD29D04E777D"
+  },
+  "name": "PVC-米白色",
+  "materialType": "General",
+  "ambientReflection": 70,
+  "diffuseReflection": 70,
+  "specularReflection": 0,
+  "transparencyAttenuation": 0,
+  "emissionAttenuation": 0,
+  "surfaceColor": {
+   "red": 1,
+   "green": 1,
+   "blue": 1
+  },
+  "specularColor": {
+   "red": 0.8,
+   "green": 0.8,
+   "blue": 0.8
+  },
+  "emissionColor": {
+   "red": 0,
+   "green": 0,
+   "blue": 0
+  },
+  "fillId": {
+   "error": {
+    "code": 6100,
+    "message": "Attribute is missing"
+   }
+  },
+  "transparency": 0,
+  "shine": 0
+ },
+ {
+  "attributeId": {
+   "guid": "EF98A18C-C450-4824-920E-37150EF0C884"
+  },
+  "name": "WD-橡木-仿砂岩板",
+  "materialType": "General",
+  "ambientReflection": 70,
+  "diffuseReflection": 70,
+  "specularReflection": 0,
+  "transparencyAttenuation": 0,
+  "emissionAttenuation": 0,
+  "surfaceColor": {
+   "red": 0.48627451,
+   "green": 0.376470588,
+   "blue": 0.270588235
+  },
+  "specularColor": {
+   "red": 0.8,
+   "green": 0.8,
+   "blue": 0.8
+  },
+  "emissionColor": {
+   "red": 0,
+   "green": 0,
+   "blue": 0
+  },
+  "fillId": {
+   "attributeId": {
+    "guid": "A1F4B721-8E2B-483D-89CE-018EFF045496"
+   }
+  },
+  "transparency": 0,
+  "shine": 0,
+  "texture": {
+   "name": "WD-02 仿砂岩板"
+  }
+ },
+ {
+  "attributeId": {
+   "guid": "29A804AF-804B-4E7C-9805-00F7E856995C"
+  },
+  "name": "LSW-轻钢龙骨",
+  "materialType": "General",
+  "ambientReflection": 70,
+  "diffuseReflection": 70,
+  "specularReflection": 0,
+  "transparencyAttenuation": 0,
+  "emissionAttenuation": 0,
+  "surfaceColor": {
+   "red": 0.831372549,
+   "green": 0.831372549,
+   "blue": 0.831372549
+  },
+  "specularColor": {
+   "red": 0.8,
+   "green": 0.8,
+   "blue": 0.8
+  },
+  "emissionColor": {
+   "red": 0,
+   "green": 0,
+   "blue": 0
+  },
+  "fillId": {
+   "attributeId": {
+    "guid": "65932265-5D69-4F6A-B071-49B3688F036E"
+   }
+  },
+  "transparency": 0,
+  "shine": 0,
+  "texture": {
+   "name": "MT-铁-灰色"
+  }
+ },
+ {
+  "attributeId": {
+   "guid": "CD5B3150-B593-456C-83D1-8A0ADF86FC33"
+  },
+  "name": "PB-吸音板 -深灰-条形",
+  "materialType": "General",
+  "ambientReflection": 70,
+  "diffuseReflection": 70,
+  "specularReflection": 0,
+  "transparencyAttenuation": 0,
+  "emissionAttenuation": 0,
+  "surfaceColor": {
+   "red": 0.392156863,
+   "green": 0.392156863,
+   "blue": 0.392156863
+  },
+  "specularColor": {
+   "red": 0.8,
+   "green": 0.8,
+   "blue": 0.8
+  },
+  "emissionColor": {
+   "red": 0,
+   "green": 0,
+   "blue": 0
+  },
+  "fillId": {
+   "attributeId": {
+    "guid": "CD2C419D-1042-4DE6-9F64-E6B9FB70E7C0"
+   }
+  },
+  "transparency": 0,
+  "shine": 0,
+  "texture": {
+   "name": "PB-吸音板 -深灰-条形"
+  }
+ },
+ {
+  "attributeId": {
+   "guid": "B2F13CAD-CAA9-4CC0-8D95-75DC5E187C6A"
+  },
+  "name": "CT-瓷砖-灰色-高级灰",
+  "materialType": "General",
+  "ambientReflection": 70,
+  "diffuseReflection": 70,
+  "specularReflection": 0,
+  "transparencyAttenuation": 0,
+  "emissionAttenuation": 0,
+  "surfaceColor": {
+   "red": 0.623529412,
+   "green": 0.623529412,
+   "blue": 0.623529412
+  },
+  "specularColor": {
+   "red": 0.8,
+   "green": 0.8,
+   "blue": 0.8
+  },
+  "emissionColor": {
+   "red": 0,
+   "green": 0,
+   "blue": 0
+  },
+  "fillId": {
+   "attributeId": {
+    "guid": "1E55FDD7-8C1A-45C7-9114-D0BCA5701659"
+   }
+  },
+  "transparency": 0,
+  "shine": 0,
+  "texture": {
+   "name": "CT-瓷砖-灰色-高级灰"
+  }
+ },
+ {
+  "attributeId": {
+   "guid": "7B092A06-9DBA-498F-8E3C-99FE2BA871D2"
+  },
+  "name": "PT-白色-光面",
+  "materialType": "General",
+  "ambientReflection": 70,
+  "diffuseReflection": 70,
+  "specularReflection": 0,
+  "transparencyAttenuation": 0,
+  "emissionAttenuation": 0,
+  "surfaceColor": {
+   "red": 1,
+   "green": 1,
+   "blue": 1
+  },
+  "specularColor": {
+   "red": 0.8,
+   "green": 0.8,
+   "blue": 0.8
+  },
+  "emissionColor": {
+   "red": 0,
+   "green": 0,
+   "blue": 0
+  },
+  "fillId": {
+   "attributeId": {
+    "guid": "4DF423FF-52DF-44F2-B128-8AD23FF8A75A"
+   }
+  },
+  "transparency": 0,
+  "shine": 0,
+  "texture": {
+   "name": "PT-无机涂料-白色"
+  }
+ },
+ {
+  "attributeId": {
+   "guid": "9C34EC21-680C-469B-8C44-63AC8772B3D2"
+  },
+  "name": "WF-实木地板-浅原木色-工字拼",
+  "materialType": "General",
+  "ambientReflection": 70,
+  "diffuseReflection": 70,
+  "specularReflection": 0,
+  "transparencyAttenuation": 0,
+  "emissionAttenuation": 0,
+  "surfaceColor": {
+   "red": 0.847058824,
+   "green": 0.77254902,
+   "blue": 0.647058824
+  },
+  "specularColor": {
+   "red": 0.8,
+   "green": 0.8,
+   "blue": 0.8
+  },
+  "emissionColor": {
+   "red": 0,
+   "green": 0,
+   "blue": 0
+  },
+  "fillId": {
+   "attributeId": {
+    "guid": "B19A0EFD-C87C-4CA6-85B7-DBC60A2D89C6"
+   }
+  },
+  "transparency": 0,
+  "shine": 0,
+  "texture": {
+   "name": "WF-实木地板-浅原木色-工字拼"
+  }
+ },
+ {
+  "attributeId": {
+   "guid": "C269C533-8711-4E35-84B8-425A7D4D736F"
+  },
+  "name": "AL-铝板-灰色",
+  "materialType": "General",
+  "ambientReflection": 70,
+  "diffuseReflection": 70,
+  "specularReflection": 0,
+  "transparencyAttenuation": 0,
+  "emissionAttenuation": 0,
+  "surfaceColor": {
+   "red": 0.71372549,
+   "green": 0.71372549,
+   "blue": 0.71372549
+  },
+  "specularColor": {
+   "red": 0.8,
+   "green": 0.8,
+   "blue": 0.8
+  },
+  "emissionColor": {
+   "red": 0,
+   "green": 0,
+   "blue": 0
+  },
+  "fillId": {
+   "attributeId": {
+    "guid": "FF1106C0-92BA-426F-95D7-E618CDC33CC7"
+   }
+  },
+  "transparency": 0,
+  "shine": 0,
+  "texture": {
+   "name": "AL-铝-浅灰"
+  }
+ },
+ {
+  "attributeId": {
+   "guid": "069BF3BC-9CBF-42B2-A9F8-60342D9DB39D"
+  },
+  "name": "ST-大理石-白色-卡拉卡塔白",
+  "materialType": "General",
+  "ambientReflection": 70,
+  "diffuseReflection": 70,
+  "specularReflection": 0,
+  "transparencyAttenuation": 0,
+  "emissionAttenuation": 0,
+  "surfaceColor": {
+   "red": 0.901960784,
+   "green": 0.901960784,
+   "blue": 0.901960784
+  },
+  "specularColor": {
+   "red": 0.8,
+   "green": 0.8,
+   "blue": 0.8
+  },
+  "emissionColor": {
+   "red": 0,
+   "green": 0,
+   "blue": 0
+  },
+  "fillId": {
+   "attributeId": {
+    "guid": "B1CD9FCF-6076-4B4F-AB93-C3CF0DF1511E"
+   }
+  },
+  "transparency": 0,
+  "shine": 0,
+  "texture": {
+   "name": "ST-大理石-白色-卡拉卡塔白"
+  }
+ },
+ {
+  "attributeId": {
+   "guid": "57B3B02C-CD16-4296-A5E0-A3DEC6C50539"
+  },
+  "name": "M-地暖供水管",
+  "materialType": "General",
+  "ambientReflection": 93,
+  "diffuseReflection": 41,
+  "specularReflection": 10,
+  "transparencyAttenuation": 0,
+  "emissionAttenuation": 0,
+  "surfaceColor": {
+   "red": 0.4,
+   "green": 0.592156863,
+   "blue": 0.949019608
+  },
+  "specularColor": {
+   "red": 0.990005341,
+   "green": 0.990005341,
+   "blue": 1
+  },
+  "emissionColor": {
+   "red": 0,
+   "green": 0,
+   "blue": 0
+  },
+  "fillId": {
+   "error": {
+    "code": 6100,
+    "message": "Attribute is missing"
+   }
+  },
+  "transparency": 0,
+  "shine": 72
+ },
+ {
+  "attributeId": {
+   "guid": "C37EAB49-80A6-48F5-9E8D-444DE56A3D98"
+  },
+  "name": "M-地暖回水管",
+  "materialType": "General",
+  "ambientReflection": 93,
+  "diffuseReflection": 41,
+  "specularReflection": 10,
+  "transparencyAttenuation": 0,
+  "emissionAttenuation": 0,
+  "surfaceColor": {
+   "red": 0.741176471,
+   "green": 0.784313725,
+   "blue": 0.890196078
+  },
+  "specularColor": {
+   "red": 0.990005341,
+   "green": 0.990005341,
+   "blue": 1
+  },
+  "emissionColor": {
+   "red": 0,
+   "green": 0,
+   "blue": 0
+  },
+  "fillId": {
+   "error": {
+    "code": 6100,
+    "message": "Attribute is missing"
+   }
+  },
+  "transparency": 0,
+  "shine": 72
+ },
+ {
+  "attributeId": {
+   "guid": "A1E5E547-6848-4DCC-A81E-EA456527F594"
+  },
+  "name": "M-回风管",
+  "materialType": "General",
+  "ambientReflection": 93,
+  "diffuseReflection": 41,
+  "specularReflection": 10,
+  "transparencyAttenuation": 0,
+  "emissionAttenuation": 0,
+  "surfaceColor": {
+   "red": 0.933333333,
+   "green": 0.607843137,
+   "blue": 0.737254902
+  },
+  "specularColor": {
+   "red": 0.990005341,
+   "green": 0.990005341,
+   "blue": 1
+  },
+  "emissionColor": {
+   "red": 0,
+   "green": 0,
+   "blue": 0
+  },
+  "fillId": {
+   "error": {
+    "code": 6100,
+    "message": "Attribute is missing"
+   }
+  },
+  "transparency": 0,
+  "shine": 72
+ },
+ {
+  "attributeId": {
+   "guid": "2161953D-9E2B-4244-A08C-683B071A8F32"
+  },
+  "name": "M-空调风管",
+  "materialType": "General",
+  "ambientReflection": 93,
+  "diffuseReflection": 41,
+  "specularReflection": 10,
+  "transparencyAttenuation": 0,
+  "emissionAttenuation": 0,
+  "surfaceColor": {
+   "red": 0.752941176,
+   "green": 0.57254902,
+   "blue": 0.854901961
+  },
+  "specularColor": {
+   "red": 0.990005341,
+   "green": 0.990005341,
+   "blue": 1
+  },
+  "emissionColor": {
+   "red": 0,
+   "green": 0,
+   "blue": 0
+  },
+  "fillId": {
+   "error": {
+    "code": 6100,
+    "message": "Attribute is missing"
+   }
+  },
+  "transparency": 0,
+  "shine": 72
+ },
+ {
+  "attributeId": {
+   "guid": "950145AD-8842-4028-AD75-B7951654A2A2"
+  },
+  "name": "M-冷媒管",
+  "materialType": "General",
+  "ambientReflection": 93,
+  "diffuseReflection": 41,
+  "specularReflection": 10,
+  "transparencyAttenuation": 0,
+  "emissionAttenuation": 0,
+  "surfaceColor": {
+   "red": 0.717647059,
+   "green": 0.925490196,
+   "blue": 0.874509804
+  },
+  "specularColor": {
+   "red": 0.990005341,
+   "green": 0.990005341,
+   "blue": 1
+  },
+  "emissionColor": {
+   "red": 0,
+   "green": 0,
+   "blue": 0
+  },
+  "fillId": {
+   "error": {
+    "code": 6100,
+    "message": "Attribute is missing"
+   }
+  },
+  "transparency": 0,
+  "shine": 72
+ },
+ {
+  "attributeId": {
+   "guid": "58DBF85A-FDCD-4FAD-B8C9-283DD89507C6"
+  },
+  "name": "M-排风管",
+  "materialType": "General",
+  "ambientReflection": 93,
+  "diffuseReflection": 41,
+  "specularReflection": 10,
+  "transparencyAttenuation": 0,
+  "emissionAttenuation": 0,
+  "surfaceColor": {
+   "red": 0.807843137,
+   "green": 0.784313725,
+   "blue": 0.615686275
+  },
+  "specularColor": {
+   "red": 0.990005341,
+   "green": 0.990005341,
+   "blue": 1
+  },
+  "emissionColor": {
+   "red": 0,
+   "green": 0,
+   "blue": 0
+  },
+  "fillId": {
+   "error": {
+    "code": 6100,
+    "message": "Attribute is missing"
+   }
+  },
+  "transparency": 0,
+  "shine": 72
+ },
+ {
+  "attributeId": {
+   "guid": "9667B631-8F17-4E46-B854-CBF8B8D1DCA4"
+  },
+  "name": "M-排烟管",
+  "materialType": "General",
+  "ambientReflection": 93,
+  "diffuseReflection": 41,
+  "specularReflection": 10,
+  "transparencyAttenuation": 0,
+  "emissionAttenuation": 0,
+  "surfaceColor": {
+   "red": 0.788235294,
+   "green": 0.611764706,
+   "blue": 0.717647059
+  },
+  "specularColor": {
+   "red": 0.990005341,
+   "green": 0.990005341,
+   "blue": 1
+  },
+  "emissionColor": {
+   "red": 0,
+   "green": 0,
+   "blue": 0
+  },
+  "fillId": {
+   "error": {
+    "code": 6100,
+    "message": "Attribute is missing"
+   }
+  },
+  "transparency": 0,
+  "shine": 72
+ },
+ {
+  "attributeId": {
+   "guid": "A8C8244E-83CC-4B04-98D9-38535433A3A9"
+  },
+  "name": "M-送风管",
+  "materialType": "General",
+  "ambientReflection": 93,
+  "diffuseReflection": 41,
+  "specularReflection": 10,
+  "transparencyAttenuation": 0,
+  "emissionAttenuation": 0,
+  "surfaceColor": {
+   "red": 0.968627451,
+   "green": 0.941176471,
+   "blue": 0.615686275
+  },
+  "specularColor": {
+   "red": 0.990005341,
+   "green": 0.990005341,
+   "blue": 1
+  },
+  "emissionColor": {
+   "red": 0,
+   "green": 0,
+   "blue": 0
+  },
+  "fillId": {
+   "error": {
+    "code": 6100,
+    "message": "Attribute is missing"
+   }
+  },
+  "transparency": 0,
+  "shine": 72
+ },
+ {
+  "attributeId": {
+   "guid": "582B274B-8622-4601-ADB9-63B87307FE51"
+  },
+  "name": "M-新风 出风",
+  "materialType": "General",
+  "ambientReflection": 93,
+  "diffuseReflection": 41,
+  "specularReflection": 10,
+  "transparencyAttenuation": 0,
+  "emissionAttenuation": 0,
+  "surfaceColor": {
+   "red": 0.678431373,
+   "green": 0.921568627,
+   "blue": 0.654901961
+  },
+  "specularColor": {
+   "red": 0.990005341,
+   "green": 0.990005341,
+   "blue": 1
+  },
+  "emissionColor": {
+   "red": 0,
+   "green": 0,
+   "blue": 0
+  },
+  "fillId": {
+   "error": {
+    "code": 6100,
+    "message": "Attribute is missing"
+   }
+  },
+  "transparency": 0,
+  "shine": 72
+ },
+ {
+  "attributeId": {
+   "guid": "02BF708F-CFAF-4BF5-9633-9C7667755FF5"
+  },
+  "name": "E-桥架",
+  "materialType": "General",
+  "ambientReflection": 93,
+  "diffuseReflection": 41,
+  "specularReflection": 10,
+  "transparencyAttenuation": 0,
+  "emissionAttenuation": 0,
+  "surfaceColor": {
+   "red": 0.68627451,
+   "green": 0.454901961,
+   "blue": 0.894117647
+  },
+  "specularColor": {
+   "red": 0.990005341,
+   "green": 0.990005341,
+   "blue": 1
+  },
+  "emissionColor": {
+   "red": 0,
+   "green": 0,
+   "blue": 0
+  },
+  "fillId": {
+   "error": {
+    "code": 6100,
+    "message": "Attribute is missing"
+   }
+  },
+  "transparency": 0,
+  "shine": 72
+ },
+ {
+  "attributeId": {
+   "guid": "7E800DA3-E32C-4A3F-A8FD-2293CCFD1282"
+  },
+  "name": "E-线管 强电",
+  "materialType": "General",
+  "ambientReflection": 93,
+  "diffuseReflection": 41,
+  "specularReflection": 10,
+  "transparencyAttenuation": 0,
+  "emissionAttenuation": 0,
+  "surfaceColor": {
+   "red": 0.925490196,
+   "green": 0.549019608,
+   "blue": 0.423529412
+  },
+  "specularColor": {
+   "red": 0.990005341,
+   "green": 0.990005341,
+   "blue": 1
+  },
+  "emissionColor": {
+   "red": 0,
+   "green": 0,
+   "blue": 0
+  },
+  "fillId": {
+   "error": {
+    "code": 6100,
+    "message": "Attribute is missing"
+   }
+  },
+  "transparency": 0,
+  "shine": 72
+ },
+ {
+  "attributeId": {
+   "guid": "E575E278-32AC-4E21-8DFD-FD8506C506CF"
+  },
+  "name": "E-线管 弱电",
+  "materialType": "General",
+  "ambientReflection": 93,
+  "diffuseReflection": 41,
+  "specularReflection": 10,
+  "transparencyAttenuation": 0,
+  "emissionAttenuation": 0,
+  "surfaceColor": {
+   "red": 0.71372549,
+   "green": 0.980392157,
+   "blue": 0.752941176
+  },
+  "specularColor": {
+   "red": 0.990005341,
+   "green": 0.990005341,
+   "blue": 1
+  },
+  "emissionColor": {
+   "red": 0,
+   "green": 0,
+   "blue": 0
+  },
+  "fillId": {
+   "error": {
+    "code": 6100,
+    "message": "Attribute is missing"
+   }
+  },
+  "transparency": 0,
+  "shine": 72
+ },
+ {
+  "attributeId": {
+   "guid": "FDB2EBC2-1C9D-464F-9228-28A03C9793D4"
+  },
+  "name": "P-废水管",
+  "materialType": "General",
+  "ambientReflection": 93,
+  "diffuseReflection": 41,
+  "specularReflection": 10,
+  "transparencyAttenuation": 0,
+  "emissionAttenuation": 0,
+  "surfaceColor": {
+   "red": 0.788235294,
+   "green": 0.560784314,
+   "blue": 0.619607843
+  },
+  "specularColor": {
+   "red": 0.990005341,
+   "green": 0.990005341,
+   "blue": 1
+  },
+  "emissionColor": {
+   "red": 0,
+   "green": 0,
+   "blue": 0
+  },
+  "fillId": {
+   "error": {
+    "code": 6100,
+    "message": "Attribute is missing"
+   }
+  },
+  "transparency": 0,
+  "shine": 72
+ },
+ {
+  "attributeId": {
+   "guid": "079FCC68-86CD-459C-834D-6DB6BBBAE26D"
+  },
+  "name": "P-空调冷凝水管",
+  "materialType": "General",
+  "ambientReflection": 93,
+  "diffuseReflection": 41,
+  "specularReflection": 10,
+  "transparencyAttenuation": 0,
+  "emissionAttenuation": 0,
+  "surfaceColor": {
+   "red": 0.658823529,
+   "green": 0.525490196,
+   "blue": 0.823529412
+  },
+  "specularColor": {
+   "red": 0.990005341,
+   "green": 0.990005341,
+   "blue": 1
+  },
+  "emissionColor": {
+   "red": 0,
+   "green": 0,
+   "blue": 0
+  },
+  "fillId": {
+   "error": {
+    "code": 6100,
+    "message": "Attribute is missing"
+   }
+  },
+  "transparency": 0,
+  "shine": 72
+ },
+ {
+  "attributeId": {
+   "guid": "29D25A33-1FE7-471E-A030-D7D98A6C6BA0"
+  },
+  "name": "P-上水管（热）",
+  "materialType": "General",
+  "ambientReflection": 93,
+  "diffuseReflection": 41,
+  "specularReflection": 10,
+  "transparencyAttenuation": 0,
+  "emissionAttenuation": 0,
+  "surfaceColor": {
+   "red": 1,
+   "green": 0,
+   "blue": 0
+  },
+  "specularColor": {
+   "red": 0.990005341,
+   "green": 0.990005341,
+   "blue": 1
+  },
+  "emissionColor": {
+   "red": 0,
+   "green": 0,
+   "blue": 0
+  },
+  "fillId": {
+   "error": {
+    "code": 6100,
+    "message": "Attribute is missing"
+   }
+  },
+  "transparency": 0,
+  "shine": 72
+ },
+ {
+  "attributeId": {
+   "guid": "9B12A459-6253-4438-8929-BAF45B472F6F"
+  },
+  "name": "P-污水管",
+  "materialType": "General",
+  "ambientReflection": 93,
+  "diffuseReflection": 41,
+  "specularReflection": 10,
+  "transparencyAttenuation": 0,
+  "emissionAttenuation": 0,
+  "surfaceColor": {
+   "red": 0.054901961,
+   "green": 0.254901961,
+   "blue": 0.62745098
+  },
+  "specularColor": {
+   "red": 0.990005341,
+   "green": 0.990005341,
+   "blue": 1
+  },
+  "emissionColor": {
+   "red": 0,
+   "green": 0,
+   "blue": 0
+  },
+  "fillId": {
+   "error": {
+    "code": 6100,
+    "message": "Attribute is missing"
+   }
+  },
+  "transparency": 0,
+  "shine": 72
+ },
+ {
+  "attributeId": {
+   "guid": "CDAC739E-A759-4B9F-BBD7-509DE260E34E"
+  },
+  "name": "P-消防管",
+  "materialType": "General",
+  "ambientReflection": 93,
+  "diffuseReflection": 41,
+  "specularReflection": 10,
+  "transparencyAttenuation": 0,
+  "emissionAttenuation": 0,
+  "surfaceColor": {
+   "red": 1,
+   "green": 0.349019608,
+   "blue": 0.349019608
+  },
+  "specularColor": {
+   "red": 0.990005341,
+   "green": 0.990005341,
+   "blue": 1
+  },
+  "emissionColor": {
+   "red": 0,
+   "green": 0,
+   "blue": 0
+  },
+  "fillId": {
+   "error": {
+    "code": 6100,
+    "message": "Attribute is missing"
+   }
+  },
+  "transparency": 0,
+  "shine": 72
+ },
+ {
+  "attributeId": {
+   "guid": "89DCCE94-8D0D-4487-85E2-0B0EAAE70DA9"
+  },
+  "name": "P-雨水管",
+  "materialType": "General",
+  "ambientReflection": 93,
+  "diffuseReflection": 41,
+  "specularReflection": 10,
+  "transparencyAttenuation": 0,
+  "emissionAttenuation": 0,
+  "surfaceColor": {
+   "red": 0.435294118,
+   "green": 0.458823529,
+   "blue": 0.917647059
+  },
+  "specularColor": {
+   "red": 0.990005341,
+   "green": 0.990005341,
+   "blue": 1
+  },
+  "emissionColor": {
+   "red": 0,
+   "green": 0,
+   "blue": 0
+  },
+  "fillId": {
+   "error": {
+    "code": 6100,
+    "message": "Attribute is missing"
+   }
+  },
+  "transparency": 0,
+  "shine": 72
+ },
+ {
+  "attributeId": {
+   "guid": "391CE5EE-E28F-4917-84D0-33D34594D3B1"
+  },
+  "name": "P-中水管",
+  "materialType": "General",
+  "ambientReflection": 93,
+  "diffuseReflection": 41,
+  "specularReflection": 10,
+  "transparencyAttenuation": 0,
+  "emissionAttenuation": 0,
+  "surfaceColor": {
+   "red": 0.51372549,
+   "green": 0.733333333,
+   "blue": 0.839215686
+  },
+  "specularColor": {
+   "red": 0.990005341,
+   "green": 0.990005341,
+   "blue": 1
+  },
+  "emissionColor": {
+   "red": 0,
+   "green": 0,
+   "blue": 0
+  },
+  "fillId": {
+   "error": {
+    "code": 6100,
+    "message": "Attribute is missing"
+   }
+  },
+  "transparency": 0,
+  "shine": 72
+ },
+ {
+  "attributeId": {
+   "guid": "8E12D559-2D13-44FB-BBD6-598A95DD42F0"
+  },
+  "name": "GB-细木工板-黄色",
+  "materialType": "General",
+  "ambientReflection": 70,
+  "diffuseReflection": 70,
+  "specularReflection": 0,
+  "transparencyAttenuation": 0,
+  "emissionAttenuation": 0,
+  "surfaceColor": {
+   "red": 0.858823529,
+   "green": 0.752941176,
+   "blue": 0.584313725
+  },
+  "specularColor": {
+   "red": 0.8,
+   "green": 0.8,
+   "blue": 0.8
+  },
+  "emissionColor": {
+   "red": 0,
+   "green": 0,
+   "blue": 0
+  },
+  "fillId": {
+   "error": {
+    "code": 6100,
+    "message": "Attribute is missing"
+   }
+  },
+  "transparency": 0,
+  "shine": 0,
+  "texture": {
+   "name": "GB-细木工板"
+  }
+ },
+ {
+  "attributeId": {
+   "guid": "309493B9-A446-41D5-B976-350E9AAE73D9"
+  },
+  "name": "PL-防火板-白色",
+  "materialType": "General",
+  "ambientReflection": 70,
+  "diffuseReflection": 70,
+  "specularReflection": 0,
+  "transparencyAttenuation": 0,
+  "emissionAttenuation": 0,
+  "surfaceColor": {
+   "red": 1,
+   "green": 1,
+   "blue": 1
+  },
+  "specularColor": {
+   "red": 0.8,
+   "green": 0.8,
+   "blue": 0.8
+  },
+  "emissionColor": {
+   "red": 0,
+   "green": 0,
+   "blue": 0
+  },
+  "fillId": {
+   "attributeId": {
+    "guid": "842EE858-5EA2-4F94-8763-9B79CA96C598"
+   }
+  },
+  "transparency": 25,
+  "shine": 0,
+  "texture": {
+   "name": "PB-亚克力-白色"
+  }
+ },
+ {
+  "attributeId": {
+   "guid": "BA76FAEB-D338-4FCE-A2CB-D3C5CA019068"
+  },
+  "name": "CT-岩板-白色",
+  "materialType": "General",
+  "ambientReflection": 70,
+  "diffuseReflection": 70,
+  "specularReflection": 0,
+  "transparencyAttenuation": 0,
+  "emissionAttenuation": 0,
+  "surfaceColor": {
+   "red": 1,
+   "green": 1,
+   "blue": 1
+  },
+  "specularColor": {
+   "red": 0.8,
+   "green": 0.8,
+   "blue": 0.8
+  },
+  "emissionColor": {
+   "red": 0,
+   "green": 0,
+   "blue": 0
+  },
+  "fillId": {
+   "attributeId": {
+    "guid": "C6CB822F-5C87-4E5B-9A3E-5114E9D7B594"
+   }
+  },
+  "transparency": 0,
+  "shine": 0,
+  "texture": {
+   "name": "CT-岩板-白色-kmy"
+  }
+ },
+ {
+  "attributeId": {
+   "guid": "936AF076-C067-4F3F-8F37-8993B1F7C2BA"
+  },
+  "name": "GB-密度板-浅咖色",
+  "materialType": "General",
+  "ambientReflection": 70,
+  "diffuseReflection": 70,
+  "specularReflection": 0,
+  "transparencyAttenuation": 0,
+  "emissionAttenuation": 0,
+  "surfaceColor": {
+   "red": 0.658823529,
+   "green": 0.568627451,
+   "blue": 0.450980392
+  },
+  "specularColor": {
+   "red": 0.8,
+   "green": 0.8,
+   "blue": 0.8
+  },
+  "emissionColor": {
+   "red": 0,
+   "green": 0,
+   "blue": 0
+  },
+  "fillId": {
+   "error": {
+    "code": 6100,
+    "message": "Attribute is missing"
+   }
+  },
+  "transparency": 0,
+  "shine": 0,
+  "texture": {
+   "name": "GB-密度板-咖色"
+  }
+ },
+ {
+  "attributeId": {
+   "guid": "0D27074B-FCC7-413D-AC10-8D89E8743255"
+  },
+  "name": "M-新风 回风",
+  "materialType": "General",
+  "ambientReflection": 93,
+  "diffuseReflection": 41,
+  "specularReflection": 10,
+  "transparencyAttenuation": 0,
+  "emissionAttenuation": 0,
+  "surfaceColor": {
+   "red": 1,
+   "green": 0.501960784,
+   "blue": 0.250980392
+  },
+  "specularColor": {
+   "red": 0.990005341,
+   "green": 0.990005341,
+   "blue": 1
+  },
+  "emissionColor": {
+   "red": 0,
+   "green": 0,
+   "blue": 0
+  },
+  "fillId": {
+   "error": {
+    "code": 6100,
+    "message": "Attribute is missing"
+   }
+  },
+  "transparency": 0,
+  "shine": 72
+ },
+ {
+  "attributeId": {
+   "guid": "08FDBACE-77A8-416C-9FD3-29C6C03D7D59"
+  },
+  "name": "聚酯无纺布（土工布）",
+  "materialType": "General",
+  "ambientReflection": 70,
+  "diffuseReflection": 70,
+  "specularReflection": 0,
+  "transparencyAttenuation": 0,
+  "emissionAttenuation": 0,
+  "surfaceColor": {
+   "red": 1,
+   "green": 1,
+   "blue": 1
+  },
+  "specularColor": {
+   "red": 0.8,
+   "green": 0.8,
+   "blue": 0.8
+  },
+  "emissionColor": {
+   "red": 0,
+   "green": 0,
+   "blue": 0
+  },
+  "fillId": {
+   "attributeId": {
+    "guid": "94A79CB0-D263-43F9-99EF-D12018A3F35C"
+   }
+  },
+  "transparency": 0,
+  "shine": 0,
+  "texture": {
+   "name": "FUN-土工布"
+  }
+ },
+ {
+  "attributeId": {
+   "guid": "AE503AC7-3D20-4A40-8E30-F3CC9DC79B30"
+  },
+  "name": "碎石",
+  "materialType": "General",
+  "ambientReflection": 70,
+  "diffuseReflection": 70,
+  "specularReflection": 0,
+  "transparencyAttenuation": 0,
+  "emissionAttenuation": 0,
+  "surfaceColor": {
+   "red": 0.556862745,
+   "green": 0.556862745,
+   "blue": 0.556862745
+  },
+  "specularColor": {
+   "red": 0.8,
+   "green": 0.8,
+   "blue": 0.8
+  },
+  "emissionColor": {
+   "red": 0,
+   "green": 0,
+   "blue": 0
+  },
+  "fillId": {
+   "attributeId": {
+    "guid": "94A79CB0-D263-43F9-99EF-D12018A3F35C"
+   }
+  },
+  "transparency": 0,
+  "shine": 0,
+  "texture": {
+   "name": "石制品 - 碎石 b"
+  }
+ },
+ {
+  "attributeId": {
+   "guid": "2416D338-92A5-4FED-BC5C-0C8DEBD26FF8"
+  },
+  "name": "MT-金属网-银色",
+  "materialType": "General",
+  "ambientReflection": 70,
+  "diffuseReflection": 70,
+  "specularReflection": 0,
+  "transparencyAttenuation": 0,
+  "emissionAttenuation": 0,
+  "surfaceColor": {
+   "red": 0.803921569,
+   "green": 0.803921569,
+   "blue": 0.803921569
+  },
+  "specularColor": {
+   "red": 0.8,
+   "green": 0.8,
+   "blue": 0.8
+  },
+  "emissionColor": {
+   "red": 0,
+   "green": 0,
+   "blue": 0
+  },
+  "fillId": {
+   "attributeId": {
+    "guid": "F307F3EA-A091-4AF4-BCB5-0DC34458A02C"
+   }
+  },
+  "transparency": 0,
+  "shine": 0,
+  "texture": {
+   "name": "MT-金属网-银色"
+  }
+ },
+ {
+  "attributeId": {
+   "guid": "3C109765-4D84-443D-B101-AD1E794E2A31"
+  },
+  "name": "MT-镀锌-本色-花纹",
+  "materialType": "General",
+  "ambientReflection": 70,
+  "diffuseReflection": 70,
+  "specularReflection": 0,
+  "transparencyAttenuation": 0,
+  "emissionAttenuation": 0,
+  "surfaceColor": {
+   "red": 1,
+   "green": 1,
+   "blue": 1
+  },
+  "specularColor": {
+   "red": 0.8,
+   "green": 0.8,
+   "blue": 0.8
+  },
+  "emissionColor": {
+   "red": 0,
+   "green": 0,
+   "blue": 0
+  },
+  "fillId": {
+   "attributeId": {
+    "guid": "F23D21A5-FD4E-4223-A9EC-A432C59E3F29"
+   }
+  },
+  "transparency": 0,
+  "shine": 0
+ },
+ {
+  "attributeId": {
+   "guid": "80A1D181-73DC-41B2-8C51-CD0ECF24017A"
+  },
+  "name": "FUN-保温层-模塑聚苯乙烯泡沫板EPS-浅米色",
+  "materialType": "General",
+  "ambientReflection": 70,
+  "diffuseReflection": 70,
+  "specularReflection": 0,
+  "transparencyAttenuation": 0,
+  "emissionAttenuation": 0,
+  "surfaceColor": {
+   "red": 1,
+   "green": 1,
+   "blue": 1
+  },
+  "specularColor": {
+   "red": 0.8,
+   "green": 0.8,
+   "blue": 0.8
+  },
+  "emissionColor": {
+   "red": 0,
+   "green": 0,
+   "blue": 0
+  },
+  "fillId": {
+   "attributeId": {
+    "guid": "94A79CB0-D263-43F9-99EF-D12018A3F35C"
+   }
+  },
+  "transparency": 0,
+  "shine": 0,
+  "texture": {
+   "name": "SP-泡沫-白色"
+  }
+ },
+ {
+  "attributeId": {
+   "guid": "4AE52138-9A8A-425F-B043-8C5714141931"
+  },
+  "name": "FUN-保温层-无机保温砂浆-灰色",
+  "materialType": "General",
+  "ambientReflection": 70,
+  "diffuseReflection": 70,
+  "specularReflection": 0,
+  "transparencyAttenuation": 0,
+  "emissionAttenuation": 0,
+  "surfaceColor": {
+   "red": 0.647058824,
+   "green": 0.647058824,
+   "blue": 0.647058824
+  },
+  "specularColor": {
+   "red": 0.8,
+   "green": 0.8,
+   "blue": 0.8
+  },
+  "emissionColor": {
+   "red": 0,
+   "green": 0,
+   "blue": 0
+  },
+  "fillId": {
+   "error": {
+    "code": 6100,
+    "message": "Attribute is missing"
+   }
+  },
+  "transparency": 0,
+  "shine": 0,
+  "texture": {
+   "name": "FUN-无机保温砂浆"
+  }
+ },
+ {
+  "attributeId": {
+   "guid": "4BE310DB-10E9-41A0-B06B-CFA1594F39F3"
+  },
+  "name": "FUN-防水层-热熔型SBS改性沥青防水卷材",
+  "materialType": "General",
+  "ambientReflection": 70,
+  "diffuseReflection": 70,
+  "specularReflection": 0,
+  "transparencyAttenuation": 0,
+  "emissionAttenuation": 0,
+  "surfaceColor": {
+   "red": 0.207843137,
+   "green": 0.207843137,
+   "blue": 0.207843137
+  },
+  "specularColor": {
+   "red": 0.8,
+   "green": 0.8,
+   "blue": 0.8
+  },
+  "emissionColor": {
+   "red": 0,
+   "green": 0,
+   "blue": 0
+  },
+  "fillId": {
+   "error": {
+    "code": 6100,
+    "message": "Attribute is missing"
+   }
+  },
+  "transparency": 0,
+  "shine": 0,
+  "texture": {
+   "name": "防水 - 沥青毡 -opt"
+  }
+ },
+ {
+  "attributeId": {
+   "guid": "8873E14D-8BE6-4E46-B190-5AC3A9258F2E"
+  },
+  "name": "FUN-防水层-聚合物水泥基防水涂料",
+  "materialType": "General",
+  "ambientReflection": 70,
+  "diffuseReflection": 70,
+  "specularReflection": 0,
+  "transparencyAttenuation": 0,
+  "emissionAttenuation": 0,
+  "surfaceColor": {
+   "red": 0.384313725,
+   "green": 0.670588235,
+   "blue": 0.843137255
+  },
+  "specularColor": {
+   "red": 0.8,
+   "green": 0.8,
+   "blue": 0.8
+  },
+  "emissionColor": {
+   "red": 0,
+   "green": 0,
+   "blue": 0
+  },
+  "fillId": {
+   "error": {
+    "code": 6100,
+    "message": "Attribute is missing"
+   }
+  },
+  "transparency": 0,
+  "shine": 0,
+  "texture": {
+   "name": "FUN-防水层"
+  }
+ },
+ {
+  "attributeId": {
+   "guid": "345238EF-D4E7-4C46-8D9F-A76BFCEEB598"
+  },
+  "name": "FUN-防潮层-防潮涂料",
+  "materialType": "General",
+  "ambientReflection": 70,
+  "diffuseReflection": 70,
+  "specularReflection": 0,
+  "transparencyAttenuation": 0,
+  "emissionAttenuation": 0,
+  "surfaceColor": {
+   "red": 0.384313725,
+   "green": 0.670588235,
+   "blue": 0.843137255
+  },
+  "specularColor": {
+   "red": 0.8,
+   "green": 0.8,
+   "blue": 0.8
+  },
+  "emissionColor": {
+   "red": 0,
+   "green": 0,
+   "blue": 0
+  },
+  "fillId": {
+   "attributeId": {
+    "guid": "94A79CB0-D263-43F9-99EF-D12018A3F35C"
+   }
+  },
+  "transparency": 0,
+  "shine": 0,
+  "texture": {
+   "name": "FUN-防水层"
+  }
+ },
+ {
+  "attributeId": {
+   "guid": "784F1CE1-3B4E-47FF-BA8A-E1AED8D948CB"
+  },
+  "name": "减震垫",
+  "materialType": "General",
+  "ambientReflection": 70,
+  "diffuseReflection": 70,
+  "specularReflection": 0,
+  "transparencyAttenuation": 0,
+  "emissionAttenuation": 0,
+  "surfaceColor": {
+   "red": 0.745098039,
+   "green": 0.662745098,
+   "blue": 0.462745098
+  },
+  "specularColor": {
+   "red": 0.8,
+   "green": 0.8,
+   "blue": 0.8
+  },
+  "emissionColor": {
+   "red": 0,
+   "green": 0,
+   "blue": 0
+  },
+  "fillId": {
+   "attributeId": {
+    "guid": "94A79CB0-D263-43F9-99EF-D12018A3F35C"
+   }
+  },
+  "transparency": 0,
+  "shine": 0,
+  "texture": {
+   "name": "SP-泡沫-白色"
+  }
+ },
+ {
+  "attributeId": {
+   "guid": "69718113-27C5-4950-B3F4-AB36AF250420"
+  },
+  "name": "FUN-隔离层-排水板-黑色",
+  "materialType": "General",
+  "ambientReflection": 70,
+  "diffuseReflection": 70,
+  "specularReflection": 0,
+  "transparencyAttenuation": 0,
+  "emissionAttenuation": 0,
+  "surfaceColor": {
+   "red": 0.376470588,
+   "green": 0.376470588,
+   "blue": 0.376470588
+  },
+  "specularColor": {
+   "red": 0.8,
+   "green": 0.8,
+   "blue": 0.8
+  },
+  "emissionColor": {
+   "red": 0,
+   "green": 0,
+   "blue": 0
+  },
+  "fillId": {
+   "attributeId": {
+    "guid": "94A79CB0-D263-43F9-99EF-D12018A3F35C"
+   }
+  },
+  "transparency": 0,
+  "shine": 0
+ },
+ {
+  "attributeId": {
+   "guid": "6F218D39-0BC8-4F72-81E6-99BB86D43EF8"
+  },
+  "name": "聚氨酯发泡胶",
+  "materialType": "General",
+  "ambientReflection": 70,
+  "diffuseReflection": 70,
+  "specularReflection": 0,
+  "transparencyAttenuation": 0,
+  "emissionAttenuation": 0,
+  "surfaceColor": {
+   "red": 0.8,
+   "green": 0.760784314,
+   "blue": 0.623529412
+  },
+  "specularColor": {
+   "red": 0.8,
+   "green": 0.8,
+   "blue": 0.8
+  },
+  "emissionColor": {
+   "red": 0,
+   "green": 0,
+   "blue": 0
+  },
+  "fillId": {
+   "error": {
+    "code": 6100,
+    "message": "Attribute is missing"
+   }
+  },
+  "transparency": 0,
+  "shine": 0
+ },
+ {
+  "attributeId": {
+   "guid": "4CFCECED-098B-4A7C-B7DB-05411FD01548"
+  },
+  "name": "弹性密封膏-黑色",
+  "materialType": "General",
+  "ambientReflection": 70,
+  "diffuseReflection": 70,
+  "specularReflection": 0,
+  "transparencyAttenuation": 0,
+  "emissionAttenuation": 0,
+  "surfaceColor": {
+   "red": 0.133333333,
+   "green": 0.192156863,
+   "blue": 0.717647059
+  },
+  "specularColor": {
+   "red": 0.8,
+   "green": 0.8,
+   "blue": 0.8
+  },
+  "emissionColor": {
+   "red": 0,
+   "green": 0,
+   "blue": 0
+  },
+  "fillId": {
+   "error": {
+    "code": 6100,
+    "message": "Attribute is missing"
+   }
+  },
+  "transparency": 0,
+  "shine": 0
+ },
+ {
+  "attributeId": {
+   "guid": "D11CBD19-4F35-4126-A5EE-A25BA44A4203"
+  },
+  "name": "GB-水泥板-灰色",
+  "materialType": "General",
+  "ambientReflection": 70,
+  "diffuseReflection": 70,
+  "specularReflection": 0,
+  "transparencyAttenuation": 0,
+  "emissionAttenuation": 0,
+  "surfaceColor": {
+   "red": 0.68627451,
+   "green": 0.68627451,
+   "blue": 0.68627451
+  },
+  "specularColor": {
+   "red": 0.8,
+   "green": 0.8,
+   "blue": 0.8
+  },
+  "emissionColor": {
+   "red": 0,
+   "green": 0,
+   "blue": 0
+  },
+  "fillId": {
+   "error": {
+    "code": 6100,
+    "message": "Attribute is missing"
+   }
+  },
+  "transparency": 0,
+  "shine": 0
+ },
+ {
+  "attributeId": {
+   "guid": "F09A03D9-B68F-445B-A411-065B5B2C144D"
+  },
+  "name": "GB-桦木胶合板-黄色",
+  "materialType": "General",
+  "ambientReflection": 70,
+  "diffuseReflection": 70,
+  "specularReflection": 0,
+  "transparencyAttenuation": 0,
+  "emissionAttenuation": 0,
+  "surfaceColor": {
+   "red": 0.874509804,
+   "green": 0.823529412,
+   "blue": 0.756862745
+  },
+  "specularColor": {
+   "red": 0.8,
+   "green": 0.8,
+   "blue": 0.8
+  },
+  "emissionColor": {
+   "red": 0,
+   "green": 0,
+   "blue": 0
+  },
+  "fillId": {
+   "error": {
+    "code": 6100,
+    "message": "Attribute is missing"
+   }
+  },
+  "transparency": 0,
+  "shine": 0,
+  "texture": {
+   "name": "GB-桦木胶合板"
+  }
+ },
+ {
+  "attributeId": {
+   "guid": "B0E53141-2BF2-4B27-8CD9-B14F772393A9"
+  },
+  "name": "GB-硅酸钙板-白色",
+  "materialType": "General",
+  "ambientReflection": 70,
+  "diffuseReflection": 70,
+  "specularReflection": 0,
+  "transparencyAttenuation": 0,
+  "emissionAttenuation": 0,
+  "surfaceColor": {
+   "red": 1,
+   "green": 1,
+   "blue": 1
+  },
+  "specularColor": {
+   "red": 0.8,
+   "green": 0.8,
+   "blue": 0.8
+  },
+  "emissionColor": {
+   "red": 0,
+   "green": 0,
+   "blue": 0
+  },
+  "fillId": {
+   "error": {
+    "code": 6100,
+    "message": "Attribute is missing"
+   }
+  },
+  "transparency": 0,
+  "shine": 0
+ },
+ {
+  "attributeId": {
+   "guid": "86223A6C-FA87-488B-9BF2-77737C76D68C"
+  },
+  "name": "GB-玻镁板",
+  "materialType": "General",
+  "ambientReflection": 70,
+  "diffuseReflection": 70,
+  "specularReflection": 0,
+  "transparencyAttenuation": 0,
+  "emissionAttenuation": 0,
+  "surfaceColor": {
+   "red": 0.619607843,
+   "green": 0.470588235,
+   "blue": 0.305882353
+  },
+  "specularColor": {
+   "red": 0.8,
+   "green": 0.8,
+   "blue": 0.8
+  },
+  "emissionColor": {
+   "red": 0,
+   "green": 0,
+   "blue": 0
+  },
+  "fillId": {
+   "attributeId": {
+    "guid": "A0A6CF3F-6253-471F-B950-31F43351C698"
+   }
+  },
+  "transparency": 0,
+  "shine": 0
+ },
+ {
+  "attributeId": {
+   "guid": "671F04A0-E158-47C9-848E-2F2FB88884B7"
+  },
+  "name": "WD-白橡木-原木色-锯痕",
+  "materialType": "General",
+  "ambientReflection": 70,
+  "diffuseReflection": 70,
+  "specularReflection": 0,
+  "transparencyAttenuation": 0,
+  "emissionAttenuation": 0,
+  "surfaceColor": {
+   "red": 0.803921569,
+   "green": 0.77254902,
+   "blue": 0.694117647
+  },
+  "specularColor": {
+   "red": 0.8,
+   "green": 0.8,
+   "blue": 0.8
+  },
+  "emissionColor": {
+   "red": 0,
+   "green": 0,
+   "blue": 0
+  },
+  "fillId": {
+   "attributeId": {
+    "guid": "A1F4B721-8E2B-483D-89CE-018EFF045496"
+   }
+  },
+  "transparency": 0,
+  "shine": 0,
+  "texture": {
+   "name": "WD-白橡木-原木色-锯痕"
+  }
+ },
+ {
+  "attributeId": {
+   "guid": "7591D7FF-3F4E-4738-BF59-AB8D2FFC7DA5"
+  },
+  "name": "ST-花岗岩-白色",
+  "materialType": "General",
+  "ambientReflection": 70,
+  "diffuseReflection": 70,
+  "specularReflection": 0,
+  "transparencyAttenuation": 0,
+  "emissionAttenuation": 0,
+  "surfaceColor": {
+   "red": 0.901960784,
+   "green": 0.901960784,
+   "blue": 0.901960784
+  },
+  "specularColor": {
+   "red": 0.8,
+   "green": 0.8,
+   "blue": 0.8
+  },
+  "emissionColor": {
+   "red": 0,
+   "green": 0,
+   "blue": 0
+  },
+  "fillId": {
+   "attributeId": {
+    "guid": "4ABEBDA3-A2FA-4F6D-A4F4-733E18B13C3A"
+   }
+  },
+  "transparency": 0,
+  "shine": 0,
+  "texture": {
+   "name": "ST-花岗岩-白色-金贝白"
+  }
+ },
+ {
+  "attributeId": {
+   "guid": "FB46D72F-E42D-490E-B113-768581DB42AF"
+  },
+  "name": "ST-凝灰岩-黑色",
+  "materialType": "General",
+  "ambientReflection": 70,
+  "diffuseReflection": 70,
+  "specularReflection": 0,
+  "transparencyAttenuation": 0,
+  "emissionAttenuation": 0,
+  "surfaceColor": {
+   "red": 0.901960784,
+   "green": 0.901960784,
+   "blue": 0.901960784
+  },
+  "specularColor": {
+   "red": 0.8,
+   "green": 0.8,
+   "blue": 0.8
+  },
+  "emissionColor": {
+   "red": 0,
+   "green": 0,
+   "blue": 0
+  },
+  "fillId": {
+   "attributeId": {
+    "guid": "4ABEBDA3-A2FA-4F6D-A4F4-733E18B13C3A"
+   }
+  },
+  "transparency": 0,
+  "shine": 0,
+  "texture": {
+   "name": "ST-火山岩-黑色"
+  }
+ },
+ {
+  "attributeId": {
+   "guid": "454E4DED-35DF-4BCB-8015-691D59CE2B5D"
+  },
+  "name": "ST-石灰岩-中灰色",
+  "materialType": "General",
+  "ambientReflection": 70,
+  "diffuseReflection": 70,
+  "specularReflection": 0,
+  "transparencyAttenuation": 0,
+  "emissionAttenuation": 0,
+  "surfaceColor": {
+   "red": 0.901960784,
+   "green": 0.901960784,
+   "blue": 0.901960784
+  },
+  "specularColor": {
+   "red": 0.8,
+   "green": 0.8,
+   "blue": 0.8
+  },
+  "emissionColor": {
+   "red": 0,
+   "green": 0,
+   "blue": 0
+  },
+  "fillId": {
+   "attributeId": {
+    "guid": "4ABEBDA3-A2FA-4F6D-A4F4-733E18B13C3A"
+   }
+  },
+  "transparency": 0,
+  "shine": 0,
+  "texture": {
+   "name": "ST-火山岩-中灰色"
+  }
+ },
+ {
+  "attributeId": {
+   "guid": "2A4B6F29-10E4-4876-8AFD-6190B35C5713"
+  },
+  "name": "FA-麻布-白色",
+  "materialType": "General",
+  "ambientReflection": 70,
+  "diffuseReflection": 70,
+  "specularReflection": 0,
+  "transparencyAttenuation": 0,
+  "emissionAttenuation": 0,
+  "surfaceColor": {
+   "red": 1,
+   "green": 1,
+   "blue": 1
+  },
+  "specularColor": {
+   "red": 0.8,
+   "green": 0.8,
+   "blue": 0.8
+  },
+  "emissionColor": {
+   "red": 0,
+   "green": 0,
+   "blue": 0
+  },
+  "fillId": {
+   "attributeId": {
+    "guid": "04CE4295-BAA5-429C-916C-1BC38CFE7AAB"
+   }
+  },
+  "transparency": 0,
+  "shine": 0
+ },
+ {
+  "attributeId": {
+   "guid": "8D3FBCD5-C1EF-4168-9A68-99A6948EC213"
+  },
+  "name": "FA-麻布-半透",
+  "materialType": "General",
+  "ambientReflection": 70,
+  "diffuseReflection": 70,
+  "specularReflection": 0,
+  "transparencyAttenuation": 0,
+  "emissionAttenuation": 0,
+  "surfaceColor": {
+   "red": 1,
+   "green": 1,
+   "blue": 1
+  },
+  "specularColor": {
+   "red": 0.8,
+   "green": 0.8,
+   "blue": 0.8
+  },
+  "emissionColor": {
+   "red": 0,
+   "green": 0,
+   "blue": 0
+  },
+  "fillId": {
+   "attributeId": {
+    "guid": "04CE4295-BAA5-429C-916C-1BC38CFE7AAB"
+   }
+  },
+  "transparency": 25,
+  "shine": 0,
+  "texture": {
+   "name": "FA-绒布-米黄色"
+  }
+ },
+ {
+  "attributeId": {
+   "guid": "E1E01883-B813-45ED-9246-91313333B3AD"
+  },
+  "name": "灰土",
+  "materialType": "General",
+  "ambientReflection": 70,
+  "diffuseReflection": 70,
+  "specularReflection": 0,
+  "transparencyAttenuation": 0,
+  "emissionAttenuation": 0,
+  "surfaceColor": {
+   "red": 0.556862745,
+   "green": 0.556862745,
+   "blue": 0.556862745
+  },
+  "specularColor": {
+   "red": 0.8,
+   "green": 0.8,
+   "blue": 0.8
+  },
+  "emissionColor": {
+   "red": 0,
+   "green": 0,
+   "blue": 0
+  },
+  "fillId": {
+   "attributeId": {
+    "guid": "94A79CB0-D263-43F9-99EF-D12018A3F35C"
+   }
+  },
+  "transparency": 0,
+  "shine": 0,
+  "texture": {
+   "name": "石制品 - 碎石 b"
+  }
+ },
+ {
+  "attributeId": {
+   "guid": "AE1DCADB-BF33-4B72-88C0-264B7E0046E1"
+  },
+  "name": "AL-铝板-银白",
+  "materialType": "General",
+  "ambientReflection": 70,
+  "diffuseReflection": 70,
+  "specularReflection": 0,
+  "transparencyAttenuation": 0,
+  "emissionAttenuation": 0,
+  "surfaceColor": {
+   "red": 0.71372549,
+   "green": 0.71372549,
+   "blue": 0.71372549
+  },
+  "specularColor": {
+   "red": 0.8,
+   "green": 0.8,
+   "blue": 0.8
+  },
+  "emissionColor": {
+   "red": 0,
+   "green": 0,
+   "blue": 0
+  },
+  "fillId": {
+   "attributeId": {
+    "guid": "1211B8E7-01CB-42D9-A86C-CB6CF5D2901B"
+   }
+  },
+  "transparency": 0,
+  "shine": 0,
+  "texture": {
+   "name": "AL-铝-银白"
+  }
+ },
+ {
+  "attributeId": {
+   "guid": "4DFDB85D-265F-4CEE-B83C-3023555F6C4D"
+  },
+  "name": "RAM-夯土-土色",
+  "materialType": "General",
+  "ambientReflection": 70,
+  "diffuseReflection": 70,
+  "specularReflection": 0,
+  "transparencyAttenuation": 0,
+  "emissionAttenuation": 0,
+  "surfaceColor": {
+   "red": 0.71372549,
+   "green": 0.580392157,
+   "blue": 0.470588235
+  },
+  "specularColor": {
+   "red": 0.8,
+   "green": 0.8,
+   "blue": 0.8
+  },
+  "emissionColor": {
+   "red": 0,
+   "green": 0,
+   "blue": 0
+  },
+  "fillId": {
+   "attributeId": {
+    "guid": "304F9C0E-58B2-48F4-AB8A-21FA4664D64D"
+   }
+  },
+  "transparency": 0,
+  "shine": 0,
+  "texture": {
+   "name": "MAS-夯土-土色01"
+  }
+ },
+ {
+  "attributeId": {
+   "guid": "84E7AF86-ACE2-4108-9D0B-8EA9F1DBB33F"
+  },
+  "name": "WD-橡木-拼花",
+  "materialType": "General",
+  "ambientReflection": 70,
+  "diffuseReflection": 70,
+  "specularReflection": 0,
+  "transparencyAttenuation": 0,
+  "emissionAttenuation": 0,
+  "surfaceColor": {
+   "red": 0.48627451,
+   "green": 0.376470588,
+   "blue": 0.270588235
+  },
+  "specularColor": {
+   "red": 0.8,
+   "green": 0.8,
+   "blue": 0.8
+  },
+  "emissionColor": {
+   "red": 0,
+   "green": 0,
+   "blue": 0
+  },
+  "fillId": {
+   "attributeId": {
+    "guid": "A1F4B721-8E2B-483D-89CE-018EFF045496"
+   }
+  },
+  "transparency": 0,
+  "shine": 0,
+  "texture": {
+   "name": "WD-04 拼花木纹"
+  }
+ },
+ {
+  "attributeId": {
+   "guid": "3051D9EC-30CF-4CFF-B975-01C1BB4C713B"
+  },
+  "name": "GB-防水石膏板",
+  "materialType": "General",
+  "ambientReflection": 70,
+  "diffuseReflection": 70,
+  "specularReflection": 0,
+  "transparencyAttenuation": 0,
+  "emissionAttenuation": 0,
+  "surfaceColor": {
+   "red": 0.643137255,
+   "green": 0.858823529,
+   "blue": 0.654901961
+  },
+  "specularColor": {
+   "red": 0.8,
+   "green": 0.8,
+   "blue": 0.8
+  },
+  "emissionColor": {
+   "red": 0,
+   "green": 0,
+   "blue": 0
+  },
+  "fillId": {
+   "error": {
+    "code": 6100,
+    "message": "Attribute is missing"
+   }
+  },
+  "transparency": 0,
+  "shine": 0
+ },
+ {
+  "attributeId": {
+   "guid": "6AFE3362-4850-41CF-91CE-88E455633226"
+  },
+  "name": "CT-瓷砖-白色",
+  "materialType": "General",
+  "ambientReflection": 70,
+  "diffuseReflection": 70,
+  "specularReflection": 0,
+  "transparencyAttenuation": 0,
+  "emissionAttenuation": 0,
+  "surfaceColor": {
+   "red": 0.623529412,
+   "green": 0.623529412,
+   "blue": 0.623529412
+  },
+  "specularColor": {
+   "red": 0.8,
+   "green": 0.8,
+   "blue": 0.8
+  },
+  "emissionColor": {
+   "red": 0,
+   "green": 0,
+   "blue": 0
+  },
+  "fillId": {
+   "attributeId": {
+    "guid": "1E55FDD7-8C1A-45C7-9114-D0BCA5701659"
+   }
+  },
+  "transparency": 0,
+  "shine": 0,
+  "texture": {
+   "name": "CT-03 隐蔽砖"
+  }
+ },
+ {
+  "attributeId": {
+   "guid": "48054D1D-5B28-4B26-A5BD-6A2FCED8B6BF"
+  },
+  "name": "P-上水管（回）",
+  "materialType": "General",
+  "ambientReflection": 93,
+  "diffuseReflection": 41,
+  "specularReflection": 10,
+  "transparencyAttenuation": 0,
+  "emissionAttenuation": 0,
+  "surfaceColor": {
+   "red": 0.976470588,
+   "green": 0.62745098,
+   "blue": 0.376470588
+  },
+  "specularColor": {
+   "red": 0.990005341,
+   "green": 0.990005341,
+   "blue": 1
+  },
+  "emissionColor": {
+   "red": 0,
+   "green": 0,
+   "blue": 0
+  },
+  "fillId": {
+   "error": {
+    "code": 6100,
+    "message": "Attribute is missing"
+   }
+  },
+  "transparency": 0,
+  "shine": 72
+ },
+ {
+  "attributeId": {
+   "guid": "78A50513-8BC1-4D37-ABEB-B3BA2E722D70"
+  },
+  "name": "MT-珐琅板-浅色",
+  "materialType": "General",
+  "ambientReflection": 70,
+  "diffuseReflection": 70,
+  "specularReflection": 0,
+  "transparencyAttenuation": 0,
+  "emissionAttenuation": 0,
+  "surfaceColor": {
+   "red": 1,
+   "green": 1,
+   "blue": 1
+  },
+  "specularColor": {
+   "red": 0.8,
+   "green": 0.8,
+   "blue": 0.8
+  },
+  "emissionColor": {
+   "red": 0,
+   "green": 0,
+   "blue": 0
+  },
+  "fillId": {
+   "attributeId": {
+    "guid": "65932265-5D69-4F6A-B071-49B3688F036E"
+   }
+  },
+  "transparency": 0,
+  "shine": 0,
+  "texture": {
+   "name": "AL-铝-银白"
+  }
+ },
+ {
+  "attributeId": {
+   "guid": "24419997-A271-4D5A-BD33-7245D6CAA65D"
+  },
+  "name": "GB-防水背衬板",
+  "materialType": "General",
+  "ambientReflection": 70,
+  "diffuseReflection": 70,
+  "specularReflection": 0,
+  "transparencyAttenuation": 0,
+  "emissionAttenuation": 0,
+  "surfaceColor": {
+   "red": 0.854901961,
+   "green": 0.854901961,
+   "blue": 0.854901961
+  },
+  "specularColor": {
+   "red": 0.8,
+   "green": 0.8,
+   "blue": 0.8
+  },
+  "emissionColor": {
+   "red": 0,
+   "green": 0,
+   "blue": 0
+  },
+  "fillId": {
+   "attributeId": {
+    "guid": "A9A61767-6E92-478F-A564-4EE20C6E8F4D"
+   }
+  },
+  "transparency": 0,
+  "shine": 0
+ },
+ {
+  "attributeId": {
+   "guid": "60B0B3E2-F46A-4BAC-85FD-5AD92EEEC231"
+  },
+  "name": "MT-03 深灰色不锈钢",
+  "materialType": "General",
+  "ambientReflection": 67,
+  "diffuseReflection": 67,
+  "specularReflection": 0,
+  "transparencyAttenuation": 0,
+  "emissionAttenuation": 0,
+  "surfaceColor": {
+   "red": 1,
+   "green": 1,
+   "blue": 1
+  },
+  "specularColor": {
+   "red": 0.8,
+   "green": 0.8,
+   "blue": 0.8
+  },
+  "emissionColor": {
+   "red": 0,
+   "green": 0,
+   "blue": 0
+  },
+  "fillId": {
+   "error": {
+    "code": 6100,
+    "message": "Attribute is missing"
+   }
+  },
+  "transparency": 0,
+  "shine": 0
+ },
+ {
+  "attributeId": {
+   "guid": "569DF377-E36F-425A-B42E-FF4F1A3473C1"
+  },
+  "name": "PT-防水涂料-暖色",
+  "materialType": "General",
+  "ambientReflection": 70,
+  "diffuseReflection": 70,
+  "specularReflection": 0,
+  "transparencyAttenuation": 0,
+  "emissionAttenuation": 0,
+  "surfaceColor": {
+   "red": 0.929411765,
+   "green": 0.917647059,
+   "blue": 0.894117647
+  },
+  "specularColor": {
+   "red": 0.8,
+   "green": 0.8,
+   "blue": 0.8
+  },
+  "emissionColor": {
+   "red": 0,
+   "green": 0,
+   "blue": 0
+  },
+  "fillId": {
+   "attributeId": {
+    "guid": "4DF423FF-52DF-44F2-B128-8AD23FF8A75A"
+   }
+  },
+  "transparency": 0,
+  "shine": 0,
+  "texture": {
+   "name": "PT-01 艺术涂料"
+  }
+ },
+ {
+  "attributeId": {
+   "guid": "66FB4348-715E-44DD-AB1F-EBA9849E68F0"
+  },
+  "name": "CP-圆毯-白色",
+  "materialType": "General",
+  "ambientReflection": 70,
+  "diffuseReflection": 70,
+  "specularReflection": 0,
+  "transparencyAttenuation": 0,
+  "emissionAttenuation": 0,
+  "surfaceColor": {
+   "red": 0.619607843,
+   "green": 0.619607843,
+   "blue": 0.619607843
+  },
+  "specularColor": {
+   "red": 0.8,
+   "green": 0.8,
+   "blue": 0.8
+  },
+  "emissionColor": {
+   "red": 0,
+   "green": 0,
+   "blue": 0
+  },
+  "fillId": {
+   "attributeId": {
+    "guid": "D94C6CE6-673E-4528-8359-3344D15C4CE8"
+   }
+  },
+  "transparency": 0,
+  "shine": 0,
+  "texture": {
+   "name": "圆形地毯高级奶油风ID_1156356347"
+  }
+ },
+ {
+  "attributeId": {
+   "guid": "E98481F3-DB9A-410A-AEBD-193D6D2A7FE3"
+  },
+  "name": "SP-原木-洞洞板",
+  "materialType": "General",
+  "ambientReflection": 70,
+  "diffuseReflection": 70,
+  "specularReflection": 0,
+  "transparencyAttenuation": 0,
+  "emissionAttenuation": 0,
+  "surfaceColor": {
+   "red": 0.815686275,
+   "green": 0.717647059,
+   "blue": 0.584313725
+  },
+  "specularColor": {
+   "red": 0.8,
+   "green": 0.8,
+   "blue": 0.8
+  },
+  "emissionColor": {
+   "red": 0,
+   "green": 0,
+   "blue": 0
+  },
+  "fillId": {
+   "attributeId": {
+    "guid": "94A79CB0-D263-43F9-99EF-D12018A3F35C"
+   }
+  },
+  "transparency": 0,
+  "shine": 0,
+  "texture": {
+   "name": "无缝原木色木纹洞洞板_洞洞板ID_1147055292"
+  }
+ },
+ {
+  "attributeId": {
+   "guid": "87969F89-738D-4338-8501-EEE604087CA1"
+  },
+  "name": "WD-松木-棕色-山纹 90°",
+  "materialType": "General",
+  "ambientReflection": 70,
+  "diffuseReflection": 70,
+  "specularReflection": 0,
+  "transparencyAttenuation": 0,
+  "emissionAttenuation": 0,
+  "surfaceColor": {
+   "red": 0.48627451,
+   "green": 0.376470588,
+   "blue": 0.270588235
+  },
+  "specularColor": {
+   "red": 0.8,
+   "green": 0.8,
+   "blue": 0.8
+  },
+  "emissionColor": {
+   "red": 0,
+   "green": 0,
+   "blue": 0
+  },
+  "fillId": {
+   "attributeId": {
+    "guid": "A1F4B721-8E2B-483D-89CE-018EFF045496"
+   }
+  },
+  "transparency": 0,
+  "shine": 0,
+  "texture": {
+   "name": "WD-松木-棕色-山纹"
+  }
+ },
+ {
+  "attributeId": {
+   "guid": "F0C691AE-00F2-4CA7-95D9-9C982BD1B178"
+  },
+  "name": "PT-白色-防水涂料",
+  "materialType": "General",
+  "ambientReflection": 70,
+  "diffuseReflection": 70,
+  "specularReflection": 0,
+  "transparencyAttenuation": 0,
+  "emissionAttenuation": 0,
+  "surfaceColor": {
+   "red": 1,
+   "green": 1,
+   "blue": 1
+  },
+  "specularColor": {
+   "red": 0.8,
+   "green": 0.8,
+   "blue": 0.8
+  },
+  "emissionColor": {
+   "red": 0,
+   "green": 0,
+   "blue": 0
+  },
+  "fillId": {
+   "attributeId": {
+    "guid": "4DF423FF-52DF-44F2-B128-8AD23FF8A75A"
+   }
+  },
+  "transparency": 0,
+  "shine": 0,
+  "texture": {
+   "name": "PT-无机涂料-白色"
+  }
+ },
+ {
+  "attributeId": {
+   "guid": "5D747EDB-8EE6-4BB3-A384-225774CD8381"
+  },
+  "name": "MAS-岩石-深灰色",
+  "materialType": "General",
+  "ambientReflection": 70,
+  "diffuseReflection": 70,
+  "specularReflection": 0,
+  "transparencyAttenuation": 0,
+  "emissionAttenuation": 0,
+  "surfaceColor": {
+   "red": 0.505882353,
+   "green": 0.505882353,
+   "blue": 0.505882353
+  },
+  "specularColor": {
+   "red": 0.8,
+   "green": 0.8,
+   "blue": 0.8
+  },
+  "emissionColor": {
+   "red": 0,
+   "green": 0,
+   "blue": 0
+  },
+  "fillId": {
+   "attributeId": {
+    "guid": "2D807A48-46AE-4057-9022-FFF72549F51A"
+   }
+  },
+  "transparency": 0,
+  "shine": 0,
+  "texture": {
+   "name": "ST-毛石-深灰色"
+  }
+ },
+ {
+  "attributeId": {
+   "guid": "ED8855AE-1260-41AB-9C10-E2D5DDB9165B"
+  },
+  "name": "CT-岩板-深灰色",
+  "materialType": "General",
+  "ambientReflection": 70,
+  "diffuseReflection": 70,
+  "specularReflection": 0,
+  "transparencyAttenuation": 0,
+  "emissionAttenuation": 0,
+  "surfaceColor": {
+   "red": 0.192156863,
+   "green": 0.192156863,
+   "blue": 0.192156863
+  },
+  "specularColor": {
+   "red": 0.8,
+   "green": 0.8,
+   "blue": 0.8
+  },
+  "emissionColor": {
+   "red": 0,
+   "green": 0,
+   "blue": 0
+  },
+  "fillId": {
+   "attributeId": {
+    "guid": "DC3CAB0B-AD8A-4DD0-AE80-0CD96C335F84"
+   }
+  },
+  "transparency": 0,
+  "shine": 0,
+  "texture": {
+   "name": "CT-02 深色岩板"
+  }
+ },
+ {
+  "attributeId": {
+   "guid": "9CF29492-704E-4D6B-A787-5E8D2435F054"
+  },
+  "name": "FUN-保温层-玻璃棉保温",
+  "materialType": "General",
+  "ambientReflection": 70,
+  "diffuseReflection": 70,
+  "specularReflection": 0,
+  "transparencyAttenuation": 0,
+  "emissionAttenuation": 0,
+  "surfaceColor": {
+   "red": 0.843137255,
+   "green": 0.780392157,
+   "blue": 0.592156863
+  },
+  "specularColor": {
+   "red": 0.843137255,
+   "green": 0.780392157,
+   "blue": 0.592156863
+  },
+  "emissionColor": {
+   "red": 0,
+   "green": 0,
+   "blue": 0
+  },
+  "fillId": {
+   "attributeId": {
+    "guid": "94A79CB0-D263-43F9-99EF-D12018A3F35C"
+   }
+  },
+  "transparency": 0,
+  "shine": 0,
+  "texture": {
+   "name": "隔离层 - 玻璃纤维 -opt"
+  }
+ },
+ {
+  "attributeId": {
+   "guid": "7ECEBD77-1022-4229-85E8-441A5FB3476B"
+  },
+  "name": "FUN-隔声-吸音板",
+  "materialType": "General",
+  "ambientReflection": 70,
+  "diffuseReflection": 70,
+  "specularReflection": 0,
+  "transparencyAttenuation": 0,
+  "emissionAttenuation": 0,
+  "surfaceColor": {
+   "red": 0.843137255,
+   "green": 0.780392157,
+   "blue": 0.592156863
+  },
+  "specularColor": {
+   "red": 0.843137255,
+   "green": 0.780392157,
+   "blue": 0.592156863
+  },
+  "emissionColor": {
+   "red": 0,
+   "green": 0,
+   "blue": 0
+  },
+  "fillId": {
+   "error": {
+    "code": 6100,
+    "message": "Attribute is missing"
+   }
+  },
+  "transparency": 0,
+  "shine": 0,
+  "texture": {
+   "name": "PB-吸音板-白色"
+  }
+ },
+ {
+  "attributeId": {
+   "guid": "714B50E0-C3C5-4CBC-81CA-458AA565FA8A"
+  },
+  "name": "轻集料混凝土",
+  "materialType": "General",
+  "ambientReflection": 70,
+  "diffuseReflection": 70,
+  "specularReflection": 0,
+  "transparencyAttenuation": 0,
+  "emissionAttenuation": 0,
+  "surfaceColor": {
+   "red": 0.654901961,
+   "green": 0.654901961,
+   "blue": 0.654901961
+  },
+  "specularColor": {
+   "red": 0.8,
+   "green": 0.8,
+   "blue": 0.8
+  },
+  "emissionColor": {
+   "red": 0,
+   "green": 0,
+   "blue": 0
+  },
+  "fillId": {
+   "attributeId": {
+    "guid": "94A79CB0-D263-43F9-99EF-D12018A3F35C"
+   }
+  },
+  "transparency": 0,
+  "shine": 0,
+  "texture": {
+   "name": "FUN-轻集料混凝土"
+  }
+ },
+ {
+  "attributeId": {
+   "guid": "99B1B819-9C32-4BA6-8F89-395A43CDDAA9"
+  },
+  "name": "细石混凝土",
+  "materialType": "General",
+  "ambientReflection": 70,
+  "diffuseReflection": 70,
+  "specularReflection": 0,
+  "transparencyAttenuation": 0,
+  "emissionAttenuation": 0,
+  "surfaceColor": {
+   "red": 0.615686275,
+   "green": 0.615686275,
+   "blue": 0.615686275
+  },
+  "specularColor": {
+   "red": 0.8,
+   "green": 0.8,
+   "blue": 0.8
+  },
+  "emissionColor": {
+   "red": 0,
+   "green": 0,
+   "blue": 0
+  },
+  "fillId": {
+   "attributeId": {
+    "guid": "94A79CB0-D263-43F9-99EF-D12018A3F35C"
+   }
+  },
+  "transparency": 0,
+  "shine": 0,
+  "texture": {
+   "name": "FUN-细石混凝土"
+  }
+ },
+ {
+  "attributeId": {
+   "guid": "42C181D1-E097-4BFF-B0EF-592F599AADC2"
+  },
+  "name": "砂砾",
+  "materialType": "General",
+  "ambientReflection": 70,
+  "diffuseReflection": 70,
+  "specularReflection": 0,
+  "transparencyAttenuation": 0,
+  "emissionAttenuation": 0,
+  "surfaceColor": {
+   "red": 0.556862745,
+   "green": 0.556862745,
+   "blue": 0.556862745
+  },
+  "specularColor": {
+   "red": 0.8,
+   "green": 0.8,
+   "blue": 0.8
+  },
+  "emissionColor": {
+   "red": 0,
+   "green": 0,
+   "blue": 0
+  },
+  "fillId": {
+   "error": {
+    "code": 6100,
+    "message": "Attribute is missing"
+   }
+  },
+  "transparency": 0,
+  "shine": 0,
+  "texture": {
+   "name": "石制品 - 碎石 b"
+  }
+ },
+ {
+  "attributeId": {
+   "guid": "14A24EEE-13CD-49F7-8493-93F692C8CC61"
+  },
+  "name": "卵石",
+  "materialType": "General",
+  "ambientReflection": 70,
+  "diffuseReflection": 70,
+  "specularReflection": 0,
+  "transparencyAttenuation": 0,
+  "emissionAttenuation": 0,
+  "surfaceColor": {
+   "red": 0.556862745,
+   "green": 0.556862745,
+   "blue": 0.556862745
+  },
+  "specularColor": {
+   "red": 0.8,
+   "green": 0.8,
+   "blue": 0.8
+  },
+  "emissionColor": {
+   "red": 0,
+   "green": 0,
+   "blue": 0
+  },
+  "fillId": {
+   "error": {
+    "code": 6100,
+    "message": "Attribute is missing"
+   }
+  },
+  "transparency": 0,
+  "shine": 0,
+  "texture": {
+   "name": "石制品 - 碎石 b"
+  }
+ },
+ {
+  "attributeId": {
+   "guid": "25D02AB4-F34D-44CA-B32B-16C2415CCBCB"
+  },
+  "name": "PVC-黑色",
+  "materialType": "General",
+  "ambientReflection": 70,
+  "diffuseReflection": 70,
+  "specularReflection": 0,
+  "transparencyAttenuation": 0,
+  "emissionAttenuation": 0,
+  "surfaceColor": {
+   "red": 0,
+   "green": 0,
+   "blue": 0
+  },
+  "specularColor": {
+   "red": 0,
+   "green": 0,
+   "blue": 0
+  },
+  "emissionColor": {
+   "red": 0,
+   "green": 0,
+   "blue": 0
+  },
+  "fillId": {
+   "attributeId": {
+    "guid": "98E3A0D8-A22A-411B-9153-E88FCED093DD"
+   }
+  },
+  "transparency": 0,
+  "shine": 10000,
+  "texture": {
+   "name": "PVC-地胶-灰色-晶丽龙"
+  }
+ },
+ {
+  "attributeId": {
+   "guid": "F54EF6D6-9722-4487-97B4-14F640712DA1"
+  },
+  "name": "M-暖通设备",
+  "materialType": "General",
+  "ambientReflection": 93,
+  "diffuseReflection": 41,
+  "specularReflection": 10,
+  "transparencyAttenuation": 0,
+  "emissionAttenuation": 0,
+  "surfaceColor": {
+   "red": 0.921568627,
+   "green": 0.921568627,
+   "blue": 0.921568627
+  },
+  "specularColor": {
+   "red": 0.990005341,
+   "green": 0.990005341,
+   "blue": 1
+  },
+  "emissionColor": {
+   "red": 0,
+   "green": 0,
+   "blue": 0
+  },
+  "fillId": {
+   "attributeId": {
+    "guid": "9FCA5FE8-CC8D-4EF5-8E18-AFA5420CAAA2"
+   }
+  },
+  "transparency": 0,
+  "shine": 72
+ },
+ {
+  "attributeId": {
+   "guid": "7A0DAEB8-3512-45D8-8696-01D68206327B"
+  },
+  "name": "ST-大理石-潘多拉",
+  "materialType": "General",
+  "ambientReflection": 70,
+  "diffuseReflection": 70,
+  "specularReflection": 0,
+  "transparencyAttenuation": 0,
+  "emissionAttenuation": 0,
+  "surfaceColor": {
+   "red": 0.901960784,
+   "green": 0.901960784,
+   "blue": 0.901960784
+  },
+  "specularColor": {
+   "red": 0.8,
+   "green": 0.8,
+   "blue": 0.8
+  },
+  "emissionColor": {
+   "red": 0,
+   "green": 0,
+   "blue": 0
+  },
+  "fillId": {
+   "attributeId": {
+    "guid": "B1CD9FCF-6076-4B4F-AB93-C3CF0DF1511E"
+   }
+  },
+  "transparency": 0,
+  "shine": 0,
+  "texture": {
+   "name": "石材大版"
+  }
+ },
+ {
+  "attributeId": {
+   "guid": "A671BBE7-6CB0-46B4-807C-ABA42E0FE221"
+  },
+  "name": "CT-瓷砖-仿水磨石",
+  "materialType": "General",
+  "ambientReflection": 70,
+  "diffuseReflection": 70,
+  "specularReflection": 0,
+  "transparencyAttenuation": 0,
+  "emissionAttenuation": 0,
+  "surfaceColor": {
+   "red": 0.623529412,
+   "green": 0.623529412,
+   "blue": 0.623529412
+  },
+  "specularColor": {
+   "red": 0.8,
+   "green": 0.8,
+   "blue": 0.8
+  },
+  "emissionColor": {
+   "red": 0,
+   "green": 0,
+   "blue": 0
+  },
+  "fillId": {
+   "attributeId": {
+    "guid": "1E55FDD7-8C1A-45C7-9114-D0BCA5701659"
+   }
+  },
+  "transparency": 0,
+  "shine": 0
+ },
+ {
+  "attributeId": {
+   "guid": "4191E13A-4481-4222-96B6-003CC1058292"
+  },
+  "name": "CT-水磨石砖-浅色",
+  "materialType": "General",
+  "ambientReflection": 70,
+  "diffuseReflection": 70,
+  "specularReflection": 0,
+  "transparencyAttenuation": 0,
+  "emissionAttenuation": 0,
+  "surfaceColor": {
+   "red": 0.623529412,
+   "green": 0.623529412,
+   "blue": 0.623529412
+  },
+  "specularColor": {
+   "red": 0.8,
+   "green": 0.8,
+   "blue": 0.8
+  },
+  "emissionColor": {
+   "red": 0,
+   "green": 0,
+   "blue": 0
+  },
+  "fillId": {
+   "attributeId": {
+    "guid": "1E55FDD7-8C1A-45C7-9114-D0BCA5701659"
+   }
+  },
+  "transparency": 0,
+  "shine": 0,
+  "texture": {
+   "name": "水磨石地面贴图ID_1169228288"
+  }
+ },
+ {
+  "attributeId": {
+   "guid": "8CD26BD6-4120-441C-AD66-31F064DEA5A3"
+  },
+  "name": "CT-手工釉面砖-绿色",
+  "materialType": "General",
+  "ambientReflection": 70,
+  "diffuseReflection": 70,
+  "specularReflection": 0,
+  "transparencyAttenuation": 0,
+  "emissionAttenuation": 0,
+  "surfaceColor": {
+   "red": 0.623529412,
+   "green": 0.623529412,
+   "blue": 0.623529412
+  },
+  "specularColor": {
+   "red": 0.8,
+   "green": 0.8,
+   "blue": 0.8
+  },
+  "emissionColor": {
+   "red": 0,
+   "green": 0,
+   "blue": 0
+  },
+  "fillId": {
+   "attributeId": {
+    "guid": "1E55FDD7-8C1A-45C7-9114-D0BCA5701659"
+   }
+  },
+  "transparency": 0,
+  "shine": 0,
+  "texture": {
+   "name": "条形砖贴图ID_1180225657"
+  }
+ },
+ {
+  "attributeId": {
+   "guid": "03077E2D-639A-4618-8D80-1545D31435BA"
+  },
+  "name": "MT-不锈钢-枪灰色",
+  "materialType": "General",
+  "ambientReflection": 70,
+  "diffuseReflection": 70,
+  "specularReflection": 0,
+  "transparencyAttenuation": 0,
+  "emissionAttenuation": 0,
+  "surfaceColor": {
+   "red": 0.298039216,
+   "green": 0.298039216,
+   "blue": 0.298039216
+  },
+  "specularColor": {
+   "red": 0.8,
+   "green": 0.8,
+   "blue": 0.8
+  },
+  "emissionColor": {
+   "red": 0,
+   "green": 0,
+   "blue": 0
+  },
+  "fillId": {
+   "attributeId": {
+    "guid": "C01050E6-2C95-468E-B96E-420C90BCFF0C"
+   }
+  },
+  "transparency": 0,
+  "shine": 0,
+  "texture": {
+   "name": "MT-拉丝不锈钢-深灰色"
+  }
+ },
+ {
+  "attributeId": {
+   "guid": "990DF6D9-0353-4D37-889E-C2C2F8BDF1CC"
+  },
+  "name": "CT-瓷砖-黑色",
+  "materialType": "General",
+  "ambientReflection": 70,
+  "diffuseReflection": 70,
+  "specularReflection": 0,
+  "transparencyAttenuation": 0,
+  "emissionAttenuation": 0,
+  "surfaceColor": {
+   "red": 0.235294118,
+   "green": 0.235294118,
+   "blue": 0.235294118
+  },
+  "specularColor": {
+   "red": 0.8,
+   "green": 0.8,
+   "blue": 0.8
+  },
+  "emissionColor": {
+   "red": 0,
+   "green": 0,
+   "blue": 0
+  },
+  "fillId": {
+   "attributeId": {
+    "guid": "1E55FDD7-8C1A-45C7-9114-D0BCA5701659"
+   }
+  },
+  "transparency": 0,
+  "shine": 0
+ },
+ {
+  "attributeId": {
+   "guid": "3C8E75E3-2CB6-4B7F-A484-D6FFFDD4F54C"
+  },
+  "name": "SP-毛毡-灰色",
+  "materialType": "General",
+  "ambientReflection": 70,
+  "diffuseReflection": 70,
+  "specularReflection": 0,
+  "transparencyAttenuation": 0,
+  "emissionAttenuation": 0,
+  "surfaceColor": {
+   "red": 0.905882353,
+   "green": 0.905882353,
+   "blue": 0.905882353
+  },
+  "specularColor": {
+   "red": 0.8,
+   "green": 0.8,
+   "blue": 0.8
+  },
+  "emissionColor": {
+   "red": 0,
+   "green": 0,
+   "blue": 0
+  },
+  "fillId": {
+   "error": {
+    "code": 6100,
+    "message": "Attribute is missing"
+   }
+  },
+  "transparency": 0,
+  "shine": 0
+ },
+ {
+  "attributeId": {
+   "guid": "8536AF46-C697-44A5-8B8B-9C520FA72344"
+  },
+  "name": "M-燃气管",
+  "materialType": "General",
+  "ambientReflection": 93,
+  "diffuseReflection": 41,
+  "specularReflection": 10,
+  "transparencyAttenuation": 0,
+  "emissionAttenuation": 0,
+  "surfaceColor": {
+   "red": 1,
+   "green": 0.823529412,
+   "blue": 0
+  },
+  "specularColor": {
+   "red": 0.990005341,
+   "green": 0.990005341,
+   "blue": 1
+  },
+  "emissionColor": {
+   "red": 0,
+   "green": 0,
+   "blue": 0
+  },
+  "fillId": {
+   "error": {
+    "code": 6100,
+    "message": "Attribute is missing"
+   }
+  },
+  "transparency": 0,
+  "shine": 72
+ },
+ {
+  "attributeId": {
+   "guid": "1C7BFB76-F055-4DD7-8E9D-1087D12B83AC"
+  },
+  "name": "PT-艺术涂料-暖色",
+  "materialType": "General",
+  "ambientReflection": 70,
+  "diffuseReflection": 70,
+  "specularReflection": 0,
+  "transparencyAttenuation": 0,
+  "emissionAttenuation": 0,
+  "surfaceColor": {
+   "red": 0.929411765,
+   "green": 0.917647059,
+   "blue": 0.894117647
+  },
+  "specularColor": {
+   "red": 0.8,
+   "green": 0.8,
+   "blue": 0.8
+  },
+  "emissionColor": {
+   "red": 0,
+   "green": 0,
+   "blue": 0
+  },
+  "fillId": {
+   "attributeId": {
+    "guid": "4DF423FF-52DF-44F2-B128-8AD23FF8A75A"
+   }
+  },
+  "transparency": 0,
+  "shine": 0,
+  "texture": {
+   "name": "PT-01 艺术涂料"
+  }
+ },
+ {
+  "attributeId": {
+   "guid": "3CF9636C-F8B1-4BAC-876D-16C68CD08A4E"
+  },
+  "name": "FA-麻布-条纹",
+  "materialType": "General",
+  "ambientReflection": 70,
+  "diffuseReflection": 70,
+  "specularReflection": 0,
+  "transparencyAttenuation": 0,
+  "emissionAttenuation": 0,
+  "surfaceColor": {
+   "red": 1,
+   "green": 1,
+   "blue": 1
+  },
+  "specularColor": {
+   "red": 0.8,
+   "green": 0.8,
+   "blue": 0.8
+  },
+  "emissionColor": {
+   "red": 0,
+   "green": 0,
+   "blue": 0
+  },
+  "fillId": {
+   "attributeId": {
+    "guid": "04CE4295-BAA5-429C-916C-1BC38CFE7AAB"
+   }
+  },
+  "transparency": 0,
+  "shine": 0,
+  "texture": {
+   "name": "FA-棉布-白色"
+  }
+ },
+ {
+  "attributeId": {
+   "guid": "2C110DED-0A79-49E4-8AAF-BFAE0BC866C1"
+  },
+  "name": "SP-装饰画-01",
+  "materialType": "General",
+  "ambientReflection": 70,
+  "diffuseReflection": 70,
+  "specularReflection": 0,
+  "transparencyAttenuation": 0,
+  "emissionAttenuation": 0,
+  "surfaceColor": {
+   "red": 0.960784314,
+   "green": 0.952941176,
+   "blue": 0.929411765
+  },
+  "specularColor": {
+   "red": 0.8,
+   "green": 0.8,
+   "blue": 0.8
+  },
+  "emissionColor": {
+   "red": 0,
+   "green": 0,
+   "blue": 0
+  },
+  "fillId": {
+   "attributeId": {
+    "guid": "94A79CB0-D263-43F9-99EF-D12018A3F35C"
+   }
+  },
+  "transparency": 20,
+  "shine": 0,
+  "texture": {
+   "name": "中古复古挂画_风景油画贴图ID_1166414675"
+  }
+ },
+ {
+  "attributeId": {
+   "guid": "58770521-4366-4D47-8C76-2C3319F08372"
+  },
+  "name": "LA-皮革-咖色",
+  "materialType": "General",
+  "ambientReflection": 70,
+  "diffuseReflection": 70,
+  "specularReflection": 0,
+  "transparencyAttenuation": 0,
+  "emissionAttenuation": 0,
+  "surfaceColor": {
+   "red": 1,
+   "green": 1,
+   "blue": 1
+  },
+  "specularColor": {
+   "red": 0.8,
+   "green": 0.8,
+   "blue": 0.8
+  },
+  "emissionColor": {
+   "red": 0,
+   "green": 0,
+   "blue": 0
+  },
+  "fillId": {
+   "attributeId": {
+    "guid": "8F6044FB-A229-4EEB-AD72-291AE8E5E22B"
+   }
+  },
+  "transparency": 0,
+  "shine": 0,
+  "texture": {
+   "name": "LA-咖色皮革-咖色-细腻"
+  }
+ },
+ {
+  "attributeId": {
+   "guid": "2F28BE6D-C400-462E-AA77-43C4A394F486"
+  },
+  "name": "FA-麻布-棉麻布",
+  "materialType": "General",
+  "ambientReflection": 70,
+  "diffuseReflection": 70,
+  "specularReflection": 0,
+  "transparencyAttenuation": 0,
+  "emissionAttenuation": 0,
+  "surfaceColor": {
+   "red": 1,
+   "green": 1,
+   "blue": 1
+  },
+  "specularColor": {
+   "red": 0.8,
+   "green": 0.8,
+   "blue": 0.8
+  },
+  "emissionColor": {
+   "red": 0,
+   "green": 0,
+   "blue": 0
+  },
+  "fillId": {
+   "attributeId": {
+    "guid": "04CE4295-BAA5-429C-916C-1BC38CFE7AAB"
+   }
+  },
+  "transparency": 0,
+  "shine": 0,
+  "texture": {
+   "name": "FA-棉麻布-浅色"
+  }
+ },
+ {
+  "attributeId": {
+   "guid": "162C5E10-14B2-4282-9329-07C4C5D3E3B3"
+  },
+  "name": "WD-黑檀木-山纹",
+  "materialType": "General",
+  "ambientReflection": 70,
+  "diffuseReflection": 70,
+  "specularReflection": 0,
+  "transparencyAttenuation": 0,
+  "emissionAttenuation": 0,
+  "surfaceColor": {
+   "red": 0.141176471,
+   "green": 0.129411765,
+   "blue": 0.090196078
+  },
+  "specularColor": {
+   "red": 0.8,
+   "green": 0.8,
+   "blue": 0.8
+  },
+  "emissionColor": {
+   "red": 0,
+   "green": 0,
+   "blue": 0
+  },
+  "fillId": {
+   "attributeId": {
+    "guid": "31720409-9937-4AE5-BF09-38BF51FED9D3"
+   }
+  },
+  "transparency": 0,
+  "shine": 0,
+  "texture": {
+   "name": "WD-黑檀木-黑色-山纹"
+  }
+ },
+ {
+  "attributeId": {
+   "guid": "5AFFAB35-D111-4CD4-B63A-5BB960731EC8"
+  },
+  "name": "WD-松木-棕色-山纹",
+  "materialType": "General",
+  "ambientReflection": 70,
+  "diffuseReflection": 70,
+  "specularReflection": 0,
+  "transparencyAttenuation": 0,
+  "emissionAttenuation": 0,
+  "surfaceColor": {
+   "red": 0.48627451,
+   "green": 0.376470588,
+   "blue": 0.270588235
+  },
+  "specularColor": {
+   "red": 0.8,
+   "green": 0.8,
+   "blue": 0.8
+  },
+  "emissionColor": {
+   "red": 0,
+   "green": 0,
+   "blue": 0
+  },
+  "fillId": {
+   "attributeId": {
+    "guid": "A1F4B721-8E2B-483D-89CE-018EFF045496"
+   }
+  },
+  "transparency": 0,
+  "shine": 0,
+  "texture": {
+   "name": "WD-松木-棕色-山纹"
+  }
+ },
+ {
+  "attributeId": {
+   "guid": "A74CC6EA-B1F9-4EB8-B6A1-701CFD82CF3C"
+  },
+  "name": "WD-白橡木-原木色-直纹",
+  "materialType": "General",
+  "ambientReflection": 70,
+  "diffuseReflection": 70,
+  "specularReflection": 25,
+  "transparencyAttenuation": 200,
+  "emissionAttenuation": 0,
+  "surfaceColor": {
+   "red": 0.839215686,
+   "green": 0.768627451,
+   "blue": 0.662745098
+  },
+  "specularColor": {
+   "red": 0.8,
+   "green": 0.8,
+   "blue": 0.8
+  },
+  "emissionColor": {
+   "red": 0,
+   "green": 0,
+   "blue": 0
+  },
+  "fillId": {
+   "attributeId": {
+    "guid": "A1F4B721-8E2B-483D-89CE-018EFF045496"
+   }
+  },
+  "transparency": 0,
+  "shine": 0,
+  "texture": {
+   "name": "WD-橡木-原木色-直纹"
+  }
+ },
+ {
+  "attributeId": {
+   "guid": "7DBDB1DF-DB2D-4274-A0B9-9D977825BD4E"
+  },
+  "name": "WD-原木-浅原木色-小花纹",
+  "materialType": "General",
+  "ambientReflection": 70,
+  "diffuseReflection": 70,
+  "specularReflection": 25,
+  "transparencyAttenuation": 200,
+  "emissionAttenuation": 0,
+  "surfaceColor": {
+   "red": 0.862745098,
+   "green": 0.807843137,
+   "blue": 0.760784314
+  },
+  "specularColor": {
+   "red": 0.8,
+   "green": 0.8,
+   "blue": 0.8
+  },
+  "emissionColor": {
+   "red": 0,
+   "green": 0,
+   "blue": 0
+  },
+  "fillId": {
+   "attributeId": {
+    "guid": "A1F4B721-8E2B-483D-89CE-018EFF045496"
+   }
+  },
+  "transparency": 0,
+  "shine": 0,
+  "texture": {
+   "name": "WD-原木-浅原木色-小花纹"
+  }
+ },
+ {
+  "attributeId": {
+   "guid": "A794AABA-F637-4804-9D5B-C1273CD5C27E"
+  },
+  "name": "PB-烤漆板-肤感漆",
+  "materialType": "General",
+  "ambientReflection": 70,
+  "diffuseReflection": 70,
+  "specularReflection": 0,
+  "transparencyAttenuation": 0,
+  "emissionAttenuation": 0,
+  "surfaceColor": {
+   "red": 0.929411765,
+   "green": 0.917647059,
+   "blue": 0.894117647
+  },
+  "specularColor": {
+   "red": 0.8,
+   "green": 0.8,
+   "blue": 0.8
+  },
+  "emissionColor": {
+   "red": 0,
+   "green": 0,
+   "blue": 0
+  },
+  "fillId": {
+   "attributeId": {
+    "guid": "8BFFC8F4-88D6-4F7B-8089-E8CEAB87E36B"
+   }
+  },
+  "transparency": 0,
+  "shine": 0,
+  "texture": {
+   "name": "PT-01 艺术涂料"
+  }
+ },
+ {
+  "attributeId": {
+   "guid": "D2B89AEC-1167-4EFF-A70D-DE03700C309D"
+  },
+  "name": "WD-橡木-浅色-山纹",
+  "materialType": "General",
+  "ambientReflection": 70,
+  "diffuseReflection": 70,
+  "specularReflection": 0,
+  "transparencyAttenuation": 0,
+  "emissionAttenuation": 0,
+  "surfaceColor": {
+   "red": 0.929411765,
+   "green": 0.917647059,
+   "blue": 0.894117647
+  },
+  "specularColor": {
+   "red": 0.8,
+   "green": 0.8,
+   "blue": 0.8
+  },
+  "emissionColor": {
+   "red": 0,
+   "green": 0,
+   "blue": 0
+  },
+  "fillId": {
+   "attributeId": {
+    "guid": "A1F4B721-8E2B-483D-89CE-018EFF045496"
+   }
+  },
+  "transparency": 0,
+  "shine": 0,
+  "texture": {
+   "name": "WD-03 浅色橡木纹"
+  }
+ },
+ {
+  "attributeId": {
+   "guid": "704B38AA-A2EB-402C-9ECB-010670E5F66E"
+  },
+  "name": "UP-硬包-浅色",
+  "materialType": "General",
+  "ambientReflection": 70,
+  "diffuseReflection": 70,
+  "specularReflection": 0,
+  "transparencyAttenuation": 0,
+  "emissionAttenuation": 0,
+  "surfaceColor": {
+   "red": 1,
+   "green": 1,
+   "blue": 1
+  },
+  "specularColor": {
+   "red": 0.8,
+   "green": 0.8,
+   "blue": 0.8
+  },
+  "emissionColor": {
+   "red": 0,
+   "green": 0,
+   "blue": 0
+  },
+  "fillId": {
+   "attributeId": {
+    "guid": "3026A430-6916-405B-8E10-54B1A59ADA80"
+   }
+  },
+  "transparency": 0,
+  "shine": 0,
+  "texture": {
+   "name": "up-浅色软包"
+  }
+ },
+ {
+  "attributeId": {
+   "guid": "46F4D2C2-B345-4DA5-9F2F-98B6AFE07CA6"
+  },
+  "name": "WF-实木地板-暖白色-鱼骨纹",
+  "materialType": "General",
+  "ambientReflection": 70,
+  "diffuseReflection": 70,
+  "specularReflection": 0,
+  "transparencyAttenuation": 0,
+  "emissionAttenuation": 0,
+  "surfaceColor": {
+   "red": 0.847058824,
+   "green": 0.77254902,
+   "blue": 0.647058824
+  },
+  "specularColor": {
+   "red": 0.8,
+   "green": 0.8,
+   "blue": 0.8
+  },
+  "emissionColor": {
+   "red": 0,
+   "green": 0,
+   "blue": 0
+  },
+  "fillId": {
+   "attributeId": {
+    "guid": "75E8BD34-71C7-4AF0-87F0-9BF689F12BBE"
+   }
+  },
+  "transparency": 0,
+  "shine": 0,
+  "texture": {
+   "name": "人字拼木地板贴图_高清_国外贴图ID_1102065683"
+  }
+ },
+ {
+  "attributeId": {
+   "guid": "13325893-0276-49FB-9189-A79407EB5C04"
+  },
+  "name": "PB-烤漆板-灰色",
+  "materialType": "General",
+  "ambientReflection": 70,
+  "diffuseReflection": 70,
+  "specularReflection": 0,
+  "transparencyAttenuation": 0,
+  "emissionAttenuation": 0,
+  "surfaceColor": {
+   "red": 0.929411765,
+   "green": 0.917647059,
+   "blue": 0.894117647
+  },
+  "specularColor": {
+   "red": 0.8,
+   "green": 0.8,
+   "blue": 0.8
+  },
+  "emissionColor": {
+   "red": 0,
+   "green": 0,
+   "blue": 0
+  },
+  "fillId": {
+   "attributeId": {
+    "guid": "8BFFC8F4-88D6-4F7B-8089-E8CEAB87E36B"
+   }
+  },
+  "transparency": 0,
+  "shine": 0,
+  "texture": {
+   "name": "油地毡 - 灰色 r"
+  }
+ },
+ {
+  "attributeId": {
+   "guid": "85E8D49A-8D3F-4F73-981F-D62C3FF3AADE"
+  },
+  "name": "WD-橡木-浅色-山纹 90°",
+  "materialType": "General",
+  "ambientReflection": 70,
+  "diffuseReflection": 70,
+  "specularReflection": 0,
+  "transparencyAttenuation": 0,
+  "emissionAttenuation": 0,
+  "surfaceColor": {
+   "red": 0.929411765,
+   "green": 0.917647059,
+   "blue": 0.894117647
+  },
+  "specularColor": {
+   "red": 0.8,
+   "green": 0.8,
+   "blue": 0.8
+  },
+  "emissionColor": {
+   "red": 0,
+   "green": 0,
+   "blue": 0
+  },
+  "fillId": {
+   "attributeId": {
+    "guid": "A1F4B721-8E2B-483D-89CE-018EFF045496"
+   }
+  },
+  "transparency": 0,
+  "shine": 0,
+  "texture": {
+   "name": "WD-03 浅色橡木纹"
+  }
+ },
+ {
+  "attributeId": {
+   "guid": "9AB267A6-8717-4423-82D1-B00AFF4411C3"
+  },
+  "name": "ST-大理石-白色-白翡翠",
+  "materialType": "General",
+  "ambientReflection": 70,
+  "diffuseReflection": 70,
+  "specularReflection": 0,
+  "transparencyAttenuation": 0,
+  "emissionAttenuation": 0,
+  "surfaceColor": {
+   "red": 0.901960784,
+   "green": 0.901960784,
+   "blue": 0.901960784
+  },
+  "specularColor": {
+   "red": 0.8,
+   "green": 0.8,
+   "blue": 0.8
+  },
+  "emissionColor": {
+   "red": 0,
+   "green": 0,
+   "blue": 0
+  },
+  "fillId": {
+   "attributeId": {
+    "guid": "4ABEBDA3-A2FA-4F6D-A4F4-733E18B13C3A"
+   }
+  },
+  "transparency": 0,
+  "shine": 0,
+  "texture": {
+   "name": "ST-大理石-白色-白翡翠"
+  }
+ },
+ {
+  "attributeId": {
+   "guid": "498E58F8-DDA9-4D7B-9226-A8733B0ED101"
+  },
+  "name": "ST-大理石-米黄色-潘多拉",
+  "materialType": "General",
+  "ambientReflection": 70,
+  "diffuseReflection": 70,
+  "specularReflection": 0,
+  "transparencyAttenuation": 0,
+  "emissionAttenuation": 0,
+  "surfaceColor": {
+   "red": 0.901960784,
+   "green": 0.901960784,
+   "blue": 0.901960784
+  },
+  "specularColor": {
+   "red": 0.8,
+   "green": 0.8,
+   "blue": 0.8
+  },
+  "emissionColor": {
+   "red": 0,
+   "green": 0,
+   "blue": 0
+  },
+  "fillId": {
+   "attributeId": {
+    "guid": "B1CD9FCF-6076-4B4F-AB93-C3CF0DF1511E"
+   }
+  },
+  "transparency": 0,
+  "shine": 0,
+  "texture": {
+   "name": "ST-大理石-米黄色-潘多拉"
+  }
+ },
+ {
+  "attributeId": {
+   "guid": "E4B8779C-A427-474A-BBDE-71CB45905ADB"
+  },
+  "name": "ST-大理石-红色-意大利红洞",
+  "materialType": "General",
+  "ambientReflection": 70,
+  "diffuseReflection": 70,
+  "specularReflection": 0,
+  "transparencyAttenuation": 0,
+  "emissionAttenuation": 0,
+  "surfaceColor": {
+   "red": 0.901960784,
+   "green": 0.901960784,
+   "blue": 0.901960784
+  },
+  "specularColor": {
+   "red": 0.8,
+   "green": 0.8,
+   "blue": 0.8
+  },
+  "emissionColor": {
+   "red": 0,
+   "green": 0,
+   "blue": 0
+  },
+  "fillId": {
+   "attributeId": {
+    "guid": "B1CD9FCF-6076-4B4F-AB93-C3CF0DF1511E"
+   }
+  },
+  "transparency": 0,
+  "shine": 0,
+  "texture": {
+   "name": "ST-洞石-红色-意大利红洞石"
+  }
+ },
+ {
+  "attributeId": {
+   "guid": "22793EB5-3E2D-4289-9FAB-46AC660E493C"
+  },
+  "name": "ST-大理石-米黄色-罗马洞",
+  "materialType": "General",
+  "ambientReflection": 70,
+  "diffuseReflection": 70,
+  "specularReflection": 0,
+  "transparencyAttenuation": 0,
+  "emissionAttenuation": 0,
+  "surfaceColor": {
+   "red": 0.901960784,
+   "green": 0.901960784,
+   "blue": 0.901960784
+  },
+  "specularColor": {
+   "red": 0.8,
+   "green": 0.8,
+   "blue": 0.8
+  },
+  "emissionColor": {
+   "red": 0,
+   "green": 0,
+   "blue": 0
+  },
+  "fillId": {
+   "attributeId": {
+    "guid": "B1CD9FCF-6076-4B4F-AB93-C3CF0DF1511E"
+   }
+  },
+  "transparency": 0,
+  "shine": 0,
+  "texture": {
+   "name": "ST-洞石-米黄色-罗马洞"
+  }
+ },
+ {
+  "attributeId": {
+   "guid": "7BEA53F7-260D-475B-ACA5-FDF071628020"
+  },
+  "name": "ST-大理石-蓝色-蓝水晶",
+  "materialType": "General",
+  "ambientReflection": 70,
+  "diffuseReflection": 70,
+  "specularReflection": 0,
+  "transparencyAttenuation": 0,
+  "emissionAttenuation": 0,
+  "surfaceColor": {
+   "red": 0.901960784,
+   "green": 0.901960784,
+   "blue": 0.901960784
+  },
+  "specularColor": {
+   "red": 0.8,
+   "green": 0.8,
+   "blue": 0.8
+  },
+  "emissionColor": {
+   "red": 0,
+   "green": 0,
+   "blue": 0
+  },
+  "fillId": {
+   "attributeId": {
+    "guid": "B1CD9FCF-6076-4B4F-AB93-C3CF0DF1511E"
+   }
+  },
+  "transparency": 0,
+  "shine": 0,
+  "texture": {
+   "name": "现代其他大理石_现代大理石_巴西蓝水晶大理石_巴西蓝水晶岩板_蓝色水晶大理石_蓝色斜纹大理石贴ID_1186064918"
+  }
+ },
+ {
+  "attributeId": {
+   "guid": "929DFBCA-3161-42F9-A5B6-30E67B2FAFA5"
+  },
+  "name": "MAS-加气混凝土砌块-灰色",
+  "materialType": "General",
+  "ambientReflection": 70,
+  "diffuseReflection": 70,
+  "specularReflection": 0,
+  "transparencyAttenuation": 0,
+  "emissionAttenuation": 0,
+  "surfaceColor": {
+   "red": 0.501960784,
+   "green": 0.501960784,
+   "blue": 0.501960784
+  },
+  "specularColor": {
+   "red": 0.8,
+   "green": 0.8,
+   "blue": 0.8
+  },
+  "emissionColor": {
+   "red": 0,
+   "green": 0,
+   "blue": 0
+  },
+  "fillId": {
+   "attributeId": {
+    "guid": "6C1EF276-2E50-49E0-A05B-2B2763F2E59F"
+   }
+  },
+  "transparency": 0,
+  "shine": 0,
+  "texture": {
+   "name": "MAS-混凝土砌块-灰色"
+  }
+ },
+ {
+  "attributeId": {
+   "guid": "4FE7E1A8-9281-44AA-B442-CAA6793CE0EF"
+  },
+  "name": "TIM-结构木-原木色",
+  "materialType": "General",
+  "ambientReflection": 70,
+  "diffuseReflection": 70,
+  "specularReflection": 0,
+  "transparencyAttenuation": 0,
+  "emissionAttenuation": 0,
+  "surfaceColor": {
+   "red": 0.909803922,
+   "green": 0.780392157,
+   "blue": 0.541176471
+  },
+  "specularColor": {
+   "red": 0.8,
+   "green": 0.8,
+   "blue": 0.8
+  },
+  "emissionColor": {
+   "red": 0,
+   "green": 0,
+   "blue": 0
+  },
+  "fillId": {
+   "error": {
+    "code": 6100,
+    "message": "Attribute is missing"
+   }
+  },
+  "transparency": 0,
+  "shine": 0,
+  "texture": {
+   "name": "WD-橡木-原木色-直纹"
+  }
+ },
+ {
+  "attributeId": {
+   "guid": "A68CC6F3-C806-4CF1-9E4B-74245794F5A7"
+  },
+  "name": "M-新风管",
+  "materialType": "General",
+  "ambientReflection": 93,
+  "diffuseReflection": 41,
+  "specularReflection": 10,
+  "transparencyAttenuation": 0,
+  "emissionAttenuation": 0,
+  "surfaceColor": {
+   "red": 0.678431373,
+   "green": 0.921568627,
+   "blue": 0.654901961
+  },
+  "specularColor": {
+   "red": 0.990005341,
+   "green": 0.990005341,
+   "blue": 1
+  },
+  "emissionColor": {
+   "red": 0,
+   "green": 0,
+   "blue": 0
+  },
+  "fillId": {
+   "error": {
+    "code": 6100,
+    "message": "Attribute is missing"
+   }
+  },
+  "transparency": 0,
+  "shine": 72
+ },
+ {
+  "attributeId": {
+   "guid": "2D862084-0156-44B6-B5CC-D1BAA79C0D05"
+  },
+  "name": "CT-岩板-千层岩岩板",
+  "materialType": "General",
+  "ambientReflection": 70,
+  "diffuseReflection": 70,
+  "specularReflection": 0,
+  "transparencyAttenuation": 0,
+  "emissionAttenuation": 0,
+  "surfaceColor": {
+   "red": 1,
+   "green": 1,
+   "blue": 1
+  },
+  "specularColor": {
+   "red": 0.8,
+   "green": 0.8,
+   "blue": 0.8
+  },
+  "emissionColor": {
+   "red": 0,
+   "green": 0,
+   "blue": 0
+  },
+  "fillId": {
+   "attributeId": {
+    "guid": "993EBD35-D22F-467D-A0A0-4DC41AC28255"
+   }
+  },
+  "transparency": 0,
+  "shine": 0,
+  "texture": {
+   "name": "ST-洞石-米黄色-罗马洞"
+  }
+ },
+ {
+  "attributeId": {
+   "guid": "BC0991A4-9287-4351-A473-AB1B5B7582BE"
+  },
+  "name": "ST-大理石-米黄色-百里香",
+  "materialType": "General",
+  "ambientReflection": 70,
+  "diffuseReflection": 70,
+  "specularReflection": 0,
+  "transparencyAttenuation": 0,
+  "emissionAttenuation": 0,
+  "surfaceColor": {
+   "red": 0.901960784,
+   "green": 0.901960784,
+   "blue": 0.901960784
+  },
+  "specularColor": {
+   "red": 0.8,
+   "green": 0.8,
+   "blue": 0.8
+  },
+  "emissionColor": {
+   "red": 0,
+   "green": 0,
+   "blue": 0
+  },
+  "fillId": {
+   "attributeId": {
+    "guid": "6CEB079A-6B7F-4C0F-B806-C843DFE092F7"
+   }
+  },
+  "transparency": 0,
+  "shine": 0,
+  "texture": {
+   "name": "暖灰色大理石贴图ID_1124207488"
+  }
+ },
+ {
+  "attributeId": {
+   "guid": "5477A856-294E-46C5-A293-3E3D6C749857"
+  },
+  "name": "PT-艺术涂料-深灰色",
+  "materialType": "General",
+  "ambientReflection": 70,
+  "diffuseReflection": 70,
+  "specularReflection": 0,
+  "transparencyAttenuation": 0,
+  "emissionAttenuation": 0,
+  "surfaceColor": {
+   "red": 0.929411765,
+   "green": 0.917647059,
+   "blue": 0.894117647
+  },
+  "specularColor": {
+   "red": 0.8,
+   "green": 0.8,
+   "blue": 0.8
+  },
+  "emissionColor": {
+   "red": 0,
+   "green": 0,
+   "blue": 0
+  },
+  "fillId": {
+   "attributeId": {
+    "guid": "4DF423FF-52DF-44F2-B128-8AD23FF8A75A"
+   }
+  },
+  "transparency": 0,
+  "shine": 0,
+  "texture": {
+   "name": "PT-无机涂料-深灰色"
+  }
+ },
+ {
+  "attributeId": {
+   "guid": "E482F2F6-7B45-4587-9B85-59646DFB1C88"
+  },
+  "name": "PT-乳胶漆-白色",
+  "materialType": "General",
+  "ambientReflection": 70,
+  "diffuseReflection": 70,
+  "specularReflection": 0,
+  "transparencyAttenuation": 0,
+  "emissionAttenuation": 0,
+  "surfaceColor": {
+   "red": 1,
+   "green": 1,
+   "blue": 1
+  },
+  "specularColor": {
+   "red": 0.8,
+   "green": 0.8,
+   "blue": 0.8
+  },
+  "emissionColor": {
+   "red": 0,
+   "green": 0,
+   "blue": 0
+  },
+  "fillId": {
+   "attributeId": {
+    "guid": "4DF423FF-52DF-44F2-B128-8AD23FF8A75A"
+   }
+  },
+  "transparency": 0,
+  "shine": 0,
+  "texture": {
+   "name": "pt-白色乳胶漆"
+  }
+ },
+ {
+  "attributeId": {
+   "guid": "49627C3D-4ADA-46F2-B8E8-D8F3446AE436"
+  },
+  "name": "涂料- 朱红",
+  "materialType": "General",
+  "ambientReflection": 93,
+  "diffuseReflection": 41,
+  "specularReflection": 10,
+  "transparencyAttenuation": 0,
+  "emissionAttenuation": 0,
+  "surfaceColor": {
+   "red": 0.976470588,
+   "green": 0,
+   "blue": 0
+  },
+  "specularColor": {
+   "red": 0.990005341,
+   "green": 0.990005341,
+   "blue": 1
+  },
+  "emissionColor": {
+   "red": 0,
+   "green": 0,
+   "blue": 0
+  },
+  "fillId": {
+   "attributeId": {
+    "guid": "EC895F55-F679-4126-80C7-1348DFC1222D"
+   }
+  },
+  "transparency": 0,
+  "shine": 72
+ },
+ {
+  "attributeId": {
+   "guid": "8BB1648C-60AB-4D67-A7D4-BCBF3A23AA90"
+  },
+  "name": "涂料- 浅灰色",
+  "materialType": "General",
+  "ambientReflection": 93,
+  "diffuseReflection": 41,
+  "specularReflection": 10,
+  "transparencyAttenuation": 0,
+  "emissionAttenuation": 0,
+  "surfaceColor": {
+   "red": 0.658823529,
+   "green": 0.658823529,
+   "blue": 0.658823529
+  },
+  "specularColor": {
+   "red": 0.990005341,
+   "green": 0.990005341,
+   "blue": 1
+  },
+  "emissionColor": {
+   "red": 0,
+   "green": 0,
+   "blue": 0
+  },
+  "fillId": {
+   "attributeId": {
+    "guid": "EC895F55-F679-4126-80C7-1348DFC1222D"
+   }
+  },
+  "transparency": 0,
+  "shine": 72
+ },
+ {
+  "attributeId": {
+   "guid": "C0EEBC72-079C-487D-BA5D-9023604C029B"
+  },
+  "name": "默认",
+  "materialType": "General",
+  "ambientReflection": 75,
+  "diffuseReflection": 70,
+  "specularReflection": 50,
+  "transparencyAttenuation": 0,
+  "emissionAttenuation": 0,
+  "surfaceColor": {
+   "red": 0.498039216,
+   "green": 0.498039216,
+   "blue": 0.498039216
+  },
+  "specularColor": {
+   "red": 0,
+   "green": 0,
+   "blue": 0
+  },
+  "emissionColor": {
+   "red": 0,
+   "green": 0,
+   "blue": 0
+  },
+  "fillId": {
+   "error": {
+    "code": 6100,
+    "message": "Attribute is missing"
+   }
+  },
+  "transparency": 0,
+  "shine": 200
+ },
+ {
+  "attributeId": {
+   "guid": "31AE9406-A0B8-4534-92B4-E285D3A362ED"
+  },
+  "name": "新风回风",
+  "materialType": "General",
+  "ambientReflection": 75,
+  "diffuseReflection": 70,
+  "specularReflection": 50,
+  "transparencyAttenuation": 0,
+  "emissionAttenuation": 0,
+  "surfaceColor": {
+   "red": 0.901960784,
+   "green": 0.321568627,
+   "blue": 0.007843137
+  },
+  "specularColor": {
+   "red": 0,
+   "green": 0,
+   "blue": 0
+  },
+  "emissionColor": {
+   "red": 0,
+   "green": 0,
+   "blue": 0
+  },
+  "fillId": {
+   "error": {
+    "code": 6100,
+    "message": "Attribute is missing"
+   }
+  },
+  "transparency": 0,
+  "shine": 200
+ },
+ {
+  "attributeId": {
+   "guid": "C9F240F5-49DA-45DD-97ED-6ECD2A96322B"
+  },
+  "name": "空调送风",
+  "materialType": "General",
+  "ambientReflection": 75,
+  "diffuseReflection": 70,
+  "specularReflection": 50,
+  "transparencyAttenuation": 0,
+  "emissionAttenuation": 0,
+  "surfaceColor": {
+   "red": 0.392156863,
+   "green": 0.584313725,
+   "blue": 0.929411765
+  },
+  "specularColor": {
+   "red": 0,
+   "green": 0,
+   "blue": 0
+  },
+  "emissionColor": {
+   "red": 0,
+   "green": 0,
+   "blue": 0
+  },
+  "fillId": {
+   "error": {
+    "code": 6100,
+    "message": "Attribute is missing"
+   }
+  },
+  "transparency": 0,
+  "shine": 200
+ },
+ {
+  "attributeId": {
+   "guid": "1C932E5E-7525-46A4-A034-680C9760CBFB"
+  },
+  "name": "新风送风",
+  "materialType": "General",
+  "ambientReflection": 75,
+  "diffuseReflection": 70,
+  "specularReflection": 50,
+  "transparencyAttenuation": 0,
+  "emissionAttenuation": 0,
+  "surfaceColor": {
+   "red": 0.529411765,
+   "green": 0.807843137,
+   "blue": 0.921568627
+  },
+  "specularColor": {
+   "red": 0,
+   "green": 0,
+   "blue": 0
+  },
+  "emissionColor": {
+   "red": 0,
+   "green": 0,
+   "blue": 0
+  },
+  "fillId": {
+   "error": {
+    "code": 6100,
+    "message": "Attribute is missing"
+   }
+  },
+  "transparency": 0,
+  "shine": 200
+ },
+ {
+  "attributeId": {
+   "guid": "4F9B323B-0343-43D1-992D-2ED9FD005477"
+  },
+  "name": "排风机",
+  "materialType": "General",
+  "ambientReflection": 75,
+  "diffuseReflection": 70,
+  "specularReflection": 50,
+  "transparencyAttenuation": 0,
+  "emissionAttenuation": 0,
+  "surfaceColor": {
+   "red": 0.768627451,
+   "green": 0,
+   "blue": 0
+  },
+  "specularColor": {
+   "red": 0,
+   "green": 0,
+   "blue": 0
+  },
+  "emissionColor": {
+   "red": 0,
+   "green": 0,
+   "blue": 0
+  },
+  "fillId": {
+   "error": {
+    "code": 6100,
+    "message": "Attribute is missing"
+   }
+  },
+  "transparency": 0,
+  "shine": 200
+ },
+ {
+  "attributeId": {
+   "guid": "0C787D8C-BD6D-4C87-87E2-CF28B5244AEE"
+  },
+  "name": "新风机",
+  "materialType": "General",
+  "ambientReflection": 75,
+  "diffuseReflection": 70,
+  "specularReflection": 50,
+  "transparencyAttenuation": 0,
+  "emissionAttenuation": 0,
+  "surfaceColor": {
+   "red": 1,
+   "green": 1,
+   "blue": 1
+  },
+  "specularColor": {
+   "red": 0,
+   "green": 0,
+   "blue": 0
+  },
+  "emissionColor": {
+   "red": 0,
+   "green": 0,
+   "blue": 0
+  },
+  "fillId": {
+   "error": {
+    "code": 6100,
+    "message": "Attribute is missing"
+   }
+  },
+  "transparency": 0,
+  "shine": 200
+ },
+ {
+  "attributeId": {
+   "guid": "A5698C2D-68C7-4544-8391-12EC6C02E5C6"
+  },
+  "name": "默认楼板",
+  "materialType": "General",
+  "ambientReflection": 75,
+  "diffuseReflection": 70,
+  "specularReflection": 50,
+  "transparencyAttenuation": 0,
+  "emissionAttenuation": 0,
+  "surfaceColor": {
+   "red": 0.498039216,
+   "green": 0.498039216,
+   "blue": 0.498039216
+  },
+  "specularColor": {
+   "red": 0,
+   "green": 0,
+   "blue": 0
+  },
+  "emissionColor": {
+   "red": 0,
+   "green": 0,
+   "blue": 0
+  },
+  "fillId": {
+   "error": {
+    "code": 6100,
+    "message": "Attribute is missing"
+   }
+  },
+  "transparency": 0,
+  "shine": 200
+ },
+ {
+  "attributeId": {
+   "guid": "DBC1FFC4-849C-4569-9EDE-970D1D67776C"
+  },
+  "name": "涂料- 煤灰色",
+  "materialType": "General",
+  "ambientReflection": 93,
+  "diffuseReflection": 41,
+  "specularReflection": 10,
+  "transparencyAttenuation": 0,
+  "emissionAttenuation": 0,
+  "surfaceColor": {
+   "red": 0.180392157,
+   "green": 0.180392157,
+   "blue": 0.180392157
+  },
+  "specularColor": {
+   "red": 0.990005341,
+   "green": 0.990005341,
+   "blue": 1
+  },
+  "emissionColor": {
+   "red": 0,
+   "green": 0,
+   "blue": 0
+  },
+  "fillId": {
+   "attributeId": {
+    "guid": "EC895F55-F679-4126-80C7-1348DFC1222D"
+   }
+  },
+  "transparency": 0,
+  "shine": 72
+ },
+ {
+  "attributeId": {
+   "guid": "C2C09969-11E2-4461-88B1-E4488DE06934"
+  },
+  "name": "涂料- 镉黄",
+  "materialType": "General",
+  "ambientReflection": 93,
+  "diffuseReflection": 41,
+  "specularReflection": 10,
+  "transparencyAttenuation": 0,
+  "emissionAttenuation": 0,
+  "surfaceColor": {
+   "red": 0.988235294,
+   "green": 0.984313725,
+   "blue": 0
+  },
+  "specularColor": {
+   "red": 0.990005341,
+   "green": 0.990005341,
+   "blue": 1
+  },
+  "emissionColor": {
+   "red": 0,
+   "green": 0,
+   "blue": 0
+  },
+  "fillId": {
+   "attributeId": {
+    "guid": "EC895F55-F679-4126-80C7-1348DFC1222D"
+   }
+  },
+  "transparency": 0,
+  "shine": 72
+ },
+ {
+  "attributeId": {
+   "guid": "120C398B-C60C-4206-8158-2C9A455E45DA"
+  },
+  "name": "现浇混凝土",
+  "materialType": "General",
+  "ambientReflection": 75,
+  "diffuseReflection": 70,
+  "specularReflection": 50,
+  "transparencyAttenuation": 0,
+  "emissionAttenuation": 0,
+  "surfaceColor": {
+   "red": 0.752941176,
+   "green": 0.752941176,
+   "blue": 0.752941176
+  },
+  "specularColor": {
+   "red": 0,
+   "green": 0,
+   "blue": 0
+  },
+  "emissionColor": {
+   "red": 0,
+   "green": 0,
+   "blue": 0
+  },
+  "fillId": {
+   "error": {
+    "code": 6100,
+    "message": "Attribute is missing"
+   }
+  },
+  "transparency": 0,
+  "shine": 200
+ },
+ {
+  "attributeId": {
+   "guid": "77CBB23A-1440-42CD-9B60-E2185969B1CA"
+  },
+  "name": "松散 - 石膏板",
+  "materialType": "General",
+  "ambientReflection": 75,
+  "diffuseReflection": 70,
+  "specularReflection": 50,
+  "transparencyAttenuation": 0,
+  "emissionAttenuation": 0,
+  "surfaceColor": {
+   "red": 0.976470588,
+   "green": 0.976470588,
+   "blue": 0.976470588
+  },
+  "specularColor": {
+   "red": 0,
+   "green": 0,
+   "blue": 0
+  },
+  "emissionColor": {
+   "red": 0,
+   "green": 0,
+   "blue": 0
+  },
+  "fillId": {
+   "error": {
+    "code": 6100,
+    "message": "Attribute is missing"
+   }
+  },
+  "transparency": 0,
+  "shine": 200
+ },
+ {
+  "attributeId": {
+   "guid": "529AA4D4-4F25-4407-9E0F-A28FFCDDB862"
+  },
+  "name": "樱桃木",
+  "materialType": "General",
+  "ambientReflection": 75,
+  "diffuseReflection": 70,
+  "specularReflection": 50,
+  "transparencyAttenuation": 0,
+  "emissionAttenuation": 0,
+  "surfaceColor": {
+   "red": 0.88627451,
+   "green": 0.694117647,
+   "blue": 0.501960784
+  },
+  "specularColor": {
+   "red": 0,
+   "green": 0,
+   "blue": 0
+  },
+  "emissionColor": {
+   "red": 0,
+   "green": 0,
+   "blue": 0
+  },
+  "fillId": {
+   "error": {
+    "code": 6100,
+    "message": "Attribute is missing"
+   }
+  },
+  "transparency": 0,
+  "shine": 200
+ },
+ {
+  "attributeId": {
+   "guid": "BB616C69-E679-4432-9D1A-86960D6508DB"
+  },
+  "name": "03-热水",
+  "materialType": "General",
+  "ambientReflection": 75,
+  "diffuseReflection": 70,
+  "specularReflection": 50,
+  "transparencyAttenuation": 0,
+  "emissionAttenuation": 0,
+  "surfaceColor": {
+   "red": 1,
+   "green": 0.329411765,
+   "blue": 0.329411765
+  },
+  "specularColor": {
+   "red": 0,
+   "green": 0,
+   "blue": 0
+  },
+  "emissionColor": {
+   "red": 0,
+   "green": 0,
+   "blue": 0
+  },
+  "fillId": {
+   "error": {
+    "code": 6100,
+    "message": "Attribute is missing"
+   }
+  },
+  "transparency": 0,
+  "shine": 200
+ },
+ {
+  "attributeId": {
+   "guid": "1DC74C8B-34B7-4B1E-8FFB-9AFD69ABCFA8"
+  },
+  "name": "不锈钢",
+  "materialType": "General",
+  "ambientReflection": 75,
+  "diffuseReflection": 70,
+  "specularReflection": 50,
+  "transparencyAttenuation": 0,
+  "emissionAttenuation": 0,
+  "surfaceColor": {
+   "red": 0,
+   "green": 0,
+   "blue": 0
+  },
+  "specularColor": {
+   "red": 0,
+   "green": 0,
+   "blue": 0
+  },
+  "emissionColor": {
+   "red": 0,
+   "green": 0,
+   "blue": 0
+  },
+  "fillId": {
+   "error": {
+    "code": 6100,
+    "message": "Attribute is missing"
+   }
+  },
+  "transparency": 0,
+  "shine": 200
+ },
+ {
+  "attributeId": {
+   "guid": "0564B7EA-A93F-412A-9EA9-46C713E809C3"
+  },
+  "name": "02-冷水",
+  "materialType": "General",
+  "ambientReflection": 75,
+  "diffuseReflection": 70,
+  "specularReflection": 50,
+  "transparencyAttenuation": 0,
+  "emissionAttenuation": 0,
+  "surfaceColor": {
+   "red": 0.152941176,
+   "green": 0.196078431,
+   "blue": 0.607843137
+  },
+  "specularColor": {
+   "red": 0,
+   "green": 0,
+   "blue": 0
+  },
+  "emissionColor": {
+   "red": 0,
+   "green": 0,
+   "blue": 0
+  },
+  "fillId": {
+   "error": {
+    "code": 6100,
+    "message": "Attribute is missing"
+   }
+  },
+  "transparency": 0,
+  "shine": 200
+ },
+ {
+  "attributeId": {
+   "guid": "B17E5A8E-DEA6-4A5D-9AA7-DBBE96057F0C"
+  },
+  "name": "01-净水",
+  "materialType": "General",
+  "ambientReflection": 75,
+  "diffuseReflection": 70,
+  "specularReflection": 50,
+  "transparencyAttenuation": 0,
+  "emissionAttenuation": 0,
+  "surfaceColor": {
+   "red": 0.690196078,
+   "green": 0.768627451,
+   "blue": 0.870588235
+  },
+  "specularColor": {
+   "red": 0,
+   "green": 0,
+   "blue": 0
+  },
+  "emissionColor": {
+   "red": 0,
+   "green": 0,
+   "blue": 0
+  },
+  "fillId": {
+   "error": {
+    "code": 6100,
+    "message": "Attribute is missing"
+   }
+  },
+  "transparency": 0,
+  "shine": 200
+ },
+ {
+  "attributeId": {
+   "guid": "C44A36FB-FD9B-42ED-9D62-8687F4CD0025"
+  },
+  "name": "04-入户水",
+  "materialType": "General",
+  "ambientReflection": 75,
+  "diffuseReflection": 70,
+  "specularReflection": 50,
+  "transparencyAttenuation": 0,
+  "emissionAttenuation": 0,
+  "surfaceColor": {
+   "red": 0.501960784,
+   "green": 0.501960784,
+   "blue": 1
+  },
+  "specularColor": {
+   "red": 0,
+   "green": 0,
+   "blue": 0
+  },
+  "emissionColor": {
+   "red": 0,
+   "green": 0,
+   "blue": 0
+  },
+  "fillId": {
+   "error": {
+    "code": 6100,
+    "message": "Attribute is missing"
+   }
+  },
+  "transparency": 0,
+  "shine": 200
+ },
+ {
+  "attributeId": {
+   "guid": "C1D45E4B-FCC7-4E47-B133-DEFAF51F4E61"
+  },
+  "name": "混凝土砌块",
+  "materialType": "General",
+  "ambientReflection": 75,
+  "diffuseReflection": 70,
+  "specularReflection": 50,
+  "transparencyAttenuation": 0,
+  "emissionAttenuation": 0,
+  "surfaceColor": {
+   "red": 0.709803922,
+   "green": 0.709803922,
+   "blue": 0.709803922
+  },
+  "specularColor": {
+   "red": 0,
+   "green": 0,
+   "blue": 0
+  },
+  "emissionColor": {
+   "red": 0,
+   "green": 0,
+   "blue": 0
+  },
+  "fillId": {
+   "error": {
+    "code": 6100,
+    "message": "Attribute is missing"
+   }
+  },
+  "transparency": 0,
+  "shine": 200
+ },
+ {
+  "attributeId": {
+   "guid": "FBF95951-D601-48B6-AE91-51A71938F76D"
+  },
+  "name": "Daikin-Galvanized Steel-White",
+  "materialType": "General",
+  "ambientReflection": 75,
+  "diffuseReflection": 70,
+  "specularReflection": 50,
+  "transparencyAttenuation": 0,
+  "emissionAttenuation": 0,
+  "surfaceColor": {
+   "red": 0.949019608,
+   "green": 0.949019608,
+   "blue": 0.858823529
+  },
+  "specularColor": {
+   "red": 0,
+   "green": 0,
+   "blue": 0
+  },
+  "emissionColor": {
+   "red": 0,
+   "green": 0,
+   "blue": 0
+  },
+  "fillId": {
+   "error": {
+    "code": 6100,
+    "message": "Attribute is missing"
+   }
+  },
+  "transparency": 0,
+  "shine": 200
+ },
+ {
+  "attributeId": {
+   "guid": "14DE45EE-C8BE-4362-BC58-91FB43BD588F"
+  },
+  "name": "UHMW, Black",
+  "materialType": "General",
+  "ambientReflection": 75,
+  "diffuseReflection": 70,
+  "specularReflection": 50,
+  "transparencyAttenuation": 0,
+  "emissionAttenuation": 0,
+  "surfaceColor": {
+   "red": 0.470588235,
+   "green": 0.470588235,
+   "blue": 0.470588235
+  },
+  "specularColor": {
+   "red": 0,
+   "green": 0,
+   "blue": 0
+  },
+  "emissionColor": {
+   "red": 0,
+   "green": 0,
+   "blue": 0
+  },
+  "fillId": {
+   "error": {
+    "code": 6100,
+    "message": "Attribute is missing"
+   }
+  },
+  "transparency": 0,
+  "shine": 200
+ },
+ {
+  "attributeId": {
+   "guid": "5C87F205-E551-4CED-8F03-87B40447AD7D"
+  },
+  "name": "Daikin-Metal-Grill",
+  "materialType": "General",
+  "ambientReflection": 75,
+  "diffuseReflection": 70,
+  "specularReflection": 50,
+  "transparencyAttenuation": 0,
+  "emissionAttenuation": 0,
+  "surfaceColor": {
+   "red": 0.741176471,
+   "green": 0.733333333,
+   "blue": 0.725490196
+  },
+  "specularColor": {
+   "red": 0,
+   "green": 0,
+   "blue": 0
+  },
+  "emissionColor": {
+   "red": 0,
+   "green": 0,
+   "blue": 0
+  },
+  "fillId": {
+   "error": {
+    "code": 6100,
+    "message": "Attribute is missing"
+   }
+  },
+  "transparency": 100,
+  "shine": 200
+ },
+ {
+  "attributeId": {
+   "guid": "5234BC8C-C258-4535-B126-09E971B23F3D"
+  },
+  "name": "DAIKIN",
+  "materialType": "General",
+  "ambientReflection": 75,
+  "diffuseReflection": 70,
+  "specularReflection": 50,
+  "transparencyAttenuation": 0,
+  "emissionAttenuation": 0,
+  "surfaceColor": {
+   "red": 0.094117647,
+   "green": 0.6,
+   "blue": 0.905882353
+  },
+  "specularColor": {
+   "red": 0,
+   "green": 0,
+   "blue": 0
+  },
+  "emissionColor": {
+   "red": 0,
+   "green": 0,
+   "blue": 0
+  },
+  "fillId": {
+   "error": {
+    "code": 6100,
+    "message": "Attribute is missing"
+   }
+  },
+  "transparency": 0,
+  "shine": 200
+ },
+ {
+  "attributeId": {
+   "guid": "86BE549B-8355-447B-90B5-CBD3E03BC1C7"
+  },
+  "name": "涂料- 沙褐色",
+  "materialType": "General",
+  "ambientReflection": 93,
+  "diffuseReflection": 41,
+  "specularReflection": 10,
+  "transparencyAttenuation": 0,
+  "emissionAttenuation": 0,
+  "surfaceColor": {
+   "red": 0.82745098,
+   "green": 0.780392157,
+   "blue": 0.670588235
+  },
+  "specularColor": {
+   "red": 0.990005341,
+   "green": 0.990005341,
+   "blue": 1
+  },
+  "emissionColor": {
+   "red": 0,
+   "green": 0,
+   "blue": 0
+  },
+  "fillId": {
+   "attributeId": {
+    "guid": "EC895F55-F679-4126-80C7-1348DFC1222D"
+   }
+  },
+  "transparency": 0,
+  "shine": 72
+ },
+ {
+  "attributeId": {
+   "guid": "F485CB35-03E3-4642-ADDE-596665889E1A"
+  },
+  "name": "阶段 - 现有",
+  "materialType": "General",
+  "ambientReflection": 75,
+  "diffuseReflection": 70,
+  "specularReflection": 50,
+  "transparencyAttenuation": 0,
+  "emissionAttenuation": 0,
+  "surfaceColor": {
+   "red": 0.498039216,
+   "green": 0.498039216,
+   "blue": 0.498039216
+  },
+  "specularColor": {
+   "red": 0,
+   "green": 0,
+   "blue": 0
+  },
+  "emissionColor": {
+   "red": 0,
+   "green": 0,
+   "blue": 0
+  },
+  "fillId": {
+   "error": {
+    "code": 6100,
+    "message": "Attribute is missing"
+   }
+  },
+  "transparency": 0,
+  "shine": 200
+ },
+ {
+  "attributeId": {
+   "guid": "0F9967D2-317E-4767-A307-16CA1841A953"
+  },
+  "name": "金属",
+  "materialType": "General",
+  "ambientReflection": 75,
+  "diffuseReflection": 70,
+  "specularReflection": 50,
+  "transparencyAttenuation": 0,
+  "emissionAttenuation": 0,
+  "surfaceColor": {
+   "red": 0.635294118,
+   "green": 0.631372549,
+   "blue": 0.62745098
+  },
+  "specularColor": {
+   "red": 0,
+   "green": 0,
+   "blue": 0
+  },
+  "emissionColor": {
+   "red": 0,
+   "green": 0,
+   "blue": 0
+  },
+  "fillId": {
+   "error": {
+    "code": 6100,
+    "message": "Attribute is missing"
+   }
+  },
+  "transparency": 0,
+  "shine": 200
+ },
+ {
+  "attributeId": {
+   "guid": "1DCEAC06-9583-4189-86DA-E76345FCD439"
+  },
+  "name": "厚木板",
+  "materialType": "General",
+  "ambientReflection": 75,
+  "diffuseReflection": 70,
+  "specularReflection": 50,
+  "transparencyAttenuation": 0,
+  "emissionAttenuation": 0,
+  "surfaceColor": {
+   "red": 0.756862745,
+   "green": 0.62745098,
+   "blue": 0.450980392
+  },
+  "specularColor": {
+   "red": 0,
+   "green": 0,
+   "blue": 0
+  },
+  "emissionColor": {
+   "red": 0,
+   "green": 0,
+   "blue": 0
+  },
+  "fillId": {
+   "error": {
+    "code": 6100,
+    "message": "Attribute is missing"
+   }
+  },
+  "transparency": 0,
+  "shine": 200
+ },
+ {
+  "attributeId": {
+   "guid": "A320966F-5869-440F-92C0-8348737AB9EE"
+  },
+  "name": "默认墙",
+  "materialType": "General",
+  "ambientReflection": 75,
+  "diffuseReflection": 70,
+  "specularReflection": 50,
+  "transparencyAttenuation": 0,
+  "emissionAttenuation": 0,
+  "surfaceColor": {
+   "red": 0.501960784,
+   "green": 0.501960784,
+   "blue": 0.501960784
+  },
+  "specularColor": {
+   "red": 0,
+   "green": 0,
+   "blue": 0
+  },
+  "emissionColor": {
+   "red": 0,
+   "green": 0,
+   "blue": 0
+  },
+  "fillId": {
+   "error": {
+    "code": 6100,
+    "message": "Attribute is missing"
+   }
+  },
+  "transparency": 0,
+  "shine": 200
+ },
+ {
+  "attributeId": {
+   "guid": "BF78EE00-CE38-43AD-B212-9AD81C0D58A9"
+  },
+  "name": "PRF",
+  "materialType": "General",
+  "ambientReflection": 70,
+  "diffuseReflection": 70,
+  "specularReflection": 0,
+  "transparencyAttenuation": 0,
+  "emissionAttenuation": 0,
+  "surfaceColor": {
+   "red": 0.556862745,
+   "green": 0.639215686,
+   "blue": 0.658823529
+  },
+  "specularColor": {
+   "red": 0.8,
+   "green": 0.8,
+   "blue": 0.8
+  },
+  "emissionColor": {
+   "red": 0,
+   "green": 0,
+   "blue": 0
+  },
+  "fillId": {
+   "attributeId": {
+    "guid": "65932265-5D69-4F6A-B071-49B3688F036E"
+   }
+  },
+  "transparency": 0,
+  "shine": 0
+ }
+]

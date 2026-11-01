@@ -1,0 +1,8 @@
+# Geometry pipeline (tools/ifc_convert_ios.py). Install into the project venv:
+#   python3 -m venv .venv && .venv/bin/python -m pip install -r requirements.txt
+ifcopenshell>=0.8
+numpy>=1.24
+shapely>=2.1
+pyradiance>=1.3   # Radiance (LBNL) lighting simulation, binaries included
+ezdxf>=1.4       # DXF drawings (MIT)
+pillow>=10       # texture tools (tools/obj_textures.py, tools/pla_textures.py)

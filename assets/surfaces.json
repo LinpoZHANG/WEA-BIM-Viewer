@@ -1,0 +1,2363 @@
+{
+ "format": "WEA_SURFACES_V1",
+ "source": "HY01_8539.obj",
+ "units": "m",
+ "textureFiles": 30,
+ "note": "texture sizes / orientation derived from Archicad OBJ texture coordinates (area-weighted medians); applied by triplanar projection in the viewer",
+ "materials": {
+  "AIR-空气-无色": {
+   "mtl": {
+    "Kd": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "Ks": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "Ns": 0.0,
+    "d": 0.0
+   },
+   "archicad": {
+    "ambientReflection": 0,
+    "diffuseReflection": 0,
+    "specularReflection": 0,
+    "transparency": 100,
+    "shine": 0,
+    "emissionAttenuation": 0,
+    "color": [
+     1,
+     1,
+     1
+    ]
+   }
+  },
+  "WD-白橡木-原木色-直纹": {
+   "mtl": {
+    "Kd": [
+     0.587451,
+     0.538039,
+     0.463922
+    ],
+    "Ks": [
+     0.2,
+     0.2,
+     0.2
+    ],
+    "Ns": 0.0
+   },
+   "archicad": {
+    "ambientReflection": 70,
+    "diffuseReflection": 70,
+    "specularReflection": 25,
+    "transparency": 0,
+    "shine": 0,
+    "emissionAttenuation": 0,
+    "color": [
+     0.839215686,
+     0.768627451,
+     0.662745098
+    ],
+    "texture": "WD-橡木-原木色-直纹"
+   },
+   "texture": {
+    "id": "4a1a49b0b89b",
+    "file": "textures/4a1a49b0b89b.jpg",
+    "source": "WD-橡木-原木色-直纹.jpg",
+    "px": [
+     1921,
+     3842
+    ],
+    "average": [
+     0.8576,
+     0.737,
+     0.6116
+    ]
+   },
+   "horizontal": {
+    "sizeU": 1.772,
+    "sizeV": 3.544,
+    "angle": 0.0,
+    "area_m2": 122.69
+   },
+   "vertical": {
+    "sizeU": 1.772,
+    "sizeV": 3.544,
+    "rotation": 0,
+    "area_m2": 351.93
+   }
+  },
+  "PB-烤漆板-白色": {
+   "mtl": {
+    "Kd": [
+     0.7,
+     0.7,
+     0.7
+    ],
+    "Ks": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "Ns": 0.0
+   },
+   "archicad": {
+    "ambientReflection": 70,
+    "diffuseReflection": 70,
+    "specularReflection": 0,
+    "transparency": 0,
+    "shine": 0,
+    "emissionAttenuation": 0,
+    "color": [
+     1,
+     1,
+     1
+    ],
+    "texture": "PB-亚克力-白色"
+   },
+   "texture": {
+    "id": "701e03dcb7fc",
+    "file": "textures/701e03dcb7fc.jpg",
+    "source": "PB-亚克力-白色.jpg",
+    "px": [
+     2686,
+     3583
+    ],
+    "average": [
+     0.9647,
+     0.9647,
+     0.9647
+    ]
+   },
+   "horizontal": {
+    "sizeU": 1.218,
+    "sizeV": 1.6247,
+    "angle": 0.0,
+    "area_m2": 61.39
+   },
+   "vertical": {
+    "sizeU": 1.218,
+    "sizeV": 1.6248,
+    "rotation": 0,
+    "area_m2": 326.51
+   }
+  },
+  "AL-铝板-灰色": {
+   "mtl": {
+    "Kd": [
+     0.499608,
+     0.499608,
+     0.499608
+    ],
+    "Ks": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "Ns": 0.0
+   },
+   "archicad": {
+    "ambientReflection": 70,
+    "diffuseReflection": 70,
+    "specularReflection": 0,
+    "transparency": 0,
+    "shine": 0,
+    "emissionAttenuation": 0,
+    "color": [
+     0.71372549,
+     0.71372549,
+     0.71372549
+    ],
+    "texture": "AL-铝-浅灰"
+   },
+   "texture": {
+    "id": "c6e82b31a9a5",
+    "file": "textures/c6e82b31a9a5.jpg",
+    "source": "AL-铝-浅灰.jpg",
+    "px": [
+     2000,
+     2000
+    ],
+    "average": [
+     0.8707,
+     0.8707,
+     0.8707
+    ]
+   },
+   "horizontal": {
+    "sizeU": 2.0,
+    "sizeV": 1.3476,
+    "angle": 90.0,
+    "area_m2": 13.82
+   },
+   "vertical": {
+    "sizeU": 2.0,
+    "sizeV": 1.3476,
+    "rotation": 0,
+    "area_m2": 72.6
+   }
+  },
+  "CT-岩板-千层岩岩板": {
+   "mtl": {
+    "Kd": [
+     0.7,
+     0.7,
+     0.7
+    ],
+    "Ks": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "Ns": 0.0
+   },
+   "archicad": {
+    "ambientReflection": 70,
+    "diffuseReflection": 70,
+    "specularReflection": 0,
+    "transparency": 0,
+    "shine": 0,
+    "emissionAttenuation": 0,
+    "color": [
+     1,
+     1,
+     1
+    ],
+    "texture": "ST-洞石-米黄色-罗马洞"
+   },
+   "texture": {
+    "id": "c117854c711e",
+    "file": "textures/c117854c711e.jpg",
+    "source": "ST-洞石-米黄色-罗马洞.jpg",
+    "px": [
+     2953,
+     5906
+    ],
+    "average": [
+     0.9068,
+     0.8718,
+     0.8202
+    ]
+   },
+   "horizontal": {
+    "sizeU": 2.0,
+    "sizeV": 4.0,
+    "angle": 90.0,
+    "area_m2": 26.2
+   },
+   "vertical": {
+    "sizeU": 2.0,
+    "sizeV": 4.0,
+    "rotation": 0,
+    "area_m2": 59.84
+   }
+  },
+  "ST-水磨石-白色": {
+   "mtl": {
+    "Kd": [
+     0.631373,
+     0.631373,
+     0.631373
+    ],
+    "Ks": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "Ns": 0.0
+   },
+   "archicad": {
+    "ambientReflection": 70,
+    "diffuseReflection": 70,
+    "specularReflection": 0,
+    "transparency": 0,
+    "shine": 0,
+    "emissionAttenuation": 0,
+    "color": [
+     0.901960784,
+     0.901960784,
+     0.901960784
+    ],
+    "texture": "ST-水磨石-浅灰色-大斑点"
+   },
+   "texture": {
+    "id": "5fd48d687751",
+    "file": "textures/5fd48d687751.jpg",
+    "source": "ST-水磨石-浅灰色-大斑点.jpg",
+    "px": [
+     800,
+     800
+    ],
+    "average": [
+     0.9006,
+     0.9005,
+     0.9004
+    ]
+   },
+   "horizontal": {
+    "sizeU": 2.0,
+    "sizeV": 1.0,
+    "angle": 0.0,
+    "area_m2": 289.31
+   },
+   "vertical": {
+    "sizeU": 2.0,
+    "sizeV": 1.0,
+    "rotation": 0,
+    "area_m2": 168.39
+   }
+  },
+  "GB-水泥板-灰色": {
+   "mtl": {
+    "Kd": [
+     0.480392,
+     0.480392,
+     0.480392
+    ],
+    "Ks": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "Ns": 0.0
+   },
+   "archicad": {
+    "ambientReflection": 70,
+    "diffuseReflection": 70,
+    "specularReflection": 0,
+    "transparency": 0,
+    "shine": 0,
+    "emissionAttenuation": 0,
+    "color": [
+     0.68627451,
+     0.68627451,
+     0.68627451
+    ]
+   }
+  },
+  "PT-艺术涂料-暖色": {
+   "mtl": {
+    "Kd": [
+     0.650588,
+     0.642353,
+     0.625882
+    ],
+    "Ks": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "Ns": 0.0
+   },
+   "archicad": {
+    "ambientReflection": 70,
+    "diffuseReflection": 70,
+    "specularReflection": 0,
+    "transparency": 0,
+    "shine": 0,
+    "emissionAttenuation": 0,
+    "color": [
+     0.929411765,
+     0.917647059,
+     0.894117647
+    ],
+    "texture": "PT-01 艺术涂料"
+   },
+   "texture": {
+    "id": "d1a02a4a2de8",
+    "file": "textures/d1a02a4a2de8.jpg",
+    "source": "PT-01 艺术涂料.jpg",
+    "px": [
+     1968,
+     1968
+    ],
+    "average": [
+     0.8969,
+     0.885,
+     0.8599
+    ]
+   },
+   "horizontal": {
+    "sizeU": 1.0,
+    "sizeV": 1.0,
+    "angle": 90.0,
+    "area_m2": 0.39
+   },
+   "vertical": {
+    "sizeU": 1.0,
+    "sizeV": 1.0,
+    "rotation": 0,
+    "area_m2": 37.15
+   }
+  },
+  "CON-混凝土-灰色": {
+   "mtl": {
+    "Kd": [
+     0.527059,
+     0.527059,
+     0.527059
+    ],
+    "Ks": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "Ns": 0.0
+   },
+   "archicad": {
+    "ambientReflection": 100,
+    "diffuseReflection": 70,
+    "specularReflection": 0,
+    "transparency": 0,
+    "shine": 0,
+    "emissionAttenuation": 0,
+    "color": [
+     0.752941176,
+     0.752941176,
+     0.752941176
+    ],
+    "texture": "CON 混凝土-19"
+   },
+   "texture": {
+    "id": "523cc2bdffd7",
+    "file": "textures/523cc2bdffd7.jpg",
+    "source": "CON 混凝土-19.jpg",
+    "px": [
+     900,
+     900
+    ],
+    "average": [
+     0.7379,
+     0.7379,
+     0.738
+    ]
+   },
+   "horizontal": {
+    "sizeU": 1.0,
+    "sizeV": 1.0,
+    "angle": 0.0,
+    "area_m2": 1232.54
+   },
+   "vertical": {
+    "sizeU": 1.0,
+    "sizeV": 1.0,
+    "rotation": 0,
+    "area_m2": 708.44
+   }
+  },
+  "GB-纸面石膏板-白色": {
+   "mtl": {
+    "Kd": [
+     0.7,
+     0.7,
+     0.7
+    ],
+    "Ks": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "Ns": 0.0
+   },
+   "archicad": {
+    "ambientReflection": 70,
+    "diffuseReflection": 70,
+    "specularReflection": 0,
+    "transparency": 0,
+    "shine": 0,
+    "emissionAttenuation": 0,
+    "color": [
+     1,
+     1,
+     1
+    ],
+    "texture": "纸面石膏板"
+   },
+   "texture": {
+    "id": "52dca20a75e9",
+    "file": "textures/52dca20a75e9.jpg",
+    "source": "纸面石膏板.jpg",
+    "px": [
+     564,
+     564
+    ],
+    "average": [
+     0.9365,
+     0.9365,
+     0.9365
+    ]
+   },
+   "horizontal": {
+    "sizeU": 1.0,
+    "sizeV": 1.0,
+    "angle": 90.0,
+    "area_m2": 1.73
+   },
+   "vertical": {
+    "sizeU": 1.0,
+    "sizeV": 1.0,
+    "rotation": 0,
+    "area_m2": 284.16
+   }
+  },
+  "水泥砂浆": {
+   "mtl": {
+    "Kd": [
+     0.458431,
+     0.458431,
+     0.458431
+    ],
+    "Ks": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "Ns": 0.0
+   },
+   "archicad": {
+    "ambientReflection": 70,
+    "diffuseReflection": 70,
+    "specularReflection": 0,
+    "transparency": 0,
+    "shine": 0,
+    "emissionAttenuation": 0,
+    "color": [
+     0.654901961,
+     0.654901961,
+     0.654901961
+    ],
+    "texture": "FUN-水泥砂浆"
+   },
+   "texture": {
+    "id": "6df72a6a82ef",
+    "file": "textures/6df72a6a82ef.jpg",
+    "source": "FUN-水泥砂浆.jpg",
+    "px": [
+     845,
+     845
+    ],
+    "average": [
+     0.5741,
+     0.5741,
+     0.5741
+    ]
+   },
+   "horizontal": {
+    "sizeU": 1.0,
+    "sizeV": 1.0,
+    "angle": 0.0,
+    "area_m2": 433.16
+   },
+   "vertical": {
+    "sizeU": 1.0,
+    "sizeV": 1.0,
+    "rotation": 0,
+    "area_m2": 1.41
+   }
+  },
+  "FUN-保温层-玻璃棉保温": {
+   "mtl": {
+    "Kd": [
+     0.590196,
+     0.546275,
+     0.41451
+    ],
+    "Ks": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "Ns": 0.0
+   },
+   "archicad": {
+    "ambientReflection": 70,
+    "diffuseReflection": 70,
+    "specularReflection": 0,
+    "transparency": 0,
+    "shine": 0,
+    "emissionAttenuation": 0,
+    "color": [
+     0.843137255,
+     0.780392157,
+     0.592156863
+    ],
+    "texture": "隔离层 - 玻璃纤维 -opt"
+   },
+   "texture": {
+    "id": "049504193087",
+    "file": "textures/049504193087.jpg",
+    "source": "隔离层 - 玻璃纤维 -opt.jpg",
+    "px": [
+     500,
+     500
+    ],
+    "average": [
+     0.8654,
+     0.7817,
+     0.5585
+    ]
+   },
+   "horizontal": {
+    "sizeU": 1.0,
+    "sizeV": 1.0,
+    "angle": 90.0,
+    "area_m2": 4.02
+   },
+   "vertical": {
+    "sizeU": 1.0,
+    "sizeV": 1.0,
+    "rotation": 0,
+    "area_m2": 82.8
+   }
+  },
+  "STL-钢结构-深灰色": {
+   "mtl": {
+    "Kd": [
+     0.595686,
+     0.595686,
+     0.595686
+    ],
+    "Ks": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "Ns": 0.0
+   },
+   "archicad": {
+    "ambientReflection": 70,
+    "diffuseReflection": 70,
+    "specularReflection": 0,
+    "transparency": 0,
+    "shine": 0,
+    "emissionAttenuation": 0,
+    "color": [
+     0.850980392,
+     0.850980392,
+     0.850980392
+    ],
+    "texture": "MT-铁-灰色"
+   },
+   "texture": {
+    "id": "db473b0f451d",
+    "file": "textures/db473b0f451d.jpg",
+    "source": "MT-铁-灰色.jpg",
+    "px": [
+     3000,
+     3000
+    ],
+    "average": [
+     0.7826,
+     0.7903,
+     0.8025
+    ]
+   },
+   "horizontal": {
+    "sizeU": 2.0,
+    "sizeV": 2.0,
+    "angle": 90.0,
+    "area_m2": 2.23
+   },
+   "vertical": {
+    "sizeU": 2.0,
+    "sizeV": 2.0,
+    "rotation": 0,
+    "area_m2": 292.03
+   }
+  },
+  "PRF": {
+   "mtl": {
+    "Kd": [
+     0.389804,
+     0.447451,
+     0.461176
+    ],
+    "Ks": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "Ns": 0.0
+   },
+   "archicad": {
+    "ambientReflection": 70,
+    "diffuseReflection": 70,
+    "specularReflection": 0,
+    "transparency": 0,
+    "shine": 0,
+    "emissionAttenuation": 0,
+    "color": [
+     0.556862745,
+     0.639215686,
+     0.658823529
+    ]
+   }
+  },
+  "AL-铝板-银白": {
+   "mtl": {
+    "Kd": [
+     0.499608,
+     0.499608,
+     0.499608
+    ],
+    "Ks": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "Ns": 0.0
+   },
+   "archicad": {
+    "ambientReflection": 70,
+    "diffuseReflection": 70,
+    "specularReflection": 0,
+    "transparency": 0,
+    "shine": 0,
+    "emissionAttenuation": 0,
+    "color": [
+     0.71372549,
+     0.71372549,
+     0.71372549
+    ],
+    "texture": "AL-铝-银白"
+   },
+   "texture": {
+    "id": "bb0bfaf8f0e0",
+    "file": "textures/bb0bfaf8f0e0.jpg",
+    "source": "AL-铝-银白.jpg",
+    "px": [
+     2000,
+     2000
+    ],
+    "average": [
+     0.9592,
+     0.9592,
+     0.9592
+    ]
+   },
+   "horizontal": {
+    "sizeU": 2.0,
+    "sizeV": 1.3595,
+    "angle": 0.0,
+    "area_m2": 65.54
+   },
+   "vertical": {
+    "sizeU": 2.0,
+    "sizeV": 1.3476,
+    "rotation": 0,
+    "area_m2": 263.07
+   }
+  },
+  "DW-钢制门窗": {
+   "mtl": {
+    "Kd": [
+     0.351373,
+     0.351373,
+     0.351373
+    ],
+    "Ks": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "Ns": 0.0
+   },
+   "archicad": {
+    "ambientReflection": 70,
+    "diffuseReflection": 70,
+    "specularReflection": 0,
+    "transparency": 0,
+    "shine": 0,
+    "emissionAttenuation": 0,
+    "color": [
+     0.501960784,
+     0.501960784,
+     0.501960784
+    ]
+   }
+  },
+  "DW-铝合金门窗": {
+   "mtl": {
+    "Kd": [
+     0.351373,
+     0.351373,
+     0.351373
+    ],
+    "Ks": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "Ns": 0.0
+   },
+   "archicad": {
+    "ambientReflection": 70,
+    "diffuseReflection": 70,
+    "specularReflection": 0,
+    "transparency": 0,
+    "shine": 0,
+    "emissionAttenuation": 0,
+    "color": [
+     0.501960784,
+     0.501960784,
+     0.501960784
+    ]
+   }
+  },
+  "GL-清玻璃-无色": {
+   "mtl": {
+    "Kd": [
+     0.647843,
+     0.667059,
+     0.669804
+    ],
+    "Ks": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "Ns": 0.0,
+    "d": 0.25
+   },
+   "archicad": {
+    "ambientReflection": 70,
+    "diffuseReflection": 70,
+    "specularReflection": 0,
+    "transparency": 75,
+    "shine": 0,
+    "emissionAttenuation": 0,
+    "color": [
+     0.925490196,
+     0.952941176,
+     0.956862745
+    ]
+   }
+  },
+  "MAS-普通砖-红色": {
+   "mtl": {
+    "Kd": [
+     0.351373,
+     0.175686,
+     0.175686
+    ],
+    "Ks": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "Ns": 0.0
+   },
+   "archicad": {
+    "ambientReflection": 70,
+    "diffuseReflection": 70,
+    "specularReflection": 0,
+    "transparency": 0,
+    "shine": 0,
+    "emissionAttenuation": 0,
+    "color": [
+     0.501960784,
+     0.250980392,
+     0.250980392
+    ],
+    "texture": "MAS 加气混凝土砌块-1"
+   },
+   "texture": {
+    "id": "69f93a89824c",
+    "file": "textures/69f93a89824c.jpg",
+    "source": "MAS 加气混凝土砌块-1.jpg",
+    "px": [
+     1024,
+     1024
+    ],
+    "average": [
+     0.5887,
+     0.5758,
+     0.5652
+    ]
+   },
+   "horizontal": {
+    "sizeU": 1.0,
+    "sizeV": 1.0,
+    "angle": 90.0,
+    "area_m2": 24.84
+   },
+   "vertical": {
+    "sizeU": 1.0,
+    "sizeV": 1.0,
+    "rotation": 0,
+    "area_m2": 243.09
+   }
+  },
+  "MAS-混凝土砌块-灰色": {
+   "mtl": {
+    "Kd": [
+     0.351373,
+     0.351373,
+     0.351373
+    ],
+    "Ks": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "Ns": 0.0
+   },
+   "archicad": {
+    "ambientReflection": 70,
+    "diffuseReflection": 70,
+    "specularReflection": 0,
+    "transparency": 0,
+    "shine": 0,
+    "emissionAttenuation": 0,
+    "color": [
+     0.501960784,
+     0.501960784,
+     0.501960784
+    ],
+    "texture": "MAS 加气混凝土砌块-1"
+   },
+   "texture": {
+    "id": "69f93a89824c",
+    "file": "textures/69f93a89824c.jpg",
+    "source": "MAS 加气混凝土砌块-1.jpg",
+    "px": [
+     1024,
+     1024
+    ],
+    "average": [
+     0.5887,
+     0.5758,
+     0.5652
+    ]
+   },
+   "horizontal": {
+    "sizeU": 1.0,
+    "sizeV": 1.0,
+    "angle": 90.0,
+    "area_m2": 0.75
+   },
+   "vertical": {
+    "sizeU": 1.0,
+    "sizeV": 1.0,
+    "rotation": 0,
+    "area_m2": 28.61
+   }
+  },
+  "01-净水": {
+   "mtl": {
+    "Kd": [
+     0.483137,
+     0.538039,
+     0.609412
+    ],
+    "Ks": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "Ns": 2.0
+   },
+   "archicad": {
+    "ambientReflection": 75,
+    "diffuseReflection": 70,
+    "specularReflection": 50,
+    "transparency": 0,
+    "shine": 200,
+    "emissionAttenuation": 0,
+    "color": [
+     0.690196078,
+     0.768627451,
+     0.870588235
+    ]
+   }
+  },
+  "04-入户水": {
+   "mtl": {
+    "Kd": [
+     0.351373,
+     0.351373,
+     0.7
+    ],
+    "Ks": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "Ns": 2.0
+   },
+   "archicad": {
+    "ambientReflection": 75,
+    "diffuseReflection": 70,
+    "specularReflection": 50,
+    "transparency": 0,
+    "shine": 200,
+    "emissionAttenuation": 0,
+    "color": [
+     0.501960784,
+     0.501960784,
+     1
+    ]
+   }
+  },
+  "新风回风": {
+   "mtl": {
+    "Kd": [
+     0.631373,
+     0.225098,
+     0.0054902
+    ],
+    "Ks": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "Ns": 2.0
+   },
+   "archicad": {
+    "ambientReflection": 75,
+    "diffuseReflection": 70,
+    "specularReflection": 50,
+    "transparency": 0,
+    "shine": 200,
+    "emissionAttenuation": 0,
+    "color": [
+     0.901960784,
+     0.321568627,
+     0.007843137
+    ]
+   }
+  },
+  "03-热水": {
+   "mtl": {
+    "Kd": [
+     0.7,
+     0.230588,
+     0.230588
+    ],
+    "Ks": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "Ns": 2.0
+   },
+   "archicad": {
+    "ambientReflection": 75,
+    "diffuseReflection": 70,
+    "specularReflection": 50,
+    "transparency": 0,
+    "shine": 200,
+    "emissionAttenuation": 0,
+    "color": [
+     1,
+     0.329411765,
+     0.329411765
+    ]
+   }
+  },
+  "02-冷水": {
+   "mtl": {
+    "Kd": [
+     0.107059,
+     0.137255,
+     0.42549
+    ],
+    "Ks": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "Ns": 2.0
+   },
+   "archicad": {
+    "ambientReflection": 75,
+    "diffuseReflection": 70,
+    "specularReflection": 50,
+    "transparency": 0,
+    "shine": 200,
+    "emissionAttenuation": 0,
+    "color": [
+     0.152941176,
+     0.196078431,
+     0.607843137
+    ]
+   }
+  },
+  "不锈钢": {
+   "mtl": {
+    "Kd": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "Ks": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "Ns": 2.0
+   },
+   "archicad": {
+    "ambientReflection": 75,
+    "diffuseReflection": 70,
+    "specularReflection": 50,
+    "transparency": 0,
+    "shine": 200,
+    "emissionAttenuation": 0,
+    "color": [
+     0,
+     0,
+     0
+    ]
+   }
+  },
+  "空调送风": {
+   "mtl": {
+    "Kd": [
+     0.27451,
+     0.40902,
+     0.650588
+    ],
+    "Ks": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "Ns": 2.0
+   },
+   "archicad": {
+    "ambientReflection": 75,
+    "diffuseReflection": 70,
+    "specularReflection": 50,
+    "transparency": 0,
+    "shine": 200,
+    "emissionAttenuation": 0,
+    "color": [
+     0.392156863,
+     0.584313725,
+     0.929411765
+    ]
+   }
+  },
+  "新风送风": {
+   "mtl": {
+    "Kd": [
+     0.370588,
+     0.56549,
+     0.645098
+    ],
+    "Ks": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "Ns": 2.0
+   },
+   "archicad": {
+    "ambientReflection": 75,
+    "diffuseReflection": 70,
+    "specularReflection": 50,
+    "transparency": 0,
+    "shine": 200,
+    "emissionAttenuation": 0,
+    "color": [
+     0.529411765,
+     0.807843137,
+     0.921568627
+    ]
+   }
+  },
+  "默认": {
+   "mtl": {
+    "Kd": [
+     0.348627,
+     0.348627,
+     0.348627
+    ],
+    "Ks": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "Ns": 2.0
+   },
+   "archicad": {
+    "ambientReflection": 75,
+    "diffuseReflection": 70,
+    "specularReflection": 50,
+    "transparency": 0,
+    "shine": 200,
+    "emissionAttenuation": 0,
+    "color": [
+     0.498039216,
+     0.498039216,
+     0.498039216
+    ]
+   }
+  },
+  "金属": {
+   "mtl": {
+    "Kd": [
+     0.444706,
+     0.441961,
+     0.439216
+    ],
+    "Ks": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "Ns": 2.0
+   },
+   "archicad": {
+    "ambientReflection": 75,
+    "diffuseReflection": 70,
+    "specularReflection": 50,
+    "transparency": 0,
+    "shine": 200,
+    "emissionAttenuation": 0,
+    "color": [
+     0.635294118,
+     0.631372549,
+     0.62745098
+    ]
+   }
+  },
+  "新风机": {
+   "mtl": {
+    "Kd": [
+     0.7,
+     0.7,
+     0.7
+    ],
+    "Ks": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "Ns": 2.0
+   },
+   "archicad": {
+    "ambientReflection": 75,
+    "diffuseReflection": 70,
+    "specularReflection": 50,
+    "transparency": 0,
+    "shine": 200,
+    "emissionAttenuation": 0,
+    "color": [
+     1,
+     1,
+     1
+    ]
+   }
+  },
+  "Daikin-Metal-Grill": {
+   "mtl": {
+    "Kd": [
+     0.518824,
+     0.513333,
+     0.507843
+    ],
+    "Ks": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "Ns": 2.0,
+    "d": 0.0
+   },
+   "archicad": {
+    "ambientReflection": 75,
+    "diffuseReflection": 70,
+    "specularReflection": 50,
+    "transparency": 100,
+    "shine": 200,
+    "emissionAttenuation": 0,
+    "color": [
+     0.741176471,
+     0.733333333,
+     0.725490196
+    ]
+   }
+  },
+  "PT-乳胶漆-白色": {
+   "mtl": {
+    "Kd": [
+     0.7,
+     0.7,
+     0.7
+    ],
+    "Ks": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "Ns": 0.0
+   },
+   "archicad": {
+    "ambientReflection": 70,
+    "diffuseReflection": 70,
+    "specularReflection": 0,
+    "transparency": 0,
+    "shine": 0,
+    "emissionAttenuation": 0,
+    "color": [
+     1,
+     1,
+     1
+    ],
+    "texture": "pt-白色乳胶漆"
+   },
+   "texture": {
+    "id": "15665a301f77",
+    "file": "textures/15665a301f77.jpg",
+    "source": "pt-白色乳胶漆.jpg",
+    "px": [
+     3200,
+     3200
+    ],
+    "average": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "horizontal": {
+    "sizeU": 1.328,
+    "sizeV": 1.328,
+    "angle": 0.0,
+    "area_m2": 323.41
+   },
+   "vertical": {
+    "sizeU": 1.328,
+    "sizeV": 1.328,
+    "rotation": 0,
+    "area_m2": 132.9
+   }
+  },
+  "胶粘剂": {
+   "mtl": {
+    "Kd": [
+     0.483137,
+     0.496863,
+     0.485882
+    ],
+    "Ks": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "Ns": 0.0
+   },
+   "archicad": {
+    "ambientReflection": 70,
+    "diffuseReflection": 70,
+    "specularReflection": 0,
+    "transparency": 0,
+    "shine": 0,
+    "emissionAttenuation": 0,
+    "color": [
+     0.690196078,
+     0.709803922,
+     0.694117647
+    ],
+    "texture": "FUN-素水泥膏"
+   },
+   "texture": {
+    "id": "beda07b0aced",
+    "file": "textures/beda07b0aced.jpg",
+    "source": "FUN-素水泥膏.jpg",
+    "px": [
+     564,
+     846
+    ],
+    "average": [
+     0.6785,
+     0.6857,
+     0.6754
+    ]
+   },
+   "horizontal": {
+    "sizeU": 1.0,
+    "sizeV": 1.5,
+    "angle": 90.0,
+    "area_m2": 1.57
+   },
+   "vertical": {
+    "sizeU": 1.0,
+    "sizeV": 1.5,
+    "rotation": 0,
+    "area_m2": 373.59
+   }
+  },
+  "MT-不锈钢-枪灰色": {
+   "mtl": {
+    "Kd": [
+     0.208627,
+     0.208627,
+     0.208627
+    ],
+    "Ks": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "Ns": 0.0
+   },
+   "archicad": {
+    "ambientReflection": 70,
+    "diffuseReflection": 70,
+    "specularReflection": 0,
+    "transparency": 0,
+    "shine": 0,
+    "emissionAttenuation": 0,
+    "color": [
+     0.298039216,
+     0.298039216,
+     0.298039216
+    ],
+    "texture": "MT-拉丝不锈钢-深灰色"
+   },
+   "texture": {
+    "id": "c5afa2343ef4",
+    "file": "textures/c5afa2343ef4.jpg",
+    "source": "MT-拉丝不锈钢-深灰色.jpg",
+    "px": [
+     564,
+     1002
+    ],
+    "average": [
+     0.1034,
+     0.1034,
+     0.1034
+    ]
+   },
+   "horizontal": {
+    "sizeU": 1.5,
+    "sizeV": 2.6649,
+    "angle": 90.0,
+    "area_m2": 14.87
+   },
+   "vertical": {
+    "sizeU": 1.5,
+    "sizeV": 2.6649,
+    "rotation": 90,
+    "area_m2": 34.58
+   }
+  },
+  "PT-艺术涂料-深灰色": {
+   "mtl": {
+    "Kd": [
+     0.650588,
+     0.642353,
+     0.625882
+    ],
+    "Ks": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "Ns": 0.0
+   },
+   "archicad": {
+    "ambientReflection": 70,
+    "diffuseReflection": 70,
+    "specularReflection": 0,
+    "transparency": 0,
+    "shine": 0,
+    "emissionAttenuation": 0,
+    "color": [
+     0.929411765,
+     0.917647059,
+     0.894117647
+    ],
+    "texture": "PT-无机涂料-深灰色"
+   },
+   "texture": {
+    "id": "d859efd6fea7",
+    "file": "textures/d859efd6fea7.jpg",
+    "source": "PT-无机涂料-深灰色.jpg",
+    "px": [
+     3200,
+     3200
+    ],
+    "average": [
+     0.2285,
+     0.2267,
+     0.2267
+    ]
+   },
+   "horizontal": {
+    "sizeU": 1.0,
+    "sizeV": 1.0,
+    "angle": 90.0,
+    "area_m2": 0.74
+   },
+   "vertical": {
+    "sizeU": 1.0,
+    "sizeV": 1.0,
+    "rotation": 0,
+    "area_m2": 0.09
+   }
+  },
+  "石灰砂浆": {
+   "mtl": {
+    "Kd": [
+     0.483137,
+     0.496863,
+     0.485882
+    ],
+    "Ks": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "Ns": 0.0
+   },
+   "archicad": {
+    "ambientReflection": 70,
+    "diffuseReflection": 70,
+    "specularReflection": 0,
+    "transparency": 0,
+    "shine": 0,
+    "emissionAttenuation": 0,
+    "color": [
+     0.690196078,
+     0.709803922,
+     0.694117647
+    ],
+    "texture": "FUN-素水泥膏"
+   },
+   "texture": {
+    "id": "beda07b0aced",
+    "file": "textures/beda07b0aced.jpg",
+    "source": "FUN-素水泥膏.jpg",
+    "px": [
+     564,
+     846
+    ],
+    "average": [
+     0.6785,
+     0.6857,
+     0.6754
+    ]
+   },
+   "horizontal": {
+    "sizeU": 1.0,
+    "sizeV": 1.5038,
+    "angle": 0.0,
+    "area_m2": 0.14
+   },
+   "vertical": {
+    "sizeU": 1.0,
+    "sizeV": 1.5,
+    "rotation": 0,
+    "area_m2": 4.35
+   }
+  },
+  "WF-实木地板-浅原木色-工字拼": {
+   "mtl": {
+    "Kd": [
+     0.592941,
+     0.540784,
+     0.452941
+    ],
+    "Ks": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "Ns": 0.0
+   },
+   "archicad": {
+    "ambientReflection": 70,
+    "diffuseReflection": 70,
+    "specularReflection": 0,
+    "transparency": 0,
+    "shine": 0,
+    "emissionAttenuation": 0,
+    "color": [
+     0.847058824,
+     0.77254902,
+     0.647058824
+    ],
+    "texture": "WF-实木地板-浅原木色-工字拼"
+   },
+   "texture": {
+    "id": "583dd5df69fe",
+    "file": "textures/583dd5df69fe.jpg",
+    "source": "WF-实木地板-浅原木色-工字拼.jpg",
+    "px": [
+     3508,
+     4978
+    ],
+    "average": [
+     0.7885,
+     0.7198,
+     0.6287
+    ]
+   },
+   "horizontal": {
+    "sizeU": 1.0,
+    "sizeV": 1.0,
+    "angle": 0.0,
+    "area_m2": 143.65
+   },
+   "vertical": {
+    "sizeU": 1.0,
+    "sizeV": 1.0,
+    "rotation": 0,
+    "area_m2": 4.69
+   }
+  },
+  "ST-大理石-米黄色-百里香": {
+   "mtl": {
+    "Kd": [
+     0.631373,
+     0.631373,
+     0.631373
+    ],
+    "Ks": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "Ns": 0.0
+   },
+   "archicad": {
+    "ambientReflection": 70,
+    "diffuseReflection": 70,
+    "specularReflection": 0,
+    "transparency": 0,
+    "shine": 0,
+    "emissionAttenuation": 0,
+    "color": [
+     0.901960784,
+     0.901960784,
+     0.901960784
+    ],
+    "texture": "暖灰色大理石贴图ID_1124207488"
+   },
+   "texture": {
+    "id": "eb80bbedd81a",
+    "file": "textures/eb80bbedd81a.jpg",
+    "source": "暖灰色大理石贴图ID_1124207488.jpg",
+    "px": [
+     1920,
+     4437
+    ],
+    "average": [
+     0.8377,
+     0.8143,
+     0.7855
+    ]
+   },
+   "horizontal": {
+    "sizeU": 0.5,
+    "sizeV": 1.1555,
+    "angle": 90.0,
+    "area_m2": 12.08
+   },
+   "vertical": {
+    "sizeU": 0.5,
+    "sizeV": 1.1555,
+    "rotation": 90,
+    "area_m2": 5.69
+   }
+  },
+  "UP-硬包-浅色": {
+   "mtl": {
+    "Kd": [
+     0.7,
+     0.7,
+     0.7
+    ],
+    "Ks": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "Ns": 0.0
+   },
+   "archicad": {
+    "ambientReflection": 70,
+    "diffuseReflection": 70,
+    "specularReflection": 0,
+    "transparency": 0,
+    "shine": 0,
+    "emissionAttenuation": 0,
+    "color": [
+     1,
+     1,
+     1
+    ],
+    "texture": "up-浅色软包"
+   },
+   "texture": {
+    "id": "c18bacc5070a",
+    "file": "textures/c18bacc5070a.jpg",
+    "source": "up-浅色软包.jpg",
+    "px": [
+     1480,
+     2392
+    ],
+    "average": [
+     0.9128,
+     0.8931,
+     0.8717
+    ]
+   },
+   "horizontal": {
+    "sizeU": 2.0,
+    "sizeV": 3.2349,
+    "angle": 90.0,
+    "area_m2": 0.97
+   },
+   "vertical": {
+    "sizeU": 2.0,
+    "sizeV": 3.2324,
+    "rotation": 0,
+    "area_m2": 43.67
+   }
+  },
+  "TIM-结构木-原木色": {
+   "mtl": {
+    "Kd": [
+     0.636863,
+     0.546275,
+     0.378824
+    ],
+    "Ks": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "Ns": 0.0
+   },
+   "archicad": {
+    "ambientReflection": 70,
+    "diffuseReflection": 70,
+    "specularReflection": 0,
+    "transparency": 0,
+    "shine": 0,
+    "emissionAttenuation": 0,
+    "color": [
+     0.909803922,
+     0.780392157,
+     0.541176471
+    ],
+    "texture": "WD-橡木-原木色-直纹"
+   },
+   "texture": {
+    "id": "4a1a49b0b89b",
+    "file": "textures/4a1a49b0b89b.jpg",
+    "source": "WD-橡木-原木色-直纹.jpg",
+    "px": [
+     1921,
+     3842
+    ],
+    "average": [
+     0.8576,
+     0.737,
+     0.6116
+    ]
+   },
+   "horizontal": {
+    "sizeU": 1.218,
+    "sizeV": 1.218,
+    "angle": 90.0,
+    "area_m2": 0.35
+   },
+   "vertical": {
+    "sizeU": 1.218,
+    "sizeV": 1.218,
+    "rotation": 0,
+    "area_m2": 3.56
+   }
+  },
+  "PT-白色-防水涂料": {
+   "mtl": {
+    "Kd": [
+     0.7,
+     0.7,
+     0.7
+    ],
+    "Ks": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "Ns": 0.0
+   },
+   "archicad": {
+    "ambientReflection": 70,
+    "diffuseReflection": 70,
+    "specularReflection": 0,
+    "transparency": 0,
+    "shine": 0,
+    "emissionAttenuation": 0,
+    "color": [
+     1,
+     1,
+     1
+    ],
+    "texture": "PT-无机涂料-白色"
+   },
+   "texture": {
+    "id": "4f2e37955c60",
+    "file": "textures/4f2e37955c60.jpg",
+    "source": "PT-无机涂料-白色.jpg",
+    "px": [
+     1328,
+     2000
+    ],
+    "average": [
+     0.9325,
+     0.9325,
+     0.9325
+    ]
+   },
+   "horizontal": {
+    "sizeU": 1.328,
+    "sizeV": 2.0,
+    "angle": 0.0,
+    "area_m2": 90.17
+   },
+   "vertical": {
+    "sizeU": 1.328,
+    "sizeV": 2.0,
+    "rotation": 0,
+    "area_m2": 5.82
+   }
+  },
+  "FA-麻布-条纹": {
+   "mtl": {
+    "Kd": [
+     0.7,
+     0.7,
+     0.7
+    ],
+    "Ks": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "Ns": 0.0
+   },
+   "archicad": {
+    "ambientReflection": 70,
+    "diffuseReflection": 70,
+    "specularReflection": 0,
+    "transparency": 0,
+    "shine": 0,
+    "emissionAttenuation": 0,
+    "color": [
+     1,
+     1,
+     1
+    ],
+    "texture": "FA-棉布-白色"
+   },
+   "texture": {
+    "id": "cb1818c4cc1d",
+    "file": "textures/cb1818c4cc1d.jpg",
+    "source": "FA-棉布-白色.jpg",
+    "px": [
+     6378,
+     7087
+    ],
+    "average": [
+     0.8725,
+     0.8548,
+     0.8411
+    ]
+   },
+   "horizontal": {
+    "sizeU": 1.0,
+    "sizeV": 1.1111,
+    "angle": 90.0,
+    "area_m2": 0.11
+   },
+   "vertical": {
+    "sizeU": 1.0,
+    "sizeV": 1.1112,
+    "rotation": 0,
+    "area_m2": 14.07
+   }
+  },
+  "MR-银镜-银色": {
+   "mtl": {
+    "Kd": [
+     0.7,
+     0.7,
+     0.7
+    ],
+    "Ks": [
+     0.886275,
+     0.886275,
+     0.886275
+    ],
+    "Ns": 0.0
+   },
+   "archicad": {
+    "ambientReflection": 70,
+    "diffuseReflection": 70,
+    "specularReflection": 100,
+    "transparency": 0,
+    "shine": 0,
+    "emissionAttenuation": 0,
+    "color": [
+     1,
+     1,
+     1
+    ],
+    "texture": "MR-银镜"
+   },
+   "texture": {
+    "id": "568767288ba8",
+    "file": "textures/568767288ba8.jpg",
+    "source": "MR-银镜.jpg",
+    "px": [
+     700,
+     700
+    ],
+    "average": [
+     0.7274,
+     0.7274,
+     0.7274
+    ]
+   },
+   "horizontal": {
+    "sizeU": 3.5,
+    "sizeV": 3.4965,
+    "angle": 90.0,
+    "area_m2": 0.08
+   },
+   "vertical": {
+    "sizeU": 3.5,
+    "sizeV": 3.5,
+    "rotation": 0,
+    "area_m2": 11.58
+   }
+  },
+  "GB-细木工板-黄色": {
+   "mtl": {
+    "Kd": [
+     0.601176,
+     0.527059,
+     0.40902
+    ],
+    "Ks": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "Ns": 0.0
+   },
+   "archicad": {
+    "ambientReflection": 70,
+    "diffuseReflection": 70,
+    "specularReflection": 0,
+    "transparency": 0,
+    "shine": 0,
+    "emissionAttenuation": 0,
+    "color": [
+     0.858823529,
+     0.752941176,
+     0.584313725
+    ],
+    "texture": "GB-细木工板"
+   },
+   "texture": {
+    "id": "0f23d290d444",
+    "file": "textures/0f23d290d444.jpg",
+    "source": "GB-细木工板.jpg",
+    "px": [
+     16,
+     16
+    ],
+    "average": [
+     0.4011,
+     0.0438,
+     0.4987
+    ]
+   },
+   "horizontal": {
+    "sizeU": 0.3,
+    "sizeV": 0.3,
+    "angle": 0.0,
+    "area_m2": 0.03
+   },
+   "vertical": {
+    "sizeU": 0.3,
+    "sizeV": 0.3,
+    "rotation": 0,
+    "area_m2": 0.37
+   }
+  },
+  "MT-镀锌-本色-花纹": {
+   "mtl": {
+    "Kd": [
+     0.7,
+     0.7,
+     0.7
+    ],
+    "Ks": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "Ns": 0.0
+   },
+   "archicad": {
+    "ambientReflection": 70,
+    "diffuseReflection": 70,
+    "specularReflection": 0,
+    "transparency": 0,
+    "shine": 0,
+    "emissionAttenuation": 0,
+    "color": [
+     1,
+     1,
+     1
+    ]
+   }
+  },
+  "MT-黄铜-表面脏旧": {
+   "mtl": {
+    "Kd": [
+     0.538039,
+     0.40902,
+     0.29098
+    ],
+    "Ks": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "Ns": 0.0
+   },
+   "archicad": {
+    "ambientReflection": 70,
+    "diffuseReflection": 70,
+    "specularReflection": 0,
+    "transparency": 0,
+    "shine": 0,
+    "emissionAttenuation": 0,
+    "color": [
+     0.768627451,
+     0.584313725,
+     0.415686275
+    ],
+    "texture": "MT-铜-黄铜-表面脏旧"
+   },
+   "texture": {
+    "id": "7b6d0d5443ab",
+    "file": "textures/7b6d0d5443ab.jpg",
+    "source": "MT-铜-黄铜-表面脏旧.jpg",
+    "px": [
+     720,
+     540
+    ],
+    "average": [
+     0.6112,
+     0.4828,
+     0.3044
+    ]
+   },
+   "horizontal": {
+    "sizeU": 2.0,
+    "sizeV": 2.0,
+    "angle": 90.0,
+    "area_m2": 0.02
+   },
+   "vertical": {
+    "sizeU": 2.0,
+    "sizeV": 2.0,
+    "rotation": 0,
+    "area_m2": 0.24
+   }
+  },
+  "WD-黑檀木-山纹": {
+   "mtl": {
+    "Kd": [
+     0.0988235,
+     0.0905882,
+     0.0631373
+    ],
+    "Ks": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "Ns": 0.0
+   },
+   "archicad": {
+    "ambientReflection": 70,
+    "diffuseReflection": 70,
+    "specularReflection": 0,
+    "transparency": 0,
+    "shine": 0,
+    "emissionAttenuation": 0,
+    "color": [
+     0.141176471,
+     0.129411765,
+     0.090196078
+    ],
+    "texture": "WD-黑檀木-黑色-山纹"
+   },
+   "texture": {
+    "id": "f0a2b1308428",
+    "file": "textures/f0a2b1308428.jpg",
+    "source": "WD-黑檀木-黑色-山纹.jpg",
+    "px": [
+     1211,
+     1417
+    ],
+    "average": [
+     0.1013,
+     0.1009,
+     0.1076
+    ]
+   },
+   "horizontal": {
+    "sizeU": 1.754,
+    "sizeV": 2.052,
+    "angle": 0.0,
+    "area_m2": 0.24
+   },
+   "vertical": {
+    "sizeU": 1.754,
+    "sizeV": 2.0524,
+    "rotation": 0,
+    "area_m2": 11.19
+   }
+  },
+  "PB-烤漆板-灰色": {
+   "mtl": {
+    "Kd": [
+     0.650588,
+     0.642353,
+     0.625882
+    ],
+    "Ks": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "Ns": 0.0
+   },
+   "archicad": {
+    "ambientReflection": 70,
+    "diffuseReflection": 70,
+    "specularReflection": 0,
+    "transparency": 0,
+    "shine": 0,
+    "emissionAttenuation": 0,
+    "color": [
+     0.929411765,
+     0.917647059,
+     0.894117647
+    ],
+    "texture": "油地毡 - 灰色 r"
+   },
+   "texture": {
+    "id": "92562f1f62a4",
+    "file": "textures/92562f1f62a4.jpg",
+    "source": "油地毡 - 灰色 r.jpg",
+    "px": [
+     2048,
+     2048
+    ],
+    "average": [
+     0.7451,
+     0.7451,
+     0.7451
+    ]
+   },
+   "horizontal": {
+    "sizeU": 1.0,
+    "sizeV": 1.0,
+    "angle": 90.0,
+    "area_m2": 0.13
+   },
+   "vertical": {
+    "sizeU": 1.0,
+    "sizeV": 1.0,
+    "rotation": 0,
+    "area_m2": 23.58
+   }
+  },
+  "WD-白橡木-原木色-锯痕": {
+   "mtl": {
+    "Kd": [
+     0.562745,
+     0.540784,
+     0.485882
+    ],
+    "Ks": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "Ns": 0.0
+   },
+   "archicad": {
+    "ambientReflection": 70,
+    "diffuseReflection": 70,
+    "specularReflection": 0,
+    "transparency": 0,
+    "shine": 0,
+    "emissionAttenuation": 0,
+    "color": [
+     0.803921569,
+     0.77254902,
+     0.694117647
+    ],
+    "texture": "WD-白橡木-原木色-锯痕"
+   },
+   "texture": {
+    "id": "f6140917f938",
+    "file": "textures/f6140917f938.jpg",
+    "source": "WD-白橡木-原木色-锯痕.jpg",
+    "px": [
+     1772,
+     3539
+    ],
+    "average": [
+     0.8239,
+     0.6696,
+     0.4968
+    ]
+   },
+   "horizontal": {
+    "sizeU": 1.772,
+    "sizeV": 3.5336,
+    "angle": 0.0,
+    "area_m2": 0.24
+   },
+   "vertical": {
+    "sizeU": 1.772,
+    "sizeV": 3.539,
+    "rotation": 90,
+    "area_m2": 15.57
+   }
+  },
+  "GL-磨砂玻璃-无色": {
+   "mtl": {
+    "Kd": [
+     0.7,
+     0.7,
+     0.7
+    ],
+    "Ks": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "Ns": 0.0,
+    "d": 0.75
+   },
+   "archicad": {
+    "ambientReflection": 70,
+    "diffuseReflection": 70,
+    "specularReflection": 0,
+    "transparency": 25,
+    "shine": 0,
+    "emissionAttenuation": 0,
+    "color": [
+     1,
+     1,
+     1
+    ],
+    "texture": "GL-磨砂玻璃"
+   },
+   "texture": {
+    "id": "c5bde9fd7971",
+    "file": "textures/c5bde9fd7971.jpg",
+    "source": "GL-磨砂玻璃.jpg",
+    "px": [
+     2500,
+     3500
+    ],
+    "average": [
+     0.8685,
+     0.8687,
+     0.8684
+    ]
+   },
+   "horizontal": {
+    "sizeU": 1.59,
+    "sizeV": 2.2272,
+    "angle": 0.0,
+    "area_m2": 0.12
+   },
+   "vertical": {
+    "sizeU": 1.59,
+    "sizeV": 2.226,
+    "rotation": 0,
+    "area_m2": 26.26
+   }
+  },
+  "GL-超白玻": {
+   "mtl": {
+    "Kd": [
+     0.7,
+     0.7,
+     0.7
+    ],
+    "Ks": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "Ns": 0.0,
+    "d": 0.25
+   },
+   "archicad": {
+    "ambientReflection": 70,
+    "diffuseReflection": 70,
+    "specularReflection": 0,
+    "transparency": 75,
+    "shine": 0,
+    "emissionAttenuation": 0,
+    "color": [
+     1,
+     1,
+     1
+    ]
+   }
+  },
+  "GDLM72_macDesktop": {
+   "mtl": {
+    "Kd": [
+     0.68,
+     0.68,
+     0.68
+    ],
+    "Ks": [
+     0.17568,
+     0.102696,
+     0.0824506
+    ],
+    "Ns": 50.0
+   },
+   "texture": {
+    "id": "4ccda1fa3c1e",
+    "file": "textures/4ccda1fa3c1e.jpg",
+    "source": "mac_desktop.jpg",
+    "px": [
+     1280,
+     800
+    ],
+    "average": [
+     0.4785,
+     0.1915,
+     0.5053
+    ]
+   }
+  }
+ }
+}

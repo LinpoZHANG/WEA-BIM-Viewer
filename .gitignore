@@ -1,0 +1,20 @@
+.venv/
+__pycache__/
+*.pyc
+.DS_Store
+# Archicad originals (large, proprietary) stay local
+*.pla
+*.pln
+source/archicad/textures/
+# AI provider credentials (never commit)
+config/ai.local.json
+# not published: Archicad OBJ export (>100 MB), superseded model, generated drawings, logs
+source/archicad/obj/
+source/HY01 恒昌玖里8539.ifc
+designs/exports/
+designs/HY01 恒昌玖里8539.lighting.json
+conversion.log
+source/uploads/
+source/imported.ifc
+source/staging/
+logs/
